@@ -1,0 +1,14 @@
+# Suggested merges — review, then add the real ones to
+# config/<subject>.json -> merge_overrides, and re-run 08_merge.py.
+# Nothing here was merged automatically.
+
+  "অধ্যায় ১: হিসাববিজ্ঞান পরিচিতি": {
+    override rename: -> হিসাববিজ্ঞানের ধারণা, উদ্দেশ্য ও প্রয়োজনীয়তা
+    override _merge_: হিসাববিজ্ঞানের উদ্দেশ্য
+    override _merge_: হিসাববিজ্ঞানের প্রয়োজনীয়তা ও গুরুত্ব
+  }
+  "অধ্যায় ৪: মূলধন ও মুনাফা জাতীয় লেনদেন": {
+    # consider merging -> 'আর্থিক বিবরণীতে মূলধন ও মুনাফা জাতীয় লেনদেনের প্রয়োগ'
+      'আয় বিবরণীতে মূলধন ও মুনাফা জাতীয় লেনদেনের প্রয়োগ':  "_merge_"
+      'আর্থিক বিবরণীতে মূলধন ও মুনাফা জাতীয় লেনদেনের প্রয়োগ':
+  }

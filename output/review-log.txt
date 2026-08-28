@@ -1,0 +1,3 @@
+
+=== Validation: topic_map.json ===
+  - Chapter count mismatch: topic_map has 1, chapter_map has 11

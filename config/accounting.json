@@ -1,0 +1,51 @@
+{
+  "_comment": "Per-subject config for accounting (class 9-10). Read by scripts/_config.py -> 06_assemble.py, 08_merge.py, 05_validate.py. See subjects/accounting.md for the reasoning. merge_overrides below are PROVISIONAL: the current topic_map.json was built box-only, so re-do Step 2 + Step 7 from full chapter bodies before relying on this.",
+
+  "subject": "accounting",
+  "grade": "9-10",
+
+  "spelling_corrections": {
+    "দৈত্ব সত্তা": "দ্বৈত সত্তা",
+    "T-চক": "T-ছক",
+    "চলমান জের চক": "চলমান জের ছক",
+    "জের চক": "জের ছক",
+    "সন্দেহজনক ক্ষুধন": "সন্দেহজনক কুঋণ",
+    "ক্ষুধন ও সন্দেহজনক": "কুঋণ ও সন্দেহজনক",
+    "নগদ বাক্তি": "নগদ বাট্টা",
+    "নগদান বইয়ের জেরুর": "নগদান বইয়ের জেরের",
+    "জেরুর পার্থক্য": "জেরের পার্থক্য",
+    "মূলধন হিসাবে পরিবর্তন": "মূলধন হিসাবের পরিবর্তন",
+    "প্রতিষ্ঠানিক কর্মকাণ্ডে": "প্রাতিষ্ঠানিক কর্মকাণ্ডে"
+  },
+
+  "merge_overrides": {
+    "অধ্যায় ১: হিসাববিজ্ঞান পরিচিতি": {
+      "হিসাববিজ্ঞানের ধারণা": "হিসাববিজ্ঞানের ধারণা, উদ্দেশ্য ও প্রয়োজনীয়তা",
+      "হিসাববিজ্ঞানের উদ্দেশ্য": "_merge_",
+      "হিসাববিজ্ঞানের প্রয়োজনীয়তা ও গুরুত্ব": "_merge_"
+    }
+  },
+
+  "scope_split": {
+    "enabled": true,
+    "max_core_words": 12
+  },
+
+  "distinct_pairs": {
+    "pairs": [
+      ["ক্রয়মূল্য", "বিক্রয়মূল্য"],
+      ["নগদ প্রাপ্তি জাবেদা", "নগদ প্রদান জাবেদা"],
+      ["ক্রয় জাবেদা", "বিক্রয় জাবেদা"],
+      ["ক্রয় ফেরত জাবেদা", "বিক্রয় ফেরত জাবেদা"],
+      ["মূলধন জাতীয় লেনদেনের ধারণা", "মুনাফা জাতীয় লেনদেনের ধারণা"],
+      ["একতরফা", "দুতরফা"],
+      ["স্থায়ী সম্পদ", "চলতি সম্পদ"],
+      ["দীর্ঘমেয়াদি দায়", "চলতি দায়"]
+    ]
+  },
+
+  "attribute_nouns_extra": {
+    "_comment": "Subject-specific words that are invalid as a STANDALONE topic. Leave empty unless a real case appears.",
+    "words": []
+  }
+}

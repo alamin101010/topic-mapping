@@ -1,0 +1,303 @@
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+  FAIL  ch1: BOX-ONLY — 2 pages extracted of a 7-page chapter (6-12). Re-run 01_extract_images.py without --max-pages.
+  FAIL  ch2: BOX-ONLY — 2 pages extracted of a 19-page chapter (13-31). Re-run 01_extract_images.py without --max-pages.
+  FAIL  ch3: BOX-ONLY — 2 pages extracted of a 13-page chapter (32-44). Re-run 01_extract_images.py without --max-pages.
+  FAIL  ch4: BOX-ONLY — 2 pages extracted of a 11-page chapter (45-55). Re-run 01_extract_images.py without --max-pages.
+  FAIL  ch5: BOX-ONLY — 2 pages extracted of a 11-page chapter (56-66). Re-run 01_extract_images.py without --max-pages.
+  FAIL  ch6: BOX-ONLY — 2 pages extracted of a 20-page chapter (67-86). Re-run 01_extract_images.py without --max-pages.
+  FAIL  ch7: BOX-ONLY — 2 pages extracted of a 25-page chapter (87-111). Re-run 01_extract_images.py without --max-pages.
+  FAIL  ch8: BOX-ONLY — 2 pages extracted of a 22-page chapter (112-133). Re-run 01_extract_images.py without --max-pages.
+  FAIL  ch9: BOX-ONLY — 2 pages extracted of a 15-page chapter (134-148). Re-run 01_extract_images.py without --max-pages.
+  FAIL  ch10: BOX-ONLY — 2 pages extracted of a 36-page chapter (149-184). Re-run 01_extract_images.py without --max-pages.
+  FAIL  ch11: BOX-ONLY — 2 pages extracted of a 15-page chapter (185-199). Re-run 01_extract_images.py without --max-pages.
+  FAIL  ch12: BOX-ONLY — 2 pages extracted of a 22-page chapter (200-221). Re-run 01_extract_images.py without --max-pages.
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+  WARN  ch1: thin topic 'হিসাববিজ্ঞানের ধারণা' — confirm it carries a head concept
+  WARN  ch1: thin topic 'হিসাববিজ্ঞানের উদ্দেশ্য' — confirm it carries a head concept
+  WARN  ch2: thin topic 'লেনদেনের ধারণা' — confirm it carries a head concept
+  WARN  ch3: thin topic 'হিসাবচক্রের ধাপ' — confirm it carries a head concept
+  WARN  ch4: thin topic 'পার্থক্যকরণের প্রয়োজনীয়তা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'জাবেদার শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch6: 62% of topics track the outcome box closely
+  WARN  ch7: thin topic 'খতিয়ানের শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch8: 56% of topics track the outcome box closely
+  FAIL  ch1: 8/8 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch2: one-word topic 'হিসাবসমীকরণ' — attach its head concept
+  FAIL  ch2: 6/6 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch7: 4/5 topics are verb-stripped copies of learning_outcomes (80%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch12: 4/5 topics are verb-stripped copies of learning_outcomes (80%) — this is a box paraphrase, not a body map. Read the chapter pages.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+  FAIL  ch3: topic 'দু তরফা দাখিলা পদ্ধতির সুবিধা' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch3: topic 'ডেবিট ও ক্রেডিট পক্ষ শনাক্তকরণ' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch4: topic 'মূলধন জাতীয় লেনদেনের ধারণা' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch4: topic 'মূলধন ও মুনাফা জাতীয় লেনদেনের পার্থক্য' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch6: topic 'নগদ প্রদান জাবেদা' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch9: topic 'গরমিল ও গরমিলবিহীন ভুল শনাক্তকরণ' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+  FAIL  ch3: topic 'দু তরফা দাখিলা পদ্ধতির সুবিধা' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch3: topic 'ডেবিট ও ক্রেডিট পক্ষ শনাক্তকরণ' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch4: topic 'মূলধন জাতীয় লেনদেনের ধারণা' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch4: topic 'মূলধন ও মুনাফা জাতীয় লেনদেনের পার্থক্য' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch6: topic 'নগদ প্রদান জাবেদা' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch9: topic 'গরমিল ও গরমিলবিহীন ভুল শনাক্তকরণ' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+  FAIL  ch3: topic 'দু তরফা দাখিলা পদ্ধতির সুবিধা' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch3: topic 'ডেবিট ও ক্রেডিট পক্ষ শনাক্তকরণ' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch4: topic 'মূলধন জাতীয় লেনদেনের ধারণা' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch4: topic 'মূলধন ও মুনাফা জাতীয় লেনদেনের পার্থক্য' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch6: topic 'নগদ প্রদান জাবেদা' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch9: topic 'গরমিল ও গরমিলবিহীন ভুল শনাক্তকরণ' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch11: topic 'পণ্যের ক্রয়মূল্য নির্ধারণ' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+  FAIL  ch3: topic 'দু তরফা দাখিলা পদ্ধতির সুবিধা' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch3: topic 'ডেবিট ও ক্রেডিট পক্ষ শনাক্তকরণ' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch4: topic 'মূলধন জাতীয় লেনদেনের ধারণা' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch4: topic 'মূলধন ও মুনাফা জাতীয় লেনদেনের পার্থক্য' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch6: topic 'নগদ প্রদান জাবেদা' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch9: topic 'গরমিল ও গরমিলবিহীন ভুল শনাক্তকরণ' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch11: topic 'পণ্যের ক্রয়মূল্য নির্ধারণ' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+  FAIL  ch3: topic 'ডেবিট ও ক্রেডিট পক্ষ শনাক্তকরণ' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch4: topic 'আয় বিবরণীতে মূলধন ও মুনাফা জাতীয় লেনদেনের প্রয়োগ' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch4: topic 'আর্থিক বিবরণীতে মূলধন ও মুনাফা জাতীয় লেনদেনের প্রয়োগ' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch8: topic 'নগদ বাক্তি লিপিবদ্ধকরণ' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch9: topic 'গরমিল ও গরমিলবিহীন ভুল শনাক্তকরণ' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch10: topic 'আর্থিক বিবরণী প্রস্তুতকরণে লেনদেন পার্থক্যের প্রয়োগ' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+  FAIL  ch10: topic 'ক্ষুধন ও সন্দেহজনক ক্ষুধন হিসাবভুক্তকরণ' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/accounting.json or fix the merge.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+  WARN  ch1: thin topic 'হিসাববিজ্ঞানের ধারণা' — confirm it carries a head concept
+  WARN  ch1: thin topic 'হিসাববিজ্ঞানের উদ্দেশ্য' — confirm it carries a head concept
+  WARN  ch2: thin topic 'লেনদেনের ধারণা' — confirm it carries a head concept
+  WARN  ch3: thin topic 'হিসাবচক্রের ধাপ' — confirm it carries a head concept
+  WARN  ch4: thin topic 'পার্থক্যকরণের প্রয়োজনীয়তা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'জাবেদার শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch6: 62% of topics track the outcome box closely
+  WARN  ch7: thin topic 'খতিয়ানের শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch8: 56% of topics track the outcome box closely
+  FAIL  ch1: 8/8 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch2: one-word topic 'হিসাবসমীকরণ' — attach its head concept
+  FAIL  ch2: 6/6 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch7: 4/5 topics are verb-stripped copies of learning_outcomes (80%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch12: 4/5 topics are verb-stripped copies of learning_outcomes (80%) — this is a box paraphrase, not a body map. Read the chapter pages.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [topicmap] topic_map.json ===
+  WARN  ch1: thin topic 'হিসাববিজ্ঞানের ধারণা' — confirm it carries a head concept
+  WARN  ch1: thin topic 'হিসাববিজ্ঞানের উদ্দেশ্য' — confirm it carries a head concept
+  WARN  ch2: thin topic 'লেনদেনের ধারণা' — confirm it carries a head concept
+  WARN  ch3: thin topic 'হিসাবচক্রের ধাপ' — confirm it carries a head concept
+  WARN  ch4: thin topic 'পার্থক্যকরণের প্রয়োজনীয়তা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'জাবেদার শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch6: 62% of topics track the outcome box closely
+  WARN  ch7: thin topic 'খতিয়ানের শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch8: 56% of topics track the outcome box closely
+  FAIL  ch1: 8/8 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch2: one-word topic 'হিসাবসমীকরণ' — attach its head concept
+  FAIL  ch2: 6/6 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch7: 4/5 topics are verb-stripped copies of learning_outcomes (80%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch12: 4/5 topics are verb-stripped copies of learning_outcomes (80%) — this is a box paraphrase, not a body map. Read the chapter pages.
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+  FAIL  ch1: BOX-ONLY — 2 pages extracted of a 7-page chapter (6-12). Re-run 01_extract_images.py without --max-pages.
+  FAIL  ch2: BOX-ONLY — 2 pages extracted of a 19-page chapter (13-31). Re-run 01_extract_images.py without --max-pages.
+  FAIL  ch3: BOX-ONLY — 2 pages extracted of a 13-page chapter (32-44). Re-run 01_extract_images.py without --max-pages.
+  FAIL  ch4: BOX-ONLY — 2 pages extracted of a 11-page chapter (45-55). Re-run 01_extract_images.py without --max-pages.
+  FAIL  ch5: BOX-ONLY — 2 pages extracted of a 11-page chapter (56-66). Re-run 01_extract_images.py without --max-pages.
+  FAIL  ch6: BOX-ONLY — 2 pages extracted of a 20-page chapter (67-86). Re-run 01_extract_images.py without --max-pages.
+  FAIL  ch7: BOX-ONLY — 2 pages extracted of a 25-page chapter (87-111). Re-run 01_extract_images.py without --max-pages.
+  FAIL  ch8: BOX-ONLY — 2 pages extracted of a 22-page chapter (112-133). Re-run 01_extract_images.py without --max-pages.
+  FAIL  ch9: BOX-ONLY — 2 pages extracted of a 15-page chapter (134-148). Re-run 01_extract_images.py without --max-pages.
+  FAIL  ch10: BOX-ONLY — 2 pages extracted of a 36-page chapter (149-184). Re-run 01_extract_images.py without --max-pages.
+  FAIL  ch11: BOX-ONLY — 2 pages extracted of a 15-page chapter (185-199). Re-run 01_extract_images.py without --max-pages.
+  FAIL  ch12: BOX-ONLY — 2 pages extracted of a 22-page chapter (200-221). Re-run 01_extract_images.py without --max-pages.
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+  WARN  ch1: thin topic 'অর্থায়নের ধারণা' — confirm it carries a head concept
+  WARN  ch5: thin topic 'ঝুঁকির তাৎপর্য' — confirm it carries a head concept
+  WARN  ch7: 62% of topics track the outcome box closely
+  WARN  ch8: 56% of topics track the outcome box closely
+  WARN  ch9: thin topic 'ব্যাংকের গঠন' — confirm it carries a head concept
+  WARN  ch10: 62% of topics track the outcome box closely
+  WARN  ch12: 71% of topics track the outcome box closely
+  WARN  ch13: 58% of topics track the outcome box closely
+  FAIL  ch2: one-word topic 'লিজিং' — attach its head concept
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+  WARN  ch1: thin topic 'অর্থায়নের ধারণা' — confirm it carries a head concept
+  WARN  ch5: thin topic 'ঝুঁকির তাৎপর্য' — confirm it carries a head concept
+  WARN  ch7: 62% of topics track the outcome box closely
+  WARN  ch8: 56% of topics track the outcome box closely
+  WARN  ch9: thin topic 'ব্যাংকের গঠন' — confirm it carries a head concept
+  WARN  ch10: 62% of topics track the outcome box closely
+  WARN  ch12: 71% of topics track the outcome box closely
+  WARN  ch13: 58% of topics track the outcome box closely
+
+=== [final] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+  WARN  ch1: thin topic 'অর্থায়নের ধারণা' — confirm it carries a head concept
+  WARN  ch5: thin topic 'ঝুঁকির তাৎপর্য' — confirm it carries a head concept
+  WARN  ch7: 62% of topics track the outcome box closely
+  WARN  ch8: 56% of topics track the outcome box closely
+  WARN  ch9: thin topic 'ব্যাংকের গঠন' — confirm it carries a head concept
+  WARN  ch10: 62% of topics track the outcome box closely
+  WARN  ch12: 71% of topics track the outcome box closely
+  WARN  ch13: 58% of topics track the outcome box closely
+
+=== [final] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  ch1: thin topic 'খাদ্যের উপাদান' — confirm it carries a head concept
+  WARN  ch2: thin topic 'পানির গঠন' — confirm it carries a head concept
+  WARN  ch2: thin topic 'পানিদূষণের প্রভাব' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'রক্তে বিষাক্ততা সৃষ্টির কারণ ও ফলাফল বিশ্লেষণ করতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'রক্তে সুগারের ভারসাম্যতার কারণ ব্যাখ্যা করতে পারব...'
+  WARN  ch5: outcome not covered by any topic — 'চোখ ভালো রাখার উপায় ব্যাখ্যা করতে পারব...'
+  WARN  ch6: thin topic 'পলিমারকরণ প্রক্রিয়া' — confirm it carries a head concept
+  WARN  ch7: outcome not covered by any topic — 'পরীক্ষণের মাধ্যমে বিভিন্ন প্রকার লবণ তৈরি করতে পারব...'
+  WARN  ch8: thin topic 'মাটির গঠন' — confirm it carries a head concept
+  WARN  ch8: outcome not covered by any topic — 'সম্পদ সংরক্ষণে যত্নবান হব ও অন্যদের সচেতন করব...'
+  WARN  ch11: outcome not covered by any topic — 'তড়িতের অপচয় রোধে যত্নবান হব এবং অন্যদের সচেতন করব...'
+  FAIL  ch2: 12/16 topics are verb-stripped copies of learning_outcomes (75%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch4: one-word topic 'বয়ঃসন্ধিকাল' — attach its head concept
+  FAIL  ch4: 8/9 topics are verb-stripped copies of learning_outcomes (89%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch8: 9/11 topics are verb-stripped copies of learning_outcomes (82%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch11: 11/13 topics are verb-stripped copies of learning_outcomes (85%) — this is a box paraphrase, not a body map. Read the chapter pages.
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  ch1: thin topic 'খাদ্যের উপাদান' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'কোলেষ্টরলকে প্রত্যাশিত সীমায় রাখার প্রয়োজনীয়তা ও উপায় ব্...'
+  WARN  ch3: outcome not covered by any topic — 'হৃদযন্ত্রকে ভালো রাখার উপায় ব্যাখ্যা করতে পারব...'
+  WARN  ch4: 56% of topics track the outcome box closely
+  WARN  ch4: outcome not covered by any topic — 'বয়ঃসন্ধিকাল ব্যাখ্যা করতে পারব...'
+  WARN  ch6: thin topic 'পলিমারকরণ প্রক্রিয়া' — confirm it carries a head concept
+  WARN  ch7: outcome not covered by any topic — 'পরীক্ষণের মাধ্যমে বিভিন্ন প্রকার লবণ তৈরি করতে পারব...'
+  WARN  ch8: outcome not covered by any topic — 'শিক্ষার্থীর এলাকায় মাটিদূষণের কারণ ও ফলাফল অনুসন্ধান করতে প...'
+  WARN  ch11: outcome not covered by any topic — 'বৈদ্যুতিক ক্ষমতার হিসাব ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'উন্নয়ন কার্যক্রমে বিদ্যুতের অবদান ব্যাখ্যা করতে পারব...'
+
+=== [final] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  ch1: thin topic 'খাদ্যের উপাদান' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'কোলেষ্টরলকে প্রত্যাশিত সীমায় রাখার প্রয়োজনীয়তা ও উপায় ব্...'
+  WARN  ch3: outcome not covered by any topic — 'হৃদযন্ত্রকে ভালো রাখার উপায় ব্যাখ্যা করতে পারব...'
+  WARN  ch4: 56% of topics track the outcome box closely
+  WARN  ch4: outcome not covered by any topic — 'বয়ঃসন্ধিকাল ব্যাখ্যা করতে পারব...'
+  WARN  ch6: thin topic 'পলিমারকরণ প্রক্রিয়া' — confirm it carries a head concept
+  WARN  ch7: outcome not covered by any topic — 'পরীক্ষণের মাধ্যমে বিভিন্ন প্রকার লবণ তৈরি করতে পারব...'
+  WARN  ch8: outcome not covered by any topic — 'শিক্ষার্থীর এলাকায় মাটিদূষণের কারণ ও ফলাফল অনুসন্ধান করতে প...'
+  WARN  ch11: outcome not covered by any topic — 'বৈদ্যুতিক ক্ষমতার হিসাব ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'উন্নয়ন কার্যক্রমে বিদ্যুতের অবদান ব্যাখ্যা করতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali spellchecker found (install hunspell + a bn_BD dictionary, or `pip install pyenchant`). OCR reading errors will not be caught automatically; eyeball every topic against the page.
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  ch1: thin topic 'খাদ্যের উপাদান' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'কোলেষ্টরলকে প্রত্যাশিত সীমায় রাখার প্রয়োজনীয়তা ও উপায় ব্...'
+  WARN  ch3: outcome not covered by any topic — 'হৃদযন্ত্রকে ভালো রাখার উপায় ব্যাখ্যা করতে পারব...'
+  WARN  ch4: 56% of topics track the outcome box closely
+  WARN  ch4: outcome not covered by any topic — 'বয়ঃসন্ধিকাল ব্যাখ্যা করতে পারব...'
+  WARN  ch6: thin topic 'পলিমারকরণ প্রক্রিয়া' — confirm it carries a head concept
+  WARN  ch7: outcome not covered by any topic — 'পরীক্ষণের মাধ্যমে বিভিন্ন প্রকার লবণ তৈরি করতে পারব...'
+  WARN  ch8: outcome not covered by any topic — 'শিক্ষার্থীর এলাকায় মাটিদূষণের কারণ ও ফলাফল অনুসন্ধান করতে প...'
+  WARN  ch11: outcome not covered by any topic — 'বৈদ্যুতিক ক্ষমতার হিসাব ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'উন্নয়ন কার্যক্রমে বিদ্যুতের অবদান ব্যাখ্যা করতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali spellchecker found (install hunspell + a bn_BD dictionary, or `pip install pyenchant`). OCR reading errors will not be caught automatically; eyeball every topic against the page.
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+  WARN  ch1: thin topic 'অর্থায়নের ধারণা' — confirm it carries a head concept
+  WARN  ch5: thin topic 'ঝুঁকির তাৎপর্য' — confirm it carries a head concept
+  WARN  ch7: 62% of topics track the outcome box closely
+  WARN  ch8: 56% of topics track the outcome box closely
+  WARN  ch9: thin topic 'ব্যাংকের গঠন' — confirm it carries a head concept
+  WARN  ch10: 62% of topics track the outcome box closely
+  WARN  ch12: 71% of topics track the outcome box closely
+  WARN  ch13: 58% of topics track the outcome box closely
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  ch1: thin topic 'খাদ্যের উপাদান' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'কোলেষ্টরলকে প্রত্যাশিত সীমায় রাখার প্রয়োজনীয়তা ও উপায় ব্...'
+  WARN  ch3: outcome not covered by any topic — 'হৃদযন্ত্রকে ভালো রাখার উপায় ব্যাখ্যা করতে পারব...'
+  WARN  ch4: 56% of topics track the outcome box closely
+  WARN  ch4: outcome not covered by any topic — 'বয়ঃসন্ধিকাল ব্যাখ্যা করতে পারব...'
+  WARN  ch6: thin topic 'পলিমারকরণ প্রক্রিয়া' — confirm it carries a head concept
+  WARN  ch7: outcome not covered by any topic — 'পরীক্ষণের মাধ্যমে বিভিন্ন প্রকার লবণ তৈরি করতে পারব...'
+  WARN  ch8: outcome not covered by any topic — 'শিক্ষার্থীর এলাকায় মাটিদূষণের কারণ ও ফলাফল অনুসন্ধান করতে প...'
+  WARN  ch11: outcome not covered by any topic — 'বৈদ্যুতিক ক্ষমতার হিসাব ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'উন্নয়ন কার্যক্রমে বিদ্যুতের অবদান ব্যাখ্যা করতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+  WARN  ch1: thin topic 'অর্থায়নের ধারণা' — confirm it carries a head concept
+  WARN  ch5: thin topic 'ঝুঁকির তাৎপর্য' — confirm it carries a head concept
+  WARN  ch7: 62% of topics track the outcome box closely
+  WARN  ch8: 56% of topics track the outcome box closely
+  WARN  ch9: thin topic 'ব্যাংকের গঠন' — confirm it carries a head concept
+  WARN  ch10: 62% of topics track the outcome box closely
+  WARN  ch12: 71% of topics track the outcome box closely
+  WARN  ch13: 58% of topics track the outcome box closely
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===

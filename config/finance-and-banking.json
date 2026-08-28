@@ -1,0 +1,36 @@
+{
+  "_comment": "Per-subject config for Finance and Banking (class 9-10). Read by scripts/_config.py. Built fresh from full chapter bodies 2026-08-28. See subjects/finance-and-banking.md.",
+
+  "subject": "finance-and-banking",
+  "grade": "9-10",
+
+  "spelling_corrections": {
+    "মূলধন আয়-ব্যয় প্রকল্পন": "মূলধনি আয়-ব্যয় প্রাক্কলন"
+  },
+
+  "merge_overrides": {},
+
+  "scope_split": {
+    "enabled": true,
+    "max_core_words": 12
+  },
+
+  "distinct_pairs": {
+    "pairs": [
+      ["অভ্যন্তরীণ উৎস", "বাহ্যিক উৎস"],
+      ["স্বল্পমেয়াদি অর্থায়ন", "দীর্ঘমেয়াদি অর্থায়ন"],
+      ["সাধারণ শেয়ার", "অগ্রাধিকার শেয়ার"],
+      ["বর্তমান মূল্য", "ভবিষ্যৎ মূল্য"],
+      ["বাট্টাকরণ", "চক্রবৃদ্ধিকরণ"],
+      ["ঝুঁকি", "অনিশ্চয়তা"],
+      ["বাণিজ্যিক ব্যাংক", "কেন্দ্রীয় ব্যাংক"],
+      ["চলতি হিসাব", "সঞ্চয়ী হিসাব"],
+      ["চেক", "বিনিময় বিল"],
+      ["আমানত", "ঋণ"]
+    ]
+  },
+
+  "attribute_nouns_extra": {
+    "words": []
+  }
+}

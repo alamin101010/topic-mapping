@@ -1,0 +1,36 @@
+{
+  "_comment": "Per-subject config for Agriculture (class 9-10). Read by scripts/_config.py. Built fresh 2026-08-28. See subjects/agriculture.md.",
+
+  "subject": "agriculture",
+  "grade": "9-10",
+
+  "spelling_corrections": {
+  },
+
+  "merge_overrides": {
+  },
+
+  "scope_split": {
+    "enabled": true,
+    "max_core_words": 12
+  },
+
+  "distinct_pairs": {
+    "pairs": [
+      ["ফসল নির্বাচন", "বীজ নির্বাচন"],
+      ["ভূমিক্ষয়", "ভূমি ক্ষয়রোধ"],
+      ["দোআঁশ মাটি", "কাদা মাটি"],
+      ["বৃষ্টিপাতজনিত ভূমিক্ষয়", "বায়ুপ্রবাহজনিত ভূমিক্ষয়"],
+      ["মাছ চাষ", "পোল্ট্রি চাষ"],
+      ["সম্পূরক খাদ্য", "প্রাকৃতিক খাদ্য"],
+      ["বনায়ন", "কৃষি সম্বায়"],
+      ["সেচন", "নিষ্কাশন"],
+      ["ভূমি কর্ষণ", "ভূমি প্রস্তুতি"],
+      ["পলি দোআঁশ মাটি", "বেলে দোআঁশ মাটি"]
+    ]
+  },
+
+  "attribute_nouns_extra": {
+    "words": []
+  }
+}

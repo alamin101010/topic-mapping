@@ -1,0 +1,43 @@
+{
+  "_comment": "Copy to config/<subject>.json. One self-contained config per subject. Replaces the global scripts/spelling_corrections.json + scripts/merge_overrides.json, which mixed subjects and hit the JSON duplicate-key bug. 05_validate.py and (once updated) 06_assemble.py / 08_merge.py read this.",
+
+  "subject": "<english lowercase, must equal the CSV subject column>",
+  "grade": "9-10",
+
+  "spelling_corrections": {
+    "_comment": "Verified-against-scan OCR/LLM misreads. Applied in Step 8 (and by 05_validate.py) as a token-boundary-aware find/replace on chapter_title AND every topic: a pattern must start on a word boundary (not mid-Bengali-word), the trailing edge is free so inflected endings are caught. NO ENTRY WITHOUT A PAGE CITATION — a fix invented from OCR output instead of read off the book is how Science broke (see subjects/science.md). Prefer a whole word or a multi-word phrase; a short fragment like a single conjunct is too broad.",
+    "দৈত্ব সত্তা": "দ্বৈত সত্তা"
+  },
+
+  "merge_overrides": {
+    "_comment": "Per-chapter merge rules, applied in Step 9 with priority over the fuzzy pass. Chapter key must match the CSV chapter field EXACTLY including the Bengali numeral. '_merge_' folds into the previous kept topic; '_drop_' removes. Keys within one chapter object must be unique.",
+    "অধ্যায় ১: <chapter name>": {
+      "<topic to replace>": "<merged label naming the head concept once>",
+      "<topic to fold in>": "_merge_"
+    }
+  },
+
+  "scope_split": {
+    "_comment": "Step 10 (12_scope_split.py) — STANDARD, keep enabled. A TRAILING '(a, b, ...)' in a topic label is moved into a new scope_note column and the verbatim original is kept in topic_raw (CSV goes 4 -> 6 columns). Rows with no trailing (...) get an empty scope_note and topic_raw == topic, so the 6-column schema is uniform across every book. An inline gloss the sentence runs past is left alone. max_core_words: 05_validate.py --stage final WARNs on any label longer than this. Set enabled=false only for a subject you have a specific reason to keep at 4 columns.",
+    "enabled": true,
+    "max_core_words": 12
+  },
+
+  "distinct_pairs": {
+    "_comment": "Near-identical strings that are actually opposite concepts. 08_merge.py (non-destructive mode) must never merge a pair listed here; 05_validate.py uses it to tell a real drop from a legit head-repeating split.",
+    "pairs": [
+      ["ক্রয়মূল্য", "বিক্রয়মূল্য"],
+      ["নগদ প্রাপ্তি জাবেদা", "নগদ প্রদান জাবেদা"]
+    ]
+  },
+
+  "attribute_nouns_extra": {
+    "_comment": "Subject-specific bare attribute nouns beyond the built-in set, that are invalid as a standalone topic.",
+    "words": []
+  },
+
+  "lexicon_extra": {
+    "_comment": "Valid subject terms a generic Bengali dictionary does not know (কোলেস্টেরল, পাকস্থলী, transliterated names ...). 05_validate.py --stage topicmap spell-checks every topic word and WARNs on unknowns; listing a term here silences that WARN. Add a word ONLY after confirming its spelling against the page image — this list is not a place to hide OCR garble.",
+    "words": []
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "_comment": "Per-subject config for Science (class 9-10). Read by scripts/_config.py. NOTE: ocr/<Science>/topic_map.json is still the box-only extract and carries OCR reading errors; the fixes below are a stop-gap for the shipped CSV. Real fix = redo Steps 2+7 from the full chapter bodies (README Step 7 / runbook). Every spelling_corrections entry is verified against the page image, PDF page cited. Audited 2026-08-28. See subjects/science.md.",
+
+  "subject": "science",
+  "grade": "9-10",
+
+  "spelling_corrections": {
+    "অ্যাস": "অম্ল",
+    "ফারাক": "ক্ষারক",
+    "এইউদস": "এইডস",
+    "বড়ি মাস ইনডেক্স": "বডি মাস ইনডেক্স",
+    "প্রাতিহাসিক": "প্রাত্যহিক",
+    "প্রাতিষ্ঠানিক জীবন": "প্রাত্যহিক জীবন",
+    "সংগ্রহলন": "সঞ্চালন",
+    "কোলেষ্টেরল": "কোলেস্টেরল",
+    "কোলেষ্টরল": "কোলেস্টেরল",
+    "পাকশল্লি": "পাকস্থলী",
+    "নিষ্কাসন": "নিষ্কাশন"
+  },
+
+  "_spelling_notes": {
+    "প্রাতিহাসিক / প্রাতিষ্ঠানিক জীবন -> প্রাত্যহিক জীবন": "ch7 box p.146 + ch11 title/body p.235 read প্রাত্যহিক ('everyday'), never প্রাতিষ্ঠানিক. The old rule forced the opposite. 'লবণের প্রাতিষ্ঠানিক অবদান' (ch7) is not caught by the phrase rule — fix on the body re-run.",
+    "সংগ্রহলন -> সঞ্চালন": "ch3 box p.58 + body p.62 read 'রক্ত সঞ্চালন' (blood circulation).",
+    "কোলেষ্টেরল/কোলেষ্টরল -> কোলেস্টেরল": "ch3 body p.80 uses স্ট, not ষ্ট.",
+    "পাকশল্লি -> পাকস্থলী": "ch7 box p.146 ('stomach').",
+    "নিষ্কাসন -> নিষ্কাশন": "ch11 body p.240 heading 'ধাতু নিষ্কাশন ও শোধন'."
+  },
+
+  "merge_overrides": {},
+
+  "scope_split": {
+    "enabled": true,
+    "max_core_words": 12
+  },
+
+  "distinct_pairs": {
+    "pairs": [
+      ["উদ্ভিজ্জ উৎস", "প্রাণিজ উৎস"],
+      ["শর্করা", "প্রোটিন"],
+      ["শর্করা", "স্নেহ পদার্থ"],
+      ["প্রোটিন", "স্নেহ পদার্থ"],
+      ["স্থিতি", "গতি"],
+      ["বল", "জড়তা"],
+      ["বল", "ভর"],
+      ["অম্ল", "ক্ষারক"],
+      ["অম্ল", "লবণ"],
+      ["ক্ষারক", "লবণ"],
+      ["প্রাকৃতিক পলিমার", "কৃত্রিম পলিমার"],
+      ["প্রাকৃতিক তন্তু", "কৃত্রিম তন্তু"],
+      ["প্রাকৃতিক বস্ত্র", "কৃত্রিম বস্ত্র"],
+      ["দর্পণ", "লেন্স"],
+      ["স্থির তড়িৎ", "চলতড়িৎ"],
+      ["তাপ", "তাপমাত্রা"],
+      ["মাটি", "খনিজ"],
+      ["মাটি", "জ্বালানি"],
+      ["খনিজ", "জ্বালানি"],
+      ["জলবায়ু পরিবর্তন", "পরিবেশগত সমস্যা"],
+      ["তড়িৎ বিশ্লেষণ", "তড়িৎ প্রলেপন"],
+      ["কিলোওয়াট", "কিলোওয়াট-ঘণ্টা"],
+      ["বয়ঃসন্ধিকাল", "প্রজনন"]
+    ]
+  },
+
+  "attribute_nouns_extra": {
+    "words": []
+  },
+
+  "lexicon_extra": {
+    "_comment": "Valid Science terms a generic Bengali dictionary flags as unknown — keeps 05_validate.py --stage topicmap lexical WARNs signal-only. Add ONLY after confirming the word against the page image.",
+    "words": [
+      "কোলেস্টেরল", "পাকস্থলী", "সঞ্চালন", "সংবহনতন্ত্র", "পলিমার", "মনোমার",
+      "পলিমারকরণ", "মেলামাইন", "ব্যাকেলাইট", "তন্তু", "মাইওপিয়া",
+      "হাইপারমেট্রোপিয়া", "হাইপারটেনশন", "ডায়াবেটিস", "প্রলেপন", "নিষ্কাশন",
+      "তড়িৎ", "চলতড়িৎ", "কিলোওয়াট", "রামসার", "প্রাত্যহিক", "বয়ঃসন্ধিকাল",
+      "প্রতিসরণ", "লিপিড", "কার্বোহাইড্রেট"
+    ]
+  }
+}
