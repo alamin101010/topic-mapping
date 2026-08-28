@@ -1,0 +1,14 @@
+# Suggested merges — review, then add the real ones to
+# config/<subject>.json -> merge_overrides, and re-run 08_merge.py.
+# Nothing here was merged automatically.
+
+  "অধ্যায় ৪: মালিকানার ভিত্তিতে ব্যবসায়": {
+    # consider merging -> 'একক মালিকানা (সংজ্ঞা, বৈশিষ্ট্য, সুবিধা, সীমাবদ্ধতা)'
+      'একক মালিকানা (সংজ্ঞা, বৈশিষ্ট্য, সুবিধা, সীমাবদ্ধতা)':
+      'কর্পোরেশন (সংজ্ঞা, বৈশিষ্ট্য, সুবিধা, সীমাবদ্ধতা)':  "_merge_"
+  }
+  "অধ্যায় ৭: বাংলাদেশের শিল্প": {
+    # consider merging -> 'বাংলাদেশের শিল্প খাতের পরিচিতি'
+      'বাংলাদেশের শিল্প খাতের পরিচিতি':
+      'বাংলাদেশের শিল্প খাতের গুরুত্ব':  "_merge_"
+  }

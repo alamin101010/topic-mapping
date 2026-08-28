@@ -1,0 +1,35 @@
+{
+  "_comment": "Per-subject config for Business Entrepreneurship (class 9-10). Read by scripts/_config.py. Built from chapter-maps/class9-10-business-entrepreneurship.csv.",
+
+  "subject": "business-entrepreneurship",
+  "grade": "9-10",
+
+  "spelling_corrections": {},
+
+  "merge_overrides": {},
+
+  "scope_split": {
+    "enabled": true,
+    "max_core_words": 12
+  },
+
+  "distinct_pairs": {
+    "pairs": [
+      ["স্বাবলম্বী ব্যবসা", "নির্ভরশীল ব্যবসা"],
+      ["পণ্য", "সেবা"],
+      ["লাভ", "ক্ষতি"],
+      ["সম্পদ", "দায়"],
+      ["মালিকানা", "স্বত্বাধিকার"],
+      ["কর্পোরেশন", "পার্টনারশিপ"],
+      ["ইকুইটি", "ডেব্ট"],
+      ["মূলধন", "ব্যয়"],
+      ["উৎপাদন", "বিপণন"],
+      ["ক্ষুদ্র উদ্যোগ", "মাঝারি উদ্যোগ"],
+      ["মাঝারি উদ্যোগ", "বৃহৎ উদ্যোগ"]
+    ]
+  },
+
+  "attribute_nouns_extra": {
+    "words": ["ধারণা", "সংজ্ঞা", "গুরুত্ব", "প্রকারভেদ", "উদ্দেশ্য", "বৈশিষ্ট্য", "সুবিধা", "সীমাবদ্ধতা"]
+  }
+}

@@ -33,6 +33,20 @@ taught*, carrying the concept it is about.
 - BAD (meaning-changing qualifier dropped): `পরিবেশের উপাদান` for
   "ব্যবসায়ের উপর প্রভাব বিস্তারকারী পরিবেশের উপাদান" — now reads as science, not business
 
+**Keep it short — ≤ 5 words is the goal** (3–8 acceptable, no minimum). Shorten by
+dropping words that do no work (`বিভিন্ন`, `উল্লেখযোগ্য`, trailing `ও উদাহরণ`,
+`সংক্রান্ত বিষয়াদি`), **never the head concept**. Before you shorten a label, check
+the short form with the chapter title AND subject hidden:
+
+1. Does it still name a specific taught thing, not just an aspect word
+   (`শ্রেণিবিভাগ`, `ধারণা`, `প্রকারভেদ`, `গুরুত্ব`, `উদাহরণ`, `প্রয়োজনীয়তা`)?
+2. Would it fit three other chapters equally well? If yes, restore the head concept.
+3. Is every content word already in the chapter title? If yes, the label carries
+   no information of its own — restore the head concept.
+
+If ≤ 5 words can't pass all three, keep the longer flowing label or split into
+sibling rows (§4 below) — do not ship the vague short form. (README §3.6.)
+
 ---
 
 ## Procedure
@@ -71,10 +85,14 @@ direct opposites (`সুবিধা` ≠ `অসুবিধা`), and differe
 (`পাবলিক কোম্পানি` ≠ `প্রাইভেট কোম্পানি`) separate.
 
 ### 5b. Instances/parts of one concept → scope note, not a longer label
-A topic label is a name (target 3–8 words), not a description. When a heading
-names a concept and then lists the parts/examples/steps that section covers,
-keep the label short and record the list as a **trailing `(a, b, c …)`** — a
-later step (`12_scope_split.py`) lifts it into a separate `scope_note` column.
+A topic label is a name (≤ 5 words is the goal, 3–8 acceptable), not a
+description — and it must stay self-identifying after shortening (see "What a
+topic is" above). When a heading names a concept and then lists the
+parts/examples/steps that section covers, keep the label short and record the
+list as a **trailing `(a, b, c …)`** — a later step (`12_scope_split.py`) lifts
+it into a separate `scope_note` column. The `(...)` holds the detail so the
+label can be a bare name; it is **not** a licence to drop the head concept from
+the label.
 - 3+ items or a step list → `ধান চাষপদ্ধতি (জমি নির্বাচন, জাত, রোপণ, পরিচর্যা, ফসল সংগ্রহ)`
 - 1–2 that fold into a phrase → one flowing label, no brackets:
   `যানবাহন ও পাহাড়ি রাস্তায় উত্তল দর্পণের ব্যবহার`

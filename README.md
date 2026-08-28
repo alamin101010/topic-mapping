@@ -203,11 +203,35 @@ over-fragmented). It supersedes any other wording in the `prompts/` files.
 
 ### 3.6 Topic label length & scope notes (single source of truth)
 
-`topic` is a **label**, not a description. Target **3–8 words**; `05_validate.py
---stage final` WARNs above **12**. Short is fine when it is precise
-(`কৃষি ঋণ ব্যবস্থাপনা`, `পুইশাক চাষপদ্ধতি`) — there is **no minimum**, and padding a
-label to reach one is worse than a 2-word label. This is a style guard: WARN
-only, never a gate.
+`topic` is a **name**, not a description. Aim for the **shortest label that still
+names the concept on its own — ≤ 5 words is the goal**, 3–8 is acceptable, there
+is **no minimum** (`কৃষি ঋণ ব্যবস্থাপনা`, `পুইশাক চাষপদ্ধতি`). Padding a label is
+worse than a 2-word one. `05_validate.py --stage final` WARNs above the subject's
+`scope_split.max_core_words` (default **12**; set it to **5** in
+`config/<subject>.json` to hold the pipeline to the goal) **and** on any label
+that stops being self-identifying (next). Style guard: WARN only, never a gate.
+
+**Shorten by deleting words that do no work — never the head concept. A short
+label must still be self-identifying.** Read the shortened label with the
+chapter title *and* the subject hidden, and apply all three tests:
+
+1. **Does it still name a specific thing that is taught**, not just an aspect
+   word (`শ্রেণিবিভাগ`, `ধারণা`, `প্রকারভেদ`, `গুরুত্ব`, `উদাহরণ`, `প্রয়োজনীয়তা`)?
+2. **Would it fit three other chapters equally well?** If yes, the head concept
+   was cut — put it back.
+3. **Is every content word already in the chapter title?** Then the label adds
+   nothing the `chapter` column does not already say — put the concept back.
+
+If you cannot reach ≤ 5 words and pass all three, the label **stays longer**
+(only a WARN) or the row **splits into siblings** (table below). Never ship the
+vague short form.
+
+| full heading | ✅ short & self-identifying | ❌ too vague once cut |
+|---|---|---|
+| `হিসাবের শ্রেণিবিভাগ ও তার ভিত্তি` | `হিসাবের শ্রেণিবিভাগ` | `শ্রেণিবিভাগ` |
+| `মূলধন জাতীয় লেনদেনের ধারণা ও উদাহরণ` | `মূলধন জাতীয় লেনদেন` | `ধারণা ও উদাহরণ` |
+| `রেওয়ামিল প্রস্তুত প্রণালী ও বিবেচ্য বিষয়` | `রেওয়ামিল প্রস্তুত প্রণালী` | `প্রস্তুত প্রণালী` |
+| `আয় বিবরণী ও আর্থিক বিবরণীতে এদের প্রয়োগ` | `মূলধন-মুনাফা লেনদেনের প্রয়োগ` | `এদের প্রয়োগ` |
 
 **A trailing `(a, b, c …)` enumeration is a scope note, not part of the label.**
 `ধান চাষপদ্ধতি (জমি নির্বাচন, জাত, রোপণ, পরিচর্যা, ফসল সংগ্রহ)` is one topic whose
@@ -229,6 +253,10 @@ how many and how heavy:**
 - The `scope_note` route is the safe default: nothing is lost, labels stay
   uniform, and `topic_raw` keeps the original for the silent-drop check. Reach
   for a flowing label or a drop only for the small trivial cases above.
+- **If ≤ 5 words cannot be reached without failing a self-identifying test
+  above**, keep the longer flowing label (WARN only) or split into sibling rows
+  (last table row) — do **not** cut the head concept to hit the count. `topic_raw`
+  always keeps the full original either way.
 - Sub-items may also (or instead) go in the chapter's `keywords[]`.
 - An **inline** parenthetical the sentence continues past — `FCR (খাদ্য রূপান্তর
   হার) ও মাছের সম্পূরক খাদ্য তৈরি` — is a gloss, not a scope note. Step 10 leaves
@@ -584,8 +612,11 @@ Rewrites `output/<book-name>.csv` from 4 columns to 6:
   ```
   Set `"enabled": false` (or run a subject with no config file) only when you
   have a specific reason to keep that book at the 4 core columns — then the
-  script is a no-op. When enabled, `--stage final` WARNs on any `topic` still
-  over `max_core_words` or still ending in `(...)`.
+  script is a no-op. Lower `max_core_words` to **5** to hold the subject to the
+  §3.6 goal. When enabled, `--stage final` WARNs on any `topic` still over
+  `max_core_words`, still ending in `(...)`, **or no longer self-identifying**
+  — every word an aspect word or already in the chapter title, i.e. the head
+  concept was lost in shortening (§3.6).
 - **Idempotent** — re-derives from `topic_raw`. Re-run it after any re-run of
   Steps 8–9. Steps 8–9 themselves always operate on the 4-column CSV
   (`08_merge.py` drops columns 5–6 on read), so the order is
@@ -674,7 +705,7 @@ which mixed all subjects into one namespace and hit the JSON duplicate-key bug
 | `spelling_corrections` | Step 8, validate | `{wrong: right}` find/replace on `chapter_title` + every `topic`, token-boundary-aware (`_config.apply_corrections`: must start on a word boundary, trailing edge free for inflections). **Cite the PDF page for every entry** (see `_spelling_notes` in `config/science.json`). Never invent the target from the garble — read it off the page. |
 | `lexicon_extra.words` | validate | valid subject terms a generic Bengali dictionary flags as unknown — silences the `--stage topicmap` lexical WARN for them. Add a word only after confirming it against the page image. |
 | `merge_overrides` | Step 9 | per-chapter `{topic: "_merge_" \| "_drop_" \| "<rename>"}`. Chapter key must match the CSV `chapter` field exactly, Bengali numeral included. Keys unique within a chapter. |
-| `scope_split` | Step 10, validate | `{enabled, max_core_words}`, **enabled by default** (`config/_TEMPLATE.json`). `12_scope_split.py` moves a trailing `(a, b, …)` from `topic` into `scope_note` and keeps the verbatim original in `topic_raw` (CSV → 6 columns); `--stage final` WARNs on labels over `max_core_words`. Set `enabled:false` only to keep a specific book at the 4 core columns. |
+| `scope_split` | Step 10, validate | `{enabled, max_core_words}`, **enabled by default** (`config/_TEMPLATE.json`). `12_scope_split.py` moves a trailing `(a, b, …)` from `topic` into `scope_note` and keeps the verbatim original in `topic_raw` (CSV → 6 columns); `--stage final` WARNs on labels over `max_core_words` (set it to `5` for the §3.6 goal) and on labels that are no longer self-identifying (aspect-word-only, or nothing beyond the chapter title). Set `enabled:false` only to keep a specific book at the 4 core columns. |
 | `distinct_pairs.pairs` | Steps 9, validate | `[[a,b],…]` opposite concepts the merge must never collapse (e.g. `["ক্রয়মূল্য","বিক্রয়মূল্য"]`). |
 | `attribute_nouns_extra.words` | validate | subject-specific bare nouns invalid as a standalone topic. |
 

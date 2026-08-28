@@ -18,7 +18,7 @@
   },
 
   "scope_split": {
-    "_comment": "Step 10 (12_scope_split.py) — STANDARD, keep enabled. A TRAILING '(a, b, ...)' in a topic label is moved into a new scope_note column and the verbatim original is kept in topic_raw (CSV goes 4 -> 6 columns). Rows with no trailing (...) get an empty scope_note and topic_raw == topic, so the 6-column schema is uniform across every book. An inline gloss the sentence runs past is left alone. max_core_words: 05_validate.py --stage final WARNs on any label longer than this. Set enabled=false only for a subject you have a specific reason to keep at 4 columns.",
+    "_comment": "Step 10 (12_scope_split.py) — STANDARD, keep enabled. A TRAILING '(a, b, ...)' in a topic label is moved into a new scope_note column and the verbatim original is kept in topic_raw (CSV goes 4 -> 6 columns). Rows with no trailing (...) get an empty scope_note and topic_raw == topic, so the 6-column schema is uniform across every book. An inline gloss the sentence runs past is left alone. max_core_words: 05_validate.py --stage final WARNs on any core label longer than this — set it to 5 to hold the subject to the README §3.6 goal (default 12). --stage final ALSO WARNs (regardless of max_core_words) on a label that is no longer self-identifying: every word an aspect noun (ধারণা, শ্রেণিবিভাগ, উদাহরণ ...) or already present in the chapter title, i.e. the head concept was lost while shortening. Shorten by cutting filler, never the head concept. Set enabled=false only for a subject you have a specific reason to keep at 4 columns.",
     "enabled": true,
     "max_core_words": 12
   },

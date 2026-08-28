@@ -1,0 +1,35 @@
+{
+  "_comment": "Per-subject config for ICT (class 9-10). Read by scripts/_config.py. Built from chapter-maps/class9-10-ict.csv.",
+
+  "subject": "ict",
+  "grade": "9-10",
+
+  "spelling_corrections": {},
+
+  "merge_overrides": {},
+
+  "scope_split": {
+    "enabled": true,
+    "max_core_words": 12
+  },
+
+  "distinct_pairs": {
+    "pairs": [
+      ["হার্ডওয়্যার", "সফটওয়্যার"],
+      ["ইনপুট", "আউটপুট"],
+      ["স্থানীয় নেটওয়ার্ক", "ওয়াইড এরিয়া নেটওয়ার্ক"],
+      ["ওয়েবসাইট", "ওয়েবপেজ"],
+      ["HTML", "CSS"],
+      ["CSS", "JavaScript"],
+      ["অ্যালগরিদম", "ফ্লোচার্ট"],
+      ["বাইট", "বিট"],
+      ["র‍্যাম", "রম"],
+      ["প্রসেসর", "মেমরি"],
+      ["মডেম", "রাউটার"]
+    ]
+  },
+
+  "attribute_nouns_extra": {
+    "words": ["ধারণা", "সংজ্ঞা", "গুরুত্ব", "প্রকারভেদ", "উদ্দেশ্য", "বৈশিষ্ট্য", "সুবিধা", "সীমাবদ্ধতা"]
+  }
+}

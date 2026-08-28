@@ -36,13 +36,24 @@ When a body heading is a bare attribute (`ধারণা`, `বৈশিষ্�
 enclosing section's concept. In this subject the enclosing concept is usually
 `<the section title | the phenomenon named in the paragraph>`.
 
-## Instances/parts → scope note (prompt §5b)
+## Label length & staying self-identifying (README §3.6, prompt §5b)
+A topic label is a **name — ≤ 5 words is the goal**, 3–8 acceptable, no minimum.
+Shorten by cutting words that do no work, **never the head concept**: the short
+label must still name a specific taught thing with the chapter title and subject
+hidden (not an aspect word like `শ্রেণিবিভাগ` / `ধারণা` / `উদাহরণ`; not a fit for
+three other chapters; not just chapter-title words). If ≤ 5 words can't pass
+those, keep the longer label (WARN only) or split into sibling rows.
+`config/<subject>.json → scope_split.max_core_words = 5` holds this subject to the
+goal; `--stage final` WARNs on over-long or no-longer-self-identifying labels.
+
 When a heading names a concept and then lists the parts/examples/steps it covers,
 keep the label short and put the list in a trailing `(a, b, c …)` — Step 10
 (`12_scope_split.py`) lifts it into the `scope_note` column. `scope_split` is on
-by default. Fold 1–2 items into a flowing label instead; drop examples that add
-nothing; give each item its own row only if it is a full topic in its own right.
-An inline gloss the sentence runs past (`FCR (…) ও …`) stays as-is.
+by default. The `(...)` carries the detail so the label can be a bare name — it
+does not license dropping the head concept. Fold 1–2 items into a flowing label
+instead; drop examples that add nothing; give each item its own row only if it is
+a full topic in its own right. An inline gloss the sentence runs past
+(`FCR (…) ও …`) stays as-is.
 `<subject-specific example, e.g. উত্তল দর্পণের ব্যবহার (নিরাপদ ড্রাইভিং, পাহাড়ি রাস্তা)>`
 
 ## Distinct concepts to KEEP SEPARATE (never let the merge collapse these)

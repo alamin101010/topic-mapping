@@ -301,3 +301,101 @@
 === [final] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
 
 === [final] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+  WARN  ch2: thin topic 'লেনদেনের ধারণা' — confirm it carries a head concept
+  WARN  ch2: 67% of topics track the outcome box closely
+  WARN  ch3: 57% of topics track the outcome box closely
+  WARN  ch3: outcome not covered by any topic — 'হিসাবচক্রের বিভিন্ন ধাপ ব্যাখ্যা করতে পারব...'
+  WARN  ch5: thin topic 'হিসাবের শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch5: outcome not covered by any topic — 'দু তরফা দাখিলা পদ্ধতি অনুযায়ী সংশ্লিষ্ট হিসাবে ডেবিট-ক্রেডি...'
+  WARN  ch6: thin topic 'জাবেদার শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch6: 62% of topics track the outcome box closely
+  WARN  ch7: thin topic 'খতিয়ানের শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch8: outcome not covered by any topic — 'বিপরীত দাখিলা লিপিবদ্ধ করতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch1: 6/6 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch3: one-word topic 'হিসাবচক্র' — attach its head concept
+  FAIL  ch4: 3/4 topics are verb-stripped copies of learning_outcomes (75%) — this is a box paraphrase, not a body map. Read the chapter pages.
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'হিসাব তথ্যের ব্যবহারকারীদের শনাক্ত করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'দৈনিক, ব্যক্তিগত, পারিবারিক ও প্রতিষ্ঠানিক কর্মকাণ্ডে হিসাব ...'
+  WARN  ch2: thin topic 'লেনদেনের ধারণা' — confirm it carries a head concept
+  WARN  ch2: 67% of topics track the outcome box closely
+  WARN  ch5: thin topic 'হিসাবের শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch5: outcome not covered by any topic — 'দু তরফা দাখিলা পদ্ধতি অনুযায়ী সংশ্লিষ্ট হিসাবে ডেবিট-ক্রেডি...'
+  WARN  ch6: thin topic 'জাবেদার শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch6: 62% of topics track the outcome box closely
+  WARN  ch7: thin topic 'খতিয়ানের শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'হিসাব তথ্যের ব্যবহারকারীদের শনাক্ত করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'দৈনিক, ব্যক্তিগত, পারিবারিক ও প্রতিষ্ঠানিক কর্মকাণ্ডে হিসাব ...'
+  WARN  ch2: thin topic 'লেনদেনের ধারণা' — confirm it carries a head concept
+  WARN  ch2: 67% of topics track the outcome box closely
+  WARN  ch5: thin topic 'হিসাবের শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch5: outcome not covered by any topic — 'দু তরফা দাখিলা পদ্ধতি অনুযায়ী সংশ্লিষ্ট হিসাবে ডেবিট-ক্রেডি...'
+  WARN  ch6: thin topic 'জাবেদার শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch6: 62% of topics track the outcome box closely
+  WARN  ch7: thin topic 'খতিয়ানের শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  'অধ্যায় ২: জীবনের জন্য পানি': label 'পানি' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'পানি (ধর্ম, গলনাঙ্ক ও স্ফুটনাঙ্ক, ঘনত্ব, তড়িৎ পরিবাহিতা)'
+  WARN  'অধ্যায় ৩: হৃদযন্ত্রের যত কথা এবং অন্যান্য': label 'হৃদযন্ত্রের গঠন' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'হৃদযন্ত্রের গঠন (অলিন্দ, নিলয়, করোনারি ধমনী)'
+  WARN  'অধ্যায় ৩: হৃদযন্ত্রের যত কথা এবং অন্যান্য': label 'হৃদযন্ত্রের কাজ' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'হৃদযন্ত্রের কাজ (রক্ত সংবহন চক্র)'
+  WARN  'অধ্যায় ৭: অম্ল, ক্ষারক ও লবণের ব্যবহার': label 'অম্ল' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'অম্ল (ধারণা, উদাহরণ, প্রাত্যহিক জীবনে ব্যবহার)'
+  WARN  'অধ্যায় ৭: অম্ল, ক্ষারক ও লবণের ব্যবহার': label 'ক্ষারক' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'ক্ষারক (ধারণা, উদাহরণ, প্রাত্যহিক জীবনে ব্যবহার)'
+  WARN  'অধ্যায় ৯: দুর্যোগের সাথে বসবাস': label 'দুর্যোগের ধারণা ও প্রকারভেদ' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'দুর্যোগের ধারণা ও প্রকারভেদ'
+  WARN  'অধ্যায় ১০: এসো বলকে জানি': label 'কাজ' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'কাজ (ধারণা, একক, সূত্র)'
+  WARN  'অধ্যায় ১১: প্রাত্যহিক জীবনে তড়িৎ': label 'তড়িৎ' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'তড়িৎ (ধারণা, ইলেকট্রন, তড়িৎ প্রবাহ)'
+  WARN  'অধ্যায় ১১: প্রাত্যহিক জীবনে তড়িৎ': label 'তড়িৎ ব্যবহার' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'তড়িৎ ব্যবহার (বাসা, শিল্পকারখানা)'
+
+=== [final] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  'অধ্যায় ২: জীবনের জন্য পানি': label 'পানি' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'পানি (ধর্ম, গলনাঙ্ক ও স্ফুটনাঙ্ক, ঘনত্ব, তড়িৎ পরিবাহিতা)'
+  WARN  'অধ্যায় ৩: হৃদযন্ত্রের যত কথা এবং অন্যান্য': label 'হৃদযন্ত্রের গঠন' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'হৃদযন্ত্রের গঠন (অলিন্দ, নিলয়, করোনারি ধমনী)'
+  WARN  'অধ্যায় ৩: হৃদযন্ত্রের যত কথা এবং অন্যান্য': label 'হৃদযন্ত্রের কাজ' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'হৃদযন্ত্রের কাজ (রক্ত সংবহন চক্র)'
+  WARN  'অধ্যায় ৭: অম্ল, ক্ষারক ও লবণের ব্যবহার': label 'অম্ল' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'অম্ল (ধারণা, উদাহরণ, প্রাত্যহিক জীবনে ব্যবহার)'
+  WARN  'অধ্যায় ৭: অম্ল, ক্ষারক ও লবণের ব্যবহার': label 'ক্ষারক' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'ক্ষারক (ধারণা, উদাহরণ, প্রাত্যহিক জীবনে ব্যবহার)'
+  WARN  'অধ্যায় ৯: দুর্যোগের সাথে বসবাস': label 'দুর্যোগের ধারণা ও প্রকারভেদ' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'দুর্যোগের ধারণা ও প্রকারভেদ'
+  WARN  'অধ্যায় ১০: এসো বলকে জানি': label 'কাজ' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'কাজ (ধারণা, একক, সূত্র)'
+  WARN  'অধ্যায় ১১: প্রাত্যহিক জীবনে তড়িৎ': label 'তড়িৎ' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'তড়িৎ (ধারণা, ইলেকট্রন, তড়িৎ প্রবাহ)'
+  WARN  'অধ্যায় ১১: প্রাত্যহিক জীবনে তড়িৎ': label 'তড়িৎ ব্যবহার' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'তড়িৎ ব্যবহার (বাসা, শিল্পকারখানা)'
+
+=== [final] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_ICT_compressed ===
+  WARN  'অধ্যায় ৩: ইন্টারনেট ও ওয়েব পরিচিতি': label 'ইন্টারনেট' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'ইন্টারনেট (ধারণা, সুবিধা, অসুবিধা, প্রয়োগ)'
+  WARN  'অধ্যায় ৩: ইন্টারনেট ও ওয়েব পরিচিতি': label 'ওয়েব' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'ওয়েব (ধারণা, প্রকারভেদ, বৈশিষ্ট্য, গুরুত্ব)'
+  WARN  'অধ্যায় ৫: মাল্টিমিডিয়া ও গ্রাফিক্স': label 'মাল্টিমিডিয়া' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'মাল্টিমিডিয়া (ধারণা, প্রকারভেদ, বৈশিষ্ট্য, গুরুত্ব)'
+  WARN  'অধ্যায় ৫: মাল্টিমিডিয়া ও গ্রাফিক্স': label 'গ্রাফিক্স' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'গ্রাফিক্স (ধারণা, প্রকারভেদ, বৈশিষ্ট্য, গুরুত্ব)'
+
+=== [final] Secondary (BV)-2026_Class 9-10_ICT_compressed ===
+  WARN  'অধ্যায় ৩: ইন্টারনেট ও ওয়েব পরিচিতি': label 'ইন্টারনেট' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'ইন্টারনেট (ধারণা, সুবিধা, অসুবিধা, প্রয়োগ)'
+  WARN  'অধ্যায় ৩: ইন্টারনেট ও ওয়েব পরিচিতি': label 'ওয়েব' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'ওয়েব (ধারণা, প্রকারভেদ, বৈশিষ্ট্য, গুরুত্ব)'
+  WARN  'অধ্যায় ৫: মাল্টিমিডিয়া ও গ্রাফিক্স': label 'মাল্টিমিডিয়া' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'মাল্টিমিডিয়া (ধারণা, প্রকারভেদ, বৈশিষ্ট্য, গুরুত্ব)'
+  WARN  'অধ্যায় ৫: মাল্টিমিডিয়া ও গ্রাফিক্স': label 'গ্রাফিক্স' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'গ্রাফিক্স (ধারণা, প্রকারভেদ, বৈশিষ্ট্য, গুরুত্ব)'
+
+=== [final] Secondary (BV)-2026_Class 9-10_ICT_compressed ===

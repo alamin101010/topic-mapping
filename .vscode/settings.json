@@ -1,0 +1,23 @@
+{
+    "editor.unicodeHighlight.allowedLocales": {
+        "bn": true,
+        "bn-BD": true
+    },
+    "terminal.integrated.fontFamily": "Cascadia Mono, Consolas, monospace",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell",
+            "args": ["-NoExit", "-Command", "chcp 65001"]
+        }
+    },
+    "files.encoding": "utf8",
+    "files.autoGuessEncoding": false,
+    "python.defaultInterpreterPath": "python",
+    "python.terminal.executeInFileDir": true,
+    "python.terminal.env": {
+        "PYTHONIOENCODING": "utf-8"
+    }
+}

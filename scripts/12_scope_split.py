@@ -43,6 +43,18 @@ import _config  # noqa: E402
 BASE_COLS = ["grade", "subject", "chapter", "topic"]
 FULL_COLS = BASE_COLS + ["scope_note", "topic_raw"]
 
+# Aspect words that cannot stand alone as a topic: a core label that is ONLY
+# these (or a single word) lost its head concept while being shortened (§3.6).
+# Advisory print only — the authoritative WARN is 05_validate.py --stage final,
+# which uses the full ATTRIBUTE_NOUNS set + a chapter-title comparison. Keep this
+# subset roughly in sync with that list.
+ASPECT_ONLY = {
+    "ধারণা", "বৈশিষ্ট্য", "গুরুত্ব", "প্রকারভেদ", "প্রকার", "সুবিধা", "অসুবিধা",
+    "প্রয়োজনীয়তা", "পার্থক্য", "প্রভাব", "নীতিমালা", "সমস্যা", "উপায়", "কারণ",
+    "ধাপ", "গঠন", "কাজ", "ভূমিকা", "উদ্দেশ্য", "ব্যবহার", "শ্রেণিবিভাগ",
+    "শ্রেণীবিভাগ", "বিভাগ", "তাৎপর্য", "উদাহরণ", "পদ্ধতি", "প্রক্রিয়া", "বিষয়",
+}
+
 # "<core> (<inside>)" where the ')' closes the whole string (no nesting, no tail).
 TRAILING_PAREN = re.compile(r"^(.+?)\s*[（(]\s*([^（()）]+?)\s*[）)]\s*$")
 
@@ -76,7 +88,7 @@ def process(csv_path):
     raw_idx = header.index("topic_raw") if "topic_raw" in header else None
     t_idx = header.index("topic") if "topic" in header else 3
 
-    out, n_split, long_after = [], 0, []
+    out, n_split, long_after, thin_after = [], 0, [], []
     for r in rows:
         if raw_idx is not None and len(r) > raw_idx and r[raw_idx].strip():
             raw = r[raw_idx]
@@ -87,6 +99,9 @@ def process(csv_path):
             n_split += 1
         if word_count(core) > max_core:
             long_after.append((r[2], core))
+        cw = [t.strip(" ।,;:()[]'\"-") for t in re.split(r"\s+", core.strip()) if t]
+        if cw and all(w in ASPECT_ONLY or w in ("ও", "এবং", "এর") for w in cw):
+            thin_after.append((r[2], core))
         out.append([r[0], r[1], r[2], core, scope, raw.strip()])
 
     with open(csv_path, "w", encoding="utf-8-sig", newline="") as f:
@@ -99,6 +114,11 @@ def process(csv_path):
     if long_after:
         print(f"  {len(long_after)} core label(s) still > {max_core} words — review:")
         for ch, t in long_after:
+            print(f"    [{ch}] {t}")
+    if thin_after:
+        print(f"  {len(thin_after)} core label(s) are aspect-words only — head "
+              f"concept lost in shortening, restore it (README §3.6):")
+        for ch, t in thin_after:
             print(f"    [{ch}] {t}")
     print('Next: python 05_validate.py --stage final "<book-name>"')
     return csv_path

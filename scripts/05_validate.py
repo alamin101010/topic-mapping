@@ -39,6 +39,7 @@ ATTRIBUTE_NOUNS = {
     "ধারণা", "বৈশিষ্ট্য", "গুরুত্ব", "প্রকারভেদ", "প্রকার", "সুবিধা", "অসুবিধা",
     "প্রয়োজনীয়তা", "পার্থক্য", "প্রভাব", "নীতিমালা", "সমস্যা", "উপায়", "কারণ",
     "ধাপ", "গঠন", "কাজ", "ভূমিকা", "উদ্দেশ্য", "ব্যবহার", "উৎপত্তি", "ক্রমবিকাশ",
+    "উদাহরণ", "বিষয়", "বিষয়াদি",
     "শ্রেণিবিভাগ", "শ্রেণীবিভাগ", "বিভাগ", "তাৎপর্য", "লক্ষণ", "প্রতিকার",
     "প্রতিরোধ", "উপকারিতা", "অপকারিতা", "ফলাফল", "বিবরণ", "পদ্ধতি", "চুক্তিপত্র",
     "প্রক্রিয়া", "কৌশল", "সম্পর্ক", "রকমভেদ", "উপাদান", "দিক", "ক্ষেত্র",
@@ -453,23 +454,41 @@ def stage_final(book: str, chapter_map_path: str):
         for d in dupes:
             warns.append(f"'{ch_label}': duplicate topic row '{d}'")
 
-    # scope-note / label-length (§3.6). WARN only — this is a style guard, never
-    # a gate. Active only when Step 10 ran (topic_raw present) and the subject
-    # opted in via config/<subject>.json -> scope_split.
+    # scope-note / label-length + self-identifying check (§3.6). WARN only — a
+    # style guard, never a gate. Active only when Step 10 ran (topic_raw present)
+    # and the subject opted in via config/<subject>.json -> scope_split.
     ss = cfg.get("scope_split", {})
     if ss.get("enabled") and raw_idx is not None:
         max_core = int(ss.get("max_core_words", 12))
+        bare = ATTRIBUTE_NOUNS | set(cfg.get("attribute_nouns_extra", set()))
         for r in rows:
             if len(r) <= 4:
                 continue
             core = nfc(r[3])
+            raw = nfc(r[raw_idx]) if len(r) > raw_idx else core
             if re.search(r"[（(][^（()）]*[）)]\s*$", core):
                 warns.append(f"'{nfc(r[2])}': topic still ends in a (...) after "
                              f"Step 10 — '{core}'")
-            n = len([t for t in re.split(r"\s+", core) if t])
+            core_toks = tokens(core)
+            n = len(core_toks)
             if n > max_core:
                 warns.append(f"'{nfc(r[2])}': topic label is {n} words (> {max_core}) "
                              f"— move detail to scope_note or rephrase — '{core}'")
+            # self-identifying (§3.6): the label must still name the concept with
+            # the chapter title AND subject hidden. Flags a label that has
+            # collapsed to nothing but aspect nouns plus, at most, one word the
+            # chapter title already supplies — i.e. the head concept was cut
+            # while shortening. Token match is exact (inflected forms count as
+            # their own word), so this under-flags rather than nags.
+            ch_concept = content_tokens(
+                re.sub(r"^\s*অধ্যায়[^:：]*[:：]?\s*", "", nfc(r[2])))
+            non_aspect = content_tokens(core) - bare
+            own = non_aspect - ch_concept
+            if core_toks and not own and len(non_aspect) <= 1:
+                warns.append(
+                    f"'{nfc(r[2])}': label '{core}' is not self-identifying — it is "
+                    f"aspect words / chapter-title words only; the head concept was "
+                    f"lost in shortening (§3.6). raw: '{raw}'")
 
     # silent-drop check: every topic_map topic must reach the CSV OR be named
     # in an explicit merge_overrides rule for that chapter.
