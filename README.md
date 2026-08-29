@@ -271,16 +271,26 @@ how many and how heavy:**
 
 ## 4. Pipeline (run per book)
 
-> **The validation gate.** `scripts/05_validate.py` has three stages —
-> `--stage extract`, `--stage topicmap`, `--stage final` — run after Steps 2, 7
-> and 9. Each exits nonzero on any FAIL, so a batch run stops at the first broken
-> book instead of producing 15 bad CSVs. It catches every failure mode this
-> project has hit: box-only extraction, topics that are verb-stripped learning
-> outcomes, one-word / bare-attribute topics, orphaned `ও`/`এবং` fragments,
-> ASCII chapter digits, topics silently dropped between `topic_map.json` and
-> the CSV, box-only `topic_map.json` (narrow `source_pages`), OCR reading
-> errors in topic labels (lexical check), **a missing Step-4b heading checklist**,
-> and **mid-chapter truncation** (Step 7 mapped the first পরিচ্ছেদ(s) and
+> **One command for a whole book:** `python scripts/run_book.py "<book>" <grade>
+> <subject> [--map <csv>]` runs every step in order — setup → extract → (Step 4b)
+> → (Step 7) → assemble → merge → scope-split → final — and **stops at the first
+> gate that fails or the first human/agent step that isn't done**. It is
+> idempotent: fix what it tells you, re-run, it resumes. There is no supported
+> way to reach a finished CSV that skips a step.
+
+> **The validation gate.** `scripts/05_validate.py` has stages
+> `--stage setup | extract | topicmap | final` (and `--stage all` = run them in
+> order, stop at the first FAIL) — run after Steps 0/1, 2, 7 and 9. Each exits
+> nonzero on any FAIL, so a batch run stops at the first broken book instead of
+> producing 15 bad CSVs. It catches every failure mode this
+> project has hit: **subject not set up** (`subjects/<s>.md` / `config/<s>.json`
+> missing or still template, slug not a clean lowercase-hyphen form, chapter map
+> absent); box-only extraction; topics that are verb-stripped learning
+> outcomes; one-word / bare-attribute topics; orphaned `ও`/`এবং` fragments;
+> ASCII chapter digits; topics silently dropped between `topic_map.json` and
+> the CSV; box-only `topic_map.json` (narrow `source_pages`); OCR reading
+> errors in topic labels (lexical check); **a missing Step-4b heading checklist**;
+> **mid-chapter truncation** (Step 7 mapped the first পরিচ্ছেদ(s) and
 > stopped — the BGS ch3 bug). Never hand-inspect for these — run the gate.
 
 > **2026-08-30 — Step-7 truncation hardening** (after BGS ch3 shipped 8 topics
@@ -297,6 +307,22 @@ how many and how heavy:**
 > heading coverage, < 0.5 topics/page, and topics that match no heading and no
 > outcome; (4) `prompts/topic_map_prompt.md` gained a blocking STEP 0 per-page
 > heading inventory and a §8 coverage self-check.
+
+> **2026-08-30 (later) — one-format enforcement + orchestrator.** Every
+> deliverable CSV must now be byte-identical in shape regardless of subject.
+> *Fixes:* (1) new `scripts/run_book.py` runs the whole pipeline in order and
+> refuses to finish if a gate fails or a human step is undone; (2) new
+> `--stage setup` FAILs a subject that is not ready (missing/placeholder
+> `subjects/<s>.md` or `config/<s>.json`, config `subject` field ≠ filename,
+> non-slug subject, missing config keys, chapter map absent/mismatched);
+> (3) `--stage final` now FAILs on a non-canonical header, a `subject` column
+> that isn't the lowercase-hyphen slug (this is how the Finance CSV shipped
+> `finance_and_banking`), a `grade` not like `9-10`, a non-QUOTE_ALL or
+> non-BOM file, and a 4-column CSV when `scope_split.enabled=true` (Step 10
+> skipped); (4) `06_assemble.py` slugifies `subject` itself and refuses to run
+> without a real `config/<s>.json` + `subjects/<s>.md`. Back-fixed: Finance CSV +
+> topic_map `finance_and_banking` → `finance-and-banking`; added the missing
+> `lexicon_extra` key to five configs.
 
 > **2026-08-28 — OCR reading-error hardening** (after Science shipped `পাকশল্লি`
 > for `পাকস্থলী`, `সংগ্রহলন` for `সঞ্চালন`, a whole chapter of `প্রাত্যহিক`
@@ -683,16 +709,43 @@ Rewrites `output/<book-name>.csv` from 4 columns to 6:
 Same checklist for any subject (physics, chemistry, biology, civics, geography,
 …). Every `05_validate.py` call exits nonzero on FAIL — do not proceed past one.
 `<book>` = the folder name under `ocr/` (the PDF stem, no `.pdf`). `<slug>` =
-`class9-10-<subject>`. On Windows prefix python calls with `PYTHONIOENCODING=utf-8`.
+`class9-10-<subject>`. `<subject>` = a lowercase-hyphen slug (`geography`,
+`finance-and-banking`) — it must equal the `config/<subject>.json` filename stem
+and it is what lands in the CSV `subject` column. On Windows prefix python calls
+with `PYTHONIOENCODING=utf-8`.
+
+### The short version — `run_book.py`
 
 ```bash
-# 0. Subject scaffold (once per subject) — fill both from 2-3 chapters
+python scripts/run_book.py "<book>" 9-10 <subject> [--map chapter-maps/<slug>.csv]
+```
+
+Runs setup → extract → Step 4b → Step 7 → assemble → merge → scope-split → final,
+stopping at the first failed gate or undone human step. The two steps it cannot
+do for you are **filling `ocr/<book>/headings/chNN.json`** (Step 4b) and
+**writing `ocr/<book>/topic_map.json`** (Step 7); it creates the stubs / tells
+you exactly what to do, you do it, you re-run. This is the supported path — the
+manual steps below are what it runs.
+
+**Would a brand-new subject (say Geography) come out identical to the others?**
+Only if you did the scaffold: `run_book.py` FAILs at `--stage setup` until
+`subjects/geography.md` and `config/geography.json` exist and are filled (not the
+template), the slug is clean, and `chapter-maps/class9-10-geography.csv` is
+present. Once those exist, every downstream step is subject-agnostic and
+`--stage final` enforces the identical 6-column, BOM, QUOTE_ALL, Bengali-numeral,
+`grade=9-10`, `subject=geography` shape. There is no per-subject branch anywhere
+in the scripts.
+
+```bash
+# 0. Subject scaffold (once per subject) — fill both from 2-3 chapters.
+#    <subject> is a lowercase-hyphen slug; the config filename stem must equal it.
 cp subjects/_TEMPLATE.md  subjects/<subject>.md
-cp config/_TEMPLATE.json  config/<subject>.json
+cp config/_TEMPLATE.json  config/<subject>.json     # set "subject": "<subject>", max_core_words: 5
 
 # 1. Chapter map: chapter-maps/<slug>.csv  (chapter_no,chapter_title,start_page,end_page)
 #    start/end are PDF page numbers = printed number + offset k.
 #    Verify k: extract early pages, find the ch-1 opener, spot-check k at the last chapter too (§Step 1).
+python scripts/05_validate.py --stage setup "<book>" --subject <subject>   # scaffold + slug + map present
 python scripts/05_validate.py --stage extract "<book>"   # (run again after step 2)
 
 # 2. Extract the FULL page range of every chapter
@@ -845,9 +898,10 @@ nctb-topic-mapping/
 └── scripts/
     ├── _config.py                         # shared per-subject config loader + apply_corrections (boundary-aware spelling fixes)
     ├── 01_extract_images.py               # Step 2: image extraction (full-range guard)
+    ├── run_book.py                        # ORCHESTRATOR: setup→extract→4b→7→assemble→merge→split→final, stops at first gap
     ├── 04_extract_headings.py             # Step 4b: per-page heading checklist (MANDATORY; gates topicmap)
     ├── 07_constrained_prompt.py           # Step 7 helper: bake headings/chNN.json into the Step-7 prompt
-    ├── 05_validate.py                     # GATE: --stage extract|topicmap|final (topicmap: box-only + heading-coverage + truncation + lexical)
+    ├── 05_validate.py                     # GATE: --stage setup|extract|topicmap|final|all (setup: scaffold+slug; final: canonical CSV shape)
     ├── 06_assemble.py                     # Step 8: topic_map.json → CSV
     ├── 08_merge.py                        # Step 9: non-destructive merge + overrides
     ├── 12_scope_split.py                  # Step 10: trailing "(enum)" → scope_note column (standard, run every book)

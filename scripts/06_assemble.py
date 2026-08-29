@@ -96,10 +96,33 @@ def atomize_topics(chapter, corrections, bare_extra):
 
 def assemble_book(topic_map_path, book_name, grade, subject):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+    # One canonical slug for the CSV subject column, every subject, every run:
+    # lowercase a-z0-9 words joined by single hyphens. This MUST equal the
+    # config/<subject>.json filename stem (05_validate.py --stage final FAILs if
+    # they differ). Trusting the raw arg is how the CSV got 'finance_and_banking'
+    # while the config was 'finance-and-banking'.
+    subject = _config.slugify(subject)
+    grade = grade.strip()
+    if not re.match(r"^[0-9]+(-[0-9]+)?$", grade):
+        print(f"WARNING: grade '{grade}' is not like '9-10'")
+    cfg_path = os.path.join(SCRIPT_DIR, "..", "config", f"{subject}.json")
+    prof_path = os.path.join(SCRIPT_DIR, "..", "subjects", f"{subject}.md")
+    if not os.path.exists(cfg_path):
+        print(f"REFUSED: config/{subject}.json does not exist. Copy "
+              f"config/_TEMPLATE.json and fill it, then re-run. "
+              f"(run `05_validate.py --stage setup` first)")
+        sys.exit(2)
+    if not os.path.exists(prof_path):
+        print(f"REFUSED: subjects/{subject}.md does not exist. Copy "
+              f"subjects/_TEMPLATE.md and fill it, then re-run.")
+        sys.exit(2)
+
     cfg = _config.load(subject)
     corrections = cfg["spelling_corrections"]
     bare_extra = cfg["attribute_nouns_extra"]
-    print(f"config: {cfg['source']}  ({len(corrections)} spelling fixes)")
+    print(f"subject slug: {subject}   config: {cfg['source']}  "
+          f"({len(corrections)} spelling fixes)")
 
     with open(topic_map_path, encoding="utf-8") as f:
         topic_map = json.load(f)

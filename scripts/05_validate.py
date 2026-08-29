@@ -220,6 +220,114 @@ def heading_match(topic: str, heading: str) -> bool:
 
 
 # --------------------------------------------------------------------------- #
+# Canonical output format — one shape for every subject, every run.          #
+# --------------------------------------------------------------------------- #
+SUBJECT_SLUG_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
+GRADE_RE = re.compile(r"^[0-9]+(?:-[0-9]+)?$")
+BASE_HEADER = ["grade", "subject", "chapter", "topic"]
+FULL_HEADER = BASE_HEADER + ["scope_note", "topic_raw"]
+# Distinctive unfilled-template strings. Prose references like `config/<subject>.json`
+# are legitimate and must NOT be listed here.
+PROFILE_MARKERS = ("# Subject profile — <subject>", "`<e.g. ", "<the section title |",
+                   "<subject-specific example, e.g.", "<none | unit")
+CONFIG_MARKERS = ("<english lowercase, must equal", "<chapter name>",
+                  "<topic to replace>", "<topic to fold in>",
+                  "<merged label naming")
+
+
+def subject_slug(s: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", (s or "").strip().lower()).strip("-")
+
+
+def resolve_subject(book: str, explicit: str | None, topic_map=None) -> str:
+    if explicit:
+        return subject_slug(explicit)
+    if topic_map is None:
+        try:
+            topic_map, _ = load_topic_map(book)
+        except Exception:
+            topic_map = []
+    if topic_map and topic_map[0].get("subject"):
+        return subject_slug(topic_map[0]["subject"])
+    # last resort: book name -> subject slug (drop the "class9-10-" prefix that
+    # slugify_book adds for chapter-map lookup)
+    return re.sub(r"^class[0-9-]+-", "", slugify_book(os.path.basename(book)))
+
+
+# --------------------------------------------------------------------------- #
+# Stage: setup — is this subject ready for a run? (templates filled, slugs OK) #
+# --------------------------------------------------------------------------- #
+def stage_setup(book: str, chapter_map_path: str, subject: str | None = None):
+    fails, warns = [], []
+    subj = resolve_subject(book, subject)
+
+    if not SUBJECT_SLUG_RE.match(subj):
+        fails.append(f"subject '{subj}' is not a clean slug — use lowercase "
+                     f"a-z0-9 words joined by single hyphens (e.g. 'geography', "
+                     f"'finance-and-banking'), matching the config filename")
+
+    prof = os.path.join(ROOT, "subjects", f"{subj}.md")
+    if not os.path.exists(prof):
+        fails.append(f"subjects/{subj}.md missing — copy subjects/_TEMPLATE.md and "
+                     f"fill every section from 2-3 real chapters before Step 7")
+    else:
+        txt = open(prof, encoding="utf-8").read()
+        hit = [m for m in PROFILE_MARKERS if m in txt]
+        if hit:
+            fails.append(f"subjects/{subj}.md still has unfilled template "
+                         f"placeholders ({hit[0]!r}…) — fill it from the book")
+
+    cfgp = os.path.join(CONFIG_DIR, f"{subj}.json")
+    if not os.path.exists(cfgp):
+        fails.append(f"config/{subj}.json missing — copy config/_TEMPLATE.json")
+    else:
+        cfgtxt = open(cfgp, encoding="utf-8").read()
+        chit = [m for m in CONFIG_MARKERS if m in cfgtxt]
+        if chit:
+            fails.append(f"config/{subj}.json still has template placeholders "
+                         f"({chit[0]!r}…) — fill or delete the placeholder entries")
+        try:
+            raw = json.loads(cfgtxt)
+        except json.JSONDecodeError as e:
+            return fails + [f"config/{subj}.json is not valid JSON: {e}"], warns
+        if subject_slug(raw.get("subject", "")) != subj:
+            fails.append(f"config/{subj}.json 'subject' field is "
+                         f"'{raw.get('subject')}' — must equal '{subj}' (the "
+                         f"filename stem and the CSV subject column)")
+        for k in ("spelling_corrections", "merge_overrides", "scope_split",
+                  "distinct_pairs", "attribute_nouns_extra", "lexicon_extra"):
+            if k not in raw:
+                fails.append(f"config/{subj}.json missing key '{k}' (see _TEMPLATE.json)")
+        ss = raw.get("scope_split", {})
+        if isinstance(ss, dict) and ss.get("enabled") and ss.get("max_core_words", 12) == 12:
+            warns.append(f"config/{subj}.json scope_split.max_core_words is still "
+                         f"12 (template default) — set it to 5 for the §3.6 goal, "
+                         f"or leave 12 if this subject genuinely needs long labels")
+
+    cmap = chapter_map_path
+    want_slug = slugify_book(os.path.basename(book)).replace("class", "").lstrip("0123456789-")
+    mismatch = cmap and want_slug and want_slug not in os.path.basename(cmap).lower()
+    if not cmap or not os.path.exists(cmap) or mismatch:
+        fails.append(f"chapter map for this book not found — create "
+                     f"chapter-maps/{slugify_book(os.path.basename(book))}.csv "
+                     f"(chapter_no,chapter_title,start_page,end_page; PDF page "
+                     f"numbers). §Step 1."
+                     + (f" (auto-guess picked the unrelated "
+                        f"{os.path.basename(cmap)})" if mismatch else ""))
+    else:
+        try:
+            rows = load_chapters(cmap)
+            need = {"chapter_no", "chapter_title", "start_page", "end_page"}
+            if rows and not need <= set(rows[0]):
+                fails.append(f"{os.path.relpath(cmap, ROOT)} header must be "
+                             f"exactly chapter_no,chapter_title,start_page,end_page")
+        except Exception as e:
+            fails.append(f"cannot read {cmap}: {e}")
+
+    return fails, warns
+
+
+# --------------------------------------------------------------------------- #
 # Lexical check — catch OCR reading errors (পাকশল্লি, সংগ্রহলন, কোলেষ্টেরল …)  #
 # that structure checks can't see. Best-effort: needs hunspell + a Bengali    #
 # dictionary; degrades to a single WARN when unavailable.                     #
@@ -540,9 +648,25 @@ def stage_final(book: str, chapter_map_path: str):
     if not os.path.exists(csv_path):
         return [f"missing {csv_path}"], []
 
+    rawbytes = open(csv_path, "rb").read()
+    if not rawbytes.startswith(b"\xef\xbb\xbf"):
+        fails.append(f"{book}.csv is not UTF-8 with BOM — 06_assemble.py writes "
+                     f"utf-8-sig; something re-saved it")
     all_rows = list(csv.reader(open(csv_path, encoding="utf-8-sig")))
     header = all_rows[0] if all_rows else []
     rows = all_rows[1:]
+
+    # -- canonical shape: same header for every subject, every run ----------- #
+    if header not in (BASE_HEADER, FULL_HEADER):
+        fails.append(f"CSV header is {header} — must be exactly {BASE_HEADER} "
+                     f"(pre-Step-10) or {FULL_HEADER} (after Step 10)")
+    # QUOTE_ALL: 06_assemble writes every field quoted
+    first_data = next((ln for ln in rawbytes.decode("utf-8-sig").splitlines()[1:]
+                       if ln.strip()), "")
+    if first_data and not first_data.startswith('"'):
+        fails.append(f"CSV is not QUOTE_ALL (row starts {first_data[:20]!r}) — "
+                     f"re-run 06_assemble.py")
+
     # Step 10 (12_scope_split.py) may add scope_note + topic_raw. The silent-drop
     # check must run against the pre-split label, so prefer topic_raw when present.
     raw_idx = header.index("topic_raw") if "topic_raw" in header else None
@@ -557,10 +681,34 @@ def stage_final(book: str, chapter_map_path: str):
             csv_by_ch.setdefault(nfc(r[2]), []).append(nfc(r[3]))
 
     # subject config (per-subject preferred, legacy global as fallback)
-    subject = (topic_map[0].get("subject") if topic_map else "") or slugify_book(book)
+    subject = resolve_subject(book, None, topic_map)
     cfg = load_config(subject)
     overrides = cfg.get("merge_overrides", {})
     spelling = cfg.get("spelling_corrections", {})
+
+    # -- uniform grade / subject columns ------------------------------------- #
+    grade_vals = {r[0] for r in rows if len(r) >= 1}
+    subj_vals = {r[1] for r in rows if len(r) >= 2}
+    for g in grade_vals:
+        if not GRADE_RE.match(g):
+            fails.append(f"CSV grade column has '{g}' — must be like '9-10'")
+    for s in subj_vals:
+        if s != subject:
+            fails.append(f"CSV subject column has '{s}' — must be '{subject}' on "
+                         f"every row (lowercase-hyphen slug == config filename; "
+                         f"fix the arg to 06_assemble.py and the topic_map.json "
+                         f"'subject' field)")
+
+    # -- Step 10 must have run when the subject opts in --------------------- #
+    ss_enabled = bool(cfg.get("scope_split", {}).get("enabled"))
+    if ss_enabled and raw_idx is None:
+        fails.append(f"CSV has {len(header)} columns but config/{subject}.json "
+                     f"scope_split.enabled=true — Step 10 (12_scope_split.py) "
+                     f"never ran. Run it, or set scope_split.enabled=false.")
+    if not ss_enabled and raw_idx is not None:
+        warns.append(f"CSV is 6-column but config/{subject}.json "
+                     f"scope_split.enabled is not true — set it true to keep the "
+                     f"schema intentional")
 
     import _config
     def corrected(s: str) -> str:
@@ -669,20 +817,35 @@ def main():
         sys.exit(report("topicmap", os.path.basename(sys.argv[1]), f, w))
 
     ap = argparse.ArgumentParser()
-    ap.add_argument("--stage", required=True, choices=["extract", "topicmap", "final"])
+    ap.add_argument("--stage", required=True,
+                    choices=["setup", "extract", "topicmap", "final", "all"])
     ap.add_argument("book", help="book folder name under ocr/ (and output/<book>.csv stem)")
     ap.add_argument("--map", help="chapter-map csv (auto-guessed from the book name if omitted)")
+    ap.add_argument("--subject", help="subject slug (setup stage; else read from topic_map.json)")
     args = ap.parse_args()
 
     cmap = find_chapter_map(args.book, args.map)
-    if not os.path.exists(cmap):
+    if not os.path.exists(cmap) and args.stage not in ("setup", "all"):
         print(f"chapter map not found for '{args.book}' (tried {cmap})")
         sys.exit(2)
-    print(f"chapter map: {os.path.relpath(cmap, ROOT)}")
+    if os.path.exists(cmap):
+        print(f"chapter map: {os.path.relpath(cmap, ROOT)}")
 
-    fn = {"extract": stage_extract, "topicmap": stage_topicmap, "final": stage_final}[args.stage]
-    f, w = fn(args.book, cmap)
-    sys.exit(report(args.stage, args.book, f, w))
+    def run(stage):
+        if stage == "setup":
+            return stage_setup(args.book, cmap, args.subject)
+        return {"extract": stage_extract, "topicmap": stage_topicmap,
+                "final": stage_final}[stage](args.book, cmap)
+
+    stages = ["setup", "extract", "topicmap", "final"] if args.stage == "all" else [args.stage]
+    rc = 0
+    for st in stages:
+        f, w = run(st)
+        rc |= report(st, args.book, f, w)
+        if f and args.stage == "all":
+            print(f"\n[all] stopped at '{st}' — fix the FAILs above and re-run.")
+            break
+    sys.exit(rc)
 
 
 if __name__ == "__main__":

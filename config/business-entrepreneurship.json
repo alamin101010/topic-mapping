@@ -31,5 +31,10 @@
 
   "attribute_nouns_extra": {
     "words": ["ধারণা", "সংজ্ঞা", "গুরুত্ব", "প্রকারভেদ", "উদ্দেশ্য", "বৈশিষ্ট্য", "সুবিধা", "সীমাবদ্ধতা"]
+  },
+
+  "lexicon_extra": {
+    "_comment": "Valid subject terms a generic Bengali dictionary flags as unknown. Add a word ONLY after confirming it against the page image.",
+    "words": []
   }
 }

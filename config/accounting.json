@@ -41,5 +41,10 @@
   "attribute_nouns_extra": {
     "_comment": "Subject-specific words that are invalid as a STANDALONE topic. Leave empty unless a real case appears.",
     "words": []
+  },
+
+  "lexicon_extra": {
+    "_comment": "Valid subject terms a generic Bengali dictionary flags as unknown. Add a word ONLY after confirming it against the page image.",
+    "words": []
   }
 }

@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: project
   originSessionId: 8b0d60a9-7a93-4549-8efb-addddaf47290
-  modified: 2026-08-29T18:18:57.427Z
+  modified: 2026-08-29T19:05:01.943Z
 ---
 
 On 2026-08-28 the pipeline was hardened so any subject (physics, chemistry, bio,
@@ -128,6 +128,50 @@ spanned the chapter. Changes:
 - `07_constrained_prompt.py` already existed (bakes `chNN.json` into the Step-7
   prompt as a hard checklist); it was used for BGS ch2 + ch11 only, which is why
   those two chapters are dense/complete and ch3–ch15 are thin. See [[bgs-issues]].
+
+2026-08-30 (later) — **one-format enforcement + orchestrator** after an audit
+found the output CSVs were NOT uniform: Finance shipped `subject` =
+`finance_and_banking` (underscore; every other multi-word subject uses hyphens —
+root cause `scripts/_write_finance_tm.py` hardcoded it and `06_assemble.py`
+trusted the arg verbatim); BGS + Higher Math are 4-column (Step 10 never ran);
+`output/Grade 9-10 - <X>.csv` are stale duplicates of the canonical
+`Secondary (BV)-…_compressed.csv` with different row counts; 5 configs lacked the
+`lexicon_extra` key. Changes:
+- **`scripts/run_book.py`** (new) — `run_book.py "<book>" <grade> <subject>
+  [--map]` runs setup→extract→4b→7→assemble→merge→scope_split→final in order and
+  halts at the first failed gate or undone human step (fill headings / write
+  topic_map.json). Idempotent, resumes. Honors `NCTB_SKIP_HEADING_GATE`.
+- **`05_validate.py --stage setup`** (new) — FAILs when `subjects/<s>.md` or
+  `config/<s>.json` is missing / still has template placeholders (markers:
+  `PROFILE_MARKERS`, `CONFIG_MARKERS` — narrow, prose `config/<subject>.json`
+  refs don't trip it), the subject isn't a clean `^[a-z0-9-]+$` slug, the config
+  `subject` field ≠ filename stem, a template key is missing, or the chapter map
+  is absent / an unrelated fuzzy match. `--stage all` = setup→extract→topicmap→
+  final, stop at first FAIL. New `--subject` arg. Helpers `subject_slug`,
+  `resolve_subject` (strips the `classN-N-` prefix `slugify_book` adds).
+- **`05_validate.py --stage final`** now also FAILs: header not exactly
+  `grade,subject,chapter,topic[,scope_note,topic_raw]`; any `subject` cell ≠ the
+  resolved slug; any `grade` cell not `^[0-9]+(-[0-9]+)?$`; file not UTF-8-BOM;
+  rows not QUOTE_ALL; **4-column CSV while `config.scope_split.enabled` is true**
+  (Step 10 skipped — this is what pins BGS + Higher Math as unfinished).
+- **`06_assemble.py`** slugifies `subject` itself (`_config.slugify`), normalises
+  `grade`, and REFUSES to run without a real `config/<s>.json` + `subjects/<s>.md`.
+- Back-fixed in the tree: Finance CSV + topic_map `finance_and_banking` →
+  `finance-and-banking`; `lexicon_extra: {words: []}` added to accounting,
+  agriculture, business-entrepreneurship, finance-and-banking, ict configs.
+- Still TODO (flagged, not done — user's call): delete the stale
+  `output/Grade 9-10 - *.csv` (5, tracked) + legacy `output/` scratch
+  (`master-topic-map.csv`, `human-error-marked-*.csv`, `gemini_*`, etc.); add a
+  `subject` field to the topic_map.json of books that lack it (Science etc. —
+  `resolve_subject` covers the gap for now).
+- README: §4 gate blurb rewritten (adds run_book + setup + final shape checks) +
+  dated changelog; §5 gains "The short version — run_book.py" and the
+  "would Geography come out identical?" answer; runbook step 0/1 add
+  `--stage setup`; dir tree/script list add `run_book.py`.
+
+Net: a fresh subject (Geography, …) is now *forced* onto the identical format —
+`run_book.py` won't finish, and `--stage final` won't pass, until the scaffold
+exists and the CSV is the one canonical shape. No per-subject branch anywhere.
 
 Book status (§5 runbook):
 - **Finance and Banking** — DONE 2026-08-28 from full chapter bodies. 13 chapters,

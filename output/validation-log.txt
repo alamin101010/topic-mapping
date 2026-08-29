@@ -1968,3 +1968,801 @@
   FAIL  ch13: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch13.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
   FAIL  ch14: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch14.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
   FAIL  ch15: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch15.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+
+=== [setup] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Geography_compressed ===
+  FAIL  subjects/geography.md missing — copy subjects/_TEMPLATE.md and fill every section from 2-3 real chapters before Step 7
+  FAIL  config/geography.json missing — copy config/_TEMPLATE.json
+
+=== [final] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+  FAIL  CSV subject column has 'finance_and_banking' — must be 'finance-and-banking' on every row (lowercase-hyphen slug == config filename; fix the arg to 06_assemble.py and the topic_map.json 'subject' field)
+
+=== [final] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Geography_compressed ===
+  FAIL  subjects/class9-10-geography.md missing — copy subjects/_TEMPLATE.md and fill every section from 2-3 real chapters before Step 7
+  FAIL  config/class9-10-geography.json missing — copy config/_TEMPLATE.json
+  FAIL  chapter map for this book not found — create chapter-maps/class9-10-geography.csv (chapter_no,chapter_title,start_page,end_page; PDF page numbers). §Step 1. (auto-guess picked the unrelated class9-10-bgs.csv)
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+  WARN  config/finance-and-banking.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+  FAIL  config/finance-and-banking.json missing key 'lexicon_extra' (see _TEMPLATE.json)
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+  WARN  config/finance-and-banking.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [final] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+  WARN  config/agriculture.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [final] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  config/science.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [final] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  CSV is 6-column but config/class9-10-science.json scope_split.enabled is not true — set it true to keep the schema intentional
+  FAIL  CSV subject column has 'science' — must be 'class9-10-science' on every row (lowercase-hyphen slug == config filename; fix the arg to 06_assemble.py and the topic_map.json 'subject' field)
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+  WARN  config/finance-and-banking.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [final] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+  WARN  config/agriculture.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [final] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  config/science.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [final] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  'অধ্যায় ৭: অম্ল, ক্ষারক ও লবণের ব্যবহার': label 'লবণের ধারণা' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'লবণের ধারণা'
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed ===
+  WARN  config/business-entrepreneurship.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [final] Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed ===
+
+=== [setup] Secondary (BV)-2026_Class 9-10_ICT_compressed ===
+  WARN  config/ict.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [final] Secondary (BV)-2026_Class 9-10_ICT_compressed ===
+  WARN  'অধ্যায় ৬: প্রোগ্রামিংয়ের মাধ্যমে সমস্যার সমাধান': label 'প্রোগ্রামিংয়ের ধারণা ও গুরুত্ব' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'প্রোগ্রামিংয়ের ধারণা ও গুরুত্ব'
+
+=== [setup] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+  FAIL  CSV has 4 columns but config/bgs.json scope_split.enabled=true — Step 10 (12_scope_split.py) never ran. Run it, or set scope_split.enabled=false.
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+  FAIL  subjects/higher-math.md still has template placeholders (<subject>…) — fill it from the book
+
+=== [final] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+  FAIL  CSV has 4 columns but config/higher-math.json scope_split.enabled=true — Step 10 (12_scope_split.py) never ran. Run it, or set scope_split.enabled=false.
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+  WARN  config/finance-and-banking.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [final] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+  WARN  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch2: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch02.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch7: 57% of topics track the outcome box closely
+  WARN  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch11: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch11.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch12: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch12.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch13: 71% of topics track the outcome box closely
+  WARN  ch13: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch13.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+  WARN  config/agriculture.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [final] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+  WARN  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch1: 9 topics for a 35-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch2: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch02.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch2: 10 topics for a 34-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch3: 8 topics for a 24-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch4: 10 topics for a 81-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch5: 9 topics for a 27-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch7: 7 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  config/science.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [final] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  'অধ্যায় ৭: অম্ল, ক্ষারক ও লবণের ব্যবহার': label 'লবণের ধারণা' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'লবণের ধারণা'
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'ভিটামিনের উৎস এবং এর অভাবজনিত প্রতিক্রিয়া ব্যাখ্যা করতে পার...'
+  WARN  ch1: outcome not covered by any topic — 'খনিজ লবণের উৎস এবং এর অভাবজনিত প্রতিক্রিয়া ব্যাখ্যা করতে পা...'
+  WARN  ch1: outcome not covered by any topic — 'পানি ও আংশিক খাবারের উপকারিতা বর্ণনা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'বড় মাস ইনডেক্সের প্রয়োজনীয়তা ব্যাখ্যা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'খাদ্যে রাসায়নিক পদার্থের ব্যবহার এবং এর শারীরিক প্রতিক্রিয়...'
+  WARN  ch1: outcome not covered by any topic — 'শরীরে তামাক ও ড্রাগসের ক্ষতিকর প্রতিক্রিয়া ব্যাখ্যা করতে পা...'
+  WARN  ch1: outcome not covered by any topic — 'এইডস কী ব্যাখ্যা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'শারীরিক ফিটনেস বজায় রাখার কৌশল ব্যাখ্যা করতে পারব...'
+  WARN  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch1: 8 topics for a 32-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch2: outcome not covered by any topic — 'পানির জন্য ভূমিকা ও হুমকি বিশ্লেষণ করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'পানির সম্পদ রক্ষায় পরিবেশবান্ধব উপায় বর্ণনা করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'জলজ উদ্ভিদের পরিবেশ সংরক্ষণে ভূমিকা ব্যাখ্যা করতে পারব...'
+  WARN  ch2: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch02.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch2: 9 topics for a 24-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch3: outcome not covered by any topic — 'হৃদরোগ প্রতিরোধে করণীয় বর্ণনা করতে পারব...'
+  WARN  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch3: 6 topics for a 28-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: outcome not covered by any topic — 'টেস্টিউব বেবির ধারণা ব্যাখ্যা করতে পারব...'
+  WARN  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch4: 9 topics for a 30-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch5: thin topic 'আয়না/দর্পণের ব্যবহার' — confirm it carries a head concept
+  WARN  ch5: outcome not covered by any topic — 'আলোর প্রতিসরণ ব্যাখ্যা করতে পারব...'
+  WARN  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch7: thin topic 'অম্লের ধারণা' — confirm it carries a head concept
+  WARN  ch7: thin topic 'নির্দেশকের ধারণা' — confirm it carries a head concept
+  WARN  ch7: thin topic 'ক্ষারকের ধারণা' — confirm it carries a head concept
+  WARN  ch7: thin topic 'লবণের ধারণা' — confirm it carries a head concept
+  WARN  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch8: thin topic 'মাটির গঠন' — confirm it carries a head concept
+  WARN  ch8: outcome not covered by any topic — 'সম্পদ সংরক্ষণে যত্নবান হব ও অন্যদের সচেতন করব...'
+  WARN  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch9: thin topic 'দুর্যোগ প্রতিরোধ' — confirm it carries a head concept
+  WARN  ch9: outcome not covered by any topic — 'বাংলাদেশ ও আন্তর্জাতিক প্রেক্ষাপটে জলবায়ু পরিবর্তনের প্রভাব...'
+  WARN  ch9: outcome not covered by any topic — 'সুস্থ জীবনযাপনে মানসম্মত ও উন্নত পরিবেশের গুরুত্ব বিশ্লেষণ ক...'
+  WARN  ch9: outcome not covered by any topic — 'প্রকৃতি সংরক্ষণশীলতার তাৎপর্য বিশ্লেষণ করতে পারব...'
+  WARN  ch9: outcome not covered by any topic — 'প্রকৃতি সংরক্ষণশীলতার প্রয়োজনীয়তা বিষয়ে সামাজিক সচেতনতা স...'
+  WARN  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch9: 13 topics for a 28-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch10: thin topic 'বলের ধারণা' — confirm it carries a head concept
+  WARN  ch10: outcome not covered by any topic — 'নিউটনের তৃতীয় সূত্রের সাহায্যে সংঘটিত কয়েকটি জনপ্রিয় ঘটনা...'
+  WARN  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch10: 7 topics for a 18-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch11: thin topic 'ইলেকট্রোলাইটের ধারণা' — confirm it carries a head concept
+  WARN  ch11: outcome not covered by any topic — 'ব্যাটারির কার্যক্রম ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'বাসাবাড়িতে ব্যবহার-উপযোগী বতনীর নকশা প্রয়োগ করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'কিলোওয়াট ও কিলোওয়াট-ঘণ্টা ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'বৈদ্যুতিক ক্ষমতার হিসাব করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'এনার্জি সেভিং বাল্বের সুবিধা ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'আইপিএস ও ইউপিএসের কার্যক্রম ও ব্যবহার ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'সিস্টেম লস এবং লোড শেডিং ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'উন্নয়ন কার্যক্রমে বিদ্যুতের অবদান ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'বাসাবাড়িতে ব্যবহার-উপযোগী বতনীর ব্যবহার প্রদর্শন করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'তড়িতের অপচয় রোধে যত্নবান হব এবং অন্যদের সচেতন করব...'
+  WARN  ch11: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch11.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'হিসাব তথ্যের ব্যবহারকারীদের শনাক্ত করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'দৈনিক, ব্যক্তিগত, পারিবারিক ও প্রতিষ্ঠানিক কর্মকাণ্ডে হিসাব ...'
+  WARN  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch2: thin topic 'লেনদেনের ধারণা' — confirm it carries a head concept
+  WARN  ch2: 67% of topics track the outcome box closely
+  WARN  ch2: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch02.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch2: 6 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch3: thin topic 'হিসাবচক্রের ধাপ' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'লেনদেনে জড়িত দুটি পক্ষ অর্থাৎ ডেবিট ও ক্রেডিট পক্ষ শনাক্ত/চ...'
+  WARN  ch3: outcome not covered by any topic — 'লেনদেনের জন্য উপযোগু হিসাবের বই চিহ্নিত করতে পারব...'
+  WARN  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch3: 6 topics for a 13-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: thin topic 'মূলধন-মুনাফা পার্থক্য' — confirm it carries a head concept
+  WARN  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch5: thin topic 'হিসাবের শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch5: outcome not covered by any topic — 'দু তরফা দাখিলা পদ্ধতি অনুযায়ী সংশ্লিষ্ট হিসাবে ডেবিট-ক্রেডি...'
+  WARN  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch6: thin topic 'জাবেদার শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch6: 62% of topics track the outcome box closely
+  WARN  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch6: 8 topics for a 20-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch7: thin topic 'খতিয়ানের শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch7: 5 topics for a 25-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch8: 6 topics for a 22-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch9: 5 topics for a 15-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch10: 10 topics for a 36-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch11: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch11.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch11: 3 topics for a 15-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch12: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch12.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch12: 4 topics for a 22-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed ===
+  WARN  config/business-entrepreneurship.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [final] Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed ===
+  WARN  ch1: thin topic 'ব্যবসায়ের ধারণা' — confirm it carries a head concept
+  WARN  ch1: thin topic 'ব্যবসায়ের বৈশিষ্ট্য' — confirm it carries a head concept
+  WARN  ch1: thin topic 'ব্যবসায়ের গুরুত্ব' — confirm it carries a head concept
+  WARN  ch1: thin topic 'ব্যবসায়ের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch2: 67% of topics track the outcome box closely
+  WARN  ch2: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed\headings\ch02.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch3: thin topic 'আত্মকর্মসংস্থানের ধারণা' — confirm it carries a head concept
+  WARN  ch3: thin topic 'আত্মকর্মসংস্থানের প্রয়োজনীয়তা' — confirm it carries a head concept
+  WARN  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch4: 62% of topics track the outcome box closely
+  WARN  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch4: 13 topics for a 27-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch6: thin topic 'ব্যবসায়পরিকল্পনার গুরুত্ব' — confirm it carries a head concept
+  WARN  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch7: thin topic 'শিল্পের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch7: outcome not covered by any topic — 'প্রশিক্ষিত ব্যক্তিবর্গের ভূমিকা ব্যাখ্যা করতে পারব...'
+  WARN  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch9: thin topic 'বিপণনের ধারণা' — confirm it carries a head concept
+  WARN  ch9: thin topic 'বিপণনের গুরুত্ব' — confirm it carries a head concept
+  WARN  ch9: thin topic 'বর্তনপ্রণালির ধারণা' — confirm it carries a head concept
+  WARN  ch9: thin topic 'বিজ্ঞাপনের ধারণা' — confirm it carries a head concept
+  WARN  ch9: thin topic 'বিজ্ঞাপনের গুরুত্ব' — confirm it carries a head concept
+  WARN  ch9: outcome not covered by any topic — 'মূল্য নির্ধারণের কৌশল জানতে পারব...'
+  WARN  ch9: outcome not covered by any topic — 'পণ্য প্রচারণার কৌশল জানতে পারব...'
+  WARN  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch11: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed\headings\ch11.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch12: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed\headings\ch12.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch12: 4 topics for a 12-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [setup] Secondary (BV)-2026_Class 9-10_ICT_compressed ===
+  WARN  config/ict.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [final] Secondary (BV)-2026_Class 9-10_ICT_compressed ===
+  WARN  'অধ্যায় ৬: প্রোগ্রামিংয়ের মাধ্যমে সমস্যার সমাধান': label 'প্রোগ্রামিংয়ের ধারণা ও গুরুত্ব' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'প্রোগ্রামিংয়ের ধারণা ও গুরুত্ব'
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_ICT_compressed ===
+  WARN  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_ICT_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch1: 6 topics for a 14-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch2: 57% of topics track the outcome box closely
+  WARN  ch2: heading checklist ocr\Secondary (BV)-2026_Class 9-10_ICT_compressed\headings\ch02.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch2: 7 topics for a 27-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch3: thin topic 'ইন্টারনেটের ধারণা' — confirm it carries a head concept
+  WARN  ch3: thin topic 'ওয়েবের ধারণা' — confirm it carries a head concept
+  WARN  ch3: thin topic 'ইমেইল ব্যবহার' — confirm it carries a head concept
+  WARN  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_ICT_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch4: thin topic 'স্প্রেডশিটের ধারণা' — confirm it carries a head concept
+  WARN  ch4: thin topic 'ইন্টারনেট ব্যবহার' — confirm it carries a head concept
+  WARN  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_ICT_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_ICT_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_ICT_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [setup] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+  FAIL  CSV has 4 columns but config/bgs.json scope_split.enabled=true — Step 10 (12_scope_split.py) never ran. Run it, or set scope_split.enabled=false.
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'দেশের স্বার্থরক্ষায় কর্মসূচি প্রণয়ন করতে পারব...'
+  WARN  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch3: thin topic 'ভূ-অভ্যন্তরের গঠন' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'সৌরজগৎ ও গ্রহসমূহের অবস্থান ঠিকে দেখাতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'বিভিন্ন রেখার অবস্থানের চিত্র আঁকতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'পরিবেশের সাথে সম্পর্ক স্থাপন ও অভিজ্ঞজনে সক্ষম হই...'
+  WARN  ch3: only 48% of the 42 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch4: outcome not covered by any topic — 'পরিবেশ সংরক্ষণে উদ্যোগী হব...'
+  WARN  ch4: outcome not covered by any topic — 'ভূমিকম্পের ধারণা ও কারণ ব্যাখ্যা করতে পারব...'
+  WARN  ch4: outcome not covered by any topic — 'বিশ্বের ভূমিকম্পপ্রবণ দেশ হিসেবে পরিচিত কয়েকটি দেশের পরিস্থ...'
+  WARN  ch4: outcome not covered by any topic — 'বাংলাদেশকে ভূমিকম্পপ্রবণ অঞ্চল বলার কারণ ব্যাখ্যা করতে পারব...'
+  WARN  ch4: outcome not covered by any topic — 'ভূমিকম্প পরবর্তী পরিস্থিতি মোকাবিলায় সহযোগিতার মনোভাব তৈরি ...'
+  WARN  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch5: outcome not covered by any topic — 'নদী-নদীর উপরে জনবসতির নির্ভরশীলতা ব্যাখ্যা করতে পারব...'
+  WARN  ch5: outcome not covered by any topic — 'যাতায়াত, জলবিদ্যুৎ ও বাণিজ্যের ক্ষেত্রে নদীপথের ভূমিকা বিশ্...'
+  WARN  ch5: outcome not covered by any topic — 'পানির অভাব দূরীকরণে নদী সংরক্ষণের প্রয়োজনীয়তা উপলব্ধি করতে...'
+  WARN  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch6: thin topic 'নাগরিকতার ধারণা' — confirm it carries a head concept
+  WARN  ch6: outcome not covered by any topic — 'নাগরিক হিসেবে নিজ দায়িত্ব পালনে উদ্বুদ্ধ হব...'
+  WARN  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch7: outcome not covered by any topic — 'বাংলাদেশ সরকারের গুরুত্বপূর্ণ অঙ্গসমূহ সম্পর্কে ব্যাখ্যা করত...'
+  WARN  ch7: outcome not covered by any topic — 'রাষ্ট্রপতি ও প্রধানমন্ত্রীর ক্ষমতা ও কার্যাবলি বর্ণনা করতে প...'
+  WARN  ch7: outcome not covered by any topic — 'জাতীয় সংসদ এবং এর ক্ষমতা ও কার্যাবলি বর্ণনা করতে পারব...'
+  WARN  ch7: outcome not covered by any topic — 'জাতীয় সংসদ শাসনবিভাগকে কীভাবে নিয়ন্ত্রণ করে তা ব্যাখ্যা কর...'
+  WARN  ch7: outcome not covered by any topic — 'বিচারপতি নিয়োগ প্রক্রিয়া বর্ণনা করতে পারব...'
+  WARN  ch7: outcome not covered by any topic — 'অধিকার ও দায়িত্ব সম্পর্কে সচেতন হব...'
+  WARN  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch8: 62% of topics track the outcome box closely
+  WARN  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch10: 57% of topics track the outcome box closely
+  WARN  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch11: thin topic 'উন্নয়ন ধারণা' — confirm it carries a head concept
+  WARN  ch11: outcome not covered by any topic — 'জিএনপি ও জিডিপি এর মধ্যে পার্থক্য নির্ণয় করতে পারব...'
+  WARN  ch11: only 29% of the 85 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch12: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch12.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch13: thin topic 'পরিবারের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের উপাদান' — confirm it carries a head concept
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশের পরিবারব্যবস্থার (গ্রাম ও শহরে) ধরন ও ভূমিকার পরিব...'
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশে সামাজিকীকরণ প্রক্রিয়ায় বিভিন্ন প্রতিষ্ঠানের ভূমি...'
+  WARN  ch13: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch13.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch14: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch14.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch15: outcome not covered by any topic — 'ধর্মীয় আদর্শে জীবন গঠনের উপায় নির্দেশ করতে পারব...'
+  WARN  ch15: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch15.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+  FAIL  subjects/higher-math.md still has template placeholders (<subject>…) — fill it from the book
+
+=== [final] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+  FAIL  CSV has 4 columns but config/higher-math.json scope_split.enabled=true — Step 10 (12_scope_split.py) never ran. Run it, or set scope_split.enabled=false.
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+  WARN  ch1: thin topic 'ভেনচিত্র অঙ্কন' — confirm it carries a head concept
+  WARN  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch2: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch02.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch5: 11 topics for a 27-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch6: 6 topics for a 13-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch8: 8 topics for a 47-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch9: 10 topics for a 30-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch10: 57% of topics track the outcome box closely
+  WARN  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch10: 7 topics for a 16-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch11: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch11.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch11: 8 topics for a 32-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch12: thin topic 'বর্তনবিধির প্রমাণ' — confirm it carries a head concept
+  WARN  ch12: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch12.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch13: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch13.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch13: 8 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch14: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch14.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch14: 7 topics for a 22-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  config/science.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [final] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  'অধ্যায় ৭: অম্ল, ক্ষারক ও লবণের ব্যবহার': label 'লবণের ধারণা' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'লবণের ধারণা'
+
+=== [setup] Secondary (BV)-2026_Class 9-10_ICT_compressed ===
+  WARN  config/ict.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [final] Secondary (BV)-2026_Class 9-10_ICT_compressed ===
+  WARN  'অধ্যায় ৬: প্রোগ্রামিংয়ের মাধ্যমে সমস্যার সমাধান': label 'প্রোগ্রামিংয়ের ধারণা ও গুরুত্ব' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'প্রোগ্রামিংয়ের ধারণা ও গুরুত্ব'
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+  FAIL  subjects/higher-math.md still has template placeholders (<subject>…) — fill it from the book
+
+=== [final] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+  FAIL  CSV has 4 columns but config/higher-math.json scope_split.enabled=true — Step 10 (12_scope_split.py) never ran. Run it, or set scope_split.enabled=false.
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+  WARN  config/finance-and-banking.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+  WARN  config/agriculture.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  config/science.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed ===
+  WARN  config/business-entrepreneurship.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [setup] Secondary (BV)-2026_Class 9-10_ICT_compressed ===
+  WARN  config/ict.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [setup] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'হিসাব তথ্যের ব্যবহারকারীদের শনাক্ত করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'দৈনিক, ব্যক্তিগত, পারিবারিক ও প্রতিষ্ঠানিক কর্মকাণ্ডে হিসাব ...'
+  WARN  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch2: thin topic 'লেনদেনের ধারণা' — confirm it carries a head concept
+  WARN  ch2: 67% of topics track the outcome box closely
+  WARN  ch2: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch02.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch2: 6 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch3: thin topic 'হিসাবচক্রের ধাপ' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'লেনদেনে জড়িত দুটি পক্ষ অর্থাৎ ডেবিট ও ক্রেডিট পক্ষ শনাক্ত/চ...'
+  WARN  ch3: outcome not covered by any topic — 'লেনদেনের জন্য উপযোগু হিসাবের বই চিহ্নিত করতে পারব...'
+  WARN  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch3: 6 topics for a 13-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: thin topic 'মূলধন-মুনাফা পার্থক্য' — confirm it carries a head concept
+  WARN  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch5: thin topic 'হিসাবের শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch5: outcome not covered by any topic — 'দু তরফা দাখিলা পদ্ধতি অনুযায়ী সংশ্লিষ্ট হিসাবে ডেবিট-ক্রেডি...'
+  WARN  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch6: thin topic 'জাবেদার শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch6: 62% of topics track the outcome box closely
+  WARN  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch6: 8 topics for a 20-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch7: thin topic 'খতিয়ানের শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch7: 5 topics for a 25-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch8: 6 topics for a 22-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch9: 5 topics for a 15-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch10: 10 topics for a 36-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch11: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch11.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch11: 3 topics for a 15-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch12: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch12.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch12: 4 topics for a 22-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Geography_compressed ===
+  FAIL  subjects/geography.md missing — copy subjects/_TEMPLATE.md and fill every section from 2-3 real chapters before Step 7
+  FAIL  config/geography.json missing — copy config/_TEMPLATE.json
+  FAIL  chapter map for this book not found — create chapter-maps/class9-10-geography.csv (chapter_no,chapter_title,start_page,end_page; PDF page numbers). §Step 1. (auto-guess picked the unrelated class9-10-bgs.csv)
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+  WARN  config/finance-and-banking.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+  WARN  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch2: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch02.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch7: 57% of topics track the outcome box closely
+  WARN  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch11: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch11.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch12: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch12.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch13: 71% of topics track the outcome box closely
+  WARN  ch13: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch13.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+  WARN  config/finance-and-banking.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+  WARN  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch2: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch02.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch7: 57% of topics track the outcome box closely
+  WARN  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch11: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch11.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch12: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch12.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch13: 71% of topics track the outcome box closely
+  WARN  ch13: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch13.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+  WARN  config/agriculture.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+  WARN  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch1: 9 topics for a 35-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch2: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch02.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch2: 10 topics for a 34-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch3: 8 topics for a 24-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch4: 10 topics for a 81-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch5: 9 topics for a 27-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch7: 7 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  config/science.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'ভিটামিনের উৎস এবং এর অভাবজনিত প্রতিক্রিয়া ব্যাখ্যা করতে পার...'
+  WARN  ch1: outcome not covered by any topic — 'খনিজ লবণের উৎস এবং এর অভাবজনিত প্রতিক্রিয়া ব্যাখ্যা করতে পা...'
+  WARN  ch1: outcome not covered by any topic — 'পানি ও আংশিক খাবারের উপকারিতা বর্ণনা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'বড় মাস ইনডেক্সের প্রয়োজনীয়তা ব্যাখ্যা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'খাদ্যে রাসায়নিক পদার্থের ব্যবহার এবং এর শারীরিক প্রতিক্রিয়...'
+  WARN  ch1: outcome not covered by any topic — 'শরীরে তামাক ও ড্রাগসের ক্ষতিকর প্রতিক্রিয়া ব্যাখ্যা করতে পা...'
+  WARN  ch1: outcome not covered by any topic — 'এইডস কী ব্যাখ্যা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'শারীরিক ফিটনেস বজায় রাখার কৌশল ব্যাখ্যা করতে পারব...'
+  WARN  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch1: 8 topics for a 32-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch2: outcome not covered by any topic — 'পানির জন্য ভূমিকা ও হুমকি বিশ্লেষণ করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'পানির সম্পদ রক্ষায় পরিবেশবান্ধব উপায় বর্ণনা করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'জলজ উদ্ভিদের পরিবেশ সংরক্ষণে ভূমিকা ব্যাখ্যা করতে পারব...'
+  WARN  ch2: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch02.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch2: 9 topics for a 24-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch3: outcome not covered by any topic — 'হৃদরোগ প্রতিরোধে করণীয় বর্ণনা করতে পারব...'
+  WARN  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch3: 6 topics for a 28-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: outcome not covered by any topic — 'টেস্টিউব বেবির ধারণা ব্যাখ্যা করতে পারব...'
+  WARN  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch4: 9 topics for a 30-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch5: thin topic 'আয়না/দর্পণের ব্যবহার' — confirm it carries a head concept
+  WARN  ch5: outcome not covered by any topic — 'আলোর প্রতিসরণ ব্যাখ্যা করতে পারব...'
+  WARN  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch7: thin topic 'অম্লের ধারণা' — confirm it carries a head concept
+  WARN  ch7: thin topic 'নির্দেশকের ধারণা' — confirm it carries a head concept
+  WARN  ch7: thin topic 'ক্ষারকের ধারণা' — confirm it carries a head concept
+  WARN  ch7: thin topic 'লবণের ধারণা' — confirm it carries a head concept
+  WARN  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch8: thin topic 'মাটির গঠন' — confirm it carries a head concept
+  WARN  ch8: outcome not covered by any topic — 'সম্পদ সংরক্ষণে যত্নবান হব ও অন্যদের সচেতন করব...'
+  WARN  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch9: thin topic 'দুর্যোগ প্রতিরোধ' — confirm it carries a head concept
+  WARN  ch9: outcome not covered by any topic — 'বাংলাদেশ ও আন্তর্জাতিক প্রেক্ষাপটে জলবায়ু পরিবর্তনের প্রভাব...'
+  WARN  ch9: outcome not covered by any topic — 'সুস্থ জীবনযাপনে মানসম্মত ও উন্নত পরিবেশের গুরুত্ব বিশ্লেষণ ক...'
+  WARN  ch9: outcome not covered by any topic — 'প্রকৃতি সংরক্ষণশীলতার তাৎপর্য বিশ্লেষণ করতে পারব...'
+  WARN  ch9: outcome not covered by any topic — 'প্রকৃতি সংরক্ষণশীলতার প্রয়োজনীয়তা বিষয়ে সামাজিক সচেতনতা স...'
+  WARN  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch9: 13 topics for a 28-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch10: thin topic 'বলের ধারণা' — confirm it carries a head concept
+  WARN  ch10: outcome not covered by any topic — 'নিউটনের তৃতীয় সূত্রের সাহায্যে সংঘটিত কয়েকটি জনপ্রিয় ঘটনা...'
+  WARN  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch10: 7 topics for a 18-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch11: thin topic 'ইলেকট্রোলাইটের ধারণা' — confirm it carries a head concept
+  WARN  ch11: outcome not covered by any topic — 'ব্যাটারির কার্যক্রম ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'বাসাবাড়িতে ব্যবহার-উপযোগী বতনীর নকশা প্রয়োগ করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'কিলোওয়াট ও কিলোওয়াট-ঘণ্টা ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'বৈদ্যুতিক ক্ষমতার হিসাব করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'এনার্জি সেভিং বাল্বের সুবিধা ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'আইপিএস ও ইউপিএসের কার্যক্রম ও ব্যবহার ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'সিস্টেম লস এবং লোড শেডিং ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'উন্নয়ন কার্যক্রমে বিদ্যুতের অবদান ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'বাসাবাড়িতে ব্যবহার-উপযোগী বতনীর ব্যবহার প্রদর্শন করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'তড়িতের অপচয় রোধে যত্নবান হব এবং অন্যদের সচেতন করব...'
+  WARN  ch11: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch11.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  'অধ্যায় ৭: অম্ল, ক্ষারক ও লবণের ব্যবহার': label 'লবণের ধারণা' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'লবণের ধারণা'
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'হিসাব তথ্যের ব্যবহারকারীদের শনাক্ত করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'দৈনিক, ব্যক্তিগত, পারিবারিক ও প্রতিষ্ঠানিক কর্মকাণ্ডে হিসাব ...'
+  WARN  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch2: thin topic 'লেনদেনের ধারণা' — confirm it carries a head concept
+  WARN  ch2: 67% of topics track the outcome box closely
+  WARN  ch2: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch02.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch2: 6 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch3: thin topic 'হিসাবচক্রের ধাপ' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'লেনদেনে জড়িত দুটি পক্ষ অর্থাৎ ডেবিট ও ক্রেডিট পক্ষ শনাক্ত/চ...'
+  WARN  ch3: outcome not covered by any topic — 'লেনদেনের জন্য উপযোগু হিসাবের বই চিহ্নিত করতে পারব...'
+  WARN  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch3: 6 topics for a 13-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: thin topic 'মূলধন-মুনাফা পার্থক্য' — confirm it carries a head concept
+  WARN  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch5: thin topic 'হিসাবের শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch5: outcome not covered by any topic — 'দু তরফা দাখিলা পদ্ধতি অনুযায়ী সংশ্লিষ্ট হিসাবে ডেবিট-ক্রেডি...'
+  WARN  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch6: thin topic 'জাবেদার শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch6: 62% of topics track the outcome box closely
+  WARN  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch6: 8 topics for a 20-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch7: thin topic 'খতিয়ানের শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch7: 5 topics for a 25-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch8: 6 topics for a 22-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch9: 5 topics for a 15-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch10: 10 topics for a 36-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch11: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch11.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch11: 3 topics for a 15-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch12: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Accounting_compressed\headings\ch12.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch12: 4 topics for a 22-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed ===
+  WARN  config/business-entrepreneurship.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed ===
+  WARN  ch1: thin topic 'ব্যবসায়ের ধারণা' — confirm it carries a head concept
+  WARN  ch1: thin topic 'ব্যবসায়ের বৈশিষ্ট্য' — confirm it carries a head concept
+  WARN  ch1: thin topic 'ব্যবসায়ের গুরুত্ব' — confirm it carries a head concept
+  WARN  ch1: thin topic 'ব্যবসায়ের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch2: 67% of topics track the outcome box closely
+  WARN  ch2: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed\headings\ch02.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch3: thin topic 'আত্মকর্মসংস্থানের ধারণা' — confirm it carries a head concept
+  WARN  ch3: thin topic 'আত্মকর্মসংস্থানের প্রয়োজনীয়তা' — confirm it carries a head concept
+  WARN  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch4: 62% of topics track the outcome box closely
+  WARN  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch4: 13 topics for a 27-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch6: thin topic 'ব্যবসায়পরিকল্পনার গুরুত্ব' — confirm it carries a head concept
+  WARN  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch7: thin topic 'শিল্পের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch7: outcome not covered by any topic — 'প্রশিক্ষিত ব্যক্তিবর্গের ভূমিকা ব্যাখ্যা করতে পারব...'
+  WARN  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch9: thin topic 'বিপণনের ধারণা' — confirm it carries a head concept
+  WARN  ch9: thin topic 'বিপণনের গুরুত্ব' — confirm it carries a head concept
+  WARN  ch9: thin topic 'বর্তনপ্রণালির ধারণা' — confirm it carries a head concept
+  WARN  ch9: thin topic 'বিজ্ঞাপনের ধারণা' — confirm it carries a head concept
+  WARN  ch9: thin topic 'বিজ্ঞাপনের গুরুত্ব' — confirm it carries a head concept
+  WARN  ch9: outcome not covered by any topic — 'মূল্য নির্ধারণের কৌশল জানতে পারব...'
+  WARN  ch9: outcome not covered by any topic — 'পণ্য প্রচারণার কৌশল জানতে পারব...'
+  WARN  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch11: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed\headings\ch11.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch12: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed\headings\ch12.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch12: 4 topics for a 12-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed ===
+
+=== [setup] Secondary (BV)-2026_Class 9-10_ICT_compressed ===
+  WARN  config/ict.json scope_split.max_core_words is still 12 (template default) — set it to 5 for the §3.6 goal, or leave 12 if this subject genuinely needs long labels
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_ICT_compressed ===
+  WARN  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_ICT_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch1: 6 topics for a 14-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch2: 57% of topics track the outcome box closely
+  WARN  ch2: heading checklist ocr\Secondary (BV)-2026_Class 9-10_ICT_compressed\headings\ch02.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch2: 7 topics for a 27-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch3: thin topic 'ইন্টারনেটের ধারণা' — confirm it carries a head concept
+  WARN  ch3: thin topic 'ওয়েবের ধারণা' — confirm it carries a head concept
+  WARN  ch3: thin topic 'ইমেইল ব্যবহার' — confirm it carries a head concept
+  WARN  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_ICT_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch4: thin topic 'স্প্রেডশিটের ধারণা' — confirm it carries a head concept
+  WARN  ch4: thin topic 'ইন্টারনেট ব্যবহার' — confirm it carries a head concept
+  WARN  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_ICT_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_ICT_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_ICT_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_ICT_compressed ===
+  WARN  'অধ্যায় ৬: প্রোগ্রামিংয়ের মাধ্যমে সমস্যার সমাধান': label 'প্রোগ্রামিংয়ের ধারণা ও গুরুত্ব' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'প্রোগ্রামিংয়ের ধারণা ও গুরুত্ব'
+
+=== [setup] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'দেশের স্বার্থরক্ষায় কর্মসূচি প্রণয়ন করতে পারব...'
+  WARN  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch3: thin topic 'ভূ-অভ্যন্তরের গঠন' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'সৌরজগৎ ও গ্রহসমূহের অবস্থান ঠিকে দেখাতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'বিভিন্ন রেখার অবস্থানের চিত্র আঁকতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'পরিবেশের সাথে সম্পর্ক স্থাপন ও অভিজ্ঞজনে সক্ষম হই...'
+  WARN  ch3: only 48% of the 42 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch4: outcome not covered by any topic — 'পরিবেশ সংরক্ষণে উদ্যোগী হব...'
+  WARN  ch4: outcome not covered by any topic — 'ভূমিকম্পের ধারণা ও কারণ ব্যাখ্যা করতে পারব...'
+  WARN  ch4: outcome not covered by any topic — 'বিশ্বের ভূমিকম্পপ্রবণ দেশ হিসেবে পরিচিত কয়েকটি দেশের পরিস্থ...'
+  WARN  ch4: outcome not covered by any topic — 'বাংলাদেশকে ভূমিকম্পপ্রবণ অঞ্চল বলার কারণ ব্যাখ্যা করতে পারব...'
+  WARN  ch4: outcome not covered by any topic — 'ভূমিকম্প পরবর্তী পরিস্থিতি মোকাবিলায় সহযোগিতার মনোভাব তৈরি ...'
+  WARN  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch5: outcome not covered by any topic — 'নদী-নদীর উপরে জনবসতির নির্ভরশীলতা ব্যাখ্যা করতে পারব...'
+  WARN  ch5: outcome not covered by any topic — 'যাতায়াত, জলবিদ্যুৎ ও বাণিজ্যের ক্ষেত্রে নদীপথের ভূমিকা বিশ্...'
+  WARN  ch5: outcome not covered by any topic — 'পানির অভাব দূরীকরণে নদী সংরক্ষণের প্রয়োজনীয়তা উপলব্ধি করতে...'
+  WARN  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch6: thin topic 'নাগরিকতার ধারণা' — confirm it carries a head concept
+  WARN  ch6: outcome not covered by any topic — 'নাগরিক হিসেবে নিজ দায়িত্ব পালনে উদ্বুদ্ধ হব...'
+  WARN  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch7: outcome not covered by any topic — 'বাংলাদেশ সরকারের গুরুত্বপূর্ণ অঙ্গসমূহ সম্পর্কে ব্যাখ্যা করত...'
+  WARN  ch7: outcome not covered by any topic — 'রাষ্ট্রপতি ও প্রধানমন্ত্রীর ক্ষমতা ও কার্যাবলি বর্ণনা করতে প...'
+  WARN  ch7: outcome not covered by any topic — 'জাতীয় সংসদ এবং এর ক্ষমতা ও কার্যাবলি বর্ণনা করতে পারব...'
+  WARN  ch7: outcome not covered by any topic — 'জাতীয় সংসদ শাসনবিভাগকে কীভাবে নিয়ন্ত্রণ করে তা ব্যাখ্যা কর...'
+  WARN  ch7: outcome not covered by any topic — 'বিচারপতি নিয়োগ প্রক্রিয়া বর্ণনা করতে পারব...'
+  WARN  ch7: outcome not covered by any topic — 'অধিকার ও দায়িত্ব সম্পর্কে সচেতন হব...'
+  WARN  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch8: 62% of topics track the outcome box closely
+  WARN  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch10: 57% of topics track the outcome box closely
+  WARN  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch11: thin topic 'উন্নয়ন ধারণা' — confirm it carries a head concept
+  WARN  ch11: outcome not covered by any topic — 'জিএনপি ও জিডিপি এর মধ্যে পার্থক্য নির্ণয় করতে পারব...'
+  WARN  ch11: only 29% of the 85 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch12: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch12.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch13: thin topic 'পরিবারের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের উপাদান' — confirm it carries a head concept
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশের পরিবারব্যবস্থার (গ্রাম ও শহরে) ধরন ও ভূমিকার পরিব...'
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশে সামাজিকীকরণ প্রক্রিয়ায় বিভিন্ন প্রতিষ্ঠানের ভূমি...'
+  WARN  ch13: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch13.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch14: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch14.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch15: outcome not covered by any topic — 'ধর্মীয় আদর্শে জীবন গঠনের উপায় নির্দেশ করতে পারব...'
+  WARN  ch15: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch15.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+  FAIL  CSV has 4 columns but config/bgs.json scope_split.enabled=true — Step 10 (12_scope_split.py) never ran. Run it, or set scope_split.enabled=false.
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+  WARN  ch1: thin topic 'ভেনচিত্র অঙ্কন' — confirm it carries a head concept
+  WARN  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch2: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch02.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch5: 11 topics for a 27-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch6: 6 topics for a 13-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch8: 8 topics for a 47-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch9: 10 topics for a 30-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch10: 57% of topics track the outcome box closely
+  WARN  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch10: 7 topics for a 16-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch11: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch11.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch11: 8 topics for a 32-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch12: thin topic 'বর্তনবিধির প্রমাণ' — confirm it carries a head concept
+  WARN  ch12: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch12.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch13: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch13.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch13: 8 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch14: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch14.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch14: 7 topics for a 22-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+  FAIL  CSV has 4 columns but config/higher-math.json scope_split.enabled=true — Step 10 (12_scope_split.py) never ran. Run it, or set scope_split.enabled=false.
