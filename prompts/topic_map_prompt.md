@@ -18,6 +18,23 @@ body was not supplied. A topic list built from the শিখনফল box alone 
 single biggest defect this project has — the validator (`05_validate.py
 --stage topicmap`) will reject it.
 
+## STEP 0 — page-by-page heading inventory (do this before writing any topic)
+
+Walk the images **one page at a time, first to last**. For each page write:
+`page_0NN — [পরিচ্ছেদ X.Y "<title>" if one starts here | ] headings: [...]`.
+Do not skip pages; do not stop early. This inventory is your coverage contract —
+every পরিচ্ছেদ and named sub-section in it must end up represented in `topics`.
+
+- If a `headings/chNN.json` checklist was supplied, your topics must map onto it;
+  do not add topics that match no heading and no outcome.
+- If none was supplied, the inventory you just built **is** the checklist.
+
+The most common Step-7 failure is mapping the first two পরিচ্ছেদ and stopping
+(e.g. covering ৩.১–৩.২ of a chapter that runs to ৩.৪). The validator now FAILs
+`--stage topicmap` when the last topic sits before the final ~quarter of the
+page range, or when a chapter has no heading checklist at all. Cover the WHOLE
+chapter or the run is rejected.
+
 ---
 
 ## What a "topic" is
@@ -58,8 +75,17 @@ sub-section headings across the whole chapter** and the concepts each section
 actually develops. Use the box only to (a) confirm you missed nothing and (b)
 correct the spelling of a garbled heading.
 
+### 1b. learning_outcomes — transcribe, do not paraphrase
+Copy the box bullets **verbatim into `learning_outcomes`**, verbs kept, in order.
+Fix only obvious OCR spelling. Do NOT summarise a bullet down to `X সম্পর্কে জানব`
+and do NOT add bullets from general knowledge (a chapter titled "…১৯৪৭–১৯৭০" has
+no ১৯০৫ / ১৮৫৭ outcome). Wrong count, invented bullets, or ≥ half the list ending
+in `জানব` are all defects `--stage topicmap` now flags.
+
 ### 2. Collect headings
-List every দ্বিতীয়/তৃতীয় স্তরের শিরোনাম verbatim, in order of appearance.
+List every দ্বিতীয়/তৃতীয় স্তরের শিরোনাম verbatim, in order of appearance — this is
+the STEP 0 inventory. If a `headings/chNN.json` checklist was supplied, use it as
+the authoritative list and reconcile your inventory against it.
 
 ### 3. Attach the head noun
 For each heading/concept, write the topic so it carries its parent concept. If a
@@ -111,6 +137,18 @@ Drop experimental/lab/verification items: পরীক্ষণ, শনাক্
 Every outcome bullet must correspond to at least one topic. If one doesn't, you
 skipped a section — return to the body and find it. Do **not** satisfy the check by
 pasting the verb-stripped bullet.
+
+### 8. Coverage self-check (blocking — do this before you emit anything)
+- Every পরিচ্ছেদ and named sub-section in your STEP 0 inventory (or the supplied
+  `headings/chNN.json`) is represented by ≥ 1 topic.
+- Your **last** topic corresponds to a heading on one of the **final pages** of
+  `source_pages`, not somewhere in the first half. If your topics stop before the
+  last ~quarter of the page range, you truncated — go back to those pages.
+- `topics` count is not absurdly low for the page count (a content chapter runs
+  ≳ 0.5 topics/page).
+- Every topic maps to a heading or an outcome — nothing invented.
+If any check fails, fix it before writing the JSON. `05_validate.py --stage
+topicmap` enforces all four.
 
 ---
 

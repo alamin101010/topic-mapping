@@ -399,3 +399,1470 @@
   WARN  'অধ্যায় ৫: মাল্টিমিডিয়া ও গ্রাফিক্স': label 'গ্রাফিক্স' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'গ্রাফিক্স (ধারণা, প্রকারভেদ, বৈশিষ্ট্য, গুরুত্ব)'
 
 === [final] Secondary (BV)-2026_Class 9-10_ICT_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+  WARN  ch1: 19 keywords (want 5-15)
+  WARN  ch1: thin topic 'ফাংশনের ধারণা' — confirm it carries a head concept
+  WARN  ch1: 55% of topics track the outcome box closely
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  chapter 2 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 3 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 4 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 5 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 6 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 7 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 8 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 9 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 10 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 11 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 12 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 13 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 14 present in chapter-map, absent from topic_map.json
+  FAIL  ch1: one-word topic 'ভেনচিত্র' — attach its head concept
+  FAIL  ch1: one-word topic 'রেঞ্জ' — attach its head concept
+  FAIL  ch1: one-word topic 'লেখচিত্র' — attach its head concept
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+  WARN  ch1: thin topic 'ভেনচিত্র অঙ্কন' — confirm it carries a head concept
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  chapter 2 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 3 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 4 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 5 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 6 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 7 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 8 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 9 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 10 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 11 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 12 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 13 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 14 present in chapter-map, absent from topic_map.json
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+  WARN  ch1: thin topic 'ভেনচিত্র অঙ্কন' — confirm it carries a head concept
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  chapter 6 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 7 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 8 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 9 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 10 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 11 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 12 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 13 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 14 present in chapter-map, absent from topic_map.json
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+  WARN  ch1: thin topic 'ভেনচিত্র অঙ্কন' — confirm it carries a head concept
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  chapter 8 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 9 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 10 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 11 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 12 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 13 present in chapter-map, absent from topic_map.json
+  FAIL  chapter 14 present in chapter-map, absent from topic_map.json
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+  WARN  ch1: thin topic 'ভেনচিত্র অঙ্কন' — confirm it carries a head concept
+  WARN  ch10: title 'দ্বিপদী সম্প্রসারণ' != map 'দৈপদী বিন্যাস'
+  WARN  ch12: thin topic 'ভেক্টরের প্রয়োগ' — confirm it carries a head concept
+  WARN  ch14: thin topic 'সম্ভাবনার ধারণা' — confirm it carries a head concept
+  WARN  ch14: thin topic 'সম্ভাবনা ফলাফল' — confirm it carries a head concept
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch12: one-word topic 'বর্তনবিধি' — attach its head concept
+  FAIL  ch12: 8/10 topics are verb-stripped copies of learning_outcomes (80%) — this is a box paraphrase, not a body map. Read the chapter pages.
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'ভেনচিত্র অঙ্কন করতে পারবো।...'
+  WARN  ch12: thin topic 'বর্তনবিধির প্রমাণ' — confirm it carries a head concept
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+  WARN  'অধ্যায় ২: বীজগাণিতিক রাশি': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'ভাগ সূত্র (P(x) = F(x)Q(x) + R(x))'
+  WARN  'অধ্যায় ৩: জ্যামিতি': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'সমকোণী ত্রিভুজে সমকোণের বিপরীত বাহুর ওপর বর্গক্ষেত্র'
+  WARN  'অধ্যায় ৩: জ্যামিতি': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'স্থূলকোণী ত্রিভুজে স্থূলকোণের বিপরীত বাহুর ওপর বর্গক্ষেত্র'
+  WARN  'অধ্যায় ৩: জ্যামিতি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজের পরিকেন্দ্র, ভরকেন্দ্র ও লম্ববিন্দু সমরেখ'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 9 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজ অঙ্কন - ভূমি, ভূমিসংলগ্ন কোন ও উচ্চতা দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 11 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজ অঙ্কন - ভূমি, শিরংকোণ ও অপর দুই বাহুর সমষ্টি দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 11 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজ অঙ্কন - ভূমি, শিরংকোণ ও অপর দুই বাহুর অন্তর দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 13 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজ অঙ্কন - ভূমিসংলগ্ন একটি কোণ, উচ্চতা ও অপর দুই বাহুর সমষ্টি দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 11 words (> 5) — move detail to scope_note or rephrase — 'সমকোণী ত্রিভুজ অঙ্কন - অতিভুজ ও অপর দুই বাহুর সমষ্টি দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 11 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজ অঙ্কন - উচ্চতা, ভূমির ওপর মধ্যমা ও ভূমিসংলগ্ন কোণ দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 9 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজ অঙ্কন - পরিসীমা ও দুটি কোনের মান দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 13 words (> 5) — move detail to scope_note or rephrase — 'বৃত্ত অঙ্কন - দুটি নির্দিষ্ট বিন্দু দিয়ে যাওয়া ও কেন্দ্র একটি সরলরেখায় অবস্থিত'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 13 words (> 5) — move detail to scope_note or rephrase — 'বৃত্ত অঙ্কন - একটি নির্দিষ্ট বিন্দুকে স্পর্শ করে ও আরেকটি বিন্দু দিয়ে যাওয়া'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 13 words (> 5) — move detail to scope_note or rephrase — 'বৃত্ত অঙ্কন - একটি সরলরেখাকে স্পর্শ করে ও বহিঃস্থ একটি বিন্দু দিয়ে যাওয়া'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 13 words (> 5) — move detail to scope_note or rephrase — 'বৃত্ত অঙ্কন - একটি বৃত্তকে স্পর্শ করে ও বহিঃস্থ একটি বিন্দু দিয়ে যাওয়া'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 15 words (> 5) — move detail to scope_note or rephrase — 'বৃত্ত অঙ্কন - একটি বৃত্তকে একটি নির্দিষ্ট বিন্দুতে স্পর্শ করে ও বহিঃস্থ বিন্দু দিয়ে যাওয়া'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'সমদ্বিবাহু ত্রিভুজ অঙ্কন ও পরিবৃত্ত বৃত্ত অঙ্কন'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 10 words (> 5) — move detail to scope_note or rephrase — 'বৃত্তের স্পর্শক অঙ্কন - কেন্দ্র থেকে নির্দিষ্ট দূরত্বের বিন্দু থেকে'
+  WARN  'অধ্যায় ৭: অসীম ধারা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'আবর্তী দশমিক থেকে সাধারণ ভগ্নাংশে রূপান্তর'
+  WARN  'অধ্যায় ৮: ত্রিকোণমিতি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'nπ/2 ± θ কোণের ত্রিকোণমিতিক অনুপাত'
+  WARN  'অধ্যায় ১০: দ্বিপদী বিস্তৃতি': label 'দ্বিপদী উপপাদ্য' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'দ্বিপদী উপপাদ্য (Binomial Theorem)'
+  WARN  'অধ্যায় ১২: সমতলীয় ভেক্টর': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'স্কেলার রাশি ও ভেক্টর রাশির পার্থক্য'
+  WARN  'অধ্যায় ১৩: ঘন জ্যামিতি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'সমবৃত্তভূমিক কোণকের আয়তন ও পৃষ্ঠতলের ক্ষেত্রফল'
+
+=== [final] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+  WARN  'অধ্যায় ২: বীজগাণিতিক রাশি': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'ভাগ সূত্র (P(x) = F(x)Q(x) + R(x))'
+  WARN  'অধ্যায় ৩: জ্যামিতি': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'সমকোণী ত্রিভুজে সমকোণের বিপরীত বাহুর ওপর বর্গক্ষেত্র'
+  WARN  'অধ্যায় ৩: জ্যামিতি': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'স্থূলকোণী ত্রিভুজে স্থূলকোণের বিপরীত বাহুর ওপর বর্গক্ষেত্র'
+  WARN  'অধ্যায় ৩: জ্যামিতি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজের পরিকেন্দ্র, ভরকেন্দ্র ও লম্ববিন্দু সমরেখ'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 9 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজ অঙ্কন - ভূমি, ভূমিসংলগ্ন কোন ও উচ্চতা দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 11 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজ অঙ্কন - ভূমি, শিরংকোণ ও অপর দুই বাহুর সমষ্টি দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 11 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজ অঙ্কন - ভূমি, শিরংকোণ ও অপর দুই বাহুর অন্তর দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 13 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজ অঙ্কন - ভূমিসংলগ্ন একটি কোণ, উচ্চতা ও অপর দুই বাহুর সমষ্টি দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 11 words (> 5) — move detail to scope_note or rephrase — 'সমকোণী ত্রিভুজ অঙ্কন - অতিভুজ ও অপর দুই বাহুর সমষ্টি দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 11 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজ অঙ্কন - উচ্চতা, ভূমির ওপর মধ্যমা ও ভূমিসংলগ্ন কোণ দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 9 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজ অঙ্কন - পরিসীমা ও দুটি কোনের মান দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 13 words (> 5) — move detail to scope_note or rephrase — 'বৃত্ত অঙ্কন - দুটি নির্দিষ্ট বিন্দু দিয়ে যাওয়া ও কেন্দ্র একটি সরলরেখায় অবস্থিত'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 13 words (> 5) — move detail to scope_note or rephrase — 'বৃত্ত অঙ্কন - একটি নির্দিষ্ট বিন্দুকে স্পর্শ করে ও আরেকটি বিন্দু দিয়ে যাওয়া'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 13 words (> 5) — move detail to scope_note or rephrase — 'বৃত্ত অঙ্কন - একটি সরলরেখাকে স্পর্শ করে ও বহিঃস্থ একটি বিন্দু দিয়ে যাওয়া'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 13 words (> 5) — move detail to scope_note or rephrase — 'বৃত্ত অঙ্কন - একটি বৃত্তকে স্পর্শ করে ও বহিঃস্থ একটি বিন্দু দিয়ে যাওয়া'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 15 words (> 5) — move detail to scope_note or rephrase — 'বৃত্ত অঙ্কন - একটি বৃত্তকে একটি নির্দিষ্ট বিন্দুতে স্পর্শ করে ও বহিঃস্থ বিন্দু দিয়ে যাওয়া'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'সমদ্বিবাহু ত্রিভুজ অঙ্কন ও পরিবৃত্ত বৃত্ত অঙ্কন'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 10 words (> 5) — move detail to scope_note or rephrase — 'বৃত্তের স্পর্শক অঙ্কন - কেন্দ্র থেকে নির্দিষ্ট দূরত্বের বিন্দু থেকে'
+  WARN  'অধ্যায় ৭: অসীম ধারা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'আবর্তী দশমিক থেকে সাধারণ ভগ্নাংশে রূপান্তর'
+  WARN  'অধ্যায় ৮: ত্রিকোণমিতি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'nπ/2 ± θ কোণের ত্রিকোণমিতিক অনুপাত'
+  WARN  'অধ্যায় ১২: সমতলীয় ভেক্টর': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'স্কেলার রাশি ও ভেক্টর রাশির পার্থক্য'
+  WARN  'অধ্যায় ১৩: ঘন জ্যামিতি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'সমবৃত্তভূমিক কোণকের আয়তন ও পৃষ্ঠতলের ক্ষেত্রফল'
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'হিসাব তথ্যের ব্যবহারকারীদের শনাক্ত করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'দৈনিক, ব্যক্তিগত, পারিবারিক ও প্রতিষ্ঠানিক কর্মকাণ্ডে হিসাব ...'
+  WARN  ch2: thin topic 'লেনদেনের ধারণা' — confirm it carries a head concept
+  WARN  ch2: 67% of topics track the outcome box closely
+  WARN  ch3: thin topic 'হিসাবচক্রের ধাপ' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'লেনদেনে জড়িত দুটি পক্ষ অর্থাৎ ডেবিট ও ক্রেডিট পক্ষ শনাক্ত/চ...'
+  WARN  ch3: outcome not covered by any topic — 'লেনদেনের জন্য উপযোগু হিসাবের বই চিহ্নিত করতে পারব...'
+  WARN  ch4: thin topic 'মূলধন-মুনাফা পার্থক্য' — confirm it carries a head concept
+  WARN  ch5: thin topic 'হিসাবের শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch5: outcome not covered by any topic — 'দু তরফা দাখিলা পদ্ধতি অনুযায়ী সংশ্লিষ্ট হিসাবে ডেবিট-ক্রেডি...'
+  WARN  ch6: thin topic 'জাবেদার শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch6: 62% of topics track the outcome box closely
+  WARN  ch7: thin topic 'খতিয়ানের শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed ===
+  WARN  ch1: thin topic 'ব্যবসায়ের বৈশিষ্ট্য' — confirm it carries a head concept
+  WARN  ch1: thin topic 'ব্যবসায়ের গুরুত্ব' — confirm it carries a head concept
+  WARN  ch2: thin topic 'উদ্যোক্তার বৈশিষ্ট্য' — confirm it carries a head concept
+  WARN  ch2: 57% of topics track the outcome box closely
+  WARN  ch3: 57% of topics track the outcome box closely
+  WARN  ch8: thin topic 'ব্যবস্থাপনার গুরুত্ব' — confirm it carries a head concept
+  WARN  ch12: 57% of topics track the outcome box closely
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch6: 5/6 topics are verb-stripped copies of learning_outcomes (83%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch7: 6/6 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch9: 6/7 topics are verb-stripped copies of learning_outcomes (86%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch10: 4/5 topics are verb-stripped copies of learning_outcomes (80%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch11: 6/7 topics are verb-stripped copies of learning_outcomes (86%) — this is a box paraphrase, not a body map. Read the chapter pages.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_ICT_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_ICT_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'বাংলাদেশে ই-গভর্নেন্সের প্রয়োজনীয়তা ব্যাখ্যা করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'ইন্টারনেটের সুবিধা-অসুবিধা ব্যাখ্যা করতে পারব...'
+  WARN  ch4: 57% of topics track the outcome box closely
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch3: 7/8 topics are verb-stripped copies of learning_outcomes (88%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch5: 11/13 topics are verb-stripped copies of learning_outcomes (85%) — this is a box paraphrase, not a body map. Read the chapter pages.
+
+=== [final] Secondary (BV)-2026_Class 9-10_ICT_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  ch1: 17 keywords (want 5-15)
+  WARN  ch8: outcome not covered by any topic — 'জ্বালানির প্রকারভেদ ও পরিবেশগত প্রভাব বর্ণনা করতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+  WARN  ch7: 57% of topics track the outcome box closely
+  WARN  ch13: 71% of topics track the outcome box closely
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+  WARN  ch1: thin topic 'ভেনচিত্র অঙ্কন' — confirm it carries a head concept
+  WARN  ch10: 57% of topics track the outcome box closely
+  WARN  ch12: thin topic 'বর্তনবিধির প্রমাণ' — confirm it carries a head concept
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+  WARN  'অধ্যায় ২: বীজগাণিতিক রাশি': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'ভাগ সূত্র (P(x) = F(x)Q(x) + R(x))'
+  WARN  'অধ্যায় ৩: জ্যামিতি': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'সমকোণী ত্রিভুজে সমকোণের বিপরীত বাহুর ওপর বর্গক্ষেত্র'
+  WARN  'অধ্যায় ৩: জ্যামিতি': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'স্থূলকোণী ত্রিভুজে স্থূলকোণের বিপরীত বাহুর ওপর বর্গক্ষেত্র'
+  WARN  'অধ্যায় ৩: জ্যামিতি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজের পরিকেন্দ্র, ভরকেন্দ্র ও লম্ববিন্দু সমরেখ'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 9 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজ অঙ্কন - ভূমি, ভূমিসংলগ্ন কোন ও উচ্চতা দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 11 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজ অঙ্কন - ভূমি, শিরংকোণ ও অপর দুই বাহুর সমষ্টি দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 11 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজ অঙ্কন - ভূমি, শিরংকোণ ও অপর দুই বাহুর অন্তর দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 13 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজ অঙ্কন - ভূমিসংলগ্ন একটি কোণ, উচ্চতা ও অপর দুই বাহুর সমষ্টি দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 11 words (> 5) — move detail to scope_note or rephrase — 'সমকোণী ত্রিভুজ অঙ্কন - অতিভুজ ও অপর দুই বাহুর সমষ্টি দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 11 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজ অঙ্কন - উচ্চতা, ভূমির ওপর মধ্যমা ও ভূমিসংলগ্ন কোণ দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 9 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজ অঙ্কন - পরিসীমা ও দুটি কোনের মান দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 13 words (> 5) — move detail to scope_note or rephrase — 'বৃত্ত অঙ্কন - দুটি নির্দিষ্ট বিন্দু দিয়ে যাওয়া ও কেন্দ্র একটি সরলরেখায় অবস্থিত'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 13 words (> 5) — move detail to scope_note or rephrase — 'বৃত্ত অঙ্কন - একটি নির্দিষ্ট বিন্দুকে স্পর্শ করে ও আরেকটি বিন্দু দিয়ে যাওয়া'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 13 words (> 5) — move detail to scope_note or rephrase — 'বৃত্ত অঙ্কন - একটি সরলরেখাকে স্পর্শ করে ও বহিঃস্থ একটি বিন্দু দিয়ে যাওয়া'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 13 words (> 5) — move detail to scope_note or rephrase — 'বৃত্ত অঙ্কন - একটি বৃত্তকে স্পর্শ করে ও বহিঃস্থ একটি বিন্দু দিয়ে যাওয়া'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 15 words (> 5) — move detail to scope_note or rephrase — 'বৃত্ত অঙ্কন - একটি বৃত্তকে একটি নির্দিষ্ট বিন্দুতে স্পর্শ করে ও বহিঃস্থ বিন্দু দিয়ে যাওয়া'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'সমদ্বিবাহু ত্রিভুজ অঙ্কন ও পরিবৃত্ত বৃত্ত অঙ্কন'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 10 words (> 5) — move detail to scope_note or rephrase — 'বৃত্তের স্পর্শক অঙ্কন - কেন্দ্র থেকে নির্দিষ্ট দূরত্বের বিন্দু থেকে'
+  WARN  'অধ্যায় ৭: অসীম ধারা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'আবর্তী দশমিক থেকে সাধারণ ভগ্নাংশে রূপান্তর'
+  WARN  'অধ্যায় ৮: ত্রিকোণমিতি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'nπ/2 ± θ কোণের ত্রিকোণমিতিক অনুপাত'
+  WARN  'অধ্যায় ১২: সমতলীয় ভেক্টর': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'স্কেলার রাশি ও ভেক্টর রাশির পার্থক্য'
+  WARN  'অধ্যায় ১৩: ঘন জ্যামিতি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'সমবৃত্তভূমিক কোণকের আয়তন ও পৃষ্ঠতলের ক্ষেত্রফল'
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_ICT_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_ICT_compressed ===
+  WARN  ch2: 57% of topics track the outcome box closely
+  WARN  ch3: thin topic 'ইন্টারনেটের ধারণা' — confirm it carries a head concept
+  WARN  ch3: thin topic 'ওয়েবের ধারণা' — confirm it carries a head concept
+  WARN  ch3: thin topic 'ইমেইল ব্যবহার' — confirm it carries a head concept
+  WARN  ch3: 60% of topics track the outcome box closely
+  WARN  ch4: thin topic 'স্প্রেডশিটের ধারণা' — confirm it carries a head concept
+  WARN  ch4: thin topic 'ইন্টারনেট ব্যবহার' — confirm it carries a head concept
+  WARN  ch6: 16 keywords (want 5-15)
+  WARN  ch6: outcome not covered by any topic — 'সমস্যা সমাধান সম্পর্কে জানতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch3: one-word topic 'প্লাগিয়ারিজম' — attach its head concept
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_ICT_compressed ===
+  WARN  ch2: 57% of topics track the outcome box closely
+  WARN  ch3: thin topic 'ইন্টারনেটের ধারণা' — confirm it carries a head concept
+  WARN  ch3: thin topic 'ওয়েবের ধারণা' — confirm it carries a head concept
+  WARN  ch3: thin topic 'ইমেইল ব্যবহার' — confirm it carries a head concept
+  WARN  ch4: thin topic 'স্প্রেডশিটের ধারণা' — confirm it carries a head concept
+  WARN  ch4: thin topic 'ইন্টারনেট ব্যবহার' — confirm it carries a head concept
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'হিসাব তথ্যের ব্যবহারকারীদের শনাক্ত করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'দৈনিক, ব্যক্তিগত, পারিবারিক ও প্রতিষ্ঠানিক কর্মকাণ্ডে হিসাব ...'
+  WARN  ch2: thin topic 'লেনদেনের ধারণা' — confirm it carries a head concept
+  WARN  ch2: 67% of topics track the outcome box closely
+  WARN  ch3: thin topic 'হিসাবচক্রের ধাপ' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'লেনদেনে জড়িত দুটি পক্ষ অর্থাৎ ডেবিট ও ক্রেডিট পক্ষ শনাক্ত/চ...'
+  WARN  ch3: outcome not covered by any topic — 'লেনদেনের জন্য উপযোগু হিসাবের বই চিহ্নিত করতে পারব...'
+  WARN  ch4: thin topic 'মূলধন-মুনাফা পার্থক্য' — confirm it carries a head concept
+  WARN  ch5: thin topic 'হিসাবের শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch5: outcome not covered by any topic — 'দু তরফা দাখিলা পদ্ধতি অনুযায়ী সংশ্লিষ্ট হিসাবে ডেবিট-ক্রেডি...'
+  WARN  ch6: thin topic 'জাবেদার শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch6: 62% of topics track the outcome box closely
+  WARN  ch7: thin topic 'খতিয়ানের শ্রেণিবিভাগ' — confirm it carries a head concept
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  ch1: empty learning_outcomes (cross-check impossible)
+  WARN  ch1: title 'খাদ্য ও পুষ্টি' != map 'উন্নততর জীবনধারা'
+  WARN  ch2: empty learning_outcomes (cross-check impossible)
+  WARN  ch2: title 'শরীরের রাসায়নিক পদার্থ ও বিক্রিয়া' != map 'জীবনের জন্য পানি'
+  WARN  ch3: empty learning_outcomes (cross-check impossible)
+  WARN  ch3: title 'জীবদেহে রক্ত সঞ্চালন' != map 'হৃদযন্ত্রের যত কথা এবং অন্যান্য'
+  WARN  ch4: empty learning_outcomes (cross-check impossible)
+  WARN  ch5: empty learning_outcomes (cross-check impossible)
+  WARN  ch5: thin topic 'আয়না/দর্পণের ব্যবহার' — confirm it carries a head concept
+  WARN  ch6: empty learning_outcomes (cross-check impossible)
+  WARN  ch7: empty learning_outcomes (cross-check impossible)
+  WARN  ch8: empty learning_outcomes (cross-check impossible)
+  WARN  ch9: empty learning_outcomes (cross-check impossible)
+  WARN  ch9: thin topic 'দূর্যোগ প্রতিরোধ' — confirm it carries a head concept
+  WARN  ch10: empty learning_outcomes (cross-check impossible)
+  WARN  ch11: empty learning_outcomes (cross-check impossible)
+  WARN  ch11: title 'তড়িৎ বিদ্যুৎ' != map 'প্রাত্যহিক জীবনে তড়িৎ'
+  FAIL  ch1: one-word topic 'পুষ্টিউপাদান' — attach its head concept
+  FAIL  ch1: one-word topic 'খাদ্যতালিকা' — attach its head concept
+  FAIL  ch4: one-word topic 'বয়ঃসন্ধিকাল' — attach its head concept
+  FAIL  ch4: one-word topic 'ডারউইনবাদ' — attach its head concept
+  FAIL  ch5: one-word topic 'হ্রস্বদৃষ্টি' — attach its head concept
+  FAIL  ch5: one-word topic 'দীর্ঘদৃষ্টি' — attach its head concept
+  FAIL  ch6: one-word topic 'পলিমারকরণ' — attach its head concept
+  FAIL  ch6: one-word topic 'তন্তু' — attach its head concept
+  FAIL  ch6: one-word topic 'স্পিনিং' — attach its head concept
+  FAIL  ch6: one-word topic 'রাবার' — attach its head concept
+  FAIL  ch6: one-word topic 'প্লাস্টিক' — attach its head concept
+  FAIL  ch7: one-word topic 'এসিড' — attach its head concept
+  FAIL  ch7: one-word topic 'নির্দেশক' — attach its head concept
+  FAIL  ch7: one-word topic 'ক্ষারক' — attach its head concept
+  FAIL  ch7: one-word topic 'লবণ' — attach its head concept
+  FAIL  ch9: one-word topic 'ভূমিকম্প' — attach its head concept
+  FAIL  ch9: one-word topic 'ভূমিধস' — attach its head concept
+  FAIL  ch9: one-word topic 'বন্যা' — attach its head concept
+  FAIL  ch9: one-word topic 'খরা' — attach its head concept
+  FAIL  ch10: one-word topic 'জড়তা' — attach its head concept
+  FAIL  ch10: one-word topic 'বল' — attach its head concept
+  FAIL  ch11: one-word topic 'ইলেকট্রোলাইট' — attach its head concept
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed ===
+  WARN  ch1: thin topic 'ব্যবসায়ের ধারণা' — confirm it carries a head concept
+  WARN  ch1: thin topic 'ব্যবসায়ের বৈশিষ্ট্য' — confirm it carries a head concept
+  WARN  ch1: thin topic 'ব্যবসায়ের গুরুত্ব' — confirm it carries a head concept
+  WARN  ch1: thin topic 'ব্যবসায়ের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch2: 67% of topics track the outcome box closely
+  WARN  ch3: thin topic 'আত্মকর্মসংস্থানের ধারণা' — confirm it carries a head concept
+  WARN  ch3: thin topic 'আত্মকর্মসংস্থানের প্রয়োজনীয়তা' — confirm it carries a head concept
+  WARN  ch4: 62% of topics track the outcome box closely
+  WARN  ch8: thin topic 'ব্যবস্থাপনার গুরুত্ব' — confirm it carries a head concept
+  WARN  ch9: thin topic 'বিপণনের ধারণা' — confirm it carries a head concept
+  WARN  ch9: thin topic 'বিপণনের গুরুত্ব' — confirm it carries a head concept
+  WARN  ch9: thin topic 'বিপণন কৌশল' — confirm it carries a head concept
+  FAIL  ch6: 5/5 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch7: 5/5 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch8: 5/6 topics are verb-stripped copies of learning_outcomes (83%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch9: 8/8 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch10: 7/8 topics are verb-stripped copies of learning_outcomes (88%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch11: 7/7 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch11: topics is a 1:1 verb-stripped copy of learning_outcomes
+  FAIL  ch12: 3/3 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_ICT_compressed ===
+  WARN  ch2: 57% of topics track the outcome box closely
+  WARN  ch3: thin topic 'ইন্টারনেটের ধারণা' — confirm it carries a head concept
+  WARN  ch3: thin topic 'ওয়েবের ধারণা' — confirm it carries a head concept
+  WARN  ch3: thin topic 'ইমেইল ব্যবহার' — confirm it carries a head concept
+  WARN  ch4: thin topic 'স্প্রেডশিটের ধারণা' — confirm it carries a head concept
+  WARN  ch4: thin topic 'ইন্টারনেট ব্যবহার' — confirm it carries a head concept
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'ভিটামিনের উৎস এবং এর অভাবজনিত প্রতিক্রিয়া ব্যাখ্যা করতে পার...'
+  WARN  ch1: outcome not covered by any topic — 'খনিজ লবণের উৎস এবং এর অভাবজনিত প্রতিক্রিয়া ব্যাখ্যা করতে পা...'
+  WARN  ch1: outcome not covered by any topic — 'পানি ও আংশিক খাবারের উপকারিতা বর্ণনা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'বড় মাস ইনডেক্সের প্রয়োজনীয়তা ব্যাখ্যা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'খাদ্যে রাসায়নিক পদার্থের ব্যবহার এবং এর শারীরিক প্রতিক্রিয়...'
+  WARN  ch1: outcome not covered by any topic — 'শরীরে তামাক ও ড্রাগসের ক্ষতিকর প্রতিক্রিয়া ব্যাখ্যা করতে পা...'
+  WARN  ch1: outcome not covered by any topic — 'এইডস কী ব্যাখ্যা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'শারীরিক ফিটনেস বজায় রাখার কৌশল ব্যাখ্যা করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'পানির জন্য ভূমিকা ও হুমকি বিশ্লেষণ করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'পানির সম্পদ রক্ষায় পরিবেশবান্ধব উপায় বর্ণনা করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'জলজ উদ্ভিদের পরিবেশ সংরক্ষণে ভূমিকা ব্যাখ্যা করতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'হৃদরোগ প্রতিরোধে করণীয় বর্ণনা করতে পারব...'
+  WARN  ch4: outcome not covered by any topic — 'টেস্টিউব বেবির ধারণা ব্যাখ্যা করতে পারব...'
+  WARN  ch5: thin topic 'আয়না/দর্পণের ব্যবহার' — confirm it carries a head concept
+  WARN  ch5: outcome not covered by any topic — 'আলোর প্রতিসরণ ব্যাখ্যা করতে পারব...'
+  WARN  ch7: thin topic 'অম্লের ধারণা' — confirm it carries a head concept
+  WARN  ch7: thin topic 'নির্দেশকের ধারণা' — confirm it carries a head concept
+  WARN  ch7: thin topic 'ক্ষারকের ধারণা' — confirm it carries a head concept
+  WARN  ch7: thin topic 'লবণের ধারণা' — confirm it carries a head concept
+  WARN  ch8: thin topic 'মাটির গঠন' — confirm it carries a head concept
+  WARN  ch8: outcome not covered by any topic — 'সম্পদ সংরক্ষণে যত্নবান হব ও অন্যদের সচেতন করব...'
+  WARN  ch9: thin topic 'দুর্যোগ প্রতিরোধ' — confirm it carries a head concept
+  WARN  ch9: outcome not covered by any topic — 'বাংলাদেশ ও আন্তর্জাতিক প্রেক্ষাপটে জলবায়ু পরিবর্তনের প্রভাব...'
+  WARN  ch9: outcome not covered by any topic — 'সুস্থ জীবনযাপনে মানসম্মত ও উন্নত পরিবেশের গুরুত্ব বিশ্লেষণ ক...'
+  WARN  ch9: outcome not covered by any topic — 'প্রকৃতি সংরক্ষণশীলতার তাৎপর্য বিশ্লেষণ করতে পারব...'
+  WARN  ch9: outcome not covered by any topic — 'প্রকৃতি সংরক্ষণশীলতার প্রয়োজনীয়তা বিষয়ে সামাজিক সচেতনতা স...'
+  WARN  ch10: thin topic 'বলের ধারণা' — confirm it carries a head concept
+  WARN  ch10: outcome not covered by any topic — 'নিউটনের তৃতীয় সূত্রের সাহায্যে সংঘটিত কয়েকটি জনপ্রিয় ঘটনা...'
+  WARN  ch11: thin topic 'ইলেকট্রোলাইটের ধারণা' — confirm it carries a head concept
+  WARN  ch11: outcome not covered by any topic — 'ব্যাটারির কার্যক্রম ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'বাসাবাড়িতে ব্যবহার-উপযোগী বতনীর নকশা প্রয়োগ করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'কিলোওয়াট ও কিলোওয়াট-ঘণ্টা ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'বৈদ্যুতিক ক্ষমতার হিসাব করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'এনার্জি সেভিং বাল্বের সুবিধা ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'আইপিএস ও ইউপিএসের কার্যক্রম ও ব্যবহার ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'সিস্টেম লস এবং লোড শেডিং ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'উন্নয়ন কার্যক্রমে বিদ্যুতের অবদান ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'বাসাবাড়িতে ব্যবহার-উপযোগী বতনীর ব্যবহার প্রদর্শন করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'তড়িতের অপচয় রোধে যত্নবান হব এবং অন্যদের সচেতন করব...'
+  FAIL  ch8: one-word topic 'মাটি' — attach its head concept
+  FAIL  ch8: one-word topic 'পেট্রোলিয়াম' — attach its head concept
+  FAIL  ch8: one-word topic 'কয়লা' — attach its head concept
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed ===
+  WARN  ch1: thin topic 'ব্যবসায়ের ধারণা' — confirm it carries a head concept
+  WARN  ch1: thin topic 'ব্যবসায়ের বৈশিষ্ট্য' — confirm it carries a head concept
+  WARN  ch1: thin topic 'ব্যবসায়ের গুরুত্ব' — confirm it carries a head concept
+  WARN  ch1: thin topic 'ব্যবসায়ের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch2: 67% of topics track the outcome box closely
+  WARN  ch3: thin topic 'আত্মকর্মসংস্থানের ধারণা' — confirm it carries a head concept
+  WARN  ch3: thin topic 'আত্মকর্মসংস্থানের প্রয়োজনীয়তা' — confirm it carries a head concept
+  WARN  ch4: 62% of topics track the outcome box closely
+  WARN  ch6: thin topic 'ব্যবসায়পরিকল্পনার গুরুত্ব' — confirm it carries a head concept
+  WARN  ch7: thin topic 'শিল্পের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch7: outcome not covered by any topic — 'প্রশিক্ষিত ব্যক্তিবর্গের ভূমিকা ব্যাখ্যা করতে পারব...'
+  WARN  ch9: thin topic 'বিপণনের ধারণা' — confirm it carries a head concept
+  WARN  ch9: thin topic 'বিপণনের গুরুত্ব' — confirm it carries a head concept
+  WARN  ch9: thin topic 'বর্তনপ্রণালির ধারণা' — confirm it carries a head concept
+  WARN  ch9: thin topic 'বিজ্ঞাপনের ধারণা' — confirm it carries a head concept
+  WARN  ch9: thin topic 'বিজ্ঞাপনের গুরুত্ব' — confirm it carries a head concept
+  WARN  ch9: outcome not covered by any topic — 'মূল্য নির্ধারণের কৌশল জানতে পারব...'
+  WARN  ch9: outcome not covered by any topic — 'পণ্য প্রচারণার কৌশল জানতে পারব...'
+  FAIL  ch6: one-word topic 'ম্যাক্রোস্ক্রিনিং' — attach its head concept
+  FAIL  ch6: one-word topic 'মাইক্রোস্ক্রিনিং' — attach its head concept
+  FAIL  ch8: one-word topic 'সংগঠিতকরণ' — attach its head concept
+  FAIL  ch8: one-word topic 'কর্মীসংস্থান' — attach its head concept
+  FAIL  ch8: one-word topic 'নির্দেশনাদান' — attach its head concept
+  FAIL  ch8: one-word topic 'প্রেরণাদান' — attach its head concept
+  FAIL  ch8: one-word topic 'নিয়ন্ত্রণ' — attach its head concept
+  FAIL  ch10: 7/8 topics are verb-stripped copies of learning_outcomes (88%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch11: 7/7 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch11: topics is a 1:1 verb-stripped copy of learning_outcomes
+  FAIL  ch12: 3/3 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+
+=== [topicmap] topic_map.json ===
+  WARN  ch1: thin topic 'ব্যবসায়ের ধারণা' — confirm it carries a head concept
+  WARN  ch1: thin topic 'ব্যবসায়ের বৈশিষ্ট্য' — confirm it carries a head concept
+  WARN  ch1: thin topic 'ব্যবসায়ের গুরুত্ব' — confirm it carries a head concept
+  WARN  ch1: thin topic 'ব্যবসায়ের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch2: 67% of topics track the outcome box closely
+  WARN  ch3: thin topic 'আত্মকর্মসংস্থানের ধারণা' — confirm it carries a head concept
+  WARN  ch3: thin topic 'আত্মকর্মসংস্থানের প্রয়োজনীয়তা' — confirm it carries a head concept
+  WARN  ch4: 62% of topics track the outcome box closely
+  WARN  ch6: thin topic 'ব্যবসায়পরিকল্পনার গুরুত্ব' — confirm it carries a head concept
+  WARN  ch7: thin topic 'শিল্পের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch7: outcome not covered by any topic — 'প্রশিক্ষিত ব্যক্তিবর্গের ভূমিকা ব্যাখ্যা করতে পারব...'
+  WARN  ch9: thin topic 'বিপণনের ধারণা' — confirm it carries a head concept
+  WARN  ch9: thin topic 'বিপণনের গুরুত্ব' — confirm it carries a head concept
+  WARN  ch9: thin topic 'বর্তনপ্রণালির ধারণা' — confirm it carries a head concept
+  WARN  ch9: thin topic 'বিজ্ঞাপনের ধারণা' — confirm it carries a head concept
+  WARN  ch9: thin topic 'বিজ্ঞাপনের গুরুত্ব' — confirm it carries a head concept
+  WARN  ch9: outcome not covered by any topic — 'মূল্য নির্ধারণের কৌশল জানতে পারব...'
+  WARN  ch9: outcome not covered by any topic — 'পণ্য প্রচারণার কৌশল জানতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'ভিটামিনের উৎস এবং এর অভাবজনিত প্রতিক্রিয়া ব্যাখ্যা করতে পার...'
+  WARN  ch1: outcome not covered by any topic — 'খনিজ লবণের উৎস এবং এর অভাবজনিত প্রতিক্রিয়া ব্যাখ্যা করতে পা...'
+  WARN  ch1: outcome not covered by any topic — 'পানি ও আংশিক খাবারের উপকারিতা বর্ণনা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'বড় মাস ইনডেক্সের প্রয়োজনীয়তা ব্যাখ্যা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'খাদ্যে রাসায়নিক পদার্থের ব্যবহার এবং এর শারীরিক প্রতিক্রিয়...'
+  WARN  ch1: outcome not covered by any topic — 'শরীরে তামাক ও ড্রাগসের ক্ষতিকর প্রতিক্রিয়া ব্যাখ্যা করতে পা...'
+  WARN  ch1: outcome not covered by any topic — 'এইডস কী ব্যাখ্যা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'শারীরিক ফিটনেস বজায় রাখার কৌশল ব্যাখ্যা করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'পানির জন্য ভূমিকা ও হুমকি বিশ্লেষণ করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'পানির সম্পদ রক্ষায় পরিবেশবান্ধব উপায় বর্ণনা করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'জলজ উদ্ভিদের পরিবেশ সংরক্ষণে ভূমিকা ব্যাখ্যা করতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'হৃদরোগ প্রতিরোধে করণীয় বর্ণনা করতে পারব...'
+  WARN  ch4: outcome not covered by any topic — 'টেস্টিউব বেবির ধারণা ব্যাখ্যা করতে পারব...'
+  WARN  ch5: thin topic 'আয়না/দর্পণের ব্যবহার' — confirm it carries a head concept
+  WARN  ch5: outcome not covered by any topic — 'আলোর প্রতিসরণ ব্যাখ্যা করতে পারব...'
+  WARN  ch7: thin topic 'অম্লের ধারণা' — confirm it carries a head concept
+  WARN  ch7: thin topic 'নির্দেশকের ধারণা' — confirm it carries a head concept
+  WARN  ch7: thin topic 'ক্ষারকের ধারণা' — confirm it carries a head concept
+  WARN  ch7: thin topic 'লবণের ধারণা' — confirm it carries a head concept
+  WARN  ch8: thin topic 'মাটির গঠন' — confirm it carries a head concept
+  WARN  ch8: outcome not covered by any topic — 'সম্পদ সংরক্ষণে যত্নবান হব ও অন্যদের সচেতন করব...'
+  WARN  ch9: thin topic 'দুর্যোগ প্রতিরোধ' — confirm it carries a head concept
+  WARN  ch9: outcome not covered by any topic — 'বাংলাদেশ ও আন্তর্জাতিক প্রেক্ষাপটে জলবায়ু পরিবর্তনের প্রভাব...'
+  WARN  ch9: outcome not covered by any topic — 'সুস্থ জীবনযাপনে মানসম্মত ও উন্নত পরিবেশের গুরুত্ব বিশ্লেষণ ক...'
+  WARN  ch9: outcome not covered by any topic — 'প্রকৃতি সংরক্ষণশীলতার তাৎপর্য বিশ্লেষণ করতে পারব...'
+  WARN  ch9: outcome not covered by any topic — 'প্রকৃতি সংরক্ষণশীলতার প্রয়োজনীয়তা বিষয়ে সামাজিক সচেতনতা স...'
+  WARN  ch10: thin topic 'বলের ধারণা' — confirm it carries a head concept
+  WARN  ch10: outcome not covered by any topic — 'নিউটনের তৃতীয় সূত্রের সাহায্যে সংঘটিত কয়েকটি জনপ্রিয় ঘটনা...'
+  WARN  ch11: thin topic 'ইলেকট্রোলাইটের ধারণা' — confirm it carries a head concept
+  WARN  ch11: outcome not covered by any topic — 'ব্যাটারির কার্যক্রম ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'বাসাবাড়িতে ব্যবহার-উপযোগী বতনীর নকশা প্রয়োগ করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'কিলোওয়াট ও কিলোওয়াট-ঘণ্টা ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'বৈদ্যুতিক ক্ষমতার হিসাব করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'এনার্জি সেভিং বাল্বের সুবিধা ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'আইপিএস ও ইউপিএসের কার্যক্রম ও ব্যবহার ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'সিস্টেম লস এবং লোড শেডিং ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'উন্নয়ন কার্যক্রমে বিদ্যুতের অবদান ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'বাসাবাড়িতে ব্যবহার-উপযোগী বতনীর ব্যবহার প্রদর্শন করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'তড়িতের অপচয় রোধে যত্নবান হব এবং অন্যদের সচেতন করব...'
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed ===
+  WARN  ch1: thin topic 'ব্যবসায়ের ধারণা' — confirm it carries a head concept
+  WARN  ch1: thin topic 'ব্যবসায়ের বৈশিষ্ট্য' — confirm it carries a head concept
+  WARN  ch1: thin topic 'ব্যবসায়ের গুরুত্ব' — confirm it carries a head concept
+  WARN  ch1: thin topic 'ব্যবসায়ের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch2: 67% of topics track the outcome box closely
+  WARN  ch3: thin topic 'আত্মকর্মসংস্থানের ধারণা' — confirm it carries a head concept
+  WARN  ch3: thin topic 'আত্মকর্মসংস্থানের প্রয়োজনীয়তা' — confirm it carries a head concept
+  WARN  ch4: 62% of topics track the outcome box closely
+  WARN  ch6: thin topic 'ব্যবসায়পরিকল্পনার গুরুত্ব' — confirm it carries a head concept
+  WARN  ch7: thin topic 'শিল্পের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch7: outcome not covered by any topic — 'প্রশিক্ষিত ব্যক্তিবর্গের ভূমিকা ব্যাখ্যা করতে পারব...'
+  WARN  ch9: thin topic 'বিপণনের ধারণা' — confirm it carries a head concept
+  WARN  ch9: thin topic 'বিপণনের গুরুত্ব' — confirm it carries a head concept
+  WARN  ch9: thin topic 'বর্তনপ্রণালির ধারণা' — confirm it carries a head concept
+  WARN  ch9: thin topic 'বিজ্ঞাপনের ধারণা' — confirm it carries a head concept
+  WARN  ch9: thin topic 'বিজ্ঞাপনের গুরুত্ব' — confirm it carries a head concept
+  WARN  ch9: outcome not covered by any topic — 'মূল্য নির্ধারণের কৌশল জানতে পারব...'
+  WARN  ch9: outcome not covered by any topic — 'পণ্য প্রচারণার কৌশল জানতে পারব...'
+
+=== [final] Secondary (BV)-2026_Class 9-10_Accounting_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_Business Entrepreneurship_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_ICT_compressed ===
+  WARN  'অধ্যায় ৬: প্রোগ্রামিংয়ের মাধ্যমে সমস্যার সমাধান': label 'প্রোগ্রামিংয়ের ধারণা ও গুরুত্ব' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'প্রোগ্রামিংয়ের ধারণা ও গুরুত্ব'
+
+=== [extract] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+  WARN  ch2: thin topic 'মুক্তিবাহিনী গঠন' — confirm it carries a head concept
+  WARN  ch2: outcome not covered by any topic — 'বীরশ্রেষ্ঠদের সম্পর্কে জানব...'
+  WARN  ch3: thin topic 'সৌরজগৎ গঠন' — confirm it carries a head concept
+  WARN  ch3: thin topic 'ভূমণ্ডলের গঠন' — confirm it carries a head concept
+  WARN  ch3: 71% of topics track the outcome box closely
+  WARN  ch6: thin topic 'রাষ্ট্র ধারণা' — confirm it carries a head concept
+  WARN  ch7: thin topic 'বিচার বিভাগ' — confirm it carries a head concept
+  WARN  ch7: thin topic 'প্রশাসনিক বিভাগ' — confirm it carries a head concept
+  WARN  ch7: thin topic 'কার্যনির্বাহী বিভাগ' — confirm it carries a head concept
+  WARN  ch9: thin topic 'আন্তর্জাতিক সম্পর্ক' — confirm it carries a head concept
+  WARN  ch12: thin topic 'ব্যাংকের ধারণা' — confirm it carries a head concept
+  WARN  ch12: thin topic 'ব্যাংকের শ্রেণিবিভাগ' — confirm it carries a head concept
+  WARN  ch12: outcome not covered by any topic — 'বাংলাদেশের অর্থনৈতিক কার্যাবলি সম্পর্কে সচেতন হব...'
+  WARN  ch13: thin topic 'পরিবারের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'পরিবারের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের উপাদান' — confirm it carries a head concept
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশের পরিবারব্যবস্থার (গ্রাম ও শহরে) ধরন ও ভূমিকার পরিব...'
+  WARN  ch14: thin topic 'জৈবিক উপাদান' — confirm it carries a head concept
+  WARN  ch14: thin topic 'সাংস্কৃতিক উপাদান' — confirm it carries a head concept
+  WARN  ch15: thin topic 'দুর্নীতি প্রতিরোধ' — confirm it carries a head concept
+  WARN  ch15: outcome not covered by any topic — 'দুর্নীতির ধারণা, কারণ ব্যাখ্যা করতে পারব...'
+  WARN  ch15: outcome not covered by any topic — 'দুর্নীতির বিরুদ্ধে প্রতিরোধের পদক্ষেপ ব্যাখ্যা করতে পারব...'
+  FAIL  ch1: 6/8 topics are verb-stripped copies of learning_outcomes (75%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch2: one-word topic 'বীরশ্রেষ্ঠ' — attach its head concept
+  FAIL  ch2: 6/8 topics are verb-stripped copies of learning_outcomes (75%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch4: one-word topic 'জলবায়ু' — attach its head concept
+  FAIL  ch4: 6/6 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch5: one-word topic 'বনজঙ্গল' — attach its head concept
+  FAIL  ch5: 5/6 topics are verb-stripped copies of learning_outcomes (83%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch6: one-word topic 'নাগরিকতা' — attach its head concept
+  FAIL  ch6: 6/6 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch7: one-word topic 'সংবিধান' — attach its head concept
+  FAIL  ch7: 6/7 topics are verb-stripped copies of learning_outcomes (86%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch8: one-word topic 'গণতন্ত্র' — attach its head concept
+  FAIL  ch8: one-word topic 'ভোটাধিকার' — attach its head concept
+  FAIL  ch8: 6/6 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch9: one-word topic 'মানবাধিকার' — attach its head concept
+  FAIL  ch9: 6/6 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch10: one-word topic 'শিল্পায়ন' — attach its head concept
+  FAIL  ch10: 6/6 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch11: one-word topic 'জিডিপি' — attach its head concept
+  FAIL  ch11: one-word topic 'মুদ্রাস্ফীতি' — attach its head concept
+  FAIL  ch11: 7/7 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch12: one-word topic 'বাজেট' — attach its head concept
+  FAIL  ch13: one-word topic 'সামাজিকীকরণ' — attach its head concept
+  FAIL  ch13: one-word topic 'গণমাধ্যম' — attach its head concept
+  FAIL  ch14: one-word topic 'সমাজজীবন' — attach its head concept
+  FAIL  ch15: one-word topic 'শিশুশ্রম' — attach its head concept
+  FAIL  ch15: one-word topic 'দুর্নীতি' — attach its head concept
+  FAIL  ch15: one-word topic 'মাতৃকল্যাণ' — attach its head concept
+  FAIL  ch15: 9/10 topics are verb-stripped copies of learning_outcomes (90%) — this is a box paraphrase, not a body map. Read the chapter pages.
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'বঙ্গভঙ্গ ১৯০৫ ও তার প্রভাব ব্যাখ্যা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'প্রথম স্বাধীনতা আন্দোলন ১৮৫৭-৫৮ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — 'ভাষা আন্দোলন ১৯৫২ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — '১৯৫৪ সাধারণ নির্বাচনের প্রেক্ষাপট ও ফলাফল ব্যাখ্যা করতে পারব...'
+  WARN  ch2: thin topic 'মুক্তিবাহিনী গঠন' — confirm it carries a head concept
+  WARN  ch3: thin topic 'ভূ-অভ্যন্তরের গঠন' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'আলোড়ন ও আবহাওয়া সম্পর্কে জানব...'
+  WARN  ch3: outcome not covered by any topic — 'ভূমিকম্প ও জ্বালামুখী সম্পর্কে জানব...'
+  WARN  ch4: outcome not covered by any topic — 'প্রাকৃতিক অঞ্চল বিভাগ সম্পর্কে জানব...'
+  WARN  ch4: outcome not covered by any topic — 'বন্যা ও খরা সম্পর্কে জানব...'
+  WARN  ch6: thin topic 'নাগরিকতার ধারণা' — confirm it carries a head concept
+  WARN  ch6: outcome not covered by any topic — 'নাগরিকতা সম্পর্কে জানব...'
+  WARN  ch7: outcome not covered by any topic — 'আইন প্রণালী সম্পর্কে জানব...'
+  WARN  ch7: outcome not covered by any topic — 'বিচার বিভাগ সম্পর্কে জানব...'
+  WARN  ch7: outcome not covered by any topic — 'প্রশাসনিক বিভাগ সম্পর্কে জানব...'
+  WARN  ch7: outcome not covered by any topic — 'সংবিধান সম্পর্কে জানব...'
+  WARN  ch7: outcome not covered by any topic — 'মৌলিক রাষ্ট্রীয় নীতি সম্পর্কে জানব...'
+  WARN  ch8: outcome not covered by any topic — 'ভোটাধিকার সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'শান্তি মিশন সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'আন্তর্জাতিক সম্পর্ক সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'মানবাধিকার সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'শিল্পায়ন সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'কৃষি খাত সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'সেবা খাত সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'অর্থনৈতিক নির্দেশক সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'মুদ্রাস্ফীতি সম্পর্কে জানব...'
+  WARN  ch13: thin topic 'পরিবারের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের উপাদান' — confirm it carries a head concept
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশের পরিবারব্যবস্থার (গ্রাম ও শহরে) ধরন ও ভূমিকার পরিব...'
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশে সামাজিকীকরণ প্রক্রিয়ায় বিভিন্ন প্রতিষ্ঠানের ভূমি...'
+  WARN  ch15: outcome not covered by any topic — 'ধর্মীয় আদর্শে জীবন গঠনের উপায় নির্দেশ করতে পারব...'
+  FAIL  ch7: one-word topic 'আইনবিভাগ' — attach its head concept
+  FAIL  ch7: one-word topic 'বিচারবিভাগ' — attach its head concept
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'বঙ্গভঙ্গ ১৯০৫ ও তার প্রভাব ব্যাখ্যা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'প্রথম স্বাধীনতা আন্দোলন ১৮৫৭-৫৮ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — 'ভাষা আন্দোলন ১৯৫২ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — '১৯৫৪ সাধারণ নির্বাচনের প্রেক্ষাপট ও ফলাফল ব্যাখ্যা করতে পারব...'
+  WARN  ch2: thin topic 'মুক্তিবাহিনী গঠন' — confirm it carries a head concept
+  WARN  ch3: thin topic 'ভূ-অভ্যন্তরের গঠন' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'আলোড়ন ও আবহাওয়া সম্পর্কে জানব...'
+  WARN  ch3: outcome not covered by any topic — 'ভূমিকম্প ও জ্বালামুখী সম্পর্কে জানব...'
+  WARN  ch4: outcome not covered by any topic — 'প্রাকৃতিক অঞ্চল বিভাগ সম্পর্কে জানব...'
+  WARN  ch4: outcome not covered by any topic — 'বন্যা ও খরা সম্পর্কে জানব...'
+  WARN  ch6: thin topic 'নাগরিকতার ধারণা' — confirm it carries a head concept
+  WARN  ch6: outcome not covered by any topic — 'নাগরিকতা সম্পর্কে জানব...'
+  WARN  ch7: outcome not covered by any topic — 'সংবিধান সম্পর্কে জানব...'
+  WARN  ch7: outcome not covered by any topic — 'মৌলিক রাষ্ট্রীয় নীতি সম্পর্কে জানব...'
+  WARN  ch8: outcome not covered by any topic — 'ভোটাধিকার সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'শান্তি মিশন সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'আন্তর্জাতিক সম্পর্ক সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'মানবাধিকার সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'শিল্পায়ন সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'কৃষি খাত সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'সেবা খাত সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'অর্থনৈতিক নির্দেশক সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'মুদ্রাস্ফীতি সম্পর্কে জানব...'
+  WARN  ch13: thin topic 'পরিবারের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের উপাদান' — confirm it carries a head concept
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশের পরিবারব্যবস্থার (গ্রাম ও শহরে) ধরন ও ভূমিকার পরিব...'
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশে সামাজিকীকরণ প্রক্রিয়ায় বিভিন্ন প্রতিষ্ঠানের ভূমি...'
+  WARN  ch15: outcome not covered by any topic — 'ধর্মীয় আদর্শে জীবন গঠনের উপায় নির্দেশ করতে পারব...'
+
+=== [final] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+  WARN  'অধ্যায় ১: পূর্ব বাংলার আন্দোলন ও জাতীয়তাবাদের উথান (১৮৪৭-১৯৭০)': topic label is 6 words (> 5) — move detail to scope_note or rephrase — '৬ দফার পটভূমি ও নির্বাচন ১৯৭০'
+  WARN  'অধ্যায় ৩: সৌরজগৎ ও ভূমণ্ডল': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'মূল মধ্যরেখা ও আন্তর্জাতিক তারিখ রেখা'
+  WARN  'অধ্যায় ১১: অর্থনৈতিক নির্দেশকসমূহ ও বাংলাদেশের অর্থনীতির প্রকৃতি': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'মোট জাতীয় উৎপাদন (জিডিপি) ও মোট দেশজ উৎপাদন'
+  WARN  'অধ্যায় ১১: অর্থনৈতিক নির্দেশকসমূহ ও বাংলাদেশের অর্থনীতির প্রকৃতি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'উন্নত ও উন্নয়নশীল দেশের সাথে তুলনা'
+  WARN  'অধ্যায় ১৩: বাংলাদেশের পরিবার কাঠামো ও সামাজিকীকরণ': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বিশেষ চাহিদা সম্পন্ন শিশুর প্রতি পরিবারের ভূমিকা'
+
+=== [final] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+  FAIL  ch11: topic 'কৃষিখাত' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/BGS.json or fix the merge.
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'বঙ্গভঙ্গ ১৯০৫ ও তার প্রভাব ব্যাখ্যা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'প্রথম স্বাধীনতা আন্দোলন ১৮৫৭-৫৮ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — 'ভাষা আন্দোলন ১৯৫২ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — '১৯৫৪ সাধারণ নির্বাচনের প্রেক্ষাপট ও ফলাফল ব্যাখ্যা করতে পারব...'
+  WARN  ch3: thin topic 'ভূ-অভ্যন্তরের গঠন' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'আলোড়ন ও আবহাওয়া সম্পর্কে জানব...'
+  WARN  ch3: outcome not covered by any topic — 'ভূমিকম্প ও জ্বালামুখী সম্পর্কে জানব...'
+  WARN  ch4: outcome not covered by any topic — 'প্রাকৃতিক অঞ্চল বিভাগ সম্পর্কে জানব...'
+  WARN  ch4: outcome not covered by any topic — 'বন্যা ও খরা সম্পর্কে জানব...'
+  WARN  ch6: thin topic 'নাগরিকতার ধারণা' — confirm it carries a head concept
+  WARN  ch6: outcome not covered by any topic — 'নাগরিকতা সম্পর্কে জানব...'
+  WARN  ch7: outcome not covered by any topic — 'সংবিধান সম্পর্কে জানব...'
+  WARN  ch7: outcome not covered by any topic — 'মৌলিক রাষ্ট্রীয় নীতি সম্পর্কে জানব...'
+  WARN  ch8: outcome not covered by any topic — 'ভোটাধিকার সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'শান্তি মিশন সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'আন্তর্জাতিক সম্পর্ক সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'মানবাধিকার সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'শিল্পায়ন সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'কৃষি খাত সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'সেবা খাত সম্পর্কে জানব...'
+  WARN  ch11: thin topic 'উন্নয়ন ধারণা' — confirm it carries a head concept
+  WARN  ch11: outcome not covered by any topic — 'জিডিপি সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'মুদ্রাস্ফীতি সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'বাণিজ্য ঘাটতি সম্পর্কে জানব...'
+  WARN  ch13: thin topic 'পরিবারের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের উপাদান' — confirm it carries a head concept
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশের পরিবারব্যবস্থার (গ্রাম ও শহরে) ধরন ও ভূমিকার পরিব...'
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশে সামাজিকীকরণ প্রক্রিয়ায় বিভিন্ন প্রতিষ্ঠানের ভূমি...'
+  WARN  ch15: outcome not covered by any topic — 'ধর্মীয় আদর্শে জীবন গঠনের উপায় নির্দেশ করতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch11: one-word topic 'কৃষিখাত' — attach its head concept
+
+=== [final] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'বঙ্গভঙ্গ ১৯০৫ ও তার প্রভাব ব্যাখ্যা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'প্রথম স্বাধীনতা আন্দোলন ১৮৫৭-৫৮ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — 'ভাষা আন্দোলন ১৯৫২ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — '১৯৫৪ সাধারণ নির্বাচনের প্রেক্ষাপট ও ফলাফল ব্যাখ্যা করতে পারব...'
+  WARN  ch3: thin topic 'ভূ-অভ্যন্তরের গঠন' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'আলোড়ন ও আবহাওয়া সম্পর্কে জানব...'
+  WARN  ch3: outcome not covered by any topic — 'ভূমিকম্প ও জ্বালামুখী সম্পর্কে জানব...'
+  WARN  ch4: outcome not covered by any topic — 'প্রাকৃতিক অঞ্চল বিভাগ সম্পর্কে জানব...'
+  WARN  ch4: outcome not covered by any topic — 'বন্যা ও খরা সম্পর্কে জানব...'
+  WARN  ch6: thin topic 'নাগরিকতার ধারণা' — confirm it carries a head concept
+  WARN  ch6: outcome not covered by any topic — 'নাগরিকতা সম্পর্কে জানব...'
+  WARN  ch7: outcome not covered by any topic — 'সংবিধান সম্পর্কে জানব...'
+  WARN  ch7: outcome not covered by any topic — 'মৌলিক রাষ্ট্রীয় নীতি সম্পর্কে জানব...'
+  WARN  ch8: outcome not covered by any topic — 'ভোটাধিকার সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'শান্তি মিশন সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'আন্তর্জাতিক সম্পর্ক সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'মানবাধিকার সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'শিল্পায়ন সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'কৃষি খাত সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'সেবা খাত সম্পর্কে জানব...'
+  WARN  ch11: thin topic 'উন্নয়ন ধারণা' — confirm it carries a head concept
+  WARN  ch11: outcome not covered by any topic — 'জিডিপি সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'মুদ্রাস্ফীতি সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'বাণিজ্য ঘাটতি সম্পর্কে জানব...'
+  WARN  ch13: thin topic 'পরিবারের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের উপাদান' — confirm it carries a head concept
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশের পরিবারব্যবস্থার (গ্রাম ও শহরে) ধরন ও ভূমিকার পরিব...'
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশে সামাজিকীকরণ প্রক্রিয়ায় বিভিন্ন প্রতিষ্ঠানের ভূমি...'
+  WARN  ch15: outcome not covered by any topic — 'ধর্মীয় আদর্শে জীবন গঠনের উপায় নির্দেশ করতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'বঙ্গভঙ্গ ১৯০৫ ও তার প্রভাব ব্যাখ্যা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'প্রথম স্বাধীনতা আন্দোলন ১৮৫৭-৫৮ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — 'ভাষা আন্দোলন ১৯৫২ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — '১৯৫৪ সাধারণ নির্বাচনের প্রেক্ষাপট ও ফলাফল ব্যাখ্যা করতে পারব...'
+  WARN  ch3: thin topic 'ভূ-অভ্যন্তরের গঠন' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'আলোড়ন ও আবহাওয়া সম্পর্কে জানব...'
+  WARN  ch3: outcome not covered by any topic — 'ভূমিকম্প ও জ্বালামুখী সম্পর্কে জানব...'
+  WARN  ch4: outcome not covered by any topic — 'প্রাকৃতিক অঞ্চল বিভাগ সম্পর্কে জানব...'
+  WARN  ch4: outcome not covered by any topic — 'বন্যা ও খরা সম্পর্কে জানব...'
+  WARN  ch6: thin topic 'নাগরিকতার ধারণা' — confirm it carries a head concept
+  WARN  ch6: outcome not covered by any topic — 'নাগরিকতা সম্পর্কে জানব...'
+  WARN  ch7: outcome not covered by any topic — 'সংবিধান সম্পর্কে জানব...'
+  WARN  ch7: outcome not covered by any topic — 'মৌলিক রাষ্ট্রীয় নীতি সম্পর্কে জানব...'
+  WARN  ch8: outcome not covered by any topic — 'ভোটাধিকার সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'শান্তি মিশন সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'আন্তর্জাতিক সম্পর্ক সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'মানবাধিকার সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'শিল্পায়ন সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'কৃষি খাত সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'সেবা খাত সম্পর্কে জানব...'
+  WARN  ch11: thin topic 'উন্নয়ন ধারণা' — confirm it carries a head concept
+  WARN  ch11: outcome not covered by any topic — 'জিডিপি সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'মুদ্রাস্ফীতি সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'বাণিজ্য ঘাটতি সম্পর্কে জানব...'
+  WARN  ch13: thin topic 'পরিবারের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের উপাদান' — confirm it carries a head concept
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশের পরিবারব্যবস্থার (গ্রাম ও শহরে) ধরন ও ভূমিকার পরিব...'
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশে সামাজিকীকরণ প্রক্রিয়ায় বিভিন্ন প্রতিষ্ঠানের ভূমি...'
+  WARN  ch15: outcome not covered by any topic — 'ধর্মীয় আদর্শে জীবন গঠনের উপায় নির্দেশ করতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'বঙ্গভঙ্গ ১৯০৫ ও তার প্রভাব ব্যাখ্যা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'প্রথম স্বাধীনতা আন্দোলন ১৮৫৭-৫৮ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — 'ভাষা আন্দোলন ১৯৫২ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — '১৯৫৪ সাধারণ নির্বাচনের প্রেক্ষাপট ও ফলাফল ব্যাখ্যা করতে পারব...'
+  WARN  ch3: thin topic 'ভূ-অভ্যন্তরের গঠন' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'আলোড়ন ও আবহাওয়া সম্পর্কে জানব...'
+  WARN  ch3: outcome not covered by any topic — 'ভূমিকম্প ও জ্বালামুখী সম্পর্কে জানব...'
+  WARN  ch4: outcome not covered by any topic — 'প্রাকৃতিক অঞ্চল বিভাগ সম্পর্কে জানব...'
+  WARN  ch4: outcome not covered by any topic — 'বন্যা ও খরা সম্পর্কে জানব...'
+  WARN  ch6: thin topic 'নাগরিকতার ধারণা' — confirm it carries a head concept
+  WARN  ch6: outcome not covered by any topic — 'নাগরিকতা সম্পর্কে জানব...'
+  WARN  ch7: outcome not covered by any topic — 'সংবিধান সম্পর্কে জানব...'
+  WARN  ch7: outcome not covered by any topic — 'মৌলিক রাষ্ট্রীয় নীতি সম্পর্কে জানব...'
+  WARN  ch8: outcome not covered by any topic — 'ভোটাধিকার সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'শান্তি মিশন সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'আন্তর্জাতিক সম্পর্ক সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'মানবাধিকার সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'শিল্পায়ন সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'কৃষি খাত সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'সেবা খাত সম্পর্কে জানব...'
+  WARN  ch11: thin topic 'উন্নয়ন ধারণা' — confirm it carries a head concept
+  WARN  ch11: outcome not covered by any topic — 'জিডিপি সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'মুদ্রাস্ফীতি সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'বাণিজ্য ঘাটতি সম্পর্কে জানব...'
+  WARN  ch13: thin topic 'পরিবারের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের উপাদান' — confirm it carries a head concept
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশের পরিবারব্যবস্থার (গ্রাম ও শহরে) ধরন ও ভূমিকার পরিব...'
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশে সামাজিকীকরণ প্রক্রিয়ায় বিভিন্ন প্রতিষ্ঠানের ভূমি...'
+  WARN  ch15: outcome not covered by any topic — 'ধর্মীয় আদর্শে জীবন গঠনের উপায় নির্দেশ করতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'বঙ্গভঙ্গ ১৯০৫ ও তার প্রভাব ব্যাখ্যা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'প্রথম স্বাধীনতা আন্দোলন ১৮৫৭-৫৮ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — 'ভাষা আন্দোলন ১৯৫২ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — '১৯৫৪ সাধারণ নির্বাচনের প্রেক্ষাপট ও ফলাফল ব্যাখ্যা করতে পারব...'
+  WARN  ch1: 4/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch3: thin topic 'ভূ-অভ্যন্তরের গঠন' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'আলোড়ন ও আবহাওয়া সম্পর্কে জানব...'
+  WARN  ch3: outcome not covered by any topic — 'ভূমিকম্প ও জ্বালামুখী সম্পর্কে জানব...'
+  WARN  ch3: 5/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch3: 8 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: outcome not covered by any topic — 'প্রাকৃতিক অঞ্চল বিভাগ সম্পর্কে জানব...'
+  WARN  ch4: outcome not covered by any topic — 'বন্যা ও খরা সম্পর্কে জানব...'
+  WARN  ch4: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch5: 5/5 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch6: thin topic 'নাগরিকতার ধারণা' — confirm it carries a head concept
+  WARN  ch6: outcome not covered by any topic — 'নাগরিকতা সম্পর্কে জানব...'
+  WARN  ch6: 5/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch7: outcome not covered by any topic — 'সংবিধান সম্পর্কে জানব...'
+  WARN  ch7: outcome not covered by any topic — 'মৌলিক রাষ্ট্রীয় নীতি সম্পর্কে জানব...'
+  WARN  ch7: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch8: outcome not covered by any topic — 'ভোটাধিকার সম্পর্কে জানব...'
+  WARN  ch8: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch9: outcome not covered by any topic — 'শান্তি মিশন সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'আন্তর্জাতিক সম্পর্ক সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'মানবাধিকার সম্পর্কে জানব...'
+  WARN  ch9: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch10: outcome not covered by any topic — 'শিল্পায়ন সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'কৃষি খাত সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'সেবা খাত সম্পর্কে জানব...'
+  WARN  ch10: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch11: thin topic 'উন্নয়ন ধারণা' — confirm it carries a head concept
+  WARN  ch11: outcome not covered by any topic — 'জিডিপি সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'মুদ্রাস্ফীতি সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'বাণিজ্য ঘাটতি সম্পর্কে জানব...'
+  WARN  ch11: 7/7 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch13: thin topic 'পরিবারের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের উপাদান' — confirm it carries a head concept
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশের পরিবারব্যবস্থার (গ্রাম ও শহরে) ধরন ও ভূমিকার পরিব...'
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশে সামাজিকীকরণ প্রক্রিয়ায় বিভিন্ন প্রতিষ্ঠানের ভূমি...'
+  WARN  ch15: outcome not covered by any topic — 'ধর্মীয় আদর্শে জীবন গঠনের উপায় নির্দেশ করতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch11: only 29% of the 85 extracted section headings map to a topic — whole sections are missing from topic_map.json. Re-map from the full body.
+  FAIL  ch12: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch12.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch13: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch13.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch14: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch14.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch15: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch15.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'বঙ্গভঙ্গ ১৯০৫ ও তার প্রভাব ব্যাখ্যা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'প্রথম স্বাধীনতা আন্দোলন ১৮৫৭-৫৮ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — 'ভাষা আন্দোলন ১৯৫২ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — '১৯৫৪ সাধারণ নির্বাচনের প্রেক্ষাপট ও ফলাফল ব্যাখ্যা করতে পারব...'
+  WARN  ch1: 4/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch3: thin topic 'ভূ-অভ্যন্তরের গঠন' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'আলোড়ন ও আবহাওয়া সম্পর্কে জানব...'
+  WARN  ch3: outcome not covered by any topic — 'ভূমিকম্প ও জ্বালামুখী সম্পর্কে জানব...'
+  WARN  ch3: 5/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch3: 8 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: outcome not covered by any topic — 'প্রাকৃতিক অঞ্চল বিভাগ সম্পর্কে জানব...'
+  WARN  ch4: outcome not covered by any topic — 'বন্যা ও খরা সম্পর্কে জানব...'
+  WARN  ch4: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch5: 5/5 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch6: thin topic 'নাগরিকতার ধারণা' — confirm it carries a head concept
+  WARN  ch6: outcome not covered by any topic — 'নাগরিকতা সম্পর্কে জানব...'
+  WARN  ch6: 5/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch7: outcome not covered by any topic — 'সংবিধান সম্পর্কে জানব...'
+  WARN  ch7: outcome not covered by any topic — 'মৌলিক রাষ্ট্রীয় নীতি সম্পর্কে জানব...'
+  WARN  ch7: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch8: outcome not covered by any topic — 'ভোটাধিকার সম্পর্কে জানব...'
+  WARN  ch8: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch9: outcome not covered by any topic — 'শান্তি মিশন সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'আন্তর্জাতিক সম্পর্ক সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'মানবাধিকার সম্পর্কে জানব...'
+  WARN  ch9: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch10: outcome not covered by any topic — 'শিল্পায়ন সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'কৃষি খাত সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'সেবা খাত সম্পর্কে জানব...'
+  WARN  ch10: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch11: thin topic 'উন্নয়ন ধারণা' — confirm it carries a head concept
+  WARN  ch11: outcome not covered by any topic — 'জিডিপি সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'মুদ্রাস্ফীতি সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'বাণিজ্য ঘাটতি সম্পর্কে জানব...'
+  WARN  ch11: 7/7 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch13: thin topic 'পরিবারের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের উপাদান' — confirm it carries a head concept
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশের পরিবারব্যবস্থার (গ্রাম ও শহরে) ধরন ও ভূমিকার পরিব...'
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশে সামাজিকীকরণ প্রক্রিয়ায় বিভিন্ন প্রতিষ্ঠানের ভূমি...'
+  WARN  ch15: outcome not covered by any topic — 'ধর্মীয় আদর্শে জীবন গঠনের উপায় নির্দেশ করতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch11: only 29% of the 85 extracted section headings map to a topic — whole sections are missing from topic_map.json. Re-map from the full body.
+  FAIL  ch12: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch12.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch13: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch13.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch14: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch14.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch15: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch15.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'বঙ্গভঙ্গ ১৯০৫ ও তার প্রভাব ব্যাখ্যা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'প্রথম স্বাধীনতা আন্দোলন ১৮৫৭-৫৮ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — 'ভাষা আন্দোলন ১৯৫২ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — '১৯৫৪ সাধারণ নির্বাচনের প্রেক্ষাপট ও ফলাফল ব্যাখ্যা করতে পারব...'
+  WARN  ch1: 4/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch3: thin topic 'ভূ-অভ্যন্তরের গঠন' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'আলোড়ন ও আবহাওয়া সম্পর্কে জানব...'
+  WARN  ch3: outcome not covered by any topic — 'ভূমিকম্প ও জ্বালামুখী সম্পর্কে জানব...'
+  WARN  ch3: 5/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch3: 8 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: outcome not covered by any topic — 'প্রাকৃতিক অঞ্চল বিভাগ সম্পর্কে জানব...'
+  WARN  ch4: outcome not covered by any topic — 'বন্যা ও খরা সম্পর্কে জানব...'
+  WARN  ch4: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch5: 5/5 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch6: thin topic 'নাগরিকতার ধারণা' — confirm it carries a head concept
+  WARN  ch6: outcome not covered by any topic — 'নাগরিকতা সম্পর্কে জানব...'
+  WARN  ch6: 5/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch7: outcome not covered by any topic — 'সংবিধান সম্পর্কে জানব...'
+  WARN  ch7: outcome not covered by any topic — 'মৌলিক রাষ্ট্রীয় নীতি সম্পর্কে জানব...'
+  WARN  ch7: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch8: outcome not covered by any topic — 'ভোটাধিকার সম্পর্কে জানব...'
+  WARN  ch8: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch9: outcome not covered by any topic — 'শান্তি মিশন সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'আন্তর্জাতিক সম্পর্ক সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'মানবাধিকার সম্পর্কে জানব...'
+  WARN  ch9: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch10: outcome not covered by any topic — 'শিল্পায়ন সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'কৃষি খাত সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'সেবা খাত সম্পর্কে জানব...'
+  WARN  ch10: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch11: thin topic 'উন্নয়ন ধারণা' — confirm it carries a head concept
+  WARN  ch11: outcome not covered by any topic — 'জিডিপি সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'মুদ্রাস্ফীতি সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'বাণিজ্য ঘাটতি সম্পর্কে জানব...'
+  WARN  ch11: 7/7 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch12: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch12.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch13: thin topic 'পরিবারের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের উপাদান' — confirm it carries a head concept
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশের পরিবারব্যবস্থার (গ্রাম ও শহরে) ধরন ও ভূমিকার পরিব...'
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশে সামাজিকীকরণ প্রক্রিয়ায় বিভিন্ন প্রতিষ্ঠানের ভূমি...'
+  WARN  ch13: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch13.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch14: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch14.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch15: outcome not covered by any topic — 'ধর্মীয় আদর্শে জীবন গঠনের উপায় নির্দেশ করতে পারব...'
+  WARN  ch15: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch15.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch11: only 29% of the 85 extracted section headings map to a topic — whole sections are missing from topic_map.json. Re-map from the full body.
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+  WARN  ch7: 57% of topics track the outcome box closely
+  WARN  ch13: 71% of topics track the outcome box closely
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch2: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch02.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch11: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch11.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch12: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch12.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch13: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch13.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'বঙ্গভঙ্গ ১৯০৫ ও তার প্রভাব ব্যাখ্যা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'প্রথম স্বাধীনতা আন্দোলন ১৮৫৭-৫৮ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — 'ভাষা আন্দোলন ১৯৫২ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — '১৯৫৪ সাধারণ নির্বাচনের প্রেক্ষাপট ও ফলাফল ব্যাখ্যা করতে পারব...'
+  WARN  ch1: 4/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch3: thin topic 'ভূ-অভ্যন্তরের গঠন' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'আলোড়ন ও আবহাওয়া সম্পর্কে জানব...'
+  WARN  ch3: outcome not covered by any topic — 'ভূমিকম্প ও জ্বালামুখী সম্পর্কে জানব...'
+  WARN  ch3: 5/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch3: 8 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: outcome not covered by any topic — 'প্রাকৃতিক অঞ্চল বিভাগ সম্পর্কে জানব...'
+  WARN  ch4: outcome not covered by any topic — 'বন্যা ও খরা সম্পর্কে জানব...'
+  WARN  ch4: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch5: 5/5 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch6: thin topic 'নাগরিকতার ধারণা' — confirm it carries a head concept
+  WARN  ch6: outcome not covered by any topic — 'নাগরিকতা সম্পর্কে জানব...'
+  WARN  ch6: 5/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch7: outcome not covered by any topic — 'সংবিধান সম্পর্কে জানব...'
+  WARN  ch7: outcome not covered by any topic — 'মৌলিক রাষ্ট্রীয় নীতি সম্পর্কে জানব...'
+  WARN  ch7: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch8: outcome not covered by any topic — 'ভোটাধিকার সম্পর্কে জানব...'
+  WARN  ch8: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch9: outcome not covered by any topic — 'শান্তি মিশন সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'আন্তর্জাতিক সম্পর্ক সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'মানবাধিকার সম্পর্কে জানব...'
+  WARN  ch9: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch10: outcome not covered by any topic — 'শিল্পায়ন সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'কৃষি খাত সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'সেবা খাত সম্পর্কে জানব...'
+  WARN  ch10: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch11: thin topic 'উন্নয়ন ধারণা' — confirm it carries a head concept
+  WARN  ch11: outcome not covered by any topic — 'জিডিপি সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'মুদ্রাস্ফীতি সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'বাণিজ্য ঘাটতি সম্পর্কে জানব...'
+  WARN  ch11: 7/7 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch11: only 29% of the 85 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch13: thin topic 'পরিবারের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের উপাদান' — confirm it carries a head concept
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশের পরিবারব্যবস্থার (গ্রাম ও শহরে) ধরন ও ভূমিকার পরিব...'
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশে সামাজিকীকরণ প্রক্রিয়ায় বিভিন্ন প্রতিষ্ঠানের ভূমি...'
+  WARN  ch15: outcome not covered by any topic — 'ধর্মীয় আদর্শে জীবন গঠনের উপায় নির্দেশ করতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch12: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch12.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch13: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch13.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch14: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch14.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch15: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch15.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+
+=== [extract] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'বঙ্গভঙ্গ ১৯০৫ ও তার প্রভাব ব্যাখ্যা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'প্রথম স্বাধীনতা আন্দোলন ১৮৫৭-৫৮ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — 'ভাষা আন্দোলন ১৯৫২ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — '১৯৫৪ সাধারণ নির্বাচনের প্রেক্ষাপট ও ফলাফল ব্যাখ্যা করতে পারব...'
+  WARN  ch1: 4/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch3: thin topic 'ভূ-অভ্যন্তরের গঠন' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'আলোড়ন ও আবহাওয়া সম্পর্কে জানব...'
+  WARN  ch3: outcome not covered by any topic — 'ভূমিকম্প ও জ্বালামুখী সম্পর্কে জানব...'
+  WARN  ch3: 5/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch3: only 36% of the 42 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch3: 8 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: outcome not covered by any topic — 'প্রাকৃতিক অঞ্চল বিভাগ সম্পর্কে জানব...'
+  WARN  ch4: outcome not covered by any topic — 'বন্যা ও খরা সম্পর্কে জানব...'
+  WARN  ch4: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch5: 5/5 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch6: thin topic 'নাগরিকতার ধারণা' — confirm it carries a head concept
+  WARN  ch6: outcome not covered by any topic — 'নাগরিকতা সম্পর্কে জানব...'
+  WARN  ch6: 5/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch7: outcome not covered by any topic — 'সংবিধান সম্পর্কে জানব...'
+  WARN  ch7: outcome not covered by any topic — 'মৌলিক রাষ্ট্রীয় নীতি সম্পর্কে জানব...'
+  WARN  ch7: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch8: outcome not covered by any topic — 'ভোটাধিকার সম্পর্কে জানব...'
+  WARN  ch8: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch9: outcome not covered by any topic — 'শান্তি মিশন সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'আন্তর্জাতিক সম্পর্ক সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'মানবাধিকার সম্পর্কে জানব...'
+  WARN  ch9: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch10: outcome not covered by any topic — 'শিল্পায়ন সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'কৃষি খাত সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'সেবা খাত সম্পর্কে জানব...'
+  WARN  ch10: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch11: thin topic 'উন্নয়ন ধারণা' — confirm it carries a head concept
+  WARN  ch11: outcome not covered by any topic — 'জিডিপি সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'মুদ্রাস্ফীতি সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'বাণিজ্য ঘাটতি সম্পর্কে জানব...'
+  WARN  ch11: 7/7 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch11: only 29% of the 85 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch13: thin topic 'পরিবারের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের উপাদান' — confirm it carries a head concept
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশের পরিবারব্যবস্থার (গ্রাম ও শহরে) ধরন ও ভূমিকার পরিব...'
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশে সামাজিকীকরণ প্রক্রিয়ায় বিভিন্ন প্রতিষ্ঠানের ভূমি...'
+  WARN  ch15: outcome not covered by any topic — 'ধর্মীয় আদর্শে জীবন গঠনের উপায় নির্দেশ করতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch3: topics stop around page 40 but the chapter runs to 49 and pages 45-49 carry 9 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch12: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch12.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch13: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch13.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch14: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch14.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch15: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch15.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'বঙ্গভঙ্গ ১৯০৫ ও তার প্রভাব ব্যাখ্যা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'প্রথম স্বাধীনতা আন্দোলন ১৮৫৭-৫৮ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — 'ভাষা আন্দোলন ১৯৫২ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — '১৯৫৪ সাধারণ নির্বাচনের প্রেক্ষাপট ও ফলাফল ব্যাখ্যা করতে পারব...'
+  WARN  ch1: 4/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch3: thin topic 'ভূ-অভ্যন্তরের গঠন' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'আলোড়ন ও আবহাওয়া সম্পর্কে জানব...'
+  WARN  ch3: outcome not covered by any topic — 'ভূমিকম্প ও জ্বালামুখী সম্পর্কে জানব...'
+  WARN  ch3: 5/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch3: only 36% of the 42 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch3: 8 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: outcome not covered by any topic — 'প্রাকৃতিক অঞ্চল বিভাগ সম্পর্কে জানব...'
+  WARN  ch4: outcome not covered by any topic — 'বন্যা ও খরা সম্পর্কে জানব...'
+  WARN  ch4: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch5: 5/5 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch6: thin topic 'নাগরিকতার ধারণা' — confirm it carries a head concept
+  WARN  ch6: outcome not covered by any topic — 'নাগরিকতা সম্পর্কে জানব...'
+  WARN  ch6: 5/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch7: outcome not covered by any topic — 'সংবিধান সম্পর্কে জানব...'
+  WARN  ch7: outcome not covered by any topic — 'মৌলিক রাষ্ট্রীয় নীতি সম্পর্কে জানব...'
+  WARN  ch7: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch8: outcome not covered by any topic — 'ভোটাধিকার সম্পর্কে জানব...'
+  WARN  ch8: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch9: outcome not covered by any topic — 'শান্তি মিশন সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'আন্তর্জাতিক সম্পর্ক সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'মানবাধিকার সম্পর্কে জানব...'
+  WARN  ch9: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch10: outcome not covered by any topic — 'শিল্পায়ন সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'কৃষি খাত সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'সেবা খাত সম্পর্কে জানব...'
+  WARN  ch10: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch11: thin topic 'উন্নয়ন ধারণা' — confirm it carries a head concept
+  WARN  ch11: outcome not covered by any topic — 'জিডিপি সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'মুদ্রাস্ফীতি সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'বাণিজ্য ঘাটতি সম্পর্কে জানব...'
+  WARN  ch11: 7/7 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch11: only 29% of the 85 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch13: thin topic 'পরিবারের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের উপাদান' — confirm it carries a head concept
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশের পরিবারব্যবস্থার (গ্রাম ও শহরে) ধরন ও ভূমিকার পরিব...'
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশে সামাজিকীকরণ প্রক্রিয়ায় বিভিন্ন প্রতিষ্ঠানের ভূমি...'
+  WARN  ch15: outcome not covered by any topic — 'ধর্মীয় আদর্শে জীবন গঠনের উপায় নির্দেশ করতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch3: topics stop around page 40 but the chapter runs to 49 and pages 45-49 carry 9 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch09.json is an unfilled stub — run the Step 4b agent pass to list every page's headings — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch12: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch12.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch13: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch13.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch14: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch14.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch15: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch15.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+
+=== [topicmap] topic_map.json ===
+  WARN  ch1: outcome not covered by any topic — 'বঙ্গভঙ্গ ১৯০৫ ও তার প্রভাব ব্যাখ্যা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'প্রথম স্বাধীনতা আন্দোলন ১৮৫৭-৫৮ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — 'ভাষা আন্দোলন ১৯৫২ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — '১৯৫৪ সাধারণ নির্বাচনের প্রেক্ষাপট ও ফলাফল ব্যাখ্যা করতে পারব...'
+  WARN  ch1: 4/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch3: thin topic 'ভূ-অভ্যন্তরের গঠন' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'আলোড়ন ও আবহাওয়া সম্পর্কে জানব...'
+  WARN  ch3: outcome not covered by any topic — 'ভূমিকম্প ও জ্বালামুখী সম্পর্কে জানব...'
+  WARN  ch3: 5/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch3: only 36% of the 42 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch3: 8 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: outcome not covered by any topic — 'প্রাকৃতিক অঞ্চল বিভাগ সম্পর্কে জানব...'
+  WARN  ch4: outcome not covered by any topic — 'বন্যা ও খরা সম্পর্কে জানব...'
+  WARN  ch4: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch5: 5/5 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch6: thin topic 'নাগরিকতার ধারণা' — confirm it carries a head concept
+  WARN  ch6: outcome not covered by any topic — 'নাগরিকতা সম্পর্কে জানব...'
+  WARN  ch6: 5/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch7: outcome not covered by any topic — 'সংবিধান সম্পর্কে জানব...'
+  WARN  ch7: outcome not covered by any topic — 'মৌলিক রাষ্ট্রীয় নীতি সম্পর্কে জানব...'
+  WARN  ch7: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch8: outcome not covered by any topic — 'ভোটাধিকার সম্পর্কে জানব...'
+  WARN  ch8: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch9: outcome not covered by any topic — 'শান্তি মিশন সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'আন্তর্জাতিক সম্পর্ক সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'মানবাধিকার সম্পর্কে জানব...'
+  WARN  ch9: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch10: outcome not covered by any topic — 'শিল্পায়ন সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'কৃষি খাত সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'সেবা খাত সম্পর্কে জানব...'
+  WARN  ch10: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch11: thin topic 'উন্নয়ন ধারণা' — confirm it carries a head concept
+  WARN  ch11: outcome not covered by any topic — 'জিডিপি সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'মুদ্রাস্ফীতি সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'বাণিজ্য ঘাটতি সম্পর্কে জানব...'
+  WARN  ch11: 7/7 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch11: only 29% of the 85 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch13: thin topic 'পরিবারের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের উপাদান' — confirm it carries a head concept
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশের পরিবারব্যবস্থার (গ্রাম ও শহরে) ধরন ও ভূমিকার পরিব...'
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশে সামাজিকীকরণ প্রক্রিয়ায় বিভিন্ন প্রতিষ্ঠানের ভূমি...'
+  WARN  ch15: outcome not covered by any topic — 'ধর্মীয় আদর্শে জীবন গঠনের উপায় নির্দেশ করতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch3: topics stop around page 40 but the chapter runs to 49 and pages 45-49 carry 9 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch12: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch12.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch13: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch13.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch14: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch14.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch15: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch15.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+  WARN  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch1: 9 topics for a 35-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch2: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch02.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch2: 10 topics for a 34-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch3: 8 topics for a 24-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch4: 10 topics for a 81-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch5: 9 topics for a 27-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch7: 7 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Agriculture_compressed ===
+  WARN  ch1: 9 topics for a 35-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch2: 10 topics for a 34-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch3: 8 topics for a 24-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: 10 topics for a 81-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch5: 9 topics for a 27-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch7: 7 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch2: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch02.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Agriculture_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+
+=== [extract] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'বঙ্গভঙ্গ ১৯০৫ ও তার প্রভাব ব্যাখ্যা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'প্রথম স্বাধীনতা আন্দোলন ১৮৫৭-৫৮ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — 'ভাষা আন্দোলন ১৯৫২ সম্পর্কে জানব...'
+  WARN  ch1: outcome not covered by any topic — '১৯৫৪ সাধারণ নির্বাচনের প্রেক্ষাপট ও ফলাফল ব্যাখ্যা করতে পারব...'
+  WARN  ch1: 4/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch3: thin topic 'ভূ-অভ্যন্তরের গঠন' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'আলোড়ন ও আবহাওয়া সম্পর্কে জানব...'
+  WARN  ch3: outcome not covered by any topic — 'ভূমিকম্প ও জ্বালামুখী সম্পর্কে জানব...'
+  WARN  ch3: 5/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch3: only 36% of the 42 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch3: 8 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: outcome not covered by any topic — 'প্রাকৃতিক অঞ্চল বিভাগ সম্পর্কে জানব...'
+  WARN  ch4: outcome not covered by any topic — 'বন্যা ও খরা সম্পর্কে জানব...'
+  WARN  ch4: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch5: 5/5 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch6: thin topic 'নাগরিকতার ধারণা' — confirm it carries a head concept
+  WARN  ch6: outcome not covered by any topic — 'নাগরিকতা সম্পর্কে জানব...'
+  WARN  ch6: 5/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch7: outcome not covered by any topic — 'সংবিধান সম্পর্কে জানব...'
+  WARN  ch7: outcome not covered by any topic — 'মৌলিক রাষ্ট্রীয় নীতি সম্পর্কে জানব...'
+  WARN  ch7: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch8: outcome not covered by any topic — 'ভোটাধিকার সম্পর্কে জানব...'
+  WARN  ch8: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch9: outcome not covered by any topic — 'শান্তি মিশন সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'আন্তর্জাতিক সম্পর্ক সম্পর্কে জানব...'
+  WARN  ch9: outcome not covered by any topic — 'মানবাধিকার সম্পর্কে জানব...'
+  WARN  ch9: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch10: outcome not covered by any topic — 'শিল্পায়ন সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'কৃষি খাত সম্পর্কে জানব...'
+  WARN  ch10: outcome not covered by any topic — 'সেবা খাত সম্পর্কে জানব...'
+  WARN  ch10: 6/6 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch11: thin topic 'উন্নয়ন ধারণা' — confirm it carries a head concept
+  WARN  ch11: outcome not covered by any topic — 'জিডিপি সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'মুদ্রাস্ফীতি সম্পর্কে জানব...'
+  WARN  ch11: outcome not covered by any topic — 'বাণিজ্য ঘাটতি সম্পর্কে জানব...'
+  WARN  ch11: 7/7 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch11: only 29% of the 85 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch12: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch12.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch13: thin topic 'পরিবারের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের উপাদান' — confirm it carries a head concept
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশের পরিবারব্যবস্থার (গ্রাম ও শহরে) ধরন ও ভূমিকার পরিব...'
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশে সামাজিকীকরণ প্রক্রিয়ায় বিভিন্ন প্রতিষ্ঠানের ভূমি...'
+  WARN  ch13: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch13.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch14: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch14.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch15: outcome not covered by any topic — 'ধর্মীয় আদর্শে জীবন গঠনের উপায় নির্দেশ করতে পারব...'
+  WARN  ch15: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch15.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch3: topics stop around page 40 but the chapter runs to 49 and pages 45-49 carry 9 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+  WARN  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch2: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch02.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch7: 57% of topics track the outcome box closely
+  WARN  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch11: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch11.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch12: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch12.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch13: 71% of topics track the outcome box closely
+  WARN  ch13: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed\headings\ch13.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Finance and Banking_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'ভিটামিনের উৎস এবং এর অভাবজনিত প্রতিক্রিয়া ব্যাখ্যা করতে পার...'
+  WARN  ch1: outcome not covered by any topic — 'খনিজ লবণের উৎস এবং এর অভাবজনিত প্রতিক্রিয়া ব্যাখ্যা করতে পা...'
+  WARN  ch1: outcome not covered by any topic — 'পানি ও আংশিক খাবারের উপকারিতা বর্ণনা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'বড় মাস ইনডেক্সের প্রয়োজনীয়তা ব্যাখ্যা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'খাদ্যে রাসায়নিক পদার্থের ব্যবহার এবং এর শারীরিক প্রতিক্রিয়...'
+  WARN  ch1: outcome not covered by any topic — 'শরীরে তামাক ও ড্রাগসের ক্ষতিকর প্রতিক্রিয়া ব্যাখ্যা করতে পা...'
+  WARN  ch1: outcome not covered by any topic — 'এইডস কী ব্যাখ্যা করতে পারব...'
+  WARN  ch1: outcome not covered by any topic — 'শারীরিক ফিটনেস বজায় রাখার কৌশল ব্যাখ্যা করতে পারব...'
+  WARN  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch1: 8 topics for a 32-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch2: outcome not covered by any topic — 'পানির জন্য ভূমিকা ও হুমকি বিশ্লেষণ করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'পানির সম্পদ রক্ষায় পরিবেশবান্ধব উপায় বর্ণনা করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'জলজ উদ্ভিদের পরিবেশ সংরক্ষণে ভূমিকা ব্যাখ্যা করতে পারব...'
+  WARN  ch2: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch02.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch2: 9 topics for a 24-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch3: outcome not covered by any topic — 'হৃদরোগ প্রতিরোধে করণীয় বর্ণনা করতে পারব...'
+  WARN  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch3: 6 topics for a 28-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: outcome not covered by any topic — 'টেস্টিউব বেবির ধারণা ব্যাখ্যা করতে পারব...'
+  WARN  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch4: 9 topics for a 30-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch5: thin topic 'আয়না/দর্পণের ব্যবহার' — confirm it carries a head concept
+  WARN  ch5: outcome not covered by any topic — 'আলোর প্রতিসরণ ব্যাখ্যা করতে পারব...'
+  WARN  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch7: thin topic 'অম্লের ধারণা' — confirm it carries a head concept
+  WARN  ch7: thin topic 'নির্দেশকের ধারণা' — confirm it carries a head concept
+  WARN  ch7: thin topic 'ক্ষারকের ধারণা' — confirm it carries a head concept
+  WARN  ch7: thin topic 'লবণের ধারণা' — confirm it carries a head concept
+  WARN  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch8: thin topic 'মাটির গঠন' — confirm it carries a head concept
+  WARN  ch8: outcome not covered by any topic — 'সম্পদ সংরক্ষণে যত্নবান হব ও অন্যদের সচেতন করব...'
+  WARN  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch9: thin topic 'দুর্যোগ প্রতিরোধ' — confirm it carries a head concept
+  WARN  ch9: outcome not covered by any topic — 'বাংলাদেশ ও আন্তর্জাতিক প্রেক্ষাপটে জলবায়ু পরিবর্তনের প্রভাব...'
+  WARN  ch9: outcome not covered by any topic — 'সুস্থ জীবনযাপনে মানসম্মত ও উন্নত পরিবেশের গুরুত্ব বিশ্লেষণ ক...'
+  WARN  ch9: outcome not covered by any topic — 'প্রকৃতি সংরক্ষণশীলতার তাৎপর্য বিশ্লেষণ করতে পারব...'
+  WARN  ch9: outcome not covered by any topic — 'প্রকৃতি সংরক্ষণশীলতার প্রয়োজনীয়তা বিষয়ে সামাজিক সচেতনতা স...'
+  WARN  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch9: 13 topics for a 28-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch10: thin topic 'বলের ধারণা' — confirm it carries a head concept
+  WARN  ch10: outcome not covered by any topic — 'নিউটনের তৃতীয় সূত্রের সাহায্যে সংঘটিত কয়েকটি জনপ্রিয় ঘটনা...'
+  WARN  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch10: 7 topics for a 18-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch11: thin topic 'ইলেকট্রোলাইটের ধারণা' — confirm it carries a head concept
+  WARN  ch11: outcome not covered by any topic — 'ব্যাটারির কার্যক্রম ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'বাসাবাড়িতে ব্যবহার-উপযোগী বতনীর নকশা প্রয়োগ করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'কিলোওয়াট ও কিলোওয়াট-ঘণ্টা ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'বৈদ্যুতিক ক্ষমতার হিসাব করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'এনার্জি সেভিং বাল্বের সুবিধা ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'আইপিএস ও ইউপিএসের কার্যক্রম ও ব্যবহার ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'সিস্টেম লস এবং লোড শেডিং ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'উন্নয়ন কার্যক্রমে বিদ্যুতের অবদান ব্যাখ্যা করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'বাসাবাড়িতে ব্যবহার-উপযোগী বতনীর ব্যবহার প্রদর্শন করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'তড়িতের অপচয় রোধে যত্নবান হব এবং অন্যদের সচেতন করব...'
+  WARN  ch11: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Science_compressed\headings\ch11.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+  WARN  ch1: thin topic 'ভেনচিত্র অঙ্কন' — confirm it carries a head concept
+  WARN  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch2: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch02.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch3: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch03.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch5: 11 topics for a 27-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch6: 6 topics for a 13-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch8: 8 topics for a 47-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch9: 10 topics for a 30-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch10: 57% of topics track the outcome box closely
+  WARN  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch10: 7 topics for a 16-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch11: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch11.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch11: 8 topics for a 32-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch12: thin topic 'বর্তনবিধির প্রমাণ' — confirm it carries a head concept
+  WARN  ch12: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch12.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch13: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch13.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch13: 8 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch14: heading checklist ocr\Secondary (BV)-2026_Class 9-10_Higher Math_compressed\headings\ch14.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught (NCTB_SKIP_HEADING_GATE set — not enforced)
+  WARN  ch14: 7 topics for a 22-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
+  WARN  'অধ্যায় ২: বীজগাণিতিক রাশি': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'ভাগ সূত্র (P(x) = F(x)Q(x) + R(x))'
+  WARN  'অধ্যায় ৩: জ্যামিতি': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'সমকোণী ত্রিভুজে সমকোণের বিপরীত বাহুর ওপর বর্গক্ষেত্র'
+  WARN  'অধ্যায় ৩: জ্যামিতি': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'স্থূলকোণী ত্রিভুজে স্থূলকোণের বিপরীত বাহুর ওপর বর্গক্ষেত্র'
+  WARN  'অধ্যায় ৩: জ্যামিতি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজের পরিকেন্দ্র, ভরকেন্দ্র ও লম্ববিন্দু সমরেখ'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 9 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজ অঙ্কন - ভূমি, ভূমিসংলগ্ন কোন ও উচ্চতা দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 11 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজ অঙ্কন - ভূমি, শিরংকোণ ও অপর দুই বাহুর সমষ্টি দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 11 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজ অঙ্কন - ভূমি, শিরংকোণ ও অপর দুই বাহুর অন্তর দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 13 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজ অঙ্কন - ভূমিসংলগ্ন একটি কোণ, উচ্চতা ও অপর দুই বাহুর সমষ্টি দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 11 words (> 5) — move detail to scope_note or rephrase — 'সমকোণী ত্রিভুজ অঙ্কন - অতিভুজ ও অপর দুই বাহুর সমষ্টি দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 11 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজ অঙ্কন - উচ্চতা, ভূমির ওপর মধ্যমা ও ভূমিসংলগ্ন কোণ দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 9 words (> 5) — move detail to scope_note or rephrase — 'ত্রিভুজ অঙ্কন - পরিসীমা ও দুটি কোনের মান দিয়ে'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 13 words (> 5) — move detail to scope_note or rephrase — 'বৃত্ত অঙ্কন - দুটি নির্দিষ্ট বিন্দু দিয়ে যাওয়া ও কেন্দ্র একটি সরলরেখায় অবস্থিত'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 13 words (> 5) — move detail to scope_note or rephrase — 'বৃত্ত অঙ্কন - একটি নির্দিষ্ট বিন্দুকে স্পর্শ করে ও আরেকটি বিন্দু দিয়ে যাওয়া'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 13 words (> 5) — move detail to scope_note or rephrase — 'বৃত্ত অঙ্কন - একটি সরলরেখাকে স্পর্শ করে ও বহিঃস্থ একটি বিন্দু দিয়ে যাওয়া'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 13 words (> 5) — move detail to scope_note or rephrase — 'বৃত্ত অঙ্কন - একটি বৃত্তকে স্পর্শ করে ও বহিঃস্থ একটি বিন্দু দিয়ে যাওয়া'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 15 words (> 5) — move detail to scope_note or rephrase — 'বৃত্ত অঙ্কন - একটি বৃত্তকে একটি নির্দিষ্ট বিন্দুতে স্পর্শ করে ও বহিঃস্থ বিন্দু দিয়ে যাওয়া'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'সমদ্বিবাহু ত্রিভুজ অঙ্কন ও পরিবৃত্ত বৃত্ত অঙ্কন'
+  WARN  'অধ্যায় ৪: জ্যামিতিক অঙ্কন': topic label is 10 words (> 5) — move detail to scope_note or rephrase — 'বৃত্তের স্পর্শক অঙ্কন - কেন্দ্র থেকে নির্দিষ্ট দূরত্বের বিন্দু থেকে'
+  WARN  'অধ্যায় ৭: অসীম ধারা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'আবর্তী দশমিক থেকে সাধারণ ভগ্নাংশে রূপান্তর'
+  WARN  'অধ্যায় ৮: ত্রিকোণমিতি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'nπ/2 ± θ কোণের ত্রিকোণমিতিক অনুপাত'
+  WARN  'অধ্যায় ১২: সমতলীয় ভেক্টর': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'স্কেলার রাশি ও ভেক্টর রাশির পার্থক্য'
+  WARN  'অধ্যায় ১৩: ঘন জ্যামিতি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'সমবৃত্তভূমিক কোণকের আয়তন ও পৃষ্ঠতলের ক্ষেত্রফল'

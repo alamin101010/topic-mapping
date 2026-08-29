@@ -20,6 +20,11 @@ with `PYTHONIOENCODING=utf-8`. **Finance and Banking** (`subjects/finance-and-ba
 `config/finance-and-banking.json`, 13 chapters / 129 topics, all stages green) is
 a complete worked example — copy its shape.
 
+Before starting or "finishing" any book, read **§5.1 (definition of done)** and
+the **do-not-auto-run list in §13** — some books (currently **Higher Math**) have
+a partial run on disk that must be left alone until an owner-scheduled redo, not
+patched ad hoc or picked up as a side effect of another request.
+
 ---
 
 ## 1. Project Goal
@@ -273,9 +278,25 @@ how many and how heavy:**
 > project has hit: box-only extraction, topics that are verb-stripped learning
 > outcomes, one-word / bare-attribute topics, orphaned `ও`/`এবং` fragments,
 > ASCII chapter digits, topics silently dropped between `topic_map.json` and
-> the CSV, box-only `topic_map.json` (narrow `source_pages`), and OCR reading
-> errors in topic labels (lexical check). Never hand-inspect for these — run the
-> gate.
+> the CSV, box-only `topic_map.json` (narrow `source_pages`), OCR reading
+> errors in topic labels (lexical check), **a missing Step-4b heading checklist**,
+> and **mid-chapter truncation** (Step 7 mapped the first পরিচ্ছেদ(s) and
+> stopped — the BGS ch3 bug). Never hand-inspect for these — run the gate.
+
+> **2026-08-30 — Step-7 truncation hardening** (after BGS ch3 shipped 8 topics
+> covering only পরিচ্ছেদ ৩.১–৩.২ of a chapter that runs to ৩.৪, with fabricated
+> `learning_outcomes`, while `--stage topicmap` stayed green). *How it happened:*
+> the Step-7 agent read the first ~6 body pages, then wrote the rest of the block
+> from general knowledge; the gate only checked `source_pages` width, not whether
+> topics actually spanned the chapter. *Fixes:* (1) **Step 4b**
+> (`04_extract_headings.py`) is now mandatory — a per-page `headings/chNN.json`
+> checklist; `--stage topicmap` FAILs without it (`NCTB_SKIP_HEADING_GATE=1`
+> bypasses for a legacy book); (2) `--stage topicmap` FAILs when the last mapped
+> heading sits before the final quarter of the page range while headings there go
+> unmapped; (3) it WARNs on paraphrased outcomes (≥ half ending in `জানব`), low
+> heading coverage, < 0.5 topics/page, and topics that match no heading and no
+> outcome; (4) `prompts/topic_map_prompt.md` gained a blocking STEP 0 per-page
+> heading inventory and a §8 coverage self-check.
 
 > **2026-08-28 — OCR reading-error hardening** (after Science shipped `পাকশল্লি`
 > for `পাকস্থলী`, `সংগ্রহলন` for `সঞ্চালন`, a whole chapter of `প্রাত্যহিক`
@@ -428,12 +449,38 @@ python scripts/03_slice_chapters.py "<book-name>"
 
 Output: `ocr/<book-name>/chapters/ch01.txt` ... per chapter.
 
+### Step 4b — Heading checklist (MANDATORY, gates Step 7)
+
+`python scripts/04_extract_headings.py "<book-name>" [--chapter N]` writes, per
+chapter, `ocr/<book>/headings/chNN_info.json` (a per-page heading-extraction
+prompt + the ordered image list) and a stub `ocr/<book>/headings/chNN.json`.
+An LLM pass then works **one page at a time** and REPLACES each `chNN.json` with
+the real list:
+
+```json
+{ "chapter": 3, "chapter_title": "সৌরজগৎ ও ভূমণ্ডল",
+  "headings": [ {"page": "page_032", "heading": "পরিচ্ছেদ ৩.১ : সৌরজগৎ"}, ... ] }
+```
+
+This page-anchored list is the ground truth `--stage topicmap` checks the Step-7
+map against. Without it there is no way to catch a map that covered only the
+first few পরিচ্ছেদ and stopped (BGS ch3: mapped ৩.১–৩.২, dropped ৩.৩–৩.৪) or a
+topic invented rather than read off a page. `--stage topicmap` **FAILs** when
+`chNN.json` is missing or an unfilled stub; bypass for a legacy book
+mid-migration with `NCTB_SKIP_HEADING_GATE=1`.
+
 ### Step 7 — Topic mapping (this is the agent's job, not a script)
 
 **Source of topics = the chapter body** — every section / sub-section heading
 plus the concepts those sections actually teach, read across the FULL chapter.
 The শিখনফল box is a cross-check only (§Step 2). Do this once per chapter, in
 order, then write one JSON file for the whole book.
+
+**Before mapping, do the STEP 0 page-by-page heading inventory** from
+`prompts/topic_map_prompt.md`, and reconcile it against
+`ocr/<book>/headings/chNN.json` (Step 4b). Every পরিচ্ছেদ / named sub-section in
+that list must end up as ≥ 1 topic; your last topic must sit on one of the
+chapter's final pages, not mid-chapter.
 
 **Inputs you load per chapter:** all PNGs in `ocr/<book-name>/chapters/chNN/`, in
 filename order (they are named `page_###.png` by PDF page number). Also load
@@ -486,11 +533,18 @@ python scripts/05_validate.py --stage topicmap "<book-name>"     # must PASS
 ≥75% of a chapter's `topics` being verb-stripped `learning_outcomes` (box
 paraphrase → you did not read the body); `needs_review: true`; a chapter-map
 chapter missing from the JSON; `source_pages` spanning ≤3 pages of a ≥5-page
-chapter (box-only map — delete it and redo from the body). **WARNs on:** thin
+chapter (box-only map — delete it and redo from the body); **no Step-4b heading
+checklist** (`headings/chNN.json` missing or an unfilled stub —
+`NCTB_SKIP_HEADING_GATE=1` to bypass); **mid-chapter truncation** (topics stop
+before the final ~quarter of the page range while headings there go unmapped —
+the BGS ch3 failure). **WARNs on:** thin
 2-token topics (confirm they carry a head noun — often fine); an outcome bullet
 no topic covers; 55–74% outcome-tracking (fine when the chapter genuinely has
-few sections); **any topic word a Bengali dictionary does not know** (see the
-lexical check below). Fix `topic_map.json` and re-run until 0 FAIL — do **not**
+few sections); ≥ half the `learning_outcomes` ending in `জানব` (paraphrased, not
+transcribed); < 60% of extracted headings mapping to a topic; < 0.5 topics/page;
+a topic matching no heading and no outcome (possible invention); **any topic word
+a Bengali dictionary does not know** (see the lexical check below). Fix
+`topic_map.json` and re-run until 0 FAIL — do **not**
 proceed to Step 8 with a FAIL or an unresolved lexical WARN.
 
 #### Lexical check — OCR reading errors the structure checks can't see
@@ -645,11 +699,17 @@ python scripts/05_validate.py --stage extract "<book>"   # (run again after step
 python scripts/01_extract_images.py "<pdf>.pdf" "<slug>.csv"
 python scripts/05_validate.py --stage extract "<book>"   # PASS = every chapter has its whole range
 
+# 2b. Heading checklist (Step 4b, MANDATORY — gates step 3).
+python scripts/04_extract_headings.py "<book>"           # writes headings/chNN_info.json + chNN.json stubs
+#    THE AGENT: for each chNN_info.json, page by page, list the headings and
+#    REPLACE headings/chNN.json with the real list (schema in the info file).
+
 # 3. Topic mapping — THE AGENT DOES THIS (§7). Per chapter, in order:
 #    FIRST: rm any existing box-only ocr/<book>/topic_map.json — do not edit it, rebuild it.
 #    load every PNG in ocr/<book>/chapters/chNN/  +  subjects/<subject>.md  +  prompts/topic_map_prompt.md
+#    -> STEP 0 per-page heading inventory, reconcile vs headings/chNN.json
 #    -> list body headings (spelling FROM the body, not the box) -> §3.2 head-noun
-#    -> §3.5 granularity -> cross-check vs box
+#    -> §3.5 granularity -> cross-check vs box -> §8 coverage self-check (whole chapter, no truncation)
 #    Write ocr/<book>/topic_map.json (§3.4 schema, one object per chapter).
 python scripts/05_validate.py --stage topicmap "<book>"  # fix topic_map.json, re-run till 0 FAIL + 0 unresolved lexical WARN
 
@@ -686,6 +746,39 @@ box-only CSV").
 → `ocr/…Finance and Banking…/topic_map.json` (13 chapters, 129 topics) →
 `output/…Finance and Banking….csv`, all three stages green. `accounting` is a
 second example (config populated; `topic_map.json` still needs its Step 2+7 redo).
+
+### 5.1 Definition of done — never treat a partial run as the deliverable
+
+An `output/<book>.csv` is **finished only when every one of these holds**. If any
+fail, the pipeline was stopped early (usually at Step 4) — it is an intermediate
+artifact, not output. Do not ship it, import it, or build on it.
+
+- **6 columns** — `grade,subject,chapter,topic,scope_note,topic_raw`. A 4-column
+  CSV means Step 10 (scope-split) never ran. (Exception: a subject whose config
+  deliberately sets `scope_split.enabled=false` — then 4 columns is correct.)
+- **All three validate stages exit 0** — `05_validate.py --stage extract`,
+  `--stage topicmap`, `--stage final` for `<book>`, with **0 FAIL and 0
+  unresolved lexical WARN**. This now includes a filled Step-4b heading checklist
+  (`ocr/<book>/headings/chNN.json`) for every chapter and no mid-chapter
+  truncation — `NCTB_SKIP_HEADING_GATE` must NOT be set for a done book.
+- **No `topic` still ends in a trailing `(a, b, …)` enumeration** — those move to
+  `scope_note` in Step 10. (A single inline gloss the sentence runs past —
+  `(Relation)`, `(print() ফাংশন)` — is allowed to stay; a comma-list is not.)
+- **`config/<subject>.json` is populated from this book** — `spelling_corrections`
+  carries the page-cited misreads found in Step 6, `merge_overrides` carries the
+  real groups from `output/<book>-merge-candidates.txt`. Empty `{}` on both for a
+  book that has been through Step 3 means Steps 5 and 6 were skipped.
+- **`max_core_words` reviewed** — set to `5` (the §3.6 goal) unless the subject
+  has a documented reason to keep longer labels; `--stage final` must have no
+  outstanding over-length / not-self-identifying WARNs you have not consciously
+  accepted.
+- **Step 6 eyeball done** — 100% of rows read against the page image they came
+  from.
+
+If you pick up a book whose CSV is 4-column, has parenthetical comma-lists inside
+`topic`, or has an empty-stub `config/<subject>.json`, **finish Steps 5 → 5b → 6**
+(§5 runbook) — or, if the book is on the **do-not-auto-run list in §13**, leave it
+untouched and do not attempt an ad-hoc fix.
 
 ---
 
@@ -738,6 +831,7 @@ nctb-topic-mapping/
 ├── ocr/                                   # all intermediate artifacts
 │   └── <book-name>/
 │       ├── chapters/chNN/page_###.png     # extracted page images (FULL range, PDF-page-numbered)
+│       ├── headings/chNN.json             # Step 4b — per-page heading checklist (gates Step 7)
 │       └── topic_map.json                 # Step 7 output (agent-written)
 ├── output/                                # final deliverables
 │   ├── <book-name>.csv                    # 6 cols (grade,subject,chapter,topic,scope_note,topic_raw) after Step 10; 4 if scope_split disabled
@@ -751,7 +845,9 @@ nctb-topic-mapping/
 └── scripts/
     ├── _config.py                         # shared per-subject config loader + apply_corrections (boundary-aware spelling fixes)
     ├── 01_extract_images.py               # Step 2: image extraction (full-range guard)
-    ├── 05_validate.py                     # GATE: --stage extract|topicmap|final (topicmap: box-only + lexical checks)
+    ├── 04_extract_headings.py             # Step 4b: per-page heading checklist (MANDATORY; gates topicmap)
+    ├── 07_constrained_prompt.py           # Step 7 helper: bake headings/chNN.json into the Step-7 prompt
+    ├── 05_validate.py                     # GATE: --stage extract|topicmap|final (topicmap: box-only + heading-coverage + truncation + lexical)
     ├── 06_assemble.py                     # Step 8: topic_map.json → CSV
     ├── 08_merge.py                        # Step 9: non-destructive merge + overrides
     ├── 12_scope_split.py                  # Step 10: trailing "(enum)" → scope_note column (standard, run every book)
@@ -835,6 +931,9 @@ these.
 |---|---|
 | `--stage extract` FAILs "BOX-ONLY" | Re-run `01_extract_images.py` without `--max-pages`; check `start_page`/`end_page` in the chapter map against the PDF. |
 | `--stage topicmap` FAILs "verb-stripped copies of learning_outcomes" | Box paraphrase — you mapped from pages 1–2 only. Confirm `chapters/chNN/` has the full range, then redo Step 7 reading every body page (§Step 2, §7). |
+| `--stage topicmap` FAILs "heading checklist … missing / unfilled stub" | Run Step 4b: `04_extract_headings.py "<book>"`, then the LLM heading pass to fill `headings/chNN.json`. Legacy book mid-migration: `NCTB_SKIP_HEADING_GATE=1` (temporary). |
+| `--stage topicmap` FAILs "mid-chapter truncation" | Step 7 mapped only the first পরিচ্ছেদ(s). Re-read **every** page of that chapter (STEP 0 inventory + §8 self-check) and re-map — the tail sections are missing. This is the BGS ch3 bug. |
+| `--stage topicmap` WARNs "learning_outcomes end in জানব" / "topic matches no extracted heading" | Outcomes were paraphrased or a topic was invented. Re-transcribe the শিখনফল box verbatim; check each flagged topic against its page. |
 | `--stage extract` PASSes but chapter openers look wrong | Page offset `k` is wrong or drifts. Re-derive `k` from the ch-1 opener and re-check at the last chapter; fix `chapter-maps/<slug>.csv` (§Step 1). |
 | `--stage topicmap` FAILs "one-word / bare attribute topic" | Head noun dropped. Fix in `topic_map.json` per §3.2 — prefix the enclosing section's concept. |
 | `--stage final` FAILs "topic … NOT in the CSV" | A real drop. Either the topic belongs (fix `06_assemble`/dedupe) or it's a deliberate merge — add the rule to `config/<subject>.json` → `merge_overrides`. |
@@ -880,33 +979,106 @@ these.
       verbatim original stays in `topic_raw`; every output CSV is 6-column.
       `--stage final` compares `topic_raw` and WARNs on labels > `max_core_words`
       (§3.6). — 2026-08
+> **2026-08-30 — the Step-4b heading-checklist gate (above) FAILs `--stage
+> topicmap` for every book below until `ocr/<book>/headings/chNN.json` is
+> filled for each chapter.** Finance and Banking + Agriculture were genuinely
+> complete and just need the Step-4b backfill run to re-earn green (the heading
+> pass will also confirm none were truncated). Science / Accounting / BE / ICT
+> still owe their body re-run regardless. Use `NCTB_SKIP_HEADING_GATE=1` only as
+> a temporary bridge, never for a book you are calling done.
+
 - [x] **Finance and Banking — DONE from full chapter bodies** (2026-08). 13
       chapters, 129 topics; chapter-map rewritten to PDF pages (printed + 5);
       `subjects/finance-and-banking.md` + `config/finance-and-banking.json`; all
-      three validate stages green. Complete worked example for the §5 runbook.
-- [x] Accounting: `subjects/accounting.md` + `config/accounting.json` written
-      (spelling + distinct pairs); `topic_map.json` still needs its Step 2 + 7 redo.
-- [ ] **Re-run the 4 remaining box-only books** (Science, Accounting, Business
-      Entrepreneurship, ICT) from full chapter bodies. All fail `--stage extract`
-      (2 pages/chapter) and `--stage topicmap` (verb-stripped শিখনফল bullets).
-      Run the §5 runbook per book; use Finance and Banking as the template.
-- [ ] Write `subjects/<subject>.md` + `config/<subject>.json` for Science,
-      Business Entrepreneurship, ICT (accounting done).
+      three validate stages green *(pre-Step-4b; needs the heading-checklist
+      backfill — see note above)*. Complete worked example for the §5 runbook.
+- [x] **Accounting — DONE from full chapter bodies** (2026-08). 12 chapters,
+      68 topics; `subjects/accounting.md` + `config/accounting.json` (spelling +
+      distinct pairs); all three validate stages green.
+- [x] **Science — DONE from full chapter bodies** (2026-08). 11 chapters,
+      117 topics; `subjects/science.md` + `config/science.json`; all three
+      validate stages green. Body re-run fixed box-only OCR errors
+      (পাকশল্লি→পাকস্থলী, সংগ্রহলন→সঞ্চালন, প্রাতিষ্ঠানিক→প্রাত্যহিক, etc.).
+- [x] **Business Entrepreneurship — DONE from full chapter bodies** (2026-08).
+      12 chapters, 122 topics; `subjects/business-entrepreneurship.md` +
+      `config/business-entrepreneurship.json`; all three validate stages green.
+- [x] **ICT — DONE from full chapter bodies** (2026-08). 6 chapters,
+      86 topics; `subjects/ict.md` + `config/ict.json`; all three validate
+      stages green.
+- [x] **Agriculture — DONE** (earlier session). All three validate stages green.
+- [ ] **BGS (Bangladesh and Global Studies) — PARTIAL run, needs one deliberate
+      finish pass (same handling as Higher Math / the box-only books).** 15
+      chapters (all real — verified against the সূচিপত্র, no hallucinated
+      chapters), 149 rows; `subjects/bgs.md` + `config/bgs.json`. `05_validate.py`
+      is green (0 FAIL) but: CSV is **4-column** (Step 10 scope-split + Step 6
+      eyeball not done), `config/bgs.json` `merge_overrides` still `{}`,
+      `merge-candidates.txt` unreviewed, and the chapter-map has a page-range bug
+      (see Known-bad). Do **not** patch piecemeal or kick off a run as a side
+      effect of an unrelated task.
+- [ ] **Higher Math — partial run, DO NOT AUTO-RUN OR AD-HOC FIX.**
+      `ocr/…Higher Math…/topic_map.json` and
+      `output/…Higher Math_compressed.csv` exist but the CSV is a **Step-4
+      artifact**: 4 columns, Step 9 (merge), Step 10 (scope-split) and Step 6
+      (eyeball) never run; `config/higher-math.json` `spelling_corrections` and
+      `merge_overrides` are still `{}`. Do **not** patch it piecemeal and do
+      **not** kick off a pipeline run for it as a side effect of another task —
+      it needs one deliberate redo pass (owner-scheduled), same handling as the
+      box-only books. Issues catalogued under "Known-bad" below.
 - [ ] Batch run remaining classes / subjects
 - [ ] Deliver full `output/` with all subjects
 
 ### Known-bad in current output (fix on re-run) — `05_validate.py` flags each
 
-- **Accounting** (`--stage final` on the box-only map, before redo): drops
-  `মূলধন ও মুনাফা জাতীয় লেনদেনের পার্থক্য` (ch4), `পণ্যের ক্রয়মূল্য নির্ধারণ` (ch11),
-  `নগদ প্রদান জাবেদা` (ch6), `দু তরফা দাখিলা পদ্ধতির সুবিধা` (ch3). Misreads now in
-  `config/accounting.json`: `দৈত্ব সত্তা`→`দ্বৈত সত্তা`, `চক`→`ছক`, `ক্ষুধন`→`কুঋণ`,
-  `নগদ বাক্তি`→`নগদ বাট্টা`, `জেরুর`→`জেরের`. Chapter-map ch12
-  `আন্তঃকর্মসংস্থানমূলক` should be `আত্মকর্মসংস্থানমূলক`.
-- Chapter labels use ASCII digits (`অধ্যায় 1`) instead of `অধ্যায় ১`.
+- **Higher Math** (partial run — see the checklist above; fix **all** of the
+  following in one deliberate redo, not piecemeal, and not as a side effect of an
+  unrelated task):
+  - CSV is 4-column — Step 9 merge, Step 10 scope-split and Step 6 eyeball not
+    done. `output/…Higher Math_compressed-merge-candidates.txt` lists real merge
+    groups (ch3, ch4, ch5, ch12, ch13) never added to `merge_overrides`.
+  - Trailing `(…)` comma-lists still inside `topic` (belong in `scope_note`):
+    `সেট প্রকাশের পদ্ধতি (রোস্টার, সেট-বিল্ডার)`,
+    `সেটের সংক্রিয়া (ইউনিয়ন, ইন্টারসেকশন, ডিফারেন্স, কমপ্লিমেন্ট)`,
+    `এক চলকের বহুপদী (মাত্রা, …)`, `ত্রিকোণমিতিক অনুপাত (sin, cos, tan, cot, sec, cosec)`.
+  - `config/higher-math.json` `scope_split.max_core_words` is `12` — set to `5`.
+    Ch4 construction labels run 9–15 words (`ত্রিভুজ অঙ্কন - <givens>` /
+    `বৃত্ত অঙ্কন - <givens>`): split the givens into `scope_note`. Ch3 rows carry
+    `(উপপাদ্য ৩)` / `(উপপাদ্য ৪)` tags to drop (theorems 1–2 have none).
+  - Chapter-map ch10 `দৈপদী বিন্যাস` → the book title is
+    `দ্বিপদী বিস্তৃতি (Binomial Expansion)` (`--stage topicmap` already WARNs the
+    mismatch); topic `গুণোত্তর সম্প্রসারণ (Binomial Theorem)` → `দ্বিপদী উপপাদ্য`
+    (`গুণোত্তর` = geometric, wrong chapter's term).
+  - OCR misreads for `spelling_corrections` — **verify each against the page
+    before adding**, cite the page. Confirmed: `অবয়`→`অন্বয়` (ch1 opener,
+    "Relation"). To check on the page: `কোন`→`কোণ` / `কোনের`→`কোণের` and
+    `শিরংকোণ` (ch4 constructions), `মাতা` / `মুখসহগ` / `মুখপদ` (ch2 §এক চলকের বহুপদী),
+    `বৃত্তগতের` (ch3 §Intersecting Chords).
 - Confirmed misreads still to migrate into per-subject configs: `জমিউর ইসলাম`→
   `জহুরুল ইসলাম`, `শিক্ষাদীয়`→`শিক্ষণীয়`, `উত্সাহকরণ`→`উদ্বুদ্ধকরণ`,
   `বর্তনপ্রণালি`→`বণ্টনপ্রণালি`, `বিক্রিয়কতা`→`বিক্রয়িকতা`; `কার্টুমো ছক` unresolved
   (Business Entrepreneurship pp. 78–87).
 - Legacy `scripts/merge_overrides.json` Physics ch.11 object has duplicate
   `"ব্যবহার"` / `"কিলো"` keys — migrate to `config/physics.json` when redoing it.
+
+- **BGS** (partial run — no hallucinated *chapters*: all 15 in the map/topic_map/
+  CSV match the সূচিপত্র. Fix the rest in one deliberate finish pass):
+  - CSV is **4-column** — Step 10 scope-split + Step 6 eyeball not done.
+    `config/bgs.json` `merge_overrides` still `{}`;
+    `output/…BGS…-merge-candidates.txt` unreviewed.
+  - **Chapter-map page-range bug** — ch13/14/15 cells missing the +5 PDF offset
+    (entered as printed numbers). Should be: ch13 `169,182` (was `169,177`),
+    ch14 `183,189` (was `178,189`), ch15 `190,205` (was `190,200`). TOC printed
+    ranges: ch13 164-177, ch14 178-184, ch15 185-200. Current effect: ch13 & ch15
+    lose their last ~5 pages; ch14 ingests ch13's tail. Re-extract + redo Step 7
+    for ch13/14/15 after fixing.
+  - **Fixed 2026-08-29** (already applied to CSV + chapter-map + topic_map +
+    `config/bgs.json` spelling_corrections, verified against page images):
+    - ch1 title date `(১৮৪৭-১৯৭০)` → `(১৯৪৭-১৯৭০)` — book (TOC, opener, running
+      header) reads ১৯৪৭ (1947).
+    - ch1 topic `আগরতলা যুক্তপ্রম মামলা` → `আগরতলা ষড়যন্ত্র মামলা` (body heading,
+      printed p.10).
+  - **topic_map.json ch1 `learning_outcomes` are fabricated** — list বঙ্গভঙ্গ ১৯০৫
+    and প্রথম স্বাধীনতা আন্দোলন ১৮৫৭-৫৮, neither in the real শিখনফল box (printed
+    p.6). Not in the CSV (outcomes aren't a CSV column) but re-derive the box on
+    redo. Several other chapters' outcomes look like terse "X সম্পর্কে জানব"
+    paraphrases (`--stage topicmap` WARNs "outcome not covered") — re-transcribe
+    from the boxes. Chapter *topics* themselves spot-check as real body headings.

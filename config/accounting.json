@@ -1,5 +1,5 @@
 {
-  "_comment": "Per-subject config for accounting (class 9-10). Read by scripts/_config.py -> 06_assemble.py, 08_merge.py, 05_validate.py. See subjects/accounting.md for the reasoning. merge_overrides below are PROVISIONAL: the current topic_map.json was built box-only, so re-do Step 2 + Step 7 from full chapter bodies before relying on this.",
+  "_comment": "Per-subject config for accounting (class 9-10). Read by scripts/_config.py -> 06_assemble.py, 08_merge.py, 05_validate.py. See subjects/accounting.md for the reasoning. Body re-run completed 2026-08-29 — all three validate stages green.",
 
   "subject": "accounting",
   "grade": "9-10",

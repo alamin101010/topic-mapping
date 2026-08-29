@@ -1,0 +1,4 @@
+- [Pipeline architecture 2026-08](pipeline-architecture-2026-08.md) — validation gate + per-subject config + non-destructive merge + 2026-08-28 OCR hardening + 2026-08-30 Step-7 truncation gate (mandatory Step 4b heading checklist, mid-chapter-truncation FAIL, NCTB_SKIP_HEADING_GATE)
+- [Accounting issues](accounting-issues.md) — box-only map, dropped topics, confirmed misreads, chapter-map typo
+- [Higher Math partial run](higher-math-partial-run.md) — Step-4 artifact on disk; do NOT auto-run or ad-hoc fix; README §5.1 "definition of done" added
+- [BGS issues](bgs-issues.md) — no hallucinated chapters (15/15 real); fixed ch1 date ১৮৪৭→১৯৪৭ + আগরতলা ষড়যন্ত্র in CSV/map/topic_map; chapter-map ch13-15 page-range bug + fabricated ch1 outcomes still open; partial run

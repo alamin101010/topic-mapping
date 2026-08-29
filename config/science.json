@@ -1,5 +1,5 @@
 {
-  "_comment": "Per-subject config for Science (class 9-10). Read by scripts/_config.py. NOTE: ocr/<Science>/topic_map.json is still the box-only extract and carries OCR reading errors; the fixes below are a stop-gap for the shipped CSV. Real fix = redo Steps 2+7 from the full chapter bodies (README Step 7 / runbook). Every spelling_corrections entry is verified against the page image, PDF page cited. Audited 2026-08-28. See subjects/science.md.",
+  "_comment": "Per-subject config for Science (class 9-10). Read by scripts/_config.py. Body re-run completed 2026-08-29 — topic_map.json built from full chapter bodies, not box-only. Spelling corrections verified against page images. See subjects/science.md.",
 
   "subject": "science",
   "grade": "9-10",

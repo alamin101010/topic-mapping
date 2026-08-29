@@ -171,6 +171,55 @@ def load_config(subject: str) -> dict:
 
 
 # --------------------------------------------------------------------------- #
+# Heading checklist (Step 4b, scripts/04_extract_headings.py)                 #
+# ocr/<book>/headings/chNN.json = the page-anchored ground truth that a Step  #
+# 7 map is checked against. Its absence, or a map that only covers its first  #
+# pages, is how the "agent mapped পরিচ্ছেদ ৩.১-৩.২ and stopped" bug shipped.   #
+# --------------------------------------------------------------------------- #
+def load_headings(headings_dir: str, no: int):
+    """Return (list[{'page':int,'heading':str}], path, status).
+    status: 'ok' | 'missing' | 'stub' | 'bad'."""
+    path = os.path.join(headings_dir, f"ch{no:02d}.json")
+    if not os.path.exists(path):
+        return [], path, "missing"
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return [], path, "bad"
+    raw = data.get("headings", data) if isinstance(data, dict) else data
+    if isinstance(data, dict) and data.get("pending"):
+        return [], path, "stub"
+    out = []
+    for h in raw or []:
+        if isinstance(h, str):
+            out.append({"page": 0, "heading": nfc(h)})
+        elif isinstance(h, dict) and h.get("heading"):
+            pm = re.search(r"(\d+)", str(h.get("page", "")))
+            out.append({"page": int(pm.group(1)) if pm else 0,
+                        "heading": nfc(h["heading"])})
+    if not out:
+        return [], path, "stub"
+    return out, path, "ok"
+
+
+def heading_match(topic: str, heading: str) -> bool:
+    """Loose: is `topic` derived from `heading`? Tolerates shortening, head-noun
+    prefixing, OCR wobble."""
+    a, b = nfc(topic), nfc(heading)
+    if not a or not b:
+        return False
+    if fuzzy(a, b) >= 0.72 or a in b or b in a:
+        return True
+    ta, tb = content_tokens(a), content_tokens(b)
+    if not ta or not tb:
+        return False
+    inter = ta & tb
+    return len(inter) >= 2 or (
+        len(inter) >= 1 and len(inter) / min(len(ta), len(tb)) >= 0.6)
+
+
+# --------------------------------------------------------------------------- #
 # Lexical check — catch OCR reading errors (পাকশল্লি, সংগ্রহলন, কোলেষ্টেরল …)  #
 # that structure checks can't see. Best-effort: needs hunspell + a Bengali    #
 # dictionary; degrades to a single WARN when unavailable.                     #
@@ -293,6 +342,9 @@ def stage_topicmap(book_or_path: str, chapter_map_path: str):
     cfg = load_config(subject)
     bare = ATTRIBUTE_NOUNS | set(cfg.get("attribute_nouns_extra", set()))
 
+    headings_dir = os.path.join(os.path.dirname(tm_path), "headings")
+    skip_heading_gate = bool(os.environ.get("NCTB_SKIP_HEADING_GATE"))
+
     for i, ch in enumerate(topic_map):
         no = int(ch.get("chapter_no", i + 1))
         P = f"ch{no}"
@@ -366,6 +418,78 @@ def stage_topicmap(book_or_path: str, chapter_map_path: str):
         # -- topics is not a verb-stripped copy, structurally ------------- #
         if los and topics == [strip_pedagogy(x) for x in los]:
             fails.append(f"{P}: topics is a 1:1 verb-stripped copy of learning_outcomes")
+
+        # -- learning_outcomes transcribed from the box, not paraphrased -- #
+        # A real শিখনফল box uses varied action verbs (ব্যাখ্যা/বিশ্লেষণ/মূল্যায়ন
+        # … করতে পারব). A map whose outcomes collapse to "X সম্পর্কে জানব" was
+        # written from memory, not read off page 1 — the same failure that ships
+        # invented outcomes (BGS ch3: 5/6 "সম্পর্কে জানব", 3 not in the box).
+        janob = [x for x in los if re.search(r"জানব(ো)?\s*$", x)]
+        if los and len(janob) >= max(3, round(0.5 * len(los))):
+            warns.append(f"{P}: {len(janob)}/{len(los)} learning_outcomes end in "
+                         f"'জানব' — looks paraphrased; copy the শিখনফল box verbatim "
+                         f"(verbs kept) and re-check every topic against the body")
+
+        # -- coverage / truncation vs the Step-4b heading checklist ------- #
+        rng = ranges_by_no.get(no)
+        span = (rng[1] - rng[0] + 1) if rng else 0
+        hlist, hpath, hstatus = load_headings(headings_dir, no)
+        hrel = os.path.relpath(hpath, ROOT)
+        if hstatus != "ok":
+            msg = {
+                "missing": f"{P}: heading checklist {hrel} missing — run "
+                           f"scripts/04_extract_headings.py (Step 4b) before Step 7; "
+                           f"without it a mid-chapter truncation or an invented topic "
+                           f"cannot be caught",
+                "stub":    f"{P}: heading checklist {hrel} is an unfilled stub — run "
+                           f"the Step 4b agent pass to list every page's headings",
+                "bad":     f"{P}: heading checklist {hrel} is not valid JSON",
+            }[hstatus]
+            if skip_heading_gate:
+                warns.append(msg + " (NCTB_SKIP_HEADING_GATE set — not enforced)")
+            else:
+                fails.append(msg + " — or set NCTB_SKIP_HEADING_GATE=1 for a legacy "
+                             f"book mid-migration")
+        elif topics:
+            htexts = [h["heading"] for h in hlist]
+            hit_h = [h for h in htexts if any(heading_match(t, h) for t in topics)]
+            frac = len(hit_h) / len(htexts)
+            # coverage is WARN-only: extracted headings are often more granular
+            # than topics (numbered sub-items), so a low ratio is a hint, not proof.
+            if frac < 0.6:
+                warns.append(f"{P}: only {frac:.0%} of the {len(htexts)} extracted "
+                             f"section headings map to a topic — confirm no whole "
+                             f"section was skipped")
+            # truncation is the FAIL: earlier headings DID map, but the final
+            # quarter of the chapter has ≥2 headings and NONE of them mapped —
+            # i.e. Step 7 stopped part-way (BGS ch3: mapped ৩.১-৩.২, dropped ৩.৩-৩.৪).
+            if rng and span >= 8 and hit_h:
+                tail_start = rng[0] + int(span * 0.75)
+                tail = [h for h in hlist if h["page"] >= tail_start]
+                tail_hit = [h for h in tail
+                            if any(heading_match(t, h["heading"]) for t in topics)]
+                if len(tail) >= 2 and not tail_hit:
+                    covered_pg = [h["page"] for h in hlist if h["page"] and any(
+                        heading_match(t, h["heading"]) for t in topics)]
+                    stop = max(covered_pg) if covered_pg else rng[0]
+                    fails.append(f"{P}: topics stop around page {stop} but the chapter "
+                                 f"runs to {rng[1]} and pages {tail_start}-{rng[1]} "
+                                 f"carry {len(tail)} unmapped headings — mid-chapter "
+                                 f"truncation. Re-map Step 7 from every page.")
+            # invented: a topic that matches no heading and no outcome
+            for t in topics:
+                if any(heading_match(t, h) for h in htexts):
+                    continue
+                if any(fuzzy(t, strip_pedagogy(x)) >= 0.6 or
+                       content_tokens(t) & content_tokens(strip_pedagogy(x))
+                       for x in los):
+                    continue
+                warns.append(f"{P}: topic '{t}' matches no extracted heading and no "
+                             f"outcome — verify it is on a page, not invented")
+        # density backstop (works even when the heading gate is skipped)
+        if span >= 12 and len(topics) < 0.5 * span:
+            warns.append(f"{P}: {len(topics)} topics for a {span}-page chapter "
+                         f"(< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ")
 
     # -- lexical check: OCR reading errors in the shipped topic labels --- #
     # Structure checks pass a garble like 'পাকশল্লি' straight through; a
