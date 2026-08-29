@@ -1866,3 +1866,105 @@
   WARN  'অধ্যায় ৮: ত্রিকোণমিতি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'nπ/2 ± θ কোণের ত্রিকোণমিতিক অনুপাত'
   WARN  'অধ্যায় ১২: সমতলীয় ভেক্টর': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'স্কেলার রাশি ও ভেক্টর রাশির পার্থক্য'
   WARN  'অধ্যায় ১৩: ঘন জ্যামিতি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'সমবৃত্তভূমিক কোণকের আয়তন ও পৃষ্ঠতলের ক্ষেত্রফল'
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'দেশের স্বার্থরক্ষায় কর্মসূচি প্রণয়ন করতে পারব...'
+  WARN  ch3: thin topic 'ভূ-অভ্যন্তরের গঠন' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'সৌরজগৎ ও গ্রহসমূহের অবস্থান ঠিকে দেখাতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'বিভিন্ন রেখার অবস্থানের চিত্র আঁকতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'পৃথিবীর গতির ধারণা ব্যাখ্যা করতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'আহ্নিক গতি ও বার্ষিক গতির ধারণার ব্যাখ্যা এবং পৃথিবীর ওপর এই...'
+  WARN  ch3: outcome not covered by any topic — 'বার্ষিক গতির সাথে বাংলাদেশের ঋতু পরিবর্তনের সম্পর্ক বিশ্লেষণ...'
+  WARN  ch3: outcome not covered by any topic — 'পৃথিবীর ওপর জোয়ার-ভাটার প্রভাব ব্যাখ্যা করতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'পরিবেশের সাথে সম্পর্ক স্থাপন ও অভিজ্ঞজনে সক্ষম হই...'
+  WARN  ch3: only 36% of the 42 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch3: 8 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: outcome not covered by any topic — 'পরিবেশ সংরক্ষণে উদ্যোগী হব...'
+  WARN  ch4: outcome not covered by any topic — 'ভূমিকম্পের ধারণা ও কারণ ব্যাখ্যা করতে পারব...'
+  WARN  ch4: outcome not covered by any topic — 'বিশ্বের ভূমিকম্পপ্রবণ দেশ হিসেবে পরিচিত কয়েকটি দেশের পরিস্থ...'
+  WARN  ch4: outcome not covered by any topic — 'বাংলাদেশকে ভূমিকম্পপ্রবণ অঞ্চল বলার কারণ ব্যাখ্যা করতে পারব...'
+  WARN  ch4: outcome not covered by any topic — 'ভূমিকম্প পরবর্তী পরিস্থিতি মোকাবিলায় সহযোগিতার মনোভাব তৈরি ...'
+  WARN  ch5: outcome not covered by any topic — 'নদী-নদীর উপরে জনবসতির নির্ভরশীলতা ব্যাখ্যা করতে পারব...'
+  WARN  ch5: outcome not covered by any topic — 'যাতায়াত, জলবিদ্যুৎ ও বাণিজ্যের ক্ষেত্রে নদীপথের ভূমিকা বিশ্...'
+  WARN  ch5: outcome not covered by any topic — 'পানির অভাব দূরীকরণে নদী সংরক্ষণের প্রয়োজনীয়তা উপলব্ধি করতে...'
+  WARN  ch6: thin topic 'নাগরিকতার ধারণা' — confirm it carries a head concept
+  WARN  ch6: outcome not covered by any topic — 'নাগরিক হিসেবে নিজ দায়িত্ব পালনে উদ্বুদ্ধ হব...'
+  WARN  ch7: outcome not covered by any topic — 'বাংলাদেশ সরকারের গুরুত্বপূর্ণ অঙ্গসমূহ সম্পর্কে ব্যাখ্যা করত...'
+  WARN  ch7: outcome not covered by any topic — 'রাষ্ট্রপতি ও প্রধানমন্ত্রীর ক্ষমতা ও কার্যাবলি বর্ণনা করতে প...'
+  WARN  ch7: outcome not covered by any topic — 'জাতীয় সংসদ এবং এর ক্ষমতা ও কার্যাবলি বর্ণনা করতে পারব...'
+  WARN  ch7: outcome not covered by any topic — 'জাতীয় সংসদ শাসনবিভাগকে কীভাবে নিয়ন্ত্রণ করে তা ব্যাখ্যা কর...'
+  WARN  ch7: outcome not covered by any topic — 'বিচারপতি নিয়োগ প্রক্রিয়া বর্ণনা করতে পারব...'
+  WARN  ch7: outcome not covered by any topic — 'অধিকার ও দায়িত্ব সম্পর্কে সচেতন হব...'
+  WARN  ch8: 62% of topics track the outcome box closely
+  WARN  ch10: 57% of topics track the outcome box closely
+  WARN  ch11: thin topic 'উন্নয়ন ধারণা' — confirm it carries a head concept
+  WARN  ch11: outcome not covered by any topic — 'জিএনপি ও জিডিপি এর মধ্যে পার্থক্য নির্ণয় করতে পারব...'
+  WARN  ch11: only 29% of the 85 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch13: thin topic 'পরিবারের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের উপাদান' — confirm it carries a head concept
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশের পরিবারব্যবস্থার (গ্রাম ও শহরে) ধরন ও ভূমিকার পরিব...'
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশে সামাজিকীকরণ প্রক্রিয়ায় বিভিন্ন প্রতিষ্ঠানের ভূমি...'
+  WARN  ch15: outcome not covered by any topic — 'ধর্মীয় আদর্শে জীবন গঠনের উপায় নির্দেশ করতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch3: topics stop around page 40 but the chapter runs to 49 and pages 45-49 carry 9 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch12: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch12.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch13: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch13.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch14: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch14.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch15: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch15.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_BGS_compressed ===
+  WARN  ch1: outcome not covered by any topic — 'দেশের স্বার্থরক্ষায় কর্মসূচি প্রণয়ন করতে পারব...'
+  WARN  ch3: thin topic 'ভূ-অভ্যন্তরের গঠন' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'সৌরজগৎ ও গ্রহসমূহের অবস্থান ঠিকে দেখাতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'বিভিন্ন রেখার অবস্থানের চিত্র আঁকতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'পরিবেশের সাথে সম্পর্ক স্থাপন ও অভিজ্ঞজনে সক্ষম হই...'
+  WARN  ch3: only 48% of the 42 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch4: outcome not covered by any topic — 'পরিবেশ সংরক্ষণে উদ্যোগী হব...'
+  WARN  ch4: outcome not covered by any topic — 'ভূমিকম্পের ধারণা ও কারণ ব্যাখ্যা করতে পারব...'
+  WARN  ch4: outcome not covered by any topic — 'বিশ্বের ভূমিকম্পপ্রবণ দেশ হিসেবে পরিচিত কয়েকটি দেশের পরিস্থ...'
+  WARN  ch4: outcome not covered by any topic — 'বাংলাদেশকে ভূমিকম্পপ্রবণ অঞ্চল বলার কারণ ব্যাখ্যা করতে পারব...'
+  WARN  ch4: outcome not covered by any topic — 'ভূমিকম্প পরবর্তী পরিস্থিতি মোকাবিলায় সহযোগিতার মনোভাব তৈরি ...'
+  WARN  ch5: outcome not covered by any topic — 'নদী-নদীর উপরে জনবসতির নির্ভরশীলতা ব্যাখ্যা করতে পারব...'
+  WARN  ch5: outcome not covered by any topic — 'যাতায়াত, জলবিদ্যুৎ ও বাণিজ্যের ক্ষেত্রে নদীপথের ভূমিকা বিশ্...'
+  WARN  ch5: outcome not covered by any topic — 'পানির অভাব দূরীকরণে নদী সংরক্ষণের প্রয়োজনীয়তা উপলব্ধি করতে...'
+  WARN  ch6: thin topic 'নাগরিকতার ধারণা' — confirm it carries a head concept
+  WARN  ch6: outcome not covered by any topic — 'নাগরিক হিসেবে নিজ দায়িত্ব পালনে উদ্বুদ্ধ হব...'
+  WARN  ch7: outcome not covered by any topic — 'বাংলাদেশ সরকারের গুরুত্বপূর্ণ অঙ্গসমূহ সম্পর্কে ব্যাখ্যা করত...'
+  WARN  ch7: outcome not covered by any topic — 'রাষ্ট্রপতি ও প্রধানমন্ত্রীর ক্ষমতা ও কার্যাবলি বর্ণনা করতে প...'
+  WARN  ch7: outcome not covered by any topic — 'জাতীয় সংসদ এবং এর ক্ষমতা ও কার্যাবলি বর্ণনা করতে পারব...'
+  WARN  ch7: outcome not covered by any topic — 'জাতীয় সংসদ শাসনবিভাগকে কীভাবে নিয়ন্ত্রণ করে তা ব্যাখ্যা কর...'
+  WARN  ch7: outcome not covered by any topic — 'বিচারপতি নিয়োগ প্রক্রিয়া বর্ণনা করতে পারব...'
+  WARN  ch7: outcome not covered by any topic — 'অধিকার ও দায়িত্ব সম্পর্কে সচেতন হব...'
+  WARN  ch8: 62% of topics track the outcome box closely
+  WARN  ch10: 57% of topics track the outcome box closely
+  WARN  ch11: thin topic 'উন্নয়ন ধারণা' — confirm it carries a head concept
+  WARN  ch11: outcome not covered by any topic — 'জিএনপি ও জিডিপি এর মধ্যে পার্থক্য নির্ণয় করতে পারব...'
+  WARN  ch11: only 29% of the 85 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch13: thin topic 'পরিবারের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'সামাজিকীকরণের উপাদান' — confirm it carries a head concept
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশের পরিবারব্যবস্থার (গ্রাম ও শহরে) ধরন ও ভূমিকার পরিব...'
+  WARN  ch13: outcome not covered by any topic — 'বাংলাদেশে সামাজিকীকরণ প্রক্রিয়ায় বিভিন্ন প্রতিষ্ঠানের ভূমি...'
+  WARN  ch15: outcome not covered by any topic — 'ধর্মীয় আদর্শে জীবন গঠনের উপায় নির্দেশ করতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch1: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch01.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch4: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch04.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch5: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch05.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch6: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch06.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch7: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch07.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch8: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch08.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch9: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch09.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch10: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch10.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch12: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch12.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch13: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch13.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch14: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch14.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
+  FAIL  ch15: heading checklist ocr\Secondary (BV)-2026_Class 9-10_BGS_compressed\headings\ch15.json missing — run scripts/04_extract_headings.py (Step 4b) before Step 7; without it a mid-chapter truncation or an invented topic cannot be caught — or set NCTB_SKIP_HEADING_GATE=1 for a legacy book mid-migration
