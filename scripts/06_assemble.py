@@ -65,9 +65,7 @@ def apply_spelling(text, corrections):
     return _config.apply_corrections(text, corrections)
 
 
-def atomize_topics(chapter, corrections, bare_extra, allowed_single_words=None):
-    if allowed_single_words is None:
-        allowed_single_words = set()
+def atomize_topics(chapter, corrections, bare_extra):
     raw = chapter.get("topics") or chapter.get("learning_outcomes", [])
     out = []
     for item in raw:
@@ -84,19 +82,10 @@ def atomize_topics(chapter, corrections, bare_extra, allowed_single_words=None):
         for part in parts:
             toks = [t for t in re.split(r"\s+", part) if t]
             if len(toks) < 2:
-                # Allow single-word topics that are in the allowed list
-                if part in allowed_single_words:
-                    if part not in out:
-                        out.append(part)
-                    continue
                 # would be a bare fragment; keep the whole pre-split item instead
                 part = item
                 toks = [t for t in re.split(r"\s+", item) if t]
             if len(toks) < 2:
-                # Check allowed list again after reassignment
-                if part in allowed_single_words:
-                    if part not in out:
-                        out.append(part)
                 continue
             if toks[-1] in (BARE_TAIL | bare_extra) and len(toks) < 2:
                 continue
@@ -132,9 +121,8 @@ def assemble_book(topic_map_path, book_name, grade, subject):
     cfg = _config.load(subject)
     corrections = cfg["spelling_corrections"]
     bare_extra = cfg["attribute_nouns_extra"]
-    allowed_single_words = cfg.get("allowed_single_words", set())
     print(f"subject slug: {subject}   config: {cfg['source']}  "
-          f"({len(corrections)} spelling fixes, {len(allowed_single_words)} allowed single words)")
+          f"({len(corrections)} spelling fixes)")
 
     with open(topic_map_path, encoding="utf-8") as f:
         topic_map = json.load(f)
@@ -143,7 +131,7 @@ def assemble_book(topic_map_path, book_name, grade, subject):
     for chapter in topic_map:
         chapter["chapter_title"] = apply_spelling(chapter["chapter_title"], corrections)
         ch_label = f"অধ্যায় {to_bengali_numeral(chapter['chapter_no'])}: {chapter['chapter_title']}"
-        for topic in atomize_topics(chapter, corrections, bare_extra, allowed_single_words):
+        for topic in atomize_topics(chapter, corrections, bare_extra):
             rows.append([grade, subject, ch_label, topic])
 
     csv_path = os.path.join(OUTPUT_DIR, f"{book_name}.csv")

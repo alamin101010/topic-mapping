@@ -1,34 +1,6 @@
 {
   "chapter": 9,
   "chapter_title": "দুর্যোগের সাথে বসবাস",
-  "headings": [
-    {"page": "page_191", "heading": "৯.১ জলবায়ুর পরিবর্তনের প্রভাব"},
-    {"page": "page_191", "heading": "৯.১.১ বাংলাদেশ প্রেক্ষাপট"},
-    {"page": "page_191", "heading": "খরা"},
-    {"page": "page_191", "heading": "বন্যা"},
-    {"page": "page_191", "heading": "নদীভাঙন"},
-    {"page": "page_192", "heading": "পানির লবণাক্ততা"},
-    {"page": "page_192", "heading": "সামুদ্রিক জলোচ্ছ্বাস"},
-    {"page": "page_193", "heading": "বনাঞ্চল"},
-    {"page": "page_193", "heading": "মৎস্যসম্পদ"},
-    {"page": "page_193", "heading": "স্বাস্থ্যঝুঁকি"},
-    {"page": "page_194", "heading": "জীববৈচিত্র্য"},
-    {"page": "page_194", "heading": "সাইক্লোন"},
-    {"page": "page_209", "heading": "৯.১.২ আন্তর্জাতিক প্রেক্ষাপট"},
-    {"page": "page_209", "heading": "৯.২ পরিবেশগত সমস্যা"},
-    {"page": "page_209", "heading": "জনসংখ্যা বৃদ্ধি (Population Growth)"},
-    {"page": "page_194", "heading": "৯.২.১ বৈশ্বিক উষ্ণতা (Global Warming)"},
-    {"page": "page_194", "heading": "৯.২.২ কার্বন দূষণ (Carbon Pollution)"},
-    {"page": "page_195", "heading": "৯.২.৩ বনশূন্য করণ (Deforestation)"},
-    {"page": "page_195", "heading": "৯.৩ দুর্যোগ সৃষ্টির কারণ, প্রতিরোধ, মোকাবিলার কৌশল এবং দুর্যোগকালীন তাৎক্ষণিক করণীয়"},
-    {"page": "page_195", "heading": "৯.৩.১ বন্যা"},
-    {"page": "page_197", "heading": "৯.৩.২ খরা (Drought)"},
-    {"page": "page_196", "heading": "৯.৩.৩ সাইক্লোন বা ঘূর্ণিবাতাস (Cyclone)"},
-    {"page": "page_200", "heading": "৯.৩.৪ সুনামি (Tsunami)"},
-    {"page": "page_200", "heading": "৯.৩.৫ এসিড বৃষ্টি (Acid Rain)"},
-    {"page": "page_202", "heading": "৯.৩.৬ ভূমিকম্প (Earthquake)"},
-    {"page": "page_203", "heading": "ভূমিকম্পের সময় করণীয়"},
-    {"page": "page_213", "heading": "৯.৪ মানসম্মত ও উন্নত পরিবেশের গুরুত্ব"},
-    {"page": "page_213", "heading": "৯.৪.১ প্রকৃতি সংরক্ষণশীলতার তাৎপর্য"}
-  ]
+  "headings": [],
+  "pending": true
 }
