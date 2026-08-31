@@ -1,6 +1,18 @@
 {
   "chapter": 10,
   "chapter_title": "এসো বলকে জানি",
-  "headings": [],
-  "pending": true
+  "headings": [
+    {"page": "page_220", "heading": "১০.১ ধাক্কা ও টানা: বল"},
+    {"page": "page_220", "heading": "১০.১.১ জড়তা"},
+    {"page": "page_220", "heading": "স্থিতিজড়তা ও গতিজড়তা"},
+    {"page": "page_223", "heading": "১০.২ বলের পরিমাণ ও নিউটনের দ্বিতীয় গতিসূত্র"},
+    {"page": "page_223", "heading": "ভরবেগ"},
+    {"page": "page_223", "heading": "ত্বরণ"},
+    {"page": "page_226", "heading": "১০.৪ বলের প্রকৃতি (Nature of Force)"},
+    {"page": "page_226", "heading": "১০.৪.১ চারটি মৌলিক বল"},
+    {"page": "page_228", "heading": "১০.৫ ঘর্ষণ বল (Frictional Force)"},
+    {"page": "page_229", "heading": "১০.৫.১ ঘর্ষণের প্রকারভেদ"},
+    {"page": "page_231", "heading": "১০.৫.২ ঘর্ষণ বাড়ানো-কমানো"},
+    {"page": "page_232", "heading": "১০.৫.৩ ঘর্ষণ: একটি প্রয়োজনীয় উপদ্রব"}
+  ]
 }

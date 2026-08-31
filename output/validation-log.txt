@@ -3055,3 +3055,43 @@
   WARN  'অধ্যায় ১৫: টেকসই উন্নয়ন অভীষ্ট (এসডিজি)': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'টেকসই উন্নয়ন অভীষ্ট অর্জনের সম্ভাব্য ফলাফল ও সুফল'
   WARN  'অধ্যায় ১৫: টেকসই উন্নয়ন অভীষ্ট (এসডিজি)': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশে টেকসই উন্নয়ন অভীষ্ট অর্জনে বিদ্যমান চ্যালেঞ্জসমূহ'
   WARN  'অধ্যায় ১৫: টেকসই উন্নয়ন অভীষ্ট (এসডিজি)': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'চ্যালেঞ্জ মোকাবিলা ও অভীষ্ট অর্জনে করণীয় পদক্ষেপ'
+
+=== [final] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  'অধ্যায় ৭: অম্ল, ক্ষারক ও লবণের ব্যবহার': label 'এর প্রয়োজনীয়তা' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'এর প্রয়োজনীয়তা'
+  FAIL  ch2: topic 'ময়লা-আবর্জনা' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+  FAIL  ch2: topic 'তাপমাত্রা' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+  FAIL  ch2: topic 'pH' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+  FAIL  ch2: topic 'লবণাক্ততা' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+  FAIL  ch2: topic 'পরিস্রাবণ' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+  FAIL  ch2: topic 'ক্লোরিনেশন' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+  FAIL  ch2: topic 'পাতন' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+  FAIL  ch2: topic 'বৃষ্টিপাত' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+  FAIL  ch3: topic 'সিরাম' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+  FAIL  ch3: topic 'রক্তনীতি' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+  FAIL  ch3: topic 'ধমনি' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+  FAIL  ch3: topic 'শিরা' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+  FAIL  ch4: topic 'স্বাস্থ্যঝুঁকি' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+  FAIL  ch6: topic 'নাইলন' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+  FAIL  ch6: topic 'রেয়ন' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+  FAIL  ch9: topic 'নদীভাঙন' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+  FAIL  ch9: topic 'বনাঞ্চল' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+  FAIL  ch9: topic 'মৎস্যসম্পদ' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+  FAIL  ch9: topic 'স্বাস্থ্যঝুঁকি' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+  FAIL  ch9: topic 'জীববৈচিত্র্য' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+  FAIL  ch10: topic 'ভরবেগ' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+  FAIL  ch10: topic 'ত্বরণ' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  'অধ্যায় ৭: অম্ল, ক্ষারক ও লবণের ব্যবহার': label 'এর প্রয়োজনীয়তা' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'এর প্রয়োজনীয়তা'
+
+=== [final] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  'অধ্যায় ৭: অম্ল, ক্ষারক ও লবণের ব্যবহার': label 'এর প্রয়োজনীয়তা' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'এর প্রয়োজনীয়তা'
+  WARN  'অধ্যায় ৭: অম্ল, ক্ষারক ও লবণের ব্যবহার': label 'লবণের ব্যবহার' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'লবণের ব্যবহার'
+  FAIL  ch3: topic 'কোলেস্টেরল' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+  FAIL  ch8: topic 'পেট্রোলিয়াম' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+  FAIL  ch8: topic 'কয়লা' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+  FAIL  ch9: topic 'বন্যা' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/science.json or fix the merge.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Science_compressed ===
+  WARN  'অধ্যায় ৭: অম্ল, ক্ষারক ও লবণের ব্যবহার': label 'এর প্রয়োজনীয়তা' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'এর প্রয়োজনীয়তা'
+  WARN  'অধ্যায় ৭: অম্ল, ক্ষারক ও লবণের ব্যবহার': label 'লবণের ব্যবহার' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'লবণের ব্যবহার'

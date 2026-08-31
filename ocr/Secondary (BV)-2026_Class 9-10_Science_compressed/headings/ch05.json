@@ -1,6 +1,20 @@
 {
   "chapter": 5,
   "chapter_title": "দেখতে হলে আলো চাই",
-  "headings": [],
-  "pending": true
+  "headings": [
+    {"page": "page_122", "heading": "৫.১ আয়না বা দর্পণের ব্যবহার"},
+    {"page": "page_122", "heading": "নিরাপদ ড্রাইভিং"},
+    {"page": "page_123", "heading": "পাহাড়ি রাস্তার অদৃশ্য বাঁক"},
+    {"page": "page_124", "heading": "৫.২ আলোর প্রতিসরণ"},
+    {"page": "page_130", "heading": "প্রতিসরণের সূত্র"},
+    {"page": "page_125", "heading": "৫.৩ লেন্স"},
+    {"page": "page_132", "heading": "৫.৩.১ লেন্সের ক্ষমতা"},
+    {"page": "page_132", "heading": "৫.৪ চোখের ক্রিয়া"},
+    {"page": "page_132", "heading": "৫.৪.১ আমরা কীভাবে দেখতে পাই"},
+    {"page": "page_128", "heading": "৫.৪.২ স্পষ্ট দৃষ্টির ন্যূনতম দূরত্ব"},
+    {"page": "page_128", "heading": "৫.৪.৩ চোখের ভ্রুটি এবং তার প্রতিকার"},
+    {"page": "page_131", "heading": "হ্রস্বদৃষ্টি বা ক্ষীণদৃষ্টি (Myopia)"},
+    {"page": "page_129", "heading": "দীর্ঘদৃষ্টি বা দূরদৃষ্টি (Hypermetropia)"},
+    {"page": "page_131", "heading": "৫.৪.৪ চোখ ভালো রাখার উপায়"}
+  ]
 }

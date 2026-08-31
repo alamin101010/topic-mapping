@@ -1,6 +1,21 @@
 {
   "chapter": 8,
   "chapter_title": "আমাদের সম্পদ",
-  "headings": [],
-  "pending": true
+  "headings": [
+    {"page": "page_176", "heading": "৮.১ মাটি"},
+    {"page": "page_176", "heading": "পলি মাটি"},
+    {"page": "page_176", "heading": "কাদা মাটি"},
+    {"page": "page_176", "heading": "দো-অংশ মাটি"},
+    {"page": "page_177", "heading": "প্রাকৃতিক গ্যাস প্রক্রিয়াকরণ"},
+    {"page": "page_178", "heading": "৮.১.৩ মাটির pH"},
+    {"page": "page_178", "heading": "৮.১.৪ মাটি দূষণের কারণ ও ফলাফল"},
+    {"page": "page_180", "heading": "৮.১.৫ মাটি সংরক্ষণ কৌশল"},
+    {"page": "page_182", "heading": "৮.২ মাটিতে অবস্থিত সাধারণ খনিজ"},
+    {"page": "page_182", "heading": "খনিজ পদার্থের ভৌত ধর্ম"},
+    {"page": "page_183", "heading": "৮.৩ বাংলাদেশে প্রাকৃতিক জ্বালানির উৎস"},
+    {"page": "page_183", "heading": "৮.৩.১ প্রাকৃতিক গ্যাস"},
+    {"page": "page_185", "heading": "৮.৩.২ পেট্রোলিয়াম"},
+    {"page": "page_185", "heading": "৮.৩.৩ কয়লা"},
+    {"page": "page_185", "heading": "প্রাকৃতিক জ্বালানির সংরক্ষণে নবায়নযোগ্য শক্তি"}
+  ]
 }

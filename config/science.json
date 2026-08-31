@@ -65,6 +65,18 @@
     "words": []
   },
 
+  "allowed_single_words": {
+    "words": [
+      "ময়লা-আবর্জনা", "তাপমাত্রা", "pH", "লবণাক্ততা", "পরিস্রাবণ", "ক্লোরিনেশন", "পাতন", "বৃষ্টিপাত",
+      "সিরাম", "রক্তনীতি", "ধমনি", "শিরা",
+      "স্বাস্থ্যঝুঁকি",
+      "নাইলন", "রেয়ন",
+      "নদীভাঙন", "বনাঞ্চল", "মৎস্যসম্পদ", "জীববৈচিত্র্য",
+      "ভরবেগ", "ত্বরণ",
+      "কোলেস্টেরল", "পেট্রোলিয়াম", "কয়লা", "বন্যা"
+    ]
+  },
+
   "lexicon_extra": {
     "_comment": "Valid Science terms a generic Bengali dictionary flags as unknown — keeps 05_validate.py --stage topicmap lexical WARNs signal-only. Add ONLY after confirming the word against the page image.",
     "words": [

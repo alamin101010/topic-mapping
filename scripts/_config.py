@@ -92,6 +92,9 @@ def load(subject: str) -> dict:
     lex = cfg.get("lexicon_extra", {})
     lex_words = lex.get("words", lex) if isinstance(lex, dict) else lex
 
+    asw = cfg.get("allowed_single_words", {})
+    asw_words = asw.get("words", asw) if isinstance(asw, dict) else asw
+
     return {
         "source": name,
         "spelling_corrections": spelling,
@@ -100,4 +103,5 @@ def load(subject: str) -> dict:
         "attribute_nouns_extra": set(words),
         "scope_split": scope_split,
         "lexicon_extra": set(lex_words or []),
+        "allowed_single_words": set(asw_words or []),
     }

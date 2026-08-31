@@ -1,6 +1,26 @@
 {
   "chapter": 6,
-  "chapter_title": "পলিমার",
-  "headings": [],
-  "pending": true
+  "chapter_title": "পলিমার, তন্তু, রাবার ও প্লাস্টিক",
+  "headings": [
+    {"page": "page_142", "heading": "৬.২ তন্তু বা সুতা"},
+    {"page": "page_142", "heading": "রেশম (Silk)"},
+    {"page": "page_142", "heading": "পশম (Wool)"},
+    {"page": "page_142", "heading": "নাইলন"},
+    {"page": "page_142", "heading": "রেয়ন"},
+    {"page": "page_143", "heading": "৬.২.২ তন্তু থেকে সুতা তৈরি"},
+    {"page": "page_143", "heading": "সুতা কাটা (Spinning)"},
+    {"page": "page_143", "heading": "ব্লেন্ডিং ও মিক্সিং"},
+    {"page": "page_143", "heading": "কার্ডিং ও কম্বিং (Carding & Combing)"},
+    {"page": "page_144", "heading": "রেশম তন্তু থেকে রেশম সুতা তৈরি"},
+    {"page": "page_144", "heading": "কৃত্রিমতন্তু থেকে সুতা তৈরি"},
+    {"page": "page_144", "heading": "বিভিন্ন ধরনের সুতার বৈশিষ্ট্য"},
+    {"page": "page_145", "heading": "৬.৩ রাবার ও প্লাস্টিক"},
+    {"page": "page_145", "heading": "৬.৩.১ রাবার"},
+    {"page": "page_146", "heading": "রাবারের ভৌতধর্ম"},
+    {"page": "page_146", "heading": "রাবারের রাসায়নিকধর্ম"},
+    {"page": "page_147", "heading": "৬.৩.২ প্লাস্টিক"},
+    {"page": "page_147", "heading": "প্লাস্টিকের ভৌত ধর্ম"},
+    {"page": "page_147", "heading": "প্লাস্টিকের রাসায়নিক ধর্ম"},
+    {"page": "page_148", "heading": "৬.৩.৩ পরিবেশের ভারসাম্যহীনতায় রাবার ও প্লাস্টিক"}
+  ]
 }
