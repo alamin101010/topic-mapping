@@ -1,0 +1,38 @@
+{
+  "chapter": 11,
+  "chapter_title": "প্রাত্যহিক জীবনে তড়িৎ",
+  "chapter_dir": "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch11",
+  "images": [
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch11\\page_235.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch11\\page_236.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch11\\page_237.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch11\\page_238.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch11\\page_239.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch11\\page_240.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch11\\page_241.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch11\\page_242.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch11\\page_243.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch11\\page_244.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch11\\page_245.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch11\\page_246.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch11\\page_247.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch11\\page_248.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch11\\page_249.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch11\\page_250.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch11\\page_251.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch11\\page_252.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch11\\page_253.png"
+  ],
+  "total_pages": 19,
+  "prompt": "You are extracting SECTION HEADINGS from ONE scanned page of a\nBengali NCTB textbook chapter.\n\nReturn a JSON array of the section / sub-section headings printed on THIS page, in\ntop-to-bottom order. A heading is bold or larger-font text that starts a section\nor sub-section — including পরিচ্ছেদ X.Y lines and named sub-sections\n(e.g. \"সূর্য (Sun)\", \"আহ্নিক গতি\").\n\nEXCLUDE: the chapter title (e.g. \"তৃতীয় অধ্যায়\"), the শিখনফল / \"এ অধ্যায় শেষে\nআমরা –\" box, figure captions (\"চিত্র X.X :\"), \"কাজ\" boxes, table headers, page\nnumbers, running headers/footers, and the end-of-chapter\n\"নমুনা প্রশ্ন / বহুনির্বাচনি / সৃজনশীল / সংক্ষিপ্ত-উত্তর\" material.\n\nIf the page has no heading, return []. Output ONLY the JSON array.\nExample: [\"পরিচ্ছেদ ৩.৩ : পৃথিবীর গতি\", \"আহ্নিক গতি\"]",
+  "output_schema": {
+    "chapter": 11,
+    "chapter_title": "প্রাত্যহিক জীবনে তড়িৎ",
+    "headings": [
+      {
+        "page": "page_0NN",
+        "heading": "<verbatim heading>"
+      }
+    ]
+  }
+}

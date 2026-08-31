@@ -5,3 +5,11 @@ __pycache__/
 # OS cruft
 .DS_Store
 Thumbs.db
+
+# Google service-account key (Sheets sync) — never commit
+bright-fastness-397410-e569326fd692.json
+*service-account*.json
+
+# Local tooling
+.opencode/
+

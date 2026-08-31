@@ -2766,3 +2766,292 @@
 
 === [final] Secondary (BV)-2026_Class 9-10_Higher Math_compressed ===
   FAIL  CSV has 4 columns but config/higher-math.json scope_split.enabled=true — Step 10 (12_scope_split.py) never ran. Run it, or set scope_split.enabled=false.
+
+=== [setup] Secondary (BV)-2026_Class 9-10_geography_compressed ===
+  FAIL  chapter map for this book not found — create chapter-maps/class9-10-geography.csv (chapter_no,chapter_title,start_page,end_page; PDF page numbers). §Step 1. (auto-guess picked the unrelated class9-10-bgs.csv)
+
+=== [setup] Secondary (BV)-2026_Class 9-10_geography_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_geography_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_geography_compressed ===
+  WARN  ch1: thin topic 'ভূগোলের ধারণা' — confirm it carries a head concept
+  WARN  ch1: thin topic 'ভূগোলের পরিধি' — confirm it carries a head concept
+  WARN  ch1: thin topic 'পরিবেশের ধারণা' — confirm it carries a head concept
+  WARN  ch2: 10 topics for a 23-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch3: outcome not covered by any topic — 'মানচিত্রে তথ্য-উপাত্ত উপস্থাপন নিয়মাবলি বর্ণনা করতে পারব এব...'
+  WARN  ch3: outcome not covered by any topic — 'স্থানভেদে সময়ের পার্থক্য হওয়ার কারণ ব্যাখ্যা করতে পারব;...'
+  WARN  ch5: thin topic 'বায়ুর উপাদান' — confirm it carries a head concept
+  WARN  ch5: thin topic 'জলবায়ুর নিয়ামক' — confirm it carries a head concept
+  WARN  ch5: thin topic 'বৃষ্টিপাতের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch5: outcome not covered by any topic — 'বিভিন্ন প্রকারের বৃষ্টিপাত সম্পর্কে বর্ণনা করতে পারব;...'
+  WARN  ch6: thin topic 'বারিমণ্ডলের ধারণা' — confirm it carries a head concept
+  WARN  ch6: 5 topics for a 14-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch7: 9 topics for a 21-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch8: thin topic 'নগরায়ণের প্রভাব' — confirm it carries a head concept
+  WARN  ch8: 71% of topics track the outcome box closely
+  WARN  ch8: outcome not covered by any topic — 'নিজের চারপাশের প্রকৃতি এবং পরিবেশের যত্নের ব্যাপারে সচেতন ও ...'
+  WARN  ch10: 62% of topics track the outcome box closely
+  WARN  ch10: 8 topics for a 17-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch11: 9 topics for a 21-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch12: 5 topics for a 13-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch13: 4 keywords (want 5-15)
+  WARN  ch14: 6 topics for a 17-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch15: 4 keywords (want 5-15)
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch5: one-word topic 'পানিচক্র' — attach its head concept
+  FAIL  ch5: 9/11 topics are verb-stripped copies of learning_outcomes (82%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch6: 5/5 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch6: topics is a 1:1 verb-stripped copy of learning_outcomes
+  FAIL  ch7: 7/9 topics are verb-stripped copies of learning_outcomes (78%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch9: 7/8 topics are verb-stripped copies of learning_outcomes (88%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch11: 7/9 topics are verb-stripped copies of learning_outcomes (78%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch12: 4/5 topics are verb-stripped copies of learning_outcomes (80%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch13: 5/6 topics are verb-stripped copies of learning_outcomes (83%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch14: 6/6 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch15: 4/4 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_geography_compressed ===
+  WARN  ch1: thin topic 'ভূগোলের ধারণা' — confirm it carries a head concept
+  WARN  ch1: thin topic 'ভূগোলের পরিধি' — confirm it carries a head concept
+  WARN  ch1: thin topic 'পরিবেশের ধারণা' — confirm it carries a head concept
+  WARN  ch2: 10 topics for a 23-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch3: outcome not covered by any topic — 'মানচিত্রে তথ্য-উপাত্ত উপস্থাপন নিয়মাবলি বর্ণনা করতে পারব এব...'
+  WARN  ch3: outcome not covered by any topic — 'স্থানভেদে সময়ের পার্থক্য হওয়ার কারণ ব্যাখ্যা করতে পারব;...'
+  WARN  ch5: 58% of topics track the outcome box closely
+  WARN  ch5: outcome not covered by any topic — 'পানিচক্র ব্যাখ্যা করতে পারব;...'
+  WARN  ch5: outcome not covered by any topic — 'বিভিন্ন প্রকারের বৃষ্টিপাত সম্পর্কে বর্ণনা করতে পারব;...'
+  WARN  ch6: 67% of topics track the outcome box closely
+  WARN  ch6: 6 topics for a 14-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch7: 9 topics for a 21-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch8: thin topic 'নগরায়ণের প্রভাব' — confirm it carries a head concept
+  WARN  ch8: 71% of topics track the outcome box closely
+  WARN  ch8: outcome not covered by any topic — 'নিজের চারপাশের প্রকৃতি এবং পরিবেশের যত্নের ব্যাপারে সচেতন ও ...'
+  WARN  ch9: 56% of topics track the outcome box closely
+  WARN  ch10: 62% of topics track the outcome box closely
+  WARN  ch10: 8 topics for a 17-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch11: 10 topics for a 21-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch12: 6 topics for a 13-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch14: 6 topics for a 17-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_geography_compressed ===
+  WARN  'অধ্যায় ৩: মানচিত্র পঠন ও ব্যবহার': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'জিপিএস ও জিআইএসের ধারণা ও ব্যবহার'
+  WARN  'অধ্যায় ৪: পৃথিবীর অভ্যন্তরীণ ও বাহ্যিক গঠন': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'শিলা ও খনিজের ধারণা এবং পার্থক্য'
+  WARN  'অধ্যায় ৪: পৃথিবীর অভ্যন্তরীণ ও বাহ্যিক গঠন': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'আগ্নেয়গিরির অগ্ন্যুৎপাতের কারণ, প্রকারভেদ ও ফলাফল'
+  WARN  'অধ্যায় ৪: পৃথিবীর অভ্যন্তরীণ ও বাহ্যিক গঠন': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'পৃথিবীর বাহ্যিক গঠন ও প্রধান ভূমিরূপ'
+  WARN  'অধ্যায় ৫: বায়ুমণ্ডল': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বায়ুমণ্ডলের বিভিন্ন স্তরের গুরুত্ব ও মানবজীবনে প্রভাব'
+  WARN  'অধ্যায় ৫: বায়ুমণ্ডল': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বিশ্ব উষ্ণায়ন ও জলবায়ু পরিবর্তনের পারস্পরিক সম্পর্ক'
+  WARN  'অধ্যায় ৫: বায়ুমণ্ডল': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'বিশ্ব জলবায়ু পরিবর্তনের ফলে বিভিন্ন অঞ্চলে সম্ভাব্য প্রভাব'
+  WARN  'অধ্যায় ৫: বায়ুমণ্ডল': topic label is 11 words (> 5) — move detail to scope_note or rephrase — 'জলবায়ু পরিবর্তনে বাংলাদেশের মানুষের বাসস্থান, জীবন-জীবিকা ও পরিবেশের উপর সম্ভাব্য প্রভাব'
+  WARN  'অধ্যায় ৫: বায়ুমণ্ডল': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বায়ুমণ্ডল দূষণ ও জলবায়ু পরিবর্তন প্রতিরোধে করণীয়'
+  WARN  'অধ্যায় ৬: বারিমণ্ডল': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'সমুদ্র তলদেশের ভূমিরূপ ও সামুদ্রিক সম্পদের বন্টন'
+  WARN  'অধ্যায় ৭: জনসংখ্যা': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বিশ্বে জনসংখ্যার বর্তমান পরিস্থিতি ও পরিবর্তনের ধারা'
+  WARN  'অধ্যায় ৭: জনসংখ্যা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'জনসংখ্যা পরিবর্তনের প্রাকৃতিক ও মানবসৃষ্ট নিয়ামক'
+  WARN  'অধ্যায় ৭: জনসংখ্যা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'অভিবাসনের ধরন, কারণ, সুফল ও কুফল'
+  WARN  'অধ্যায় ৭: জনসংখ্যা': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'জনসংখ্যা বৃদ্ধির ফলে প্রাকৃতিক সম্পদের উপর চাপ'
+  WARN  'অধ্যায় ৭: জনসংখ্যা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'জনসংখ্যা ঘনত্ব ও জনসংখ্যা বন্টনের ধারণা'
+  WARN  'অধ্যায় ৭: জনসংখ্যা': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশে জনসংখ্যা বৃদ্ধির বর্তমান হার ও সৃষ্ট সমস্যা'
+  WARN  'অধ্যায় ৭: জনসংখ্যা': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশে জনসংখ্যা নিয়ন্ত্রণ ও বৃদ্ধি রোধে গৃহীত পদক্ষেপ'
+  WARN  'অধ্যায় ৮: মানববসতি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'গ্রামীণ বসতি ও নগর বসতির ধারণা'
+  WARN  'অধ্যায় ৮: মানববসতি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'নিজ এলাকার বসতির ধরন ও বিন্যাস'
+  WARN  'অধ্যায় ৯: সম্পদ ও অর্থনৈতিক কার্যাবলি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'অর্থনৈতিক কার্যাবলির ধারণা ও প্রধান খাতসমূহ'
+  WARN  'অধ্যায় ৯: সম্পদ ও অর্থনৈতিক কার্যাবলি': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'অনুন্নত, উন্নয়নশীল ও উন্নত দেশের অর্থনৈতিক কার্যাবলির তুলনা'
+  WARN  'অধ্যায় ৯: সম্পদ ও অর্থনৈতিক কার্যাবলি': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'শিল্প গড়ে ওঠার প্রাকৃতিক ও মানবসৃষ্ট নিয়ামক'
+  WARN  'অধ্যায় ৯: সম্পদ ও অর্থনৈতিক কার্যাবলি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাণিজ্যিক ভারসাম্য ও অর্থনৈতিক উন্নয়নের সম্পর্ক'
+  WARN  'অধ্যায় ৯: সম্পদ ও অর্থনৈতিক কার্যাবলি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের অর্থনীতিতে সম্পদ ও শিল্পের ভূমিকা'
+  WARN  'অধ্যায় ১০: বাংলাদেশের ভৌগোলিক বিবরণ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের প্রধান নদ-নদী, উপনদী ও শাখানদী'
+  WARN  'অধ্যায় ১০: বাংলাদেশের ভৌগোলিক বিবরণ': topic label is 11 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশে নদী ও জলাশয় ভরাটের মানবসৃষ্ট কারণ, প্রভাব ও প্রতিরোধের উপায়'
+  WARN  'অধ্যায় ১০: বাংলাদেশের ভৌগোলিক বিবরণ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'নদী ও জলাশয় ভরাটের ক্ষতিকর প্রভাব'
+  WARN  'অধ্যায় ১০: বাংলাদেশের ভৌগোলিক বিবরণ': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের জলবায়ুর বৈশিষ্ট্য, ঋতুভিত্তিক তাপমাত্রা, বায়ুপ্রবাহ ও বৃষ্টিপাত'
+  WARN  'অধ্যায় ১০: বাংলাদেশের ভৌগোলিক বিবরণ': topic label is 9 words (> 5) — move detail to scope_note or rephrase — 'কালবৈশাখী ঝড় ও বজ্রপাতের ক্ষেত্রে সতর্কতা ও নিরাপত্তামূলক ব্যবস্থা'
+  WARN  'অধ্যায় ১১: বাংলাদেশের সম্পদ ও শিল্প': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের প্রধান কৃষিপণ্য ও তাদের ভৌগোলিক বন্টন'
+  WARN  'অধ্যায় ১১: বাংলাদেশের সম্পদ ও শিল্প': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের বিভিন্ন বনাঞ্চলের ধরন ও গুরুত্ব'
+  WARN  'অধ্যায় ১১: বাংলাদেশের সম্পদ ও শিল্প': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বনজ সম্পদ সংরক্ষণের প্রয়োজনীয়তা ও উপায়'
+  WARN  'অধ্যায় ১১: বাংলাদেশের সম্পদ ও শিল্প': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের খনিজ সম্পদের অবস্থান ও বন্টন'
+  WARN  'অধ্যায় ১১: বাংলাদেশের সম্পদ ও শিল্প': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের প্রধান শিল্পাঞ্চল ও শিল্পের বন্টন'
+  WARN  'অধ্যায় ১১: বাংলাদেশের সম্পদ ও শিল্প': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের অর্থনীতিতে পোশাক শিল্পের অবদান ও সম্ভাবনা'
+  WARN  'অধ্যায় ১১: বাংলাদেশের সম্পদ ও শিল্প': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের প্রধান পর্যটন কেন্দ্র ও তাদের বৈশিষ্ট্য'
+  WARN  'অধ্যায় ১১: বাংলাদেশের সম্পদ ও শিল্প': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশে পর্যটন শিল্পের গুরুত্ব, সম্ভাবনা ও চ্যালেঞ্জ'
+  WARN  'অধ্যায় ১২: বাংলাদেশের যোগাযোগ ব্যবস্থা ও বাণিজ্য': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের যোগাযোগ ব্যবস্থার ধারণা ও প্রধান মাধ্যম'
+  WARN  'অধ্যায় ১২: বাংলাদেশের যোগাযোগ ব্যবস্থা ও বাণিজ্য': topic label is 9 words (> 5) — move detail to scope_note or rephrase — 'যোগাযোগ ও পরিবহনে বিভিন্ন পথের গুরুত্ব ও তুলনামূলক বিশ্লেষণ'
+  WARN  'অধ্যায় ১২: বাংলাদেশের যোগাযোগ ব্যবস্থা ও বাণিজ্য': topic label is 10 words (> 5) — move detail to scope_note or rephrase — 'সড়ক, রেল ও নৌপথে নিরাপদ চলাচল ও দুর্ঘটনা প্রতিরোধে সাবধানতা'
+  WARN  'অধ্যায় ১২: বাংলাদেশের যোগাযোগ ব্যবস্থা ও বাণিজ্য': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের অভ্যন্তরীণ বাণিজ্যের ধারণা ও বৈশিষ্ট্য'
+  WARN  'অধ্যায় ১২: বাংলাদেশের যোগাযোগ ব্যবস্থা ও বাণিজ্য': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের বৈদেশিক বাণিজ্যের ধারণা ও বৈশিষ্ট্য'
+  WARN  'অধ্যায় ১২: বাংলাদেশের যোগাযোগ ব্যবস্থা ও বাণিজ্য': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'বাণিজ্যে আমদানি ও রপ্তানি পণ্যের তালিকা ও ভারসাম্য'
+  WARN  'অধ্যায় ১৩: বাংলাদেশের উন্নয়ন কর্মকাণ্ড ও পরিবেশের ভারসাম্য': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'উন্নয়ন কর্মকাণ্ডের ফলে পরিবেশ দূষণ ও ভারসাম্যহীনতার কারণ'
+  WARN  'অধ্যায় ১৩: বাংলাদেশের উন্নয়ন কর্মকাণ্ড ও পরিবেশের ভারসাম্য': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'উন্নয়ন কর্মকাণ্ডে পরিবেশের ভারসাম্য রক্ষার কৌশল ও উপায়'
+  WARN  'অধ্যায় ১৪: বাংলাদেশের প্রাকৃতিক দুর্যোগ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'দুর্যোগ ও বিপর্যয়ের ধারণা ও পার্থক্য'
+  WARN  'অধ্যায় ১৪: বাংলাদেশের প্রাকৃতিক দুর্যোগ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের উপকূলীয় অঞ্চলে দুর্যোগ ব্যবস্থাপনার কৌশল'
+  WARN  'অধ্যায় ১৪: বাংলাদেশের প্রাকৃতিক দুর্যোগ': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'ভূমিকম্পের মাত্রা পরিমাপ ও সুনামির পূর্বাভাসে প্রযুক্তির ব্যবহার'
+  WARN  'অধ্যায় ১৪: বাংলাদেশের প্রাকৃতিক দুর্যোগ': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'প্রাকৃতিক দুর্যোগ মোকাবিলা ও প্রস্তুতিতে করণীয় ও সচেতনতা'
+  WARN  'অধ্যায় ১৫: টেকসই উন্নয়ন অভীষ্ট (এসডিজি)': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'টেকসই উন্নয়ন অভীষ্টের ধারণা ও ১৭টি অভীষ্টের পরিচিতি'
+  WARN  'অধ্যায় ১৫: টেকসই উন্নয়ন অভীষ্ট (এসডিজি)': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'টেকসই উন্নয়ন অভীষ্ট অর্জনে অংশীদারিত্ব ও সহযোগিতার গুরুত্ব'
+  WARN  'অধ্যায় ১৫: টেকসই উন্নয়ন অভীষ্ট (এসডিজি)': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'টেকসই উন্নয়ন অভীষ্ট অর্জনের সম্ভাব্য ফলাফল ও সুফল'
+  WARN  'অধ্যায় ১৫: টেকসই উন্নয়ন অভীষ্ট (এসডিজি)': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশে টেকসই উন্নয়ন অভীষ্ট অর্জনে বিদ্যমান চ্যালেঞ্জসমূহ'
+  WARN  'অধ্যায় ১৫: টেকসই উন্নয়ন অভীষ্ট (এসডিজি)': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'চ্যালেঞ্জ মোকাবিলা ও অভীষ্ট অর্জনে করণীয় পদক্ষেপ'
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_geography_compressed ===
+  WARN  ch1: thin topic 'ভূগোলের ধারণা' — confirm it carries a head concept
+  WARN  ch1: thin topic 'ভূগোলের পরিধি' — confirm it carries a head concept
+  WARN  ch1: thin topic 'পরিবেশের ধারণা' — confirm it carries a head concept
+  WARN  ch2: 10 topics for a 23-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch3: outcome not covered by any topic — 'মানচিত্রে তথ্য-উপাত্ত উপস্থাপন নিয়মাবলি বর্ণনা করতে পারব এব...'
+  WARN  ch3: outcome not covered by any topic — 'স্থানভেদে সময়ের পার্থক্য হওয়ার কারণ ব্যাখ্যা করতে পারব;...'
+  WARN  ch5: 58% of topics track the outcome box closely
+  WARN  ch5: outcome not covered by any topic — 'পানিচক্র ব্যাখ্যা করতে পারব;...'
+  WARN  ch5: outcome not covered by any topic — 'বিভিন্ন প্রকারের বৃষ্টিপাত সম্পর্কে বর্ণনা করতে পারব;...'
+  WARN  ch6: 67% of topics track the outcome box closely
+  WARN  ch6: 6 topics for a 14-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch7: 9 topics for a 21-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch8: thin topic 'নগরায়ণের প্রভাব' — confirm it carries a head concept
+  WARN  ch8: 71% of topics track the outcome box closely
+  WARN  ch8: outcome not covered by any topic — 'নিজের চারপাশের প্রকৃতি এবং পরিবেশের যত্নের ব্যাপারে সচেতন ও ...'
+  WARN  ch9: 56% of topics track the outcome box closely
+  WARN  ch10: 62% of topics track the outcome box closely
+  WARN  ch10: 8 topics for a 17-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch11: 10 topics for a 21-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch12: 6 topics for a 13-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch14: 6 topics for a 17-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+
+=== [extract] Secondary (BV)-2026_Class 9-10_geography_compressed ===
+
+=== [final] Secondary (BV)-2026_Class 9-10_geography_compressed ===
+  WARN  'অধ্যায় ৩: মানচিত্র পঠন ও ব্যবহার': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'জিপিএস ও জিআইএসের ধারণা ও ব্যবহার'
+  WARN  'অধ্যায় ৪: পৃথিবীর অভ্যন্তরীণ ও বাহ্যিক গঠন': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'শিলা ও খনিজের ধারণা এবং পার্থক্য'
+  WARN  'অধ্যায় ৪: পৃথিবীর অভ্যন্তরীণ ও বাহ্যিক গঠন': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'আগ্নেয়গিরির অগ্ন্যুৎপাতের কারণ, প্রকারভেদ ও ফলাফল'
+  WARN  'অধ্যায় ৪: পৃথিবীর অভ্যন্তরীণ ও বাহ্যিক গঠন': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'পৃথিবীর বাহ্যিক গঠন ও প্রধান ভূমিরূপ'
+  WARN  'অধ্যায় ৫: বায়ুমণ্ডল': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বায়ুমণ্ডলের বিভিন্ন স্তরের গুরুত্ব ও মানবজীবনে প্রভাব'
+  WARN  'অধ্যায় ৫: বায়ুমণ্ডল': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বিশ্ব উষ্ণায়ন ও জলবায়ু পরিবর্তনের পারস্পরিক সম্পর্ক'
+  WARN  'অধ্যায় ৫: বায়ুমণ্ডল': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'বিশ্ব জলবায়ু পরিবর্তনের ফলে বিভিন্ন অঞ্চলে সম্ভাব্য প্রভাব'
+  WARN  'অধ্যায় ৫: বায়ুমণ্ডল': topic label is 11 words (> 5) — move detail to scope_note or rephrase — 'জলবায়ু পরিবর্তনে বাংলাদেশের মানুষের বাসস্থান, জীবন-জীবিকা ও পরিবেশের উপর সম্ভাব্য প্রভাব'
+  WARN  'অধ্যায় ৫: বায়ুমণ্ডল': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বায়ুমণ্ডল দূষণ ও জলবায়ু পরিবর্তন প্রতিরোধে করণীয়'
+  WARN  'অধ্যায় ৬: বারিমণ্ডল': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'সমুদ্র তলদেশের ভূমিরূপ ও সামুদ্রিক সম্পদের বন্টন'
+  WARN  'অধ্যায় ৭: জনসংখ্যা': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বিশ্বে জনসংখ্যার বর্তমান পরিস্থিতি ও পরিবর্তনের ধারা'
+  WARN  'অধ্যায় ৭: জনসংখ্যা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'জনসংখ্যা পরিবর্তনের প্রাকৃতিক ও মানবসৃষ্ট নিয়ামক'
+  WARN  'অধ্যায় ৭: জনসংখ্যা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'অভিবাসনের ধরন, কারণ, সুফল ও কুফল'
+  WARN  'অধ্যায় ৭: জনসংখ্যা': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'জনসংখ্যা বৃদ্ধির ফলে প্রাকৃতিক সম্পদের উপর চাপ'
+  WARN  'অধ্যায় ৭: জনসংখ্যা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'জনসংখ্যা ঘনত্ব ও জনসংখ্যা বন্টনের ধারণা'
+  WARN  'অধ্যায় ৭: জনসংখ্যা': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশে জনসংখ্যা বৃদ্ধির বর্তমান হার ও সৃষ্ট সমস্যা'
+  WARN  'অধ্যায় ৭: জনসংখ্যা': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশে জনসংখ্যা নিয়ন্ত্রণ ও বৃদ্ধি রোধে গৃহীত পদক্ষেপ'
+  WARN  'অধ্যায় ৮: মানববসতি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'গ্রামীণ বসতি ও নগর বসতির ধারণা'
+  WARN  'অধ্যায় ৮: মানববসতি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'নিজ এলাকার বসতির ধরন ও বিন্যাস'
+  WARN  'অধ্যায় ৯: সম্পদ ও অর্থনৈতিক কার্যাবলি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'অর্থনৈতিক কার্যাবলির ধারণা ও প্রধান খাতসমূহ'
+  WARN  'অধ্যায় ৯: সম্পদ ও অর্থনৈতিক কার্যাবলি': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'অনুন্নত, উন্নয়নশীল ও উন্নত দেশের অর্থনৈতিক কার্যাবলির তুলনা'
+  WARN  'অধ্যায় ৯: সম্পদ ও অর্থনৈতিক কার্যাবলি': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'শিল্প গড়ে ওঠার প্রাকৃতিক ও মানবসৃষ্ট নিয়ামক'
+  WARN  'অধ্যায় ৯: সম্পদ ও অর্থনৈতিক কার্যাবলি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাণিজ্যিক ভারসাম্য ও অর্থনৈতিক উন্নয়নের সম্পর্ক'
+  WARN  'অধ্যায় ৯: সম্পদ ও অর্থনৈতিক কার্যাবলি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের অর্থনীতিতে সম্পদ ও শিল্পের ভূমিকা'
+  WARN  'অধ্যায় ১০: বাংলাদেশের ভৌগোলিক বিবরণ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের প্রধান নদ-নদী, উপনদী ও শাখানদী'
+  WARN  'অধ্যায় ১০: বাংলাদেশের ভৌগোলিক বিবরণ': topic label is 11 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশে নদী ও জলাশয় ভরাটের মানবসৃষ্ট কারণ, প্রভাব ও প্রতিরোধের উপায়'
+  WARN  'অধ্যায় ১০: বাংলাদেশের ভৌগোলিক বিবরণ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'নদী ও জলাশয় ভরাটের ক্ষতিকর প্রভাব'
+  WARN  'অধ্যায় ১০: বাংলাদেশের ভৌগোলিক বিবরণ': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের জলবায়ুর বৈশিষ্ট্য, ঋতুভিত্তিক তাপমাত্রা, বায়ুপ্রবাহ ও বৃষ্টিপাত'
+  WARN  'অধ্যায় ১০: বাংলাদেশের ভৌগোলিক বিবরণ': topic label is 9 words (> 5) — move detail to scope_note or rephrase — 'কালবৈশাখী ঝড় ও বজ্রপাতের ক্ষেত্রে সতর্কতা ও নিরাপত্তামূলক ব্যবস্থা'
+  WARN  'অধ্যায় ১১: বাংলাদেশের সম্পদ ও শিল্প': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের প্রধান কৃষিপণ্য ও তাদের ভৌগোলিক বন্টন'
+  WARN  'অধ্যায় ১১: বাংলাদেশের সম্পদ ও শিল্প': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের বিভিন্ন বনাঞ্চলের ধরন ও গুরুত্ব'
+  WARN  'অধ্যায় ১১: বাংলাদেশের সম্পদ ও শিল্প': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বনজ সম্পদ সংরক্ষণের প্রয়োজনীয়তা ও উপায়'
+  WARN  'অধ্যায় ১১: বাংলাদেশের সম্পদ ও শিল্প': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের খনিজ সম্পদের অবস্থান ও বন্টন'
+  WARN  'অধ্যায় ১১: বাংলাদেশের সম্পদ ও শিল্প': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের প্রধান শিল্পাঞ্চল ও শিল্পের বন্টন'
+  WARN  'অধ্যায় ১১: বাংলাদেশের সম্পদ ও শিল্প': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের অর্থনীতিতে পোশাক শিল্পের অবদান ও সম্ভাবনা'
+  WARN  'অধ্যায় ১১: বাংলাদেশের সম্পদ ও শিল্প': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের প্রধান পর্যটন কেন্দ্র ও তাদের বৈশিষ্ট্য'
+  WARN  'অধ্যায় ১১: বাংলাদেশের সম্পদ ও শিল্প': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশে পর্যটন শিল্পের গুরুত্ব, সম্ভাবনা ও চ্যালেঞ্জ'
+  WARN  'অধ্যায় ১২: বাংলাদেশের যোগাযোগ ব্যবস্থা ও বাণিজ্য': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের যোগাযোগ ব্যবস্থার ধারণা ও প্রধান মাধ্যম'
+  WARN  'অধ্যায় ১২: বাংলাদেশের যোগাযোগ ব্যবস্থা ও বাণিজ্য': topic label is 9 words (> 5) — move detail to scope_note or rephrase — 'যোগাযোগ ও পরিবহনে বিভিন্ন পথের গুরুত্ব ও তুলনামূলক বিশ্লেষণ'
+  WARN  'অধ্যায় ১২: বাংলাদেশের যোগাযোগ ব্যবস্থা ও বাণিজ্য': topic label is 10 words (> 5) — move detail to scope_note or rephrase — 'সড়ক, রেল ও নৌপথে নিরাপদ চলাচল ও দুর্ঘটনা প্রতিরোধে সাবধানতা'
+  WARN  'অধ্যায় ১২: বাংলাদেশের যোগাযোগ ব্যবস্থা ও বাণিজ্য': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের অভ্যন্তরীণ বাণিজ্যের ধারণা ও বৈশিষ্ট্য'
+  WARN  'অধ্যায় ১২: বাংলাদেশের যোগাযোগ ব্যবস্থা ও বাণিজ্য': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের বৈদেশিক বাণিজ্যের ধারণা ও বৈশিষ্ট্য'
+  WARN  'অধ্যায় ১২: বাংলাদেশের যোগাযোগ ব্যবস্থা ও বাণিজ্য': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'বাণিজ্যে আমদানি ও রপ্তানি পণ্যের তালিকা ও ভারসাম্য'
+  WARN  'অধ্যায় ১৩: বাংলাদেশের উন্নয়ন কর্মকাণ্ড ও পরিবেশের ভারসাম্য': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'উন্নয়ন কর্মকাণ্ডের ফলে পরিবেশ দূষণ ও ভারসাম্যহীনতার কারণ'
+  WARN  'অধ্যায় ১৩: বাংলাদেশের উন্নয়ন কর্মকাণ্ড ও পরিবেশের ভারসাম্য': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'উন্নয়ন কর্মকাণ্ডে পরিবেশের ভারসাম্য রক্ষার কৌশল ও উপায়'
+  WARN  'অধ্যায় ১৪: বাংলাদেশের প্রাকৃতিক দুর্যোগ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'দুর্যোগ ও বিপর্যয়ের ধারণা ও পার্থক্য'
+  WARN  'অধ্যায় ১৪: বাংলাদেশের প্রাকৃতিক দুর্যোগ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের উপকূলীয় অঞ্চলে দুর্যোগ ব্যবস্থাপনার কৌশল'
+  WARN  'অধ্যায় ১৪: বাংলাদেশের প্রাকৃতিক দুর্যোগ': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'ভূমিকম্পের মাত্রা পরিমাপ ও সুনামির পূর্বাভাসে প্রযুক্তির ব্যবহার'
+  WARN  'অধ্যায় ১৪: বাংলাদেশের প্রাকৃতিক দুর্যোগ': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'প্রাকৃতিক দুর্যোগ মোকাবিলা ও প্রস্তুতিতে করণীয় ও সচেতনতা'
+  WARN  'অধ্যায় ১৫: টেকসই উন্নয়ন অভীষ্ট (এসডিজি)': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'টেকসই উন্নয়ন অভীষ্টের ধারণা ও ১৭টি অভীষ্টের পরিচিতি'
+  WARN  'অধ্যায় ১৫: টেকসই উন্নয়ন অভীষ্ট (এসডিজি)': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'টেকসই উন্নয়ন অভীষ্ট অর্জনে অংশীদারিত্ব ও সহযোগিতার গুরুত্ব'
+  WARN  'অধ্যায় ১৫: টেকসই উন্নয়ন অভীষ্ট (এসডিজি)': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'টেকসই উন্নয়ন অভীষ্ট অর্জনের সম্ভাব্য ফলাফল ও সুফল'
+  WARN  'অধ্যায় ১৫: টেকসই উন্নয়ন অভীষ্ট (এসডিজি)': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশে টেকসই উন্নয়ন অভীষ্ট অর্জনে বিদ্যমান চ্যালেঞ্জসমূহ'
+  WARN  'অধ্যায় ১৫: টেকসই উন্নয়ন অভীষ্ট (এসডিজি)': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'চ্যালেঞ্জ মোকাবিলা ও অভীষ্ট অর্জনে করণীয় পদক্ষেপ'
+
+=== [setup] Secondary (BV)-2026_Class 9-10_geography_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_geography_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_geography_compressed ===
+  WARN  ch1: thin topic 'ভূগোলের ধারণা' — confirm it carries a head concept
+  WARN  ch1: thin topic 'ভূগোলের পরিধি' — confirm it carries a head concept
+  WARN  ch1: thin topic 'পরিবেশের ধারণা' — confirm it carries a head concept
+  WARN  ch2: 10 topics for a 23-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch3: outcome not covered by any topic — 'মানচিত্রে তথ্য-উপাত্ত উপস্থাপন নিয়মাবলি বর্ণনা করতে পারব এব...'
+  WARN  ch3: outcome not covered by any topic — 'স্থানভেদে সময়ের পার্থক্য হওয়ার কারণ ব্যাখ্যা করতে পারব;...'
+  WARN  ch5: 58% of topics track the outcome box closely
+  WARN  ch5: outcome not covered by any topic — 'পানিচক্র ব্যাখ্যা করতে পারব;...'
+  WARN  ch5: outcome not covered by any topic — 'বিভিন্ন প্রকারের বৃষ্টিপাত সম্পর্কে বর্ণনা করতে পারব;...'
+  WARN  ch6: 67% of topics track the outcome box closely
+  WARN  ch6: 6 topics for a 14-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch7: 9 topics for a 21-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch8: thin topic 'নগরায়ণের প্রভাব' — confirm it carries a head concept
+  WARN  ch8: 71% of topics track the outcome box closely
+  WARN  ch8: outcome not covered by any topic — 'নিজের চারপাশের প্রকৃতি এবং পরিবেশের যত্নের ব্যাপারে সচেতন ও ...'
+  WARN  ch9: 56% of topics track the outcome box closely
+  WARN  ch10: 62% of topics track the outcome box closely
+  WARN  ch10: 8 topics for a 17-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch11: 10 topics for a 21-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch12: 6 topics for a 13-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch14: 6 topics for a 17-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_geography_compressed ===
+  WARN  'অধ্যায় ৩: মানচিত্র পঠন ও ব্যবহার': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'জিপিএস ও জিআইএসের ধারণা ও ব্যবহার'
+  WARN  'অধ্যায় ৪: পৃথিবীর অভ্যন্তরীণ ও বাহ্যিক গঠন': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'শিলা ও খনিজের ধারণা এবং পার্থক্য'
+  WARN  'অধ্যায় ৪: পৃথিবীর অভ্যন্তরীণ ও বাহ্যিক গঠন': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'আগ্নেয়গিরির অগ্ন্যুৎপাতের কারণ, প্রকারভেদ ও ফলাফল'
+  WARN  'অধ্যায় ৪: পৃথিবীর অভ্যন্তরীণ ও বাহ্যিক গঠন': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'পৃথিবীর বাহ্যিক গঠন ও প্রধান ভূমিরূপ'
+  WARN  'অধ্যায় ৫: বায়ুমণ্ডল': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বায়ুমণ্ডলের বিভিন্ন স্তরের গুরুত্ব ও মানবজীবনে প্রভাব'
+  WARN  'অধ্যায় ৫: বায়ুমণ্ডল': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বিশ্ব উষ্ণায়ন ও জলবায়ু পরিবর্তনের পারস্পরিক সম্পর্ক'
+  WARN  'অধ্যায় ৫: বায়ুমণ্ডল': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'বিশ্ব জলবায়ু পরিবর্তনের ফলে বিভিন্ন অঞ্চলে সম্ভাব্য প্রভাব'
+  WARN  'অধ্যায় ৫: বায়ুমণ্ডল': topic label is 11 words (> 5) — move detail to scope_note or rephrase — 'জলবায়ু পরিবর্তনে বাংলাদেশের মানুষের বাসস্থান, জীবন-জীবিকা ও পরিবেশের উপর সম্ভাব্য প্রভাব'
+  WARN  'অধ্যায় ৫: বায়ুমণ্ডল': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বায়ুমণ্ডল দূষণ ও জলবায়ু পরিবর্তন প্রতিরোধে করণীয়'
+  WARN  'অধ্যায় ৬: বারিমণ্ডল': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'সমুদ্র তলদেশের ভূমিরূপ ও সামুদ্রিক সম্পদের বন্টন'
+  WARN  'অধ্যায় ৭: জনসংখ্যা': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বিশ্বে জনসংখ্যার বর্তমান পরিস্থিতি ও পরিবর্তনের ধারা'
+  WARN  'অধ্যায় ৭: জনসংখ্যা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'জনসংখ্যা পরিবর্তনের প্রাকৃতিক ও মানবসৃষ্ট নিয়ামক'
+  WARN  'অধ্যায় ৭: জনসংখ্যা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'অভিবাসনের ধরন, কারণ, সুফল ও কুফল'
+  WARN  'অধ্যায় ৭: জনসংখ্যা': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'জনসংখ্যা বৃদ্ধির ফলে প্রাকৃতিক সম্পদের উপর চাপ'
+  WARN  'অধ্যায় ৭: জনসংখ্যা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'জনসংখ্যা ঘনত্ব ও জনসংখ্যা বন্টনের ধারণা'
+  WARN  'অধ্যায় ৭: জনসংখ্যা': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশে জনসংখ্যা বৃদ্ধির বর্তমান হার ও সৃষ্ট সমস্যা'
+  WARN  'অধ্যায় ৭: জনসংখ্যা': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশে জনসংখ্যা নিয়ন্ত্রণ ও বৃদ্ধি রোধে গৃহীত পদক্ষেপ'
+  WARN  'অধ্যায় ৮: মানববসতি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'গ্রামীণ বসতি ও নগর বসতির ধারণা'
+  WARN  'অধ্যায় ৮: মানববসতি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'নিজ এলাকার বসতির ধরন ও বিন্যাস'
+  WARN  'অধ্যায় ৯: সম্পদ ও অর্থনৈতিক কার্যাবলি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'অর্থনৈতিক কার্যাবলির ধারণা ও প্রধান খাতসমূহ'
+  WARN  'অধ্যায় ৯: সম্পদ ও অর্থনৈতিক কার্যাবলি': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'অনুন্নত, উন্নয়নশীল ও উন্নত দেশের অর্থনৈতিক কার্যাবলির তুলনা'
+  WARN  'অধ্যায় ৯: সম্পদ ও অর্থনৈতিক কার্যাবলি': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'শিল্প গড়ে ওঠার প্রাকৃতিক ও মানবসৃষ্ট নিয়ামক'
+  WARN  'অধ্যায় ৯: সম্পদ ও অর্থনৈতিক কার্যাবলি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাণিজ্যিক ভারসাম্য ও অর্থনৈতিক উন্নয়নের সম্পর্ক'
+  WARN  'অধ্যায় ৯: সম্পদ ও অর্থনৈতিক কার্যাবলি': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের অর্থনীতিতে সম্পদ ও শিল্পের ভূমিকা'
+  WARN  'অধ্যায় ১০: বাংলাদেশের ভৌগোলিক বিবরণ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের প্রধান নদ-নদী, উপনদী ও শাখানদী'
+  WARN  'অধ্যায় ১০: বাংলাদেশের ভৌগোলিক বিবরণ': topic label is 11 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশে নদী ও জলাশয় ভরাটের মানবসৃষ্ট কারণ, প্রভাব ও প্রতিরোধের উপায়'
+  WARN  'অধ্যায় ১০: বাংলাদেশের ভৌগোলিক বিবরণ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'নদী ও জলাশয় ভরাটের ক্ষতিকর প্রভাব'
+  WARN  'অধ্যায় ১০: বাংলাদেশের ভৌগোলিক বিবরণ': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের জলবায়ুর বৈশিষ্ট্য, ঋতুভিত্তিক তাপমাত্রা, বায়ুপ্রবাহ ও বৃষ্টিপাত'
+  WARN  'অধ্যায় ১০: বাংলাদেশের ভৌগোলিক বিবরণ': topic label is 9 words (> 5) — move detail to scope_note or rephrase — 'কালবৈশাখী ঝড় ও বজ্রপাতের ক্ষেত্রে সতর্কতা ও নিরাপত্তামূলক ব্যবস্থা'
+  WARN  'অধ্যায় ১১: বাংলাদেশের সম্পদ ও শিল্প': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের প্রধান কৃষিপণ্য ও তাদের ভৌগোলিক বন্টন'
+  WARN  'অধ্যায় ১১: বাংলাদেশের সম্পদ ও শিল্প': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের বিভিন্ন বনাঞ্চলের ধরন ও গুরুত্ব'
+  WARN  'অধ্যায় ১১: বাংলাদেশের সম্পদ ও শিল্প': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বনজ সম্পদ সংরক্ষণের প্রয়োজনীয়তা ও উপায়'
+  WARN  'অধ্যায় ১১: বাংলাদেশের সম্পদ ও শিল্প': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের খনিজ সম্পদের অবস্থান ও বন্টন'
+  WARN  'অধ্যায় ১১: বাংলাদেশের সম্পদ ও শিল্প': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের প্রধান শিল্পাঞ্চল ও শিল্পের বন্টন'
+  WARN  'অধ্যায় ১১: বাংলাদেশের সম্পদ ও শিল্প': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের অর্থনীতিতে পোশাক শিল্পের অবদান ও সম্ভাবনা'
+  WARN  'অধ্যায় ১১: বাংলাদেশের সম্পদ ও শিল্প': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের প্রধান পর্যটন কেন্দ্র ও তাদের বৈশিষ্ট্য'
+  WARN  'অধ্যায় ১১: বাংলাদেশের সম্পদ ও শিল্প': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশে পর্যটন শিল্পের গুরুত্ব, সম্ভাবনা ও চ্যালেঞ্জ'
+  WARN  'অধ্যায় ১২: বাংলাদেশের যোগাযোগ ব্যবস্থা ও বাণিজ্য': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের যোগাযোগ ব্যবস্থার ধারণা ও প্রধান মাধ্যম'
+  WARN  'অধ্যায় ১২: বাংলাদেশের যোগাযোগ ব্যবস্থা ও বাণিজ্য': topic label is 9 words (> 5) — move detail to scope_note or rephrase — 'যোগাযোগ ও পরিবহনে বিভিন্ন পথের গুরুত্ব ও তুলনামূলক বিশ্লেষণ'
+  WARN  'অধ্যায় ১২: বাংলাদেশের যোগাযোগ ব্যবস্থা ও বাণিজ্য': topic label is 10 words (> 5) — move detail to scope_note or rephrase — 'সড়ক, রেল ও নৌপথে নিরাপদ চলাচল ও দুর্ঘটনা প্রতিরোধে সাবধানতা'
+  WARN  'অধ্যায় ১২: বাংলাদেশের যোগাযোগ ব্যবস্থা ও বাণিজ্য': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের অভ্যন্তরীণ বাণিজ্যের ধারণা ও বৈশিষ্ট্য'
+  WARN  'অধ্যায় ১২: বাংলাদেশের যোগাযোগ ব্যবস্থা ও বাণিজ্য': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের বৈদেশিক বাণিজ্যের ধারণা ও বৈশিষ্ট্য'
+  WARN  'অধ্যায় ১২: বাংলাদেশের যোগাযোগ ব্যবস্থা ও বাণিজ্য': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'বাণিজ্যে আমদানি ও রপ্তানি পণ্যের তালিকা ও ভারসাম্য'
+  WARN  'অধ্যায় ১৩: বাংলাদেশের উন্নয়ন কর্মকাণ্ড ও পরিবেশের ভারসাম্য': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'উন্নয়ন কর্মকাণ্ডের ফলে পরিবেশ দূষণ ও ভারসাম্যহীনতার কারণ'
+  WARN  'অধ্যায় ১৩: বাংলাদেশের উন্নয়ন কর্মকাণ্ড ও পরিবেশের ভারসাম্য': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'উন্নয়ন কর্মকাণ্ডে পরিবেশের ভারসাম্য রক্ষার কৌশল ও উপায়'
+  WARN  'অধ্যায় ১৪: বাংলাদেশের প্রাকৃতিক দুর্যোগ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'দুর্যোগ ও বিপর্যয়ের ধারণা ও পার্থক্য'
+  WARN  'অধ্যায় ১৪: বাংলাদেশের প্রাকৃতিক দুর্যোগ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশের উপকূলীয় অঞ্চলে দুর্যোগ ব্যবস্থাপনার কৌশল'
+  WARN  'অধ্যায় ১৪: বাংলাদেশের প্রাকৃতিক দুর্যোগ': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'ভূমিকম্পের মাত্রা পরিমাপ ও সুনামির পূর্বাভাসে প্রযুক্তির ব্যবহার'
+  WARN  'অধ্যায় ১৪: বাংলাদেশের প্রাকৃতিক দুর্যোগ': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'প্রাকৃতিক দুর্যোগ মোকাবিলা ও প্রস্তুতিতে করণীয় ও সচেতনতা'
+  WARN  'অধ্যায় ১৫: টেকসই উন্নয়ন অভীষ্ট (এসডিজি)': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'টেকসই উন্নয়ন অভীষ্টের ধারণা ও ১৭টি অভীষ্টের পরিচিতি'
+  WARN  'অধ্যায় ১৫: টেকসই উন্নয়ন অভীষ্ট (এসডিজি)': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'টেকসই উন্নয়ন অভীষ্ট অর্জনে অংশীদারিত্ব ও সহযোগিতার গুরুত্ব'
+  WARN  'অধ্যায় ১৫: টেকসই উন্নয়ন অভীষ্ট (এসডিজি)': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'টেকসই উন্নয়ন অভীষ্ট অর্জনের সম্ভাব্য ফলাফল ও সুফল'
+  WARN  'অধ্যায় ১৫: টেকসই উন্নয়ন অভীষ্ট (এসডিজি)': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশে টেকসই উন্নয়ন অভীষ্ট অর্জনে বিদ্যমান চ্যালেঞ্জসমূহ'
+  WARN  'অধ্যায় ১৫: টেকসই উন্নয়ন অভীষ্ট (এসডিজি)': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'চ্যালেঞ্জ মোকাবিলা ও অভীষ্ট অর্জনে করণীয় পদক্ষেপ'

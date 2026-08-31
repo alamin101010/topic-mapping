@@ -1,0 +1,51 @@
+{
+  "chapter": 1,
+  "chapter_title": "উন্নততর জীবনধারা",
+  "chapter_dir": "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01",
+  "images": [
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_006.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_007.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_008.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_009.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_010.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_011.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_012.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_013.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_014.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_015.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_016.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_017.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_018.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_019.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_020.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_021.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_022.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_023.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_024.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_025.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_026.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_027.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_028.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_029.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_030.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_031.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_032.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_033.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_034.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_035.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_036.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Science_compressed\\chapters\\ch01\\page_037.png"
+  ],
+  "total_pages": 32,
+  "prompt": "You are extracting SECTION HEADINGS from ONE scanned page of a\nBengali NCTB textbook chapter.\n\nReturn a JSON array of the section / sub-section headings printed on THIS page, in\ntop-to-bottom order. A heading is bold or larger-font text that starts a section\nor sub-section — including পরিচ্ছেদ X.Y lines and named sub-sections\n(e.g. \"সূর্য (Sun)\", \"আহ্নিক গতি\").\n\nEXCLUDE: the chapter title (e.g. \"তৃতীয় অধ্যায়\"), the শিখনফল / \"এ অধ্যায় শেষে\nআমরা –\" box, figure captions (\"চিত্র X.X :\"), \"কাজ\" boxes, table headers, page\nnumbers, running headers/footers, and the end-of-chapter\n\"নমুনা প্রশ্ন / বহুনির্বাচনি / সৃজনশীল / সংক্ষিপ্ত-উত্তর\" material.\n\nIf the page has no heading, return []. Output ONLY the JSON array.\nExample: [\"পরিচ্ছেদ ৩.৩ : পৃথিবীর গতি\", \"আহ্নিক গতি\"]",
+  "output_schema": {
+    "chapter": 1,
+    "chapter_title": "উন্নততর জীবনধারা",
+    "headings": [
+      {
+        "page": "page_0NN",
+        "heading": "<verbatim heading>"
+      }
+    ]
+  }
+}
