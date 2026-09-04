@@ -1,0 +1,87 @@
+{
+  "chapter": 3,
+  "chapter_title": "বীজগাণিতিক রাশি",
+  "headings": [
+    {
+      "page": 48,
+      "heading": "বীজগাণিতিক রাশি (Algebraic Expressions)",
+      "level": 1
+    },
+    {
+      "page": 49,
+      "heading": "বীজগাণিতিক রাশি",
+      "level": 2
+    },
+    {
+      "page": 50,
+      "heading": "বর্গ সংশ্লিষ্ট সূত্রাবলি",
+      "level": 2
+    },
+    {
+      "page": 57,
+      "heading": "অনুশীলনী ৩.১",
+      "level": 2
+    },
+    {
+      "page": 58,
+      "heading": "ধন সংশ্লিষ্ট সূত্রাবলি",
+      "level": 2
+    },
+    {
+      "page": 63,
+      "heading": "অনুশীলনী ৩.২",
+      "level": 2
+    },
+    {
+      "page": 65,
+      "heading": "উৎপাদকে বিশ্লেষণ (Factorization)",
+      "level": 2
+    },
+    {
+      "page": 71,
+      "heading": "অনুশীলনী ৩.৩",
+      "level": 2
+    },
+    {
+      "page": 73,
+      "heading": "ভাগশেষ উপপাদ্য (Remainder Theorem)",
+      "level": 2
+    },
+    {
+      "page": 75,
+      "heading": "অনুশীলনী ৩.৪",
+      "level": 2
+    },
+    {
+      "page": 76,
+      "heading": "বাস্তব সমস্যা সমাধানে বীজগাণিতিক সূত্র গঠন ও প্রয়োগ",
+      "level": 2
+    },
+    {
+      "page": 78,
+      "heading": "অনুশীলনী ৩.৫",
+      "level": 2
+    },
+    {
+      "page": 79,
+      "heading": "নমুনা প্রশ্ন",
+      "level": 2
+    },
+    {
+      "page": 80,
+      "heading": "বহুনির্বাচনি প্রশ্ন",
+      "level": 3
+    },
+    {
+      "page": 81,
+      "heading": "সৃজনশীল প্রশ্ন",
+      "level": 3
+    },
+    {
+      "page": 82,
+      "heading": "সংক্ষিপ্ত-উত্তর প্রশ্ন",
+      "level": 3
+    }
+  ],
+  "pending": false
+}

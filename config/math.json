@@ -1,0 +1,41 @@
+{
+  "_comment": "Per-subject config for General Math (Class 9-10). Copied from config/_TEMPLATE.json.",
+
+  "subject": "math",
+  "grade": "9-10",
+
+  "spelling_corrections": {
+    "_comment": "Verified-against-scan OCR/LLM misreads. Applied in Step 8 (and by 05_validate.py) as a token-boundary-aware find/replace on chapter_title AND every topic. NO ENTRY WITHOUT A PAGE CITATION.",
+    "দৈত্ব সত্তা": "দ্বৈত সত্তা"
+  },
+
+  "merge_overrides": {
+    "_comment": "Per-chapter merge rules, applied in Step 9. Chapter key must match the CSV chapter field EXACTLY including the Bengali numeral. '_merge_' folds into the previous kept topic; '_drop_' removes."
+  },
+
+  "scope_split": {
+    "_comment": "Step 10 — STANDARD, keep enabled. Trailing '(a, b, ...)' moves to scope_note. max_core_words=5 holds to §3.6 goal.",
+    "enabled": true,
+    "max_core_words": 5
+  },
+
+  "distinct_pairs": {
+    "_comment": "Near-identical strings that are actually opposite concepts. 08_merge.py must never merge a pair listed here.",
+    "pairs": [
+      ["সরল সমীকরণ", "দ্বিঘাত সমীকরণ"],
+      ["সমানুপাত", "বিপরীত সমানুপাত"],
+      ["ক্ষেত্রফল", "পরিধি"],
+      ["স্পর্শক", "ঊর্ধ্বস্থ সরলরেখা"]
+    ]
+  },
+
+  "attribute_nouns_extra": {
+    "_comment": "Subject-specific bare attribute nouns invalid as a standalone topic.",
+    "words": ["উপপাদ্য", "সূত্র", "নিয়ম", "প্রমাণ"]
+  },
+
+  "lexicon_extra": {
+    "_comment": "Valid subject terms a generic Bengali dictionary does not know. Add a word ONLY after confirming its spelling against the page image.",
+    "words": ["লগারিদম", "সেট", "ফাংশন", "সমীকরণ", "বহুপদী", "সূচক"]
+  }
+}

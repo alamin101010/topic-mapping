@@ -1,61 +1,48 @@
 # Topic-map extraction prompt (CONSTRAINED — Step 7)
 
-You are mapping the syllabus of chapter 2 ("বাংলাদেশের স্বাধীনতা") of a Bangladeshi NCTB
+You are mapping the syllabus of chapter 2 ("অনুপাত ও শতকরা") of a Bangladeshi NCTB
 school textbook, from scanned page images (Bengali, some English). OCR-style errors
 are expected — infer through minor garbling, never invent content.
 
-# Subject profile — bgs (Bangladesh and Global Studies)
-
-Prepended to `prompts/topic_map_prompt.md` at Step 7.
+# Subject profile — math6 (Math, Class 6)
 
 ---
 
 ## Identity
-- `subject`: `bgs`
-- `grade`: `9-10`
-- language mix: Bengali + English historical/political terms — keep English terms as-is.
+- `subject`: `math6`
+- `grade`: `6`
+- language mix: Bengali + English mathematical terms (Natural Number, Fraction, Ratio, Percentage, Integer, Algebra, Equation, Geometry, etc.) — keep English/mathematical notation as-is.
 
 ## What a topic looks like in this subject
-A named historical event, political concept, geographic feature, economic system,
-social institution, or civic process — something a student revises as one unit:
+A named mathematical concept, theorem, property, formula, method, or construction technique a student revises as one unit:
 
-- GOOD: `ভাষা আন্দোলনের পটভূমি`, `বাংলাদেশের স্বাধীনতা ঘোষণা`, `সৌরজগতের গঠন`,
-  `বাংলাদেশের ভূপ্রকৃতি`, `নদ-নদীর প্রাকৃতিক সম্পদ`, `গণতন্ত্রের ধারণা`
-- NOT a topic: a single date/fact drill, a map-reading exercise, a discussion question.
+- GOOD: `স্বাভাবিক সংখ্যা`, `ভগ্নাংশের ধারণা`, `অনুপাতের ধারণা`, `শতকরা`, `পূর্ণসংখ্যা`, `বীজগণিতীয় রাশি`, `সরল সমীকরণ`, `কোণের ধারণা`, `ত্রিভুজের ধারণা`, `ক্ষেত্রফল`
+- NOT a topic: a single worked example, one plugged-in formula calculation, a drill exercise, a proof step, or a table-fill activity.
 
 ## Head-noun rule for this subject
-When a heading is a bare attribute (`ধারণা`, `বৈশিষ্ট্য`, `গুরুত্ব`, `প্রকারভেদ`,
-`উদ্দেশ্য`, `সুবিধা`, `পদ্ধতি`, `প্রভাব`, `কারণ`, `�লাফল`), prefix the concept it
-belongs to: `গণতন্ত্রের ধারণা` not `ধারণা`; `বাংলাদেশের ভূপ্রকৃতির বৈশিষ্ট্য` not `বৈশিষ্ট্য`.
+When a body heading is a bare attribute (`ধারণা`, `বৈশিষ্ট্য`, `প্রমাণ`, `সূত্র`, `নিয়ম`, `প্রকারভেদ`, `গুরুত্ব`, `উদাহরণ`, `আলোচনা`, `প্রয়োগ`), prefix the mathematical concept it belongs to: `ভগ্নাংশের ধারণা` not `ধারণা`; `কোণের প্রকারভেদ` not `প্রকারভেদ`.
 
-## Distinct concepts to KEEP SEPARATE
-- `ভাষা আন্দোলন` ≠ `সাংস্কৃতিক আন্দোলন`
-- `স্বাধীনতা ঘোষণা` ≠ `মুক্তিযুদ্ধ` ≠ `চুক্তিপত্র`
-- `সৌরজগৎ` ≠ `মহাকাশ`
-- `ভূপ্রকৃতি` ≠ `জলবায়ু` ≠ `প্রাকৃতিক সম্পদ`
-- `নদী` ≠ `খাল` ≠ `বন্যা`
-- `গণতন্ত্র` ≠ `স্বৈরাচার`
-- `আমদানি` ≠ `রপ্তানি`
-- `কৃষি` ≠ `শিল্প` ≠ `সেবা`
-- `জনসংখ্যা` ≠ `জনঘনত্ব`
+## Label length & staying self-identifying
+A topic label is a **name — ≤ 5 words is the goal**, 3–8 acceptable, no minimum.
+Shorten by cutting words that do no work, **never the head concept**.
 
 ## Canonical spellings of technical terms (OCR tends to garble)
 | garbled | correct | meaning |
 |---|---|---|
-| মুক্তিযুদ্ধ | মুক্তিযুদ্ধ | Liberation War |
-| স্বাধীনতা | স্বাধীনতা | Independence |
-| গণতন্ত্র | গণতন্ত্র | Democracy |
-| সংবিধান | সংবিধান | Constitution |
-| নির্বাচন | নির্বাচন | Election |
-| প্রশাসন | প্রশাসন | Administration |
-| অর্থনীতি | অর্থনীতি | Economy |
-
-## Chapters where numbering restarts per unit
-None — chapters 1–15 run straight through.
+| স্বাভাবিক সংখ্যা | স্বাভাবিক সংখ্যা | Natural Number |
+| ভগ্নাংশ | ভগ্নাংশ | Fraction |
+| অনুপাত | অনুপাত | Ratio |
+| শতকরা | শতকরা | Percentage |
+| পূর্ণসংখ্যা | পূর্ণসংখ্যা | Integer |
+| বীজগণিত | বীজগণিত | Algebra |
+| সমীকরণ | সমীকরণ | Equation |
+| জ্যামিতি | জ্যামিতি | Geometry |
+| কোণ | কোণ | Angle |
+| ত্রিভুজ | ত্রিভুজ | Triangle |
 
 ## Chapter-map note
-`chapter-maps/class9-10-bgs.csv` uses PDF page numbers. Printed page 1 =
-PDF page 6 (front-matter offset k=5). The TOC lists printed pages 1-200.
+`chapter-maps/class6-math.csv` uses PDF page numbers. Printed page 1 =
+PDF page 6 (front-matter offset k=5).
 
 
 ---
@@ -68,27 +55,7 @@ OCR verification. These are the ONLY valid section headings in this chapter.
 **YOU MUST ONLY USE TOPICS FROM THIS CHECKLIST. DO NOT INVENT NEW TOPICS.**
 
 ### Verified Section Headings:
-  1. মুক্তিযুদ্ধের প্রস্তুতি, সমগ্র মুক্তিযুদ্ধ ও স্বাধীন বাংলাদেশের অভ্যুদয়
-  2. মুক্তিযুদ্ধের ঐতিহাসিক তাৎপর্য
-  3. স্বাধীন বাংলাদেশে গণঅভ্যুত্থান
-  4. জুলাই গণঅভ্যুত্থানের উল্লেখযোগ্য দিক
-  5. সামাজিক
-  6. রাজনৈতিক
-  7. অর্থনৈতিক
-  8. স্বাধীনতার আনুষ্ঠানিক যাত্রা
-  9. মুক্তিযুদ্ধের সূচনা এবং মুজিবনগর সরকারের কার্যক্রম
-  10. মুজিবনগর সরকারের কার্যক্রম
-  11. মুক্তিযুদ্ধে সাধারণ জনগণ ও পেশাজীবীদের ভূমিকা
-  12. ছাত্রসমাজ
-  13. পেশাজীবী
-  14. মুক্তিযুদ্ধে নারী
-  15. গণমাধ্যম
-  16. জনসাধারণ
-  17. প্রবাসী বাংলাদেশী
-  18. শিক্ষা-সাহিত্যিক-বুদ্ধিজীবী
-  19. নবইয়ের গণঅভ্যুত্থান
-  20. জুলাই গণঅভ্যুত্থান ও শাসকগোষ্ঠীর পলায়ন
-  21. মুক্তিযুদ্ধে বিশ্বজনমত ও বিভিন্ন দেশের ভূমিকা
+  1. ২.১ অনুপাত
 
 ### Rules:
 1. **Every topic in your output MUST be derived from one of the headings above**
@@ -155,9 +122,9 @@ Return ONLY this JSON object (no commentary, no code fences):
 ```json
 {
   "class": "9-10",
-  "subject": "bgs",
+  "subject": "math6",
   "chapter_no": 2,
-  "chapter_title": "বাংলাদেশের স্বাধীনতা",
+  "chapter_title": "অনুপাত ও শতকরা",
   "learning_outcomes": ["<box bullet verbatim, verbs KEPT>", "..."],
   "topics": ["<self-contained topic derived from verified headings>", "..."],
   "keywords": ["<5–15 revision terms>"],

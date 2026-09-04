@@ -1,0 +1,38 @@
+{
+  "chapter": 14,
+  "chapter_title": "অনুপাত সদৃশতা ও প্রতিসাম্যতা",
+  "chapter_dir": "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch14",
+  "images": [
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch14\\page_271.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch14\\page_272.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch14\\page_273.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch14\\page_274.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch14\\page_275.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch14\\page_276.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch14\\page_277.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch14\\page_278.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch14\\page_279.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch14\\page_280.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch14\\page_281.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch14\\page_282.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch14\\page_283.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch14\\page_284.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch14\\page_285.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch14\\page_286.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch14\\page_287.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch14\\page_288.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch14\\page_289.png"
+  ],
+  "total_pages": 19,
+  "prompt": "You are extracting SECTION HEADINGS from ONE scanned page of a\nBengali NCTB textbook chapter.\n\nReturn a JSON array of the section / sub-section headings printed on THIS page, in\ntop-to-bottom order. A heading is bold or larger-font text that starts a section\nor sub-section — including পরিচ্ছেদ X.Y lines and named sub-sections\n(e.g. \"সূর্য (Sun)\", \"আহ্নিক গতি\").\n\nEXCLUDE: the chapter title (e.g. \"তৃতীয় অধ্যায়\"), the শিখনফল / \"এ অধ্যায় শেষে\nআমরা –\" box, figure captions (\"চিত্র X.X :\"), \"কাজ\" boxes, table headers, page\nnumbers, running headers/footers, and the end-of-chapter\n\"নমুনা প্রশ্ন / বহুনির্বাচনি / সৃজনশীল / সংক্ষিপ্ত-উত্তর\" material.\n\nIf the page has no heading, return []. Output ONLY the JSON array.\nExample: [\"পরিচ্ছেদ ৩.৩ : পৃথিবীর গতি\", \"আহ্নিক গতি\"]",
+  "output_schema": {
+    "chapter": 14,
+    "chapter_title": "অনুপাত সদৃশতা ও প্রতিসাম্যতা",
+    "headings": [
+      {
+        "page": "page_0NN",
+        "heading": "<verbatim heading>"
+      }
+    ]
+  }
+}

@@ -3055,3 +3055,1154 @@
   WARN  'অধ্যায় ১৫: টেকসই উন্নয়ন অভীষ্ট (এসডিজি)': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'টেকসই উন্নয়ন অভীষ্ট অর্জনের সম্ভাব্য ফলাফল ও সুফল'
   WARN  'অধ্যায় ১৫: টেকসই উন্নয়ন অভীষ্ট (এসডিজি)': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'বাংলাদেশে টেকসই উন্নয়ন অভীষ্ট অর্জনে বিদ্যমান চ্যালেঞ্জসমূহ'
   WARN  'অধ্যায় ১৫: টেকসই উন্নয়ন অভীষ্ট (এসডিজি)': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'চ্যালেঞ্জ মোকাবিলা ও অভীষ্ট অর্জনে করণীয় পদক্ষেপ'
+
+=== [setup] Secondary (BV)-2026_Class 9-10_Math_compressed ===
+
+=== [extract] Secondary (BV)-2026_Class 9-10_Math_compressed ===
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Math_compressed ===
+  WARN  ch1: topic 'মৌলিক বীজগণিতিক সংক্রিয়া' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch2: thin topic 'সেটের ধারণা' — confirm it carries a head concept
+  WARN  ch2: thin topic 'সেটের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch2: thin topic 'ফাংশনের ধারণা' — confirm it carries a head concept
+  WARN  ch2: thin topic 'ফাংশনের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch2: only 0% of the 9 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch2: 6 topics for a 22-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch3: only 6% of the 16 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch3: 5 topics for a 32-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: thin topic 'সূচকের ধারণা' — confirm it carries a head concept
+  WARN  ch4: thin topic 'লগারিদমের ধারণা' — confirm it carries a head concept
+  WARN  ch4: only 0% of the 41 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch4: 5 topics for a 18-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch5: only 6% of the 31 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch5: 4 topics for a 18-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch6: thin topic 'ত্রিভুজের উপপাদ্য' — confirm it carries a head concept
+  WARN  ch6: only 2% of the 53 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch6: 5 topics for a 25-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch7: only 5% of the 20 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch7: 5 topics for a 16-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch8: thin topic 'বৃত্তসংক্রান্ত উপপাদ্য' — confirm it carries a head concept
+  WARN  ch8: 60% of topics track the outcome box closely
+  WARN  ch8: only 4% of the 51 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch8: 5 topics for a 22-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch9: thin topic 'ত্রিকোণমিতিক সূত্র' — confirm it carries a head concept
+  WARN  ch9: only 3% of the 37 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch9: 5 topics for a 23-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch10: only 7% of the 14 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch11: thin topic 'সমানুপাতের সমস্যা' — confirm it carries a head concept
+  WARN  ch11: only 4% of the 28 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch11: 4 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch12: thin topic 'প্রতিস্থাপন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: only 10% of the 31 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch12: 4 topics for a 25-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch13: thin topic 'ধারার ধারণা' — confirm it carries a head concept
+  WARN  ch13: only 10% of the 20 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch13: 4 topics for a 17-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch14: thin topic 'অনুপাতের ধারণা' — confirm it carries a head concept
+  WARN  ch14: thin topic 'প্রতিসমতার ধারণা' — confirm it carries a head concept
+  WARN  ch14: only 0% of the 28 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch14: 4 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch15: thin topic 'ক্ষেত্রফলের সমস্যা' — confirm it carries a head concept
+  WARN  ch15: 67% of topics track the outcome box closely
+  WARN  ch15: only 0% of the 9 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch16: only 22% of the 32 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch16: 5 topics for a 32-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch17: outcome not covered by any topic — 'পরিসংখ্যানগত সমস্যা সমাধান করতে পারব...'
+  WARN  ch17: only 59% of the 17 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch17: 7 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch2: 5/6 topics are verb-stripped copies of learning_outcomes (83%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch3: 4/5 topics are verb-stripped copies of learning_outcomes (80%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch3: topics stop around page 49 but the chapter runs to 79 and pages 72-79 carry 8 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch4: 5/5 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch5: 4/4 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch5: topics stop around page 109 but the chapter runs to 115 and pages 111-115 carry 11 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch6: 4/5 topics are verb-stripped copies of learning_outcomes (80%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch6: topics stop around page 116 but the chapter runs to 140 and pages 134-140 carry 9 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch7: one-word topic 'প্রতিসমতা' — attach its head concept
+  FAIL  ch7: 5/5 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch9: 5/5 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch9: topics stop around page 185 but the chapter runs to 201 and pages 196-201 carry 9 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch10: topics stop around page 202 but the chapter runs to 209 and pages 208-209 carry 4 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch11: 4/4 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch11: topics stop around page 210 but the chapter runs to 228 and pages 224-228 carry 11 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch12: 3/4 topics are verb-stripped copies of learning_outcomes (75%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch12: topics stop around page 236 but the chapter runs to 253 and pages 247-253 carry 11 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch13: 4/4 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch14: 3/4 topics are verb-stripped copies of learning_outcomes (75%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch16: 5/5 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch16: topics is a 1:1 verb-stripped copy of learning_outcomes
+  FAIL  ch17: one-word topic 'মধ্যক' — attach its head concept
+  FAIL  ch17: one-word topic 'প্রচুরক' — attach its head concept
+  FAIL  ch17: 6/7 topics are verb-stripped copies of learning_outcomes (86%) — this is a box paraphrase, not a body map. Read the chapter pages.
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Math_compressed ===
+  WARN  ch1: topic 'মৌলিক বীজগণিতিক সংক্রিয়া' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch2: thin topic 'সেটের ধারণা' — confirm it carries a head concept
+  WARN  ch2: thin topic 'সেটের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch2: thin topic 'ফাংশনের ধারণা' — confirm it carries a head concept
+  WARN  ch2: thin topic 'ফাংশনের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch2: only 0% of the 9 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch2: 6 topics for a 22-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch3: only 6% of the 16 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch3: 5 topics for a 32-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: thin topic 'সূচকের ধারণা' — confirm it carries a head concept
+  WARN  ch4: thin topic 'লগারিদমের ধারণা' — confirm it carries a head concept
+  WARN  ch4: only 0% of the 41 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch4: 5 topics for a 18-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch5: only 6% of the 31 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch5: 4 topics for a 18-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch6: thin topic 'ত্রিভুজের উপপাদ্য' — confirm it carries a head concept
+  WARN  ch6: only 2% of the 53 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch6: 5 topics for a 25-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch7: only 5% of the 20 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch7: 5 topics for a 16-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch8: thin topic 'বৃত্তসংক্রান্ত উপপাদ্য' — confirm it carries a head concept
+  WARN  ch8: 60% of topics track the outcome box closely
+  WARN  ch8: only 4% of the 51 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch8: 5 topics for a 22-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch9: thin topic 'ত্রিকোণমিতিক সূত্র' — confirm it carries a head concept
+  WARN  ch9: only 3% of the 37 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch9: 5 topics for a 23-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch10: only 7% of the 14 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch11: thin topic 'সমানুপাতের সমস্যা' — confirm it carries a head concept
+  WARN  ch11: only 4% of the 28 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch11: 4 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch12: thin topic 'প্রতিস্থাপন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: only 10% of the 31 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch12: 4 topics for a 25-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch13: thin topic 'ধারার ধারণা' — confirm it carries a head concept
+  WARN  ch13: only 10% of the 20 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch13: 4 topics for a 17-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch14: thin topic 'অনুপাতের ধারণা' — confirm it carries a head concept
+  WARN  ch14: thin topic 'প্রতিসমতার ধারণা' — confirm it carries a head concept
+  WARN  ch14: only 0% of the 28 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch14: 4 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch15: thin topic 'ক্ষেত্রফলের সমস্যা' — confirm it carries a head concept
+  WARN  ch15: 67% of topics track the outcome box closely
+  WARN  ch15: only 0% of the 9 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch16: only 22% of the 32 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch16: 5 topics for a 32-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch17: outcome not covered by any topic — 'পরিসংখ্যানগত সমস্যা সমাধান করতে পারব...'
+  WARN  ch17: only 59% of the 17 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch17: 7 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch2: 5/6 topics are verb-stripped copies of learning_outcomes (83%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch3: 4/5 topics are verb-stripped copies of learning_outcomes (80%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch3: topics stop around page 49 but the chapter runs to 79 and pages 72-79 carry 8 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch4: 5/5 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch5: 4/4 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch5: topics stop around page 109 but the chapter runs to 115 and pages 111-115 carry 11 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch6: 4/5 topics are verb-stripped copies of learning_outcomes (80%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch6: topics stop around page 116 but the chapter runs to 140 and pages 134-140 carry 9 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch7: one-word topic 'প্রতিসমতা' — attach its head concept
+  FAIL  ch7: 5/5 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch9: 5/5 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch9: topics stop around page 185 but the chapter runs to 201 and pages 196-201 carry 9 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch10: topics stop around page 202 but the chapter runs to 209 and pages 208-209 carry 4 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch11: 4/4 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch11: topics stop around page 210 but the chapter runs to 228 and pages 224-228 carry 11 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch12: 3/4 topics are verb-stripped copies of learning_outcomes (75%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch12: topics stop around page 236 but the chapter runs to 253 and pages 247-253 carry 11 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch13: 4/4 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch14: 3/4 topics are verb-stripped copies of learning_outcomes (75%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch16: 5/5 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch16: topics is a 1:1 verb-stripped copy of learning_outcomes
+  FAIL  ch17: one-word topic 'মধ্যক' — attach its head concept
+  FAIL  ch17: one-word topic 'প্রচুরক' — attach its head concept
+  FAIL  ch17: 6/7 topics are verb-stripped copies of learning_outcomes (86%) — this is a box paraphrase, not a body map. Read the chapter pages.
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Math_compressed ===
+  WARN  ch2: outcome not covered by any topic — 'সেটের ধারণা বর্ণনা করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'সেটের প্রকারভেদ বিশ্লেষণ করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'সেটের সাথে সম্পর্কিত বিভিন্ন কার্যাবলি সম্পাদন করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'ভেন চিত্র অঙ্কন করতে পারব...'
+  WARN  ch2: only 44% of the 9 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch2: 4 topics for a 22-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch3: thin topic 'ভাগশেষ উপপাদ্য' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'বহুপদী রাশির সংজ্ঞা ও প্রকারভেদ বর্ণনা করতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'বহুপদী রাশির মান ও মূল নির্ণয় করতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'বীজগণিতিক সংক্রিয়া ও সরল সমীকরণ সমাধান করতে পারব...'
+  WARN  ch3: only 44% of the 16 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch3: 6 topics for a 32-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: thin topic 'লগারিদম পদ্ধতি' — confirm it carries a head concept
+  WARN  ch4: outcome not covered by any topic — 'সূচকীয় ও লগারিদমিক সমীকরণ সমাধান করতে পারব...'
+  WARN  ch4: only 32% of the 41 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch5: only 29% of the 31 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch6: thin topic 'বিরোধ পদ্ধতি' — confirm it carries a head concept
+  WARN  ch6: thin topic 'পিথাগোরাসের উপপাদ্য' — confirm it carries a head concept
+  WARN  ch6: only 57% of the 53 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch7: outcome not covered by any topic — 'মানচিত্র পাঠন ও ব্যাখ্যা করতে পারব...'
+  WARN  ch7: only 25% of the 20 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch7: 4 topics for a 16-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch8: outcome not covered by any topic — 'বৃত্তসংক্রান্ত কোণের ধারণা ও বৈশিষ্ট্য ব্যাখ্যা করতে পারব...'
+  WARN  ch8: outcome not covered by any topic — 'বৃত্তসংক্রান্ত সমস্যা সমাধান করতে পারব...'
+  WARN  ch8: only 29% of the 51 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch9: outcome not covered by any topic — 'ত্রিকোণমিতির প্রয়োগ সম্পর্কিত সমস্যা সমাধান করতে পারব...'
+  WARN  ch9: only 30% of the 37 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch9: 8 topics for a 23-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch10: only 21% of the 14 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch11: outcome not covered by any topic — 'সমানুপাতের ধারণা ও প্রকারভেদ বিশ্লেষণ করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'সমানুপাতের সমস্যা সমাধান করতে পারব...'
+  WARN  ch11: only 29% of the 28 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch11: 7 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch12: thin topic 'প্রতিস্থাপন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: thin topic 'অপনয়ন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: thin topic 'আড়গুণন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: thin topic 'লেখিক পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: only 29% of the 31 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch12: 8 topics for a 25-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch14: outcome not covered by any topic — 'অনুপাতের ধারণা বর্ণনা করতে পারব...'
+  WARN  ch14: outcome not covered by any topic — 'সদৃশতার ধারণা ও প্রকারভেদ বিশ্লেষণ করতে পারব...'
+  WARN  ch14: outcome not covered by any topic — 'প্রতিসমতার ধারণা বর্ণনা করতে পারব...'
+  WARN  ch15: outcome not covered by any topic — 'সম্পাদ্য সম্পাদন করতে পারব...'
+  WARN  ch15: only 44% of the 9 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch16: only 59% of the 32 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch16: 11 topics for a 32-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch17: outcome not covered by any topic — 'পরিসংখ্যানগত সমস্যা সমাধান করতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch2: one-word topic 'ফাংশন' — attach its head concept
+  FAIL  ch2: topics stop around page 36 but the chapter runs to 47 and pages 42-47 carry 3 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch4: one-word topic 'সূচক' — attach its head concept
+  FAIL  ch4: one-word topic 'লগারিদম' — attach its head concept
+  FAIL  ch5: one-word topic 'চলক' — attach its head concept
+  FAIL  ch6: one-word topic 'কোণ' — attach its head concept
+  FAIL  ch6: one-word topic 'ত্রিভুজ' — attach its head concept
+  FAIL  ch6: topics stop around page 132 but the chapter runs to 140 and pages 134-140 carry 9 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch8: one-word topic 'বৃত্ত' — attach its head concept
+  FAIL  ch8: one-word topic 'বৃত্তচাপ' — attach its head concept
+  FAIL  ch10: topics stop around page 202 but the chapter runs to 209 and pages 208-209 carry 4 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch11: one-word topic 'অনুপাত' — attach its head concept
+  FAIL  ch11: one-word topic 'সমানুপাত' — attach its head concept
+  FAIL  ch13: one-word topic 'অনুক্রম' — attach its head concept
+  FAIL  ch13: one-word topic 'ধারা' — attach its head concept
+  FAIL  ch14: one-word topic 'সদৃশতা' — attach its head concept
+  FAIL  ch14: one-word topic 'প্রতিসমতা' — attach its head concept
+  FAIL  ch16: one-word topic 'পরিমিতি' — attach its head concept
+  FAIL  ch16: one-word topic 'ধনবস্তু' — attach its head concept
+  FAIL  ch16: one-word topic 'ধনক' — attach its head concept
+  FAIL  ch17: one-word topic 'পরিসংখ্যান' — attach its head concept
+  FAIL  ch17: one-word topic 'চলক' — attach its head concept
+  FAIL  ch17: one-word topic 'মধ্যক' — attach its head concept
+  FAIL  ch17: one-word topic 'প্রচুরক' — attach its head concept
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Math_compressed ===
+  WARN  ch2: outcome not covered by any topic — 'সেটের ধারণা বর্ণনা করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'সেটের প্রকারভেদ বিশ্লেষণ করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'সেটের সাথে সম্পর্কিত বিভিন্ন কার্যাবলি সম্পাদন করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'ভেন চিত্র অঙ্কন করতে পারব...'
+  WARN  ch2: only 44% of the 9 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch2: 4 topics for a 22-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch3: thin topic 'ভাগশেষ উপপাদ্য' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'বহুপদী রাশির সংজ্ঞা ও প্রকারভেদ বর্ণনা করতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'বহুপদী রাশির মান ও মূল নির্ণয় করতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'বীজগণিতিক সংক্রিয়া ও সরল সমীকরণ সমাধান করতে পারব...'
+  WARN  ch3: only 44% of the 16 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch3: 6 topics for a 32-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: thin topic 'লগারিদম পদ্ধতি' — confirm it carries a head concept
+  WARN  ch4: outcome not covered by any topic — 'সূচকীয় ও লগারিদমিক সমীকরণ সমাধান করতে পারব...'
+  WARN  ch4: only 32% of the 41 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch5: only 29% of the 31 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch6: thin topic 'বিরোধ পদ্ধতি' — confirm it carries a head concept
+  WARN  ch6: thin topic 'পিথাগোরাসের উপপাদ্য' — confirm it carries a head concept
+  WARN  ch6: only 57% of the 53 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch7: outcome not covered by any topic — 'মানচিত্র পাঠন ও ব্যাখ্যা করতে পারব...'
+  WARN  ch7: only 25% of the 20 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch7: 4 topics for a 16-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch8: outcome not covered by any topic — 'বৃত্তসংক্রান্ত কোণের ধারণা ও বৈশিষ্ট্য ব্যাখ্যা করতে পারব...'
+  WARN  ch8: outcome not covered by any topic — 'বৃত্তসংক্রান্ত সমস্যা সমাধান করতে পারব...'
+  WARN  ch8: only 29% of the 51 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch9: outcome not covered by any topic — 'ত্রিকোণমিতির প্রয়োগ সম্পর্কিত সমস্যা সমাধান করতে পারব...'
+  WARN  ch9: only 30% of the 37 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch9: 8 topics for a 23-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch10: only 21% of the 14 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch11: outcome not covered by any topic — 'সমানুপাতের ধারণা ও প্রকারভেদ বিশ্লেষণ করতে পারব...'
+  WARN  ch11: outcome not covered by any topic — 'সমানুপাতের সমস্যা সমাধান করতে পারব...'
+  WARN  ch11: only 29% of the 28 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch11: 7 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch12: thin topic 'প্রতিস্থাপন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: thin topic 'অপনয়ন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: thin topic 'আড়গুণন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: thin topic 'লেখিক পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: only 29% of the 31 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch12: 8 topics for a 25-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch14: outcome not covered by any topic — 'অনুপাতের ধারণা বর্ণনা করতে পারব...'
+  WARN  ch14: outcome not covered by any topic — 'সদৃশতার ধারণা ও প্রকারভেদ বিশ্লেষণ করতে পারব...'
+  WARN  ch14: outcome not covered by any topic — 'প্রতিসমতার ধারণা বর্ণনা করতে পারব...'
+  WARN  ch15: outcome not covered by any topic — 'সম্পাদ্য সম্পাদন করতে পারব...'
+  WARN  ch15: only 44% of the 9 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch16: only 59% of the 32 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch16: 11 topics for a 32-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch17: outcome not covered by any topic — 'পরিসংখ্যানগত সমস্যা সমাধান করতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch2: one-word topic 'ফাংশন' — attach its head concept
+  FAIL  ch2: topics stop around page 36 but the chapter runs to 47 and pages 42-47 carry 3 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch4: one-word topic 'সূচক' — attach its head concept
+  FAIL  ch4: one-word topic 'লগারিদম' — attach its head concept
+  FAIL  ch5: one-word topic 'চলক' — attach its head concept
+  FAIL  ch6: one-word topic 'কোণ' — attach its head concept
+  FAIL  ch6: one-word topic 'ত্রিভুজ' — attach its head concept
+  FAIL  ch6: topics stop around page 132 but the chapter runs to 140 and pages 134-140 carry 9 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch8: one-word topic 'বৃত্ত' — attach its head concept
+  FAIL  ch8: one-word topic 'বৃত্তচাপ' — attach its head concept
+  FAIL  ch10: topics stop around page 202 but the chapter runs to 209 and pages 208-209 carry 4 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch11: one-word topic 'অনুপাত' — attach its head concept
+  FAIL  ch11: one-word topic 'সমানুপাত' — attach its head concept
+  FAIL  ch13: one-word topic 'অনুক্রম' — attach its head concept
+  FAIL  ch13: one-word topic 'ধারা' — attach its head concept
+  FAIL  ch14: one-word topic 'সদৃশতা' — attach its head concept
+  FAIL  ch14: one-word topic 'প্রতিসমতা' — attach its head concept
+  FAIL  ch16: one-word topic 'পরিমিতি' — attach its head concept
+  FAIL  ch16: one-word topic 'ধনবস্তু' — attach its head concept
+  FAIL  ch16: one-word topic 'ধনক' — attach its head concept
+  FAIL  ch17: one-word topic 'পরিসংখ্যান' — attach its head concept
+  FAIL  ch17: one-word topic 'চলক' — attach its head concept
+  FAIL  ch17: one-word topic 'মধ্যক' — attach its head concept
+  FAIL  ch17: one-word topic 'প্রচুরক' — attach its head concept
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Math_compressed ===
+  WARN  ch2: thin topic 'ফাংশনের ধারণা' — confirm it carries a head concept
+  WARN  ch2: outcome not covered by any topic — 'সেটের প্রকারভেদ বিশ্লেষণ করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'সেটের সাথে সম্পর্কিত বিভিন্ন কার্যাবলি সম্পাদন করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'ভেন চিত্র অঙ্কন করতে পারব...'
+  WARN  ch2: only 33% of the 9 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch2: 4 topics for a 22-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch3: thin topic 'ভাগশেষ উপপাদ্য' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'বহুপদী রাশির সংজ্ঞা ও প্রকারভেদ বর্ণনা করতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'বহুপদী রাশির মান ও মূল নির্ণয় করতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'বীজগণিতিক সংক্রিয়া ও সরল সমীকরণ সমাধান করতে পারব...'
+  WARN  ch3: only 44% of the 16 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch3: 6 topics for a 32-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: thin topic 'সূচকের ধারণা' — confirm it carries a head concept
+  WARN  ch4: thin topic 'লগারিদমের ধারণা' — confirm it carries a head concept
+  WARN  ch4: thin topic 'লগারিদম পদ্ধতি' — confirm it carries a head concept
+  WARN  ch4: outcome not covered by any topic — 'সূচকীয় ও লগারিদমিক সমীকরণ সমাধান করতে পারব...'
+  WARN  ch4: only 20% of the 41 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch5: thin topic 'চলকের ধারণা' — confirm it carries a head concept
+  WARN  ch5: only 26% of the 31 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch5: topic 'চলকের ধারণা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch6: thin topic 'বিরোধ পদ্ধতি' — confirm it carries a head concept
+  WARN  ch6: thin topic 'কোণের ধারণা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'ত্রিভুজের ধারণা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'পিথাগোরাসের উপপাদ্য' — confirm it carries a head concept
+  WARN  ch6: only 26% of the 53 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch7: outcome not covered by any topic — 'মানচিত্র পাঠন ও ব্যাখ্যা করতে পারব...'
+  WARN  ch7: only 25% of the 20 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch7: 4 topics for a 16-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch8: thin topic 'বৃত্তের ধারণা' — confirm it carries a head concept
+  WARN  ch8: thin topic 'বৃত্তচাপের ধারণা' — confirm it carries a head concept
+  WARN  ch8: outcome not covered by any topic — 'বৃত্তসংক্রান্ত সমস্যা সমাধান করতে পারব...'
+  WARN  ch8: only 20% of the 51 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch9: outcome not covered by any topic — 'ত্রিকোণমিতির প্রয়োগ সম্পর্কিত সমস্যা সমাধান করতে পারব...'
+  WARN  ch9: only 30% of the 37 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch9: 8 topics for a 23-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch10: only 21% of the 14 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch11: thin topic 'অনুপাতের ধারণা' — confirm it carries a head concept
+  WARN  ch11: thin topic 'সমানুপাতের ধারণা' — confirm it carries a head concept
+  WARN  ch11: only 21% of the 28 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch11: 7 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch12: thin topic 'প্রতিস্থাপন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: thin topic 'অপনয়ন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: thin topic 'আড়গুণন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: thin topic 'লেখিক পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: only 29% of the 31 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch12: 8 topics for a 25-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch13: thin topic 'অনুক্রমের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'ধারার ধারণা' — confirm it carries a head concept
+  WARN  ch13: only 55% of the 20 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch14: thin topic 'সদৃশতার ধারণা' — confirm it carries a head concept
+  WARN  ch14: thin topic 'প্রতিসমতার ধারণা' — confirm it carries a head concept
+  WARN  ch15: outcome not covered by any topic — 'সম্পাদ্য সম্পাদন করতে পারব...'
+  WARN  ch15: only 44% of the 9 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch16: thin topic 'পরিমিতির ধারণা' — confirm it carries a head concept
+  WARN  ch16: thin topic 'ধনবস্তুর ধারণা' — confirm it carries a head concept
+  WARN  ch16: thin topic 'ধনকের ধারণা' — confirm it carries a head concept
+  WARN  ch16: only 50% of the 32 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch16: 11 topics for a 32-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch17: thin topic 'পরিসংখ্যানের ধারণা' — confirm it carries a head concept
+  WARN  ch17: thin topic 'চলকের ধারণা' — confirm it carries a head concept
+  WARN  ch17: thin topic 'মধ্যকের ধারণা' — confirm it carries a head concept
+  WARN  ch17: thin topic 'প্রচুরকের ধারণা' — confirm it carries a head concept
+  WARN  ch17: outcome not covered by any topic — 'পরিসংখ্যানগত সমস্যা সমাধান করতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch2: topics stop around page 36 but the chapter runs to 47 and pages 42-47 carry 3 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch6: topics stop around page 131 but the chapter runs to 140 and pages 134-140 carry 9 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch10: topics stop around page 202 but the chapter runs to 209 and pages 208-209 carry 4 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Math_compressed ===
+  WARN  ch2: thin topic 'ফাংশনের ধারণা' — confirm it carries a head concept
+  WARN  ch2: outcome not covered by any topic — 'সেটের প্রকারভেদ বিশ্লেষণ করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'সেটের সাথে সম্পর্কিত বিভিন্ন কার্যাবলি সম্পাদন করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'ভেন চিত্র অঙ্কন করতে পারব...'
+  WARN  ch2: only 44% of the 9 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch2: 5 topics for a 22-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch3: thin topic 'ভাগশেষ উপপাদ্য' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'বহুপদী রাশির সংজ্ঞা ও প্রকারভেদ বর্ণনা করতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'বহুপদী রাশির মান ও মূল নির্ণয় করতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'বীজগণিতিক সংক্রিয়া ও সরল সমীকরণ সমাধান করতে পারব...'
+  WARN  ch3: only 44% of the 16 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch3: 6 topics for a 32-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: thin topic 'সূচকের ধারণা' — confirm it carries a head concept
+  WARN  ch4: thin topic 'লগারিদমের ধারণা' — confirm it carries a head concept
+  WARN  ch4: thin topic 'লগারিদম পদ্ধতি' — confirm it carries a head concept
+  WARN  ch4: outcome not covered by any topic — 'সূচকীয় ও লগারিদমিক সমীকরণ সমাধান করতে পারব...'
+  WARN  ch4: only 20% of the 41 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch5: thin topic 'চলকের ধারণা' — confirm it carries a head concept
+  WARN  ch5: only 26% of the 31 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch5: topic 'চলকের ধারণা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch6: thin topic 'বিরোধ পদ্ধতি' — confirm it carries a head concept
+  WARN  ch6: thin topic 'কোণের ধারণা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'ত্রিভুজের ধারণা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'পিথাগোরাসের উপপাদ্য' — confirm it carries a head concept
+  WARN  ch6: only 32% of the 53 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch7: outcome not covered by any topic — 'মানচিত্র পাঠন ও ব্যাখ্যা করতে পারব...'
+  WARN  ch7: only 25% of the 20 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch7: 4 topics for a 16-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch8: thin topic 'বৃত্তের ধারণা' — confirm it carries a head concept
+  WARN  ch8: thin topic 'বৃত্তচাপের ধারণা' — confirm it carries a head concept
+  WARN  ch8: outcome not covered by any topic — 'বৃত্তসংক্রান্ত সমস্যা সমাধান করতে পারব...'
+  WARN  ch8: only 20% of the 51 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch9: outcome not covered by any topic — 'ত্রিকোণমিতির প্রয়োগ সম্পর্কিত সমস্যা সমাধান করতে পারব...'
+  WARN  ch9: only 30% of the 37 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch9: 8 topics for a 23-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch10: only 29% of the 14 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch11: thin topic 'অনুপাতের ধারণা' — confirm it carries a head concept
+  WARN  ch11: thin topic 'সমানুপাতের ধারণা' — confirm it carries a head concept
+  WARN  ch11: only 21% of the 28 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch11: 7 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch12: thin topic 'প্রতিস্থাপন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: thin topic 'অপনয়ন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: thin topic 'আড়গুণন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: thin topic 'লেখিক পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: only 29% of the 31 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch12: 8 topics for a 25-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch13: thin topic 'অনুক্রমের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'ধারার ধারণা' — confirm it carries a head concept
+  WARN  ch13: only 55% of the 20 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch14: thin topic 'সদৃশতার ধারণা' — confirm it carries a head concept
+  WARN  ch14: thin topic 'প্রতিসমতার ধারণা' — confirm it carries a head concept
+  WARN  ch15: outcome not covered by any topic — 'সম্পাদ্য সম্পাদন করতে পারব...'
+  WARN  ch15: only 44% of the 9 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch16: thin topic 'পরিমিতির ধারণা' — confirm it carries a head concept
+  WARN  ch16: thin topic 'ধনবস্তুর ধারণা' — confirm it carries a head concept
+  WARN  ch16: thin topic 'ধনকের ধারণা' — confirm it carries a head concept
+  WARN  ch16: only 50% of the 32 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch16: 11 topics for a 32-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch17: thin topic 'পরিসংখ্যানের ধারণা' — confirm it carries a head concept
+  WARN  ch17: thin topic 'চলকের ধারণা' — confirm it carries a head concept
+  WARN  ch17: thin topic 'মধ্যকের ধারণা' — confirm it carries a head concept
+  WARN  ch17: thin topic 'প্রচুরকের ধারণা' — confirm it carries a head concept
+  WARN  ch17: outcome not covered by any topic — 'পরিসংখ্যানগত সমস্যা সমাধান করতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch2: topics stop around page 39 but the chapter runs to 47 and pages 42-47 carry 3 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+  FAIL  ch10: topics stop around page 207 but the chapter runs to 209 and pages 208-209 carry 4 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Math_compressed ===
+  WARN  ch2: thin topic 'ফাংশনের ধারণা' — confirm it carries a head concept
+  WARN  ch2: outcome not covered by any topic — 'সেটের প্রকারভেদ বিশ্লেষণ করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'সেটের সাথে সম্পর্কিত বিভিন্ন কার্যাবলি সম্পাদন করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'ভেন চিত্র অঙ্কন করতে পারব...'
+  WARN  ch2: only 44% of the 9 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch2: 6 topics for a 22-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch3: thin topic 'ভাগশেষ উপপাদ্য' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'বহুপদী রাশির সংজ্ঞা ও প্রকারভেদ বর্ণনা করতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'বহুপদী রাশির মান ও মূল নির্ণয় করতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'বীজগণিতিক সংক্রিয়া ও সরল সমীকরণ সমাধান করতে পারব...'
+  WARN  ch3: only 44% of the 16 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch3: 6 topics for a 32-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: thin topic 'সূচকের ধারণা' — confirm it carries a head concept
+  WARN  ch4: thin topic 'লগারিদমের ধারণা' — confirm it carries a head concept
+  WARN  ch4: thin topic 'লগারিদম পদ্ধতি' — confirm it carries a head concept
+  WARN  ch4: outcome not covered by any topic — 'সূচকীয় ও লগারিদমিক সমীকরণ সমাধান করতে পারব...'
+  WARN  ch4: only 20% of the 41 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch5: thin topic 'চলকের ধারণা' — confirm it carries a head concept
+  WARN  ch5: only 26% of the 31 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch5: topic 'চলকের ধারণা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch6: thin topic 'বিরোধ পদ্ধতি' — confirm it carries a head concept
+  WARN  ch6: thin topic 'কোণের ধারণা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'ত্রিভুজের ধারণা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'পিথাগোরাসের উপপাদ্য' — confirm it carries a head concept
+  WARN  ch6: only 32% of the 53 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch7: outcome not covered by any topic — 'মানচিত্র পাঠন ও ব্যাখ্যা করতে পারব...'
+  WARN  ch7: only 25% of the 20 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch7: 4 topics for a 16-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch8: thin topic 'বৃত্তের ধারণা' — confirm it carries a head concept
+  WARN  ch8: thin topic 'বৃত্তচাপের ধারণা' — confirm it carries a head concept
+  WARN  ch8: outcome not covered by any topic — 'বৃত্তসংক্রান্ত সমস্যা সমাধান করতে পারব...'
+  WARN  ch8: only 20% of the 51 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch9: outcome not covered by any topic — 'ত্রিকোণমিতির প্রয়োগ সম্পর্কিত সমস্যা সমাধান করতে পারব...'
+  WARN  ch9: only 30% of the 37 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch9: 8 topics for a 23-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch10: only 36% of the 14 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch11: thin topic 'অনুপাতের ধারণা' — confirm it carries a head concept
+  WARN  ch11: thin topic 'সমানুপাতের ধারণা' — confirm it carries a head concept
+  WARN  ch11: only 21% of the 28 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch11: 7 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch12: thin topic 'প্রতিস্থাপন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: thin topic 'অপনয়ন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: thin topic 'আড়গুণন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: thin topic 'লেখিক পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: only 29% of the 31 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch12: 8 topics for a 25-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch13: thin topic 'অনুক্রমের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'ধারার ধারণা' — confirm it carries a head concept
+  WARN  ch13: only 55% of the 20 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch14: thin topic 'সদৃশতার ধারণা' — confirm it carries a head concept
+  WARN  ch14: thin topic 'প্রতিসমতার ধারণা' — confirm it carries a head concept
+  WARN  ch15: outcome not covered by any topic — 'সম্পাদ্য সম্পাদন করতে পারব...'
+  WARN  ch15: only 44% of the 9 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch16: thin topic 'পরিমিতির ধারণা' — confirm it carries a head concept
+  WARN  ch16: thin topic 'ধনবস্তুর ধারণা' — confirm it carries a head concept
+  WARN  ch16: thin topic 'ধনকের ধারণা' — confirm it carries a head concept
+  WARN  ch16: only 50% of the 32 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch16: 11 topics for a 32-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch17: thin topic 'পরিসংখ্যানের ধারণা' — confirm it carries a head concept
+  WARN  ch17: thin topic 'চলকের ধারণা' — confirm it carries a head concept
+  WARN  ch17: thin topic 'মধ্যকের ধারণা' — confirm it carries a head concept
+  WARN  ch17: thin topic 'প্রচুরকের ধারণা' — confirm it carries a head concept
+  WARN  ch17: outcome not covered by any topic — 'পরিসংখ্যানগত সমস্যা সমাধান করতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch2: topics stop around page 39 but the chapter runs to 47 and pages 42-47 carry 3 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Math_compressed ===
+  WARN  ch2: thin topic 'ফাংশনের ধারণা' — confirm it carries a head concept
+  WARN  ch2: outcome not covered by any topic — 'সেটের প্রকারভেদ বিশ্লেষণ করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'সেটের সাথে সম্পর্কিত বিভিন্ন কার্যাবলি সম্পাদন করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'ভেন চিত্র অঙ্কন করতে পারব...'
+  WARN  ch2: only 56% of the 9 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch2: 7 topics for a 22-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch3: thin topic 'ভাগশেষ উপপাদ্য' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'বহুপদী রাশির সংজ্ঞা ও প্রকারভেদ বর্ণনা করতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'বহুপদী রাশির মান ও মূল নির্ণয় করতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'বীজগণিতিক সংক্রিয়া ও সরল সমীকরণ সমাধান করতে পারব...'
+  WARN  ch3: only 44% of the 16 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch3: 6 topics for a 32-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: thin topic 'সূচকের ধারণা' — confirm it carries a head concept
+  WARN  ch4: thin topic 'লগারিদমের ধারণা' — confirm it carries a head concept
+  WARN  ch4: thin topic 'লগারিদম পদ্ধতি' — confirm it carries a head concept
+  WARN  ch4: outcome not covered by any topic — 'সূচকীয় ও লগারিদমিক সমীকরণ সমাধান করতে পারব...'
+  WARN  ch4: only 20% of the 41 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch5: thin topic 'চলকের ধারণা' — confirm it carries a head concept
+  WARN  ch5: only 26% of the 31 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch5: topic 'চলকের ধারণা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch6: thin topic 'বিরোধ পদ্ধতি' — confirm it carries a head concept
+  WARN  ch6: thin topic 'কোণের ধারণা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'ত্রিভুজের ধারণা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'পিথাগোরাসের উপপাদ্য' — confirm it carries a head concept
+  WARN  ch6: only 32% of the 53 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch7: outcome not covered by any topic — 'মানচিত্র পাঠন ও ব্যাখ্যা করতে পারব...'
+  WARN  ch7: only 25% of the 20 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch7: 4 topics for a 16-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch8: thin topic 'বৃত্তের ধারণা' — confirm it carries a head concept
+  WARN  ch8: thin topic 'বৃত্তচাপের ধারণা' — confirm it carries a head concept
+  WARN  ch8: outcome not covered by any topic — 'বৃত্তসংক্রান্ত সমস্যা সমাধান করতে পারব...'
+  WARN  ch8: only 20% of the 51 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch9: outcome not covered by any topic — 'ত্রিকোণমিতির প্রয়োগ সম্পর্কিত সমস্যা সমাধান করতে পারব...'
+  WARN  ch9: only 30% of the 37 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch9: 8 topics for a 23-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch10: only 36% of the 14 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch11: thin topic 'অনুপাতের ধারণা' — confirm it carries a head concept
+  WARN  ch11: thin topic 'সমানুপাতের ধারণা' — confirm it carries a head concept
+  WARN  ch11: only 21% of the 28 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch11: 7 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch12: thin topic 'প্রতিস্থাপন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: thin topic 'অপনয়ন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: thin topic 'আড়গুণন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: thin topic 'লেখিক পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: only 29% of the 31 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch12: 8 topics for a 25-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch13: thin topic 'অনুক্রমের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'ধারার ধারণা' — confirm it carries a head concept
+  WARN  ch13: only 55% of the 20 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch14: thin topic 'সদৃশতার ধারণা' — confirm it carries a head concept
+  WARN  ch14: thin topic 'প্রতিসমতার ধারণা' — confirm it carries a head concept
+  WARN  ch15: outcome not covered by any topic — 'সম্পাদ্য সম্পাদন করতে পারব...'
+  WARN  ch15: only 44% of the 9 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch16: thin topic 'পরিমিতির ধারণা' — confirm it carries a head concept
+  WARN  ch16: thin topic 'ধনবস্তুর ধারণা' — confirm it carries a head concept
+  WARN  ch16: thin topic 'ধনকের ধারণা' — confirm it carries a head concept
+  WARN  ch16: only 50% of the 32 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch16: 11 topics for a 32-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch17: thin topic 'পরিসংখ্যানের ধারণা' — confirm it carries a head concept
+  WARN  ch17: thin topic 'চলকের ধারণা' — confirm it carries a head concept
+  WARN  ch17: thin topic 'মধ্যকের ধারণা' — confirm it carries a head concept
+  WARN  ch17: thin topic 'প্রচুরকের ধারণা' — confirm it carries a head concept
+  WARN  ch17: outcome not covered by any topic — 'পরিসংখ্যানগত সমস্যা সমাধান করতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch2: topics stop around page 41 but the chapter runs to 47 and pages 42-47 carry 3 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+
+=== [topicmap] Secondary (BV)-2026_Class 9-10_Math_compressed ===
+  WARN  ch2: thin topic 'ফাংশনের ধারণা' — confirm it carries a head concept
+  WARN  ch2: outcome not covered by any topic — 'সেটের প্রকারভেদ বিশ্লেষণ করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'সেটের সাথে সম্পর্কিত বিভিন্ন কার্যাবলি সম্পাদন করতে পারব...'
+  WARN  ch2: outcome not covered by any topic — 'ভেন চিত্র অঙ্কন করতে পারব...'
+  WARN  ch2: 10 topics for a 22-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch3: thin topic 'ভাগশেষ উপপাদ্য' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'বহুপদী রাশির সংজ্ঞা ও প্রকারভেদ বর্ণনা করতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'বহুপদী রাশির মান ও মূল নির্ণয় করতে পারব...'
+  WARN  ch3: outcome not covered by any topic — 'বীজগণিতিক সংক্রিয়া ও সরল সমীকরণ সমাধান করতে পারব...'
+  WARN  ch3: only 44% of the 16 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch3: 6 topics for a 32-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: thin topic 'সূচকের ধারণা' — confirm it carries a head concept
+  WARN  ch4: thin topic 'লগারিদমের ধারণা' — confirm it carries a head concept
+  WARN  ch4: thin topic 'লগারিদম পদ্ধতি' — confirm it carries a head concept
+  WARN  ch4: outcome not covered by any topic — 'সূচকীয় ও লগারিদমিক সমীকরণ সমাধান করতে পারব...'
+  WARN  ch4: only 20% of the 41 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch5: thin topic 'চলকের ধারণা' — confirm it carries a head concept
+  WARN  ch5: only 26% of the 31 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch5: topic 'চলকের ধারণা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch6: thin topic 'বিরোধ পদ্ধতি' — confirm it carries a head concept
+  WARN  ch6: thin topic 'কোণের ধারণা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'ত্রিভুজের ধারণা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'পিথাগোরাসের উপপাদ্য' — confirm it carries a head concept
+  WARN  ch6: only 32% of the 53 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch7: outcome not covered by any topic — 'মানচিত্র পাঠন ও ব্যাখ্যা করতে পারব...'
+  WARN  ch7: only 25% of the 20 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch7: 4 topics for a 16-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch8: thin topic 'বৃত্তের ধারণা' — confirm it carries a head concept
+  WARN  ch8: thin topic 'বৃত্তচাপের ধারণা' — confirm it carries a head concept
+  WARN  ch8: outcome not covered by any topic — 'বৃত্তসংক্রান্ত সমস্যা সমাধান করতে পারব...'
+  WARN  ch8: only 20% of the 51 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch9: outcome not covered by any topic — 'ত্রিকোণমিতির প্রয়োগ সম্পর্কিত সমস্যা সমাধান করতে পারব...'
+  WARN  ch9: only 30% of the 37 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch9: 8 topics for a 23-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch10: only 36% of the 14 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch11: thin topic 'অনুপাতের ধারণা' — confirm it carries a head concept
+  WARN  ch11: thin topic 'সমানুপাতের ধারণা' — confirm it carries a head concept
+  WARN  ch11: only 21% of the 28 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch11: 7 topics for a 19-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch12: thin topic 'প্রতিস্থাপন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: thin topic 'অপনয়ন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: thin topic 'আড়গুণন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: thin topic 'লেখিক পদ্ধতি' — confirm it carries a head concept
+  WARN  ch12: only 29% of the 31 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch12: 8 topics for a 25-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch13: thin topic 'অনুক্রমের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'ধারার ধারণা' — confirm it carries a head concept
+  WARN  ch13: only 55% of the 20 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch14: thin topic 'সদৃশতার ধারণা' — confirm it carries a head concept
+  WARN  ch14: thin topic 'প্রতিসমতার ধারণা' — confirm it carries a head concept
+  WARN  ch15: outcome not covered by any topic — 'সম্পাদ্য সম্পাদন করতে পারব...'
+  WARN  ch15: only 44% of the 9 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch16: thin topic 'পরিমিতির ধারণা' — confirm it carries a head concept
+  WARN  ch16: thin topic 'ধনবস্তুর ধারণা' — confirm it carries a head concept
+  WARN  ch16: thin topic 'ধনকের ধারণা' — confirm it carries a head concept
+  WARN  ch16: only 50% of the 32 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch16: 11 topics for a 32-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch17: thin topic 'পরিসংখ্যানের ধারণা' — confirm it carries a head concept
+  WARN  ch17: thin topic 'চলকের ধারণা' — confirm it carries a head concept
+  WARN  ch17: thin topic 'মধ্যকের ধারণা' — confirm it carries a head concept
+  WARN  ch17: thin topic 'প্রচুরকের ধারণা' — confirm it carries a head concept
+  WARN  ch17: outcome not covered by any topic — 'পরিসংখ্যানগত সমস্যা সমাধান করতে পারব...'
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Math_compressed ===
+  FAIL  CSV has 4 columns but config/math.json scope_split.enabled=true — Step 10 (12_scope_split.py) never ran. Run it, or set scope_split.enabled=false.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Math_compressed ===
+  WARN  'অধ্যায় ১: বাস্তব সংখ্যা': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'বাস্তব সংখ্যার যোগ ও গুণ প্রক্রিয়ার মৌলিক বিধি'
+  WARN  'অধ্যায় ১: বাস্তব সংখ্যা': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'আবৃত্ত দশমিক ভগ্নাংশকে সাধারণ ভগ্নাংশে রূপান্তরের নিয়ম'
+  WARN  'অধ্যায় ১: বাস্তব সংখ্যা': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'সদৃশ আবৃত্ত দশমিক ও অসদৃশ আবৃত্ত দশমিক ভগ্নাংশ'
+  WARN  'অধ্যায় ১: বাস্তব সংখ্যা': topic label is 9 words (> 5) — move detail to scope_note or rephrase — 'অসদৃশ আবৃত্ত দশমিক ভগ্নাংশগুলোকে সদৃশ আবৃত্ত দশমিক ভগ্নাংশে পরিবর্তন'
+  WARN  'অধ্যায় ১: বাস্তব সংখ্যা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'আবৃত্ত দশমিক ভগ্নাংশের যোগ ও বিয়োগ'
+  WARN  'অধ্যায় ১: বাস্তব সংখ্যা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'আবৃত্ত দশমিক ভগ্নাংশের গুণ ও ভাগ'
+  WARN  'অধ্যায় ১: বাস্তব সংখ্যা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'নির্দিষ্ট দশমিক স্থান পর্যন্ত আসন্ন মান'
+  WARN  'অধ্যায় ৩: বীজগাণিতিক রাশি': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'বাস্তব সমস্যা সমাধানে বীজগাণিতিক সূত্র গঠন ও প্রয়োগ'
+  WARN  'অধ্যায় ৪: সূচক ও লগারিদম': label 'লগারিদম পদ্ধতি' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'লগারিদম পদ্ধতি'
+  WARN  'অধ্যায় ৬: রেখা, কোণ ও ত্রিভুজ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'স্থান, তল, রেখা ও বিন্দুর ধারণা'
+  WARN  'অধ্যায় ৯: ত্রিকোণমিতিক অনুপাত': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'সদৃশ সমকোণী ত্রিভুজের বাহুগুলোর অনুপাতসমূহের প্রবত্তা'
+  WARN  'অধ্যায় ১২: দুই চলকবিশিষ্ট সরল সহসমীকরণ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'দুই চলকবিশিষ্ট সরল সহসমীকরণের সমাধান যোগ্যতা'
+  WARN  'অধ্যায় ১২: দুই চলকবিশিষ্ট সরল সহসমীকরণ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাস্তবভিত্তিক সমস্যার সহসমীকরণ গঠন ও সমাধান'
+  WARN  'অধ্যায় ১৩: সসীম ধারা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'সমান্তর ধারার n সংখ্যক পদের সমষ্টি'
+  WARN  'অধ্যায় ১৩: সসীম ধারা': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'প্রথম n সংখ্যক স্বাভাবিক সংখ্যার সমষ্টি নির্ণয়'
+  WARN  'অধ্যায় ১৩: সসীম ধারা': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'প্রথম n সংখ্যক স্বাভাবিক সংখ্যার বর্গের সমষ্টি নির্ণয়'
+  WARN  'অধ্যায় ১৩: সসীম ধারা': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'প্রথম n সংখ্যক স্বাভাবিক সংখ্যার ঘনের সমষ্টি নির্ণয়'
+  WARN  'অধ্যায় ১৭: পরিসংখ্যান': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'ক্রমযোজিত গণসংখ্যা লেখচিত্র বা অজিভ রেখা'
+
+=== [final] Secondary (BV)-2026_Class 9-10_Math_compressed ===
+  WARN  'অধ্যায় ১: বাস্তব সংখ্যা': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'বাস্তব সংখ্যার যোগ ও গুণ প্রক্রিয়ার মৌলিক বিধি'
+  WARN  'অধ্যায় ১: বাস্তব সংখ্যা': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'আবৃত্ত দশমিক ভগ্নাংশকে সাধারণ ভগ্নাংশে রূপান্তরের নিয়ম'
+  WARN  'অধ্যায় ১: বাস্তব সংখ্যা': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'সদৃশ আবৃত্ত দশমিক ও অসদৃশ আবৃত্ত দশমিক ভগ্নাংশ'
+  WARN  'অধ্যায় ১: বাস্তব সংখ্যা': topic label is 9 words (> 5) — move detail to scope_note or rephrase — 'অসদৃশ আবৃত্ত দশমিক ভগ্নাংশগুলোকে সদৃশ আবৃত্ত দশমিক ভগ্নাংশে পরিবর্তন'
+  WARN  'অধ্যায় ১: বাস্তব সংখ্যা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'আবৃত্ত দশমিক ভগ্নাংশের যোগ ও বিয়োগ'
+  WARN  'অধ্যায় ১: বাস্তব সংখ্যা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'আবৃত্ত দশমিক ভগ্নাংশের গুণ ও ভাগ'
+  WARN  'অধ্যায় ১: বাস্তব সংখ্যা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'নির্দিষ্ট দশমিক স্থান পর্যন্ত আসন্ন মান'
+  WARN  'অধ্যায় ৩: বীজগাণিতিক রাশি': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'বাস্তব সমস্যা সমাধানে বীজগাণিতিক সূত্র গঠন ও প্রয়োগ'
+  WARN  'অধ্যায় ৪: সূচক ও লগারিদম': label 'লগারিদম পদ্ধতি' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'লগারিদম পদ্ধতি'
+  WARN  'অধ্যায় ৬: রেখা, কোণ ও ত্রিভুজ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'স্থান, তল, রেখা ও বিন্দুর ধারণা'
+  WARN  'অধ্যায় ৯: ত্রিকোণমিতিক অনুপাত': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'সদৃশ সমকোণী ত্রিভুজের বাহুগুলোর অনুপাতসমূহের ধ্রুবতা'
+  WARN  'অধ্যায় ৯: ত্রিকোণমিতিক অনুপাত': topic label is 6 words (> 5) — move detail to scope_note or rephrase — '০° ও ৯০° কোণের ত্রিকোণমিতিক অনুপাত'
+  WARN  'অধ্যায় ১২: দুই চলকবিশিষ্ট সরল সহসমীকরণ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'দুই চলকবিশিষ্ট সরল সহসমীকরণের সমাধান যোগ্যতা'
+  WARN  'অধ্যায় ১২: দুই চলকবিশিষ্ট সরল সহসমীকরণ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাস্তবভিত্তিক সমস্যার সহসমীকরণ গঠন ও সমাধান'
+  WARN  'অধ্যায় ১৩: সসীম ধারা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'সমান্তর ধারার n সংখ্যক পদের সমষ্টি'
+  WARN  'অধ্যায় ১৩: সসীম ধারা': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'প্রথম n সংখ্যক স্বাভাবিক সংখ্যার সমষ্টি নির্ণয়'
+  WARN  'অধ্যায় ১৩: সসীম ধারা': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'প্রথম n সংখ্যক স্বাভাবিক সংখ্যার বর্গের সমষ্টি নির্ণয়'
+  WARN  'অধ্যায় ১৩: সসীম ধারা': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'প্রথম n সংখ্যক স্বাভাবিক সংখ্যার ঘনের সমষ্টি নির্ণয়'
+  WARN  'অধ্যায় ১৫: ক্ষেত্রফল সম্পর্কিত উপপাদ্য ও সম্পাদ্য': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'সমান্তরালিক অঙ্কন — ত্রিভুজের সমান ক্ষেত্রফল'
+  WARN  'অধ্যায় ১৫: ক্ষেত্রফল সম্পর্কিত উপপাদ্য ও সম্পাদ্য': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'সমান্তরালিক অঙ্কন — চতুর্ভুজক্ষেত্রের সমান ক্ষেত্রফল'
+  WARN  'অধ্যায় ১৭: পরিসংখ্যান': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'ক্রমযোজিত গণসংখ্যা লেখচিত্র বা অজিভ রেখা'
+  FAIL  ch2: topic 'সেট ও ফাংশন' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/math.json or fix the merge.
+  FAIL  ch2: topic 'অনুশীলনী ২.২' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/math.json or fix the merge.
+  FAIL  ch2: topic 'নমুনা প্রশ্ন' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/math.json or fix the merge.
+  FAIL  ch2: topic 'বহুনির্বাচনি প্রশ্ন' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/math.json or fix the merge.
+  FAIL  ch2: topic 'সৃজনশীল প্রশ্ন' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/math.json or fix the merge.
+  FAIL  ch2: topic 'সংক্ষিপ্ত-উত্তর প্রশ্ন' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/math.json or fix the merge.
+  FAIL  ch3: topic 'বীজগাণিতিক রাশি' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/math.json or fix the merge.
+  FAIL  ch6: topic 'ইউক্লিডের শীকার্য' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/math.json or fix the merge.
+  FAIL  ch6: topic 'অনুশীলনী ৬.৩' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/math.json or fix the merge.
+  FAIL  ch7: topic 'ব্যাবহারিক জ্যামিতি' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/math.json or fix the merge.
+  FAIL  ch8: topic 'কোণ কর্তৃক ক্ষতিত চাপ' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/math.json or fix the merge.
+  FAIL  ch10: topic 'দূরত্ব ও উচ্চতা' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/math.json or fix the merge.
+  FAIL  ch10: topic 'অনুশীলনী ১০' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/math.json or fix the merge.
+  FAIL  ch10: topic 'নমুনা প্রশ্ন' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/math.json or fix the merge.
+  FAIL  ch11: topic 'বীজগাণিতিক অনুপাত ও সমানুপাত' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/math.json or fix the merge.
+  FAIL  ch13: topic 'সসীম ধারা' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/math.json or fix the merge.
+  FAIL  ch14: topic 'অনুপাত, সদৃশতা ও প্রতিসমতা' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/math.json or fix the merge.
+  FAIL  ch16: topic 'ত্রিভুজকেন্দ্রের ক্ষেত্রফল' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/math.json or fix the merge.
+  FAIL  ch16: topic 'চতুর্ভুজকেন্দ্রের ক্ষেত্রফল' from topic_map.json is NOT in the CSV and has no merge_overrides rule — silently dropped by 07_atomize/08_merge. Add a rule to config/math.json or fix the merge.
+
+=== [final] Secondary (BV)-2026_Class 9-10_Math_compressed ===
+  WARN  'অধ্যায় ১: বাস্তব সংখ্যা': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'বাস্তব সংখ্যার যোগ ও গুণ প্রক্রিয়ার মৌলিক বিধি'
+  WARN  'অধ্যায় ১: বাস্তব সংখ্যা': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'আবৃত্ত দশমিক ভগ্নাংশকে সাধারণ ভগ্নাংশে রূপান্তরের নিয়ম'
+  WARN  'অধ্যায় ১: বাস্তব সংখ্যা': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'সদৃশ আবৃত্ত দশমিক ও অসদৃশ আবৃত্ত দশমিক ভগ্নাংশ'
+  WARN  'অধ্যায় ১: বাস্তব সংখ্যা': topic label is 9 words (> 5) — move detail to scope_note or rephrase — 'অসদৃশ আবৃত্ত দশমিক ভগ্নাংশগুলোকে সদৃশ আবৃত্ত দশমিক ভগ্নাংশে পরিবর্তন'
+  WARN  'অধ্যায় ১: বাস্তব সংখ্যা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'আবৃত্ত দশমিক ভগ্নাংশের যোগ ও বিয়োগ'
+  WARN  'অধ্যায় ১: বাস্তব সংখ্যা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'আবৃত্ত দশমিক ভগ্নাংশের গুণ ও ভাগ'
+  WARN  'অধ্যায় ১: বাস্তব সংখ্যা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'নির্দিষ্ট দশমিক স্থান পর্যন্ত আসন্ন মান'
+  WARN  'অধ্যায় ৩: বীজগাণিতিক রাশি': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'বাস্তব সমস্যা সমাধানে বীজগাণিতিক সূত্র গঠন ও প্রয়োগ'
+  WARN  'অধ্যায় ৪: সূচক ও লগারিদম': label 'লগারিদম পদ্ধতি' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'লগারিদম পদ্ধতি'
+  WARN  'অধ্যায় ৬: রেখা, কোণ ও ত্রিভুজ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'স্থান, তল, রেখা ও বিন্দুর ধারণা'
+  WARN  'অধ্যায় ৯: ত্রিকোণমিতিক অনুপাত': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'সদৃশ সমকোণী ত্রিভুজের বাহুগুলোর অনুপাতসমূহের ধ্রুবতা'
+  WARN  'অধ্যায় ৯: ত্রিকোণমিতিক অনুপাত': topic label is 6 words (> 5) — move detail to scope_note or rephrase — '০° ও ৯০° কোণের ত্রিকোণমিতিক অনুপাত'
+  WARN  'অধ্যায় ১২: দুই চলকবিশিষ্ট সরল সহসমীকরণ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'দুই চলকবিশিষ্ট সরল সহসমীকরণের সমাধান যোগ্যতা'
+  WARN  'অধ্যায় ১২: দুই চলকবিশিষ্ট সরল সহসমীকরণ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাস্তবভিত্তিক সমস্যার সহসমীকরণ গঠন ও সমাধান'
+  WARN  'অধ্যায় ১৩: সসীম ধারা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'সমান্তর ধারার n সংখ্যক পদের সমষ্টি'
+  WARN  'অধ্যায় ১৩: সসীম ধারা': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'প্রথম n সংখ্যক স্বাভাবিক সংখ্যার সমষ্টি নির্ণয়'
+  WARN  'অধ্যায় ১৩: সসীম ধারা': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'প্রথম n সংখ্যক স্বাভাবিক সংখ্যার বর্গের সমষ্টি নির্ণয়'
+  WARN  'অধ্যায় ১৩: সসীম ধারা': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'প্রথম n সংখ্যক স্বাভাবিক সংখ্যার ঘনের সমষ্টি নির্ণয়'
+  WARN  'অধ্যায় ১৫: ক্ষেত্রফল সম্পর্কিত উপপাদ্য ও সম্পাদ্য': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'সমান্তরালিক অঙ্কন — ত্রিভুজের সমান ক্ষেত্রফল'
+  WARN  'অধ্যায় ১৫: ক্ষেত্রফল সম্পর্কিত উপপাদ্য ও সম্পাদ্য': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'সমান্তরালিক অঙ্কন — চতুর্ভুজক্ষেত্রের সমান ক্ষেত্রফল'
+  WARN  'অধ্যায় ১৭: পরিসংখ্যান': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'ক্রমযোজিত গণসংখ্যা লেখচিত্র বা অজিভ রেখা'
+
+=== [final] Secondary (BV)-2026_Class 9-10_Math_compressed ===
+  WARN  'অধ্যায় ১: বাস্তব সংখ্যা': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'বাস্তব সংখ্যার যোগ ও গুণ প্রক্রিয়ার মৌলিক বিধি'
+  WARN  'অধ্যায় ১: বাস্তব সংখ্যা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'আবৃত্ত দশমিক ভগ্নাংশের যোগ ও বিয়োগ'
+  WARN  'অধ্যায় ১: বাস্তব সংখ্যা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'আবৃত্ত দশমিক ভগ্নাংশের গুণ ও ভাগ'
+  WARN  'অধ্যায় ১: বাস্তব সংখ্যা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'নির্দিষ্ট দশমিক স্থান পর্যন্ত আসন্ন মান'
+  WARN  'অধ্যায় ৩: বীজগাণিতিক রাশি': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'বাস্তব সমস্যা সমাধানে বীজগাণিতিক সূত্র গঠন ও প্রয়োগ'
+  WARN  'অধ্যায় ৪: সূচক ও লগারিদম': label 'লগারিদম পদ্ধতি' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'লগারিদম পদ্ধতি'
+  WARN  'অধ্যায় ৬: রেখা, কোণ ও ত্রিভুজ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'স্থান, তল, রেখা ও বিন্দুর ধারণা'
+  WARN  'অধ্যায় ৯: ত্রিকোণমিতিক অনুপাত': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'সদৃশ সমকোণী ত্রিভুজের বাহুগুলোর অনুপাতসমূহের ধ্রুবতা'
+  WARN  'অধ্যায় ৯: ত্রিকোণমিতিক অনুপাত': topic label is 6 words (> 5) — move detail to scope_note or rephrase — '০° ও ৯০° কোণের ত্রিকোণমিতিক অনুপাত'
+  WARN  'অধ্যায় ১২: দুই চলকবিশিষ্ট সরল সহসমীকরণ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'দুই চলকবিশিষ্ট সরল সহসমীকরণের সমাধান যোগ্যতা'
+  WARN  'অধ্যায় ১২: দুই চলকবিশিষ্ট সরল সহসমীকরণ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'বাস্তবভিত্তিক সমস্যার সহসমীকরণ গঠন ও সমাধান'
+  WARN  'অধ্যায় ১৩: সসীম ধারা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'সমান্তর ধারার n সংখ্যক পদের সমষ্টি'
+  WARN  'অধ্যায় ১৩: সসীম ধারা': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'প্রথম n সংখ্যক স্বাভাবিক সংখ্যার সমষ্টি নির্ণয়'
+  WARN  'অধ্যায় ১৩: সসীম ধারা': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'প্রথম n সংখ্যক স্বাভাবিক সংখ্যার বর্গের সমষ্টি নির্ণয়'
+  WARN  'অধ্যায় ১৩: সসীম ধারা': topic label is 8 words (> 5) — move detail to scope_note or rephrase — 'প্রথম n সংখ্যক স্বাভাবিক সংখ্যার ঘনের সমষ্টি নির্ণয়'
+  WARN  'অধ্যায় ১৫: ক্ষেত্রফল সম্পর্কিত উপপাদ্য ও সম্পাদ্য': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'সমান্তরালিক অঙ্কন — ত্রিভুজের সমান ক্ষেত্রফল'
+  WARN  'অধ্যায় ১৫: ক্ষেত্রফল সম্পর্কিত উপপাদ্য ও সম্পাদ্য': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'সমান্তরালিক অঙ্কন — চতুর্ভুজক্ষেত্রের সমান ক্ষেত্রফল'
+  WARN  'অধ্যায় ১৭: পরিসংখ্যান': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'ক্রমযোজিত গণসংখ্যা লেখচিত্র বা অজিভ রেখা'
+
+=== [topicmap] Class_6_Science_compressed ===
+  WARN  ch1: only 0% of the 2 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch1: topic 'বিজ্ঞান কী' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch2: title 'জীবকুল ও তাদের শ্রেণিবিন্যাস' != map 'জীবজগৎ'
+  WARN  ch2: topic 'রাজ্য-১ মনেরা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch2: topic 'রাজ্য-২ প্রোটিস্টা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch2: topic 'রাজ্য-৩ ফানজাই' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch2: topic 'রাজ্য-৪ উদ্ভিদ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch2: topic 'রাজ্য-৫ এনিমেলিয়া' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch2: topic 'অপুষ্পক উদ্ভিদ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: thin topic 'কোষের ধারণা' — confirm it carries a head concept
+  WARN  ch3: thin topic 'জীবকোষের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch4: thin topic 'কাণ্ডের কাজ' — confirm it carries a head concept
+  WARN  ch5: thin topic 'সালোকসংশ্লেষণ পদ্ধতি' — confirm it carries a head concept
+  WARN  ch5: 67% of topics track the outcome box closely
+  WARN  ch6: title 'স্নায়ুতন্ত্র ও ইন্দ্রিয়সমূহ' != map 'সংবেদী অঙ্গ'
+  WARN  ch6: thin topic 'স্নায়ুতন্ত্রের গঠন' — confirm it carries a head concept
+  WARN  ch6: only 20% of the 5 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch7: thin topic 'পদার্থের বৈশিষ্ট্য' — confirm it carries a head concept
+  WARN  ch7: thin topic 'ধাতুর বৈশিষ্ট্য' — confirm it carries a head concept
+  WARN  ch7: thin topic 'অধাতুর বৈশিষ্ট্য' — confirm it carries a head concept
+  WARN  ch8: outcome not covered by any topic — 'মিশ্রণের ধারণা ব্যাখ্যা করতে পারব...'
+  WARN  ch8: outcome not covered by any topic — 'দ্রবণের ধারণা ব্যাখ্যা করতে পারব...'
+  WARN  ch8: 1 topics for a 13-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch11: outcome not covered by any topic — 'বলের ধারণা ব্যাখ্যা করতে পারব...'
+  WARN  ch13: thin topic 'খাদ্যের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch13: 3/3 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch14: thin topic 'পরিবেশের উপাদান' — confirm it carries a head concept
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch1: one-word topic 'পরীক্ষণ' — attach its head concept
+  FAIL  ch3: 6/6 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch4: 7/7 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch6: 5/5 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch6: topics is a 1:1 verb-stripped copy of learning_outcomes
+  FAIL  ch7: 4/4 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch9: 2/2 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch12: 2/2 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch13: 3/3 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+  FAIL  ch14: 2/2 topics are verb-stripped copies of learning_outcomes (100%) — this is a box paraphrase, not a body map. Read the chapter pages.
+
+=== [topicmap] Class_6_Science_compressed ===
+  WARN  ch1: thin topic 'পরিমাপের প্রয়োজনীয়তা' — confirm it carries a head concept
+  WARN  ch1: only 0% of the 2 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch2: title 'জীবকুল ও তাদের শ্রেণিবিন্যাস' != map 'জীবজগৎ'
+  WARN  ch3: thin topic 'জীবকোষের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch3: thin topic 'নিউক্লিয়াসের গঠন' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'কোষ ব্যাখ্যা করতে পারব...'
+  WARN  ch3: only 50% of the 6 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch3: topic 'কোষপ্রাচীরের গঠন ও কাজ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: topic 'প্রোটোপ্লাজমের অংশসমূহ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: topic 'কোষবিভ্রির গঠন ও কাজ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: topic 'সাইটোপ্লাজম ও তার অঙ্গবিভাগ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: topic 'প্লাস্টিডের প্রকারভেদ ও কাজ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: topic 'কোষগহ্বরের গঠন ও কাজ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: topic 'মাইটোকন্ড্রিয়ার গঠন ও কাজ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: topic 'নিউক্লিয়াসের গঠন' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: topic 'নিউক্লিয়ার মেমব্রেন, নিউক্লিওপ্লাজম ও নিউক্লিওলাস' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch4: thin topic 'মূলের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch4: only 57% of the 7 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch4: topic 'প্রাথমিক মূল ও অনুষঙ্গিক মূল' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch5: thin topic 'ক্লোরোফিলের ভূমিকা' — confirm it carries a head concept
+  WARN  ch5: thin topic 'সালোকসংশ্লেষণের তাৎপর্য' — confirm it carries a head concept
+  WARN  ch5: outcome not covered by any topic — 'সালোকসংশ্লেষণ পদ্ধতি ব্যাখ্যা করতে পারব...'
+  WARN  ch5: only 33% of the 3 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch5: topic 'ক্লোরোফিলের ভূমিকা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch6: title 'স্নায়ুতন্ত্র ও ইন্দ্রিয়সমূহ' != map 'সংবেদী অঙ্গ'
+  WARN  ch6: thin topic 'কানের গঠন' — confirm it carries a head concept
+  WARN  ch6: only 20% of the 5 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch7: topic 'ধাতুর তাপ ও বিদ্যুৎ পরিবাহিতা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch8: thin topic 'দ্রবণের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch8: thin topic 'ঘনত্বের ধারণা' — confirm it carries a head concept
+  WARN  ch8: thin topic 'তাপমাত্রার প্রভাব' — confirm it carries a head concept
+  WARN  ch8: only 0% of the 1 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch8: topic 'সমমিশ্রণ ও অসমমিশ্রণ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch8: topic 'বিশৃঙ্খলা দ্রবণ ও সংশ্লেষণ দ্রবণ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch8: topic 'দ্রাব্যতার সীমা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch8: topic 'তাপমাত্রার প্রভাব' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch8: topic 'সংকেত পরিবর্তন' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch8: topic 'পৃথিবীর সাধারণ মিশ্রণ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch8: topic 'সাগরের লবণাক্ত পানির উদাহরণ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch9: thin topic 'আলোকরশ্মির প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch9: outcome not covered by any topic — 'আলো কীভাবে চলে তা ব্যাখ্যা করতে পারব...'
+  WARN  ch9: only 50% of the 2 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch9: topic 'আলোর সরলরেখায় গতি' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch9: topic 'আলোর প্রতিফলন' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch9: topic 'প্রতিফলনের নিয়ম' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch9: topic 'মূলধারা ও বিচ্ছুরিত আলোকরশ্মি' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch9: topic 'আলোকরশ্মির প্রকারভেদ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch9: topic 'সরলপ্রতিসরণ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch9: topic 'চোখের গঠন ও দর্শন প্রক্রিয়া' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch9: topic 'উজ্জ্বল বস্তু ও অনুজ্জ্বল বস্তু' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch10: thin topic 'স্থিতির ধারণা' — confirm it carries a head concept
+  WARN  ch10: thin topic 'গতির ধারণা' — confirm it carries a head concept
+  WARN  ch10: topic '�তিপথ ও বেগ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch10: topic 'গাড়ির গতিমাপক' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch11: thin topic 'জড়তার ধারণা' — confirm it carries a head concept
+  WARN  ch11: only 0% of the 2 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch11: topic 'ভর ও ওজনের পার্থক্য' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch11: topic 'মহাকর্ষ বল' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch11: topic '�র্ষণ বল' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch11: topic 'ইনক্লাইনড প্লেন' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch11: topic 'চাকা ও অক্ষ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch11: topic 'পুলি ও জিনিস' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch12: thin topic 'মহাবিশ্বের উৎপত্তি' — confirm it carries a head concept
+  WARN  ch12: thin topic 'পৃথিবীর উৎপত্তি' — confirm it carries a head concept
+  WARN  ch12: thin topic 'পৃথিবীর গঠন' — confirm it carries a head concept
+  WARN  ch12: thin topic 'সূর্যের বৈশিষ্ট্য' — confirm it carries a head concept
+  WARN  ch12: thin topic 'জোয়ার-ভাটার কারণ' — confirm it carries a head concept
+  WARN  ch12: topic 'মহাকর্ষ বলের ভূমিকা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch12: topic 'সূর্যের বৈশিষ্ট্য' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch12: topic 'জোয়ার-ভাটার কারণ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch12: topic 'দিন-রাত ও ঋতু পরিবর্তন' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch13: thin topic 'খাদ্যের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'পুষ্টির ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'প্রোটিনের ভূমিকা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'পানির গুরুত্ব' — confirm it carries a head concept
+  WARN  ch13: 3/3 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch13: only 33% of the 3 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch13: topic 'শ্বেতসার পুষ্টির ভূমিকা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch13: topic 'প্রোটিনের ভূমিকা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch13: topic 'স্নেহ পদার্থের ভূমিকা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch13: topic 'খনিজ লবণের ভূমিকা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch13: topic 'পানির গুরুত্ব' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch13: topic 'সুষম খাদ্যাভ্যাস' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch14: thin topic 'পরিবেশের ধারণা' — confirm it carries a head concept
+  WARN  ch14: topic 'পারিস্থিতিক তন্ত্রের ধারণা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch14: topic 'খাদ্য শৃঙ্খল ও খাদ্য জাল' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch14: topic 'বাংলাদেশের পরিবেশগত সমস্যা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch9: one-word topic 'সরলপ্রতিসরণ' — attach its head concept
+
+=== [topicmap] Class_6_Science_compressed ===
+  WARN  ch1: thin topic 'পরিমাপের প্রয়োজনীয়তা' — confirm it carries a head concept
+  WARN  ch1: only 0% of the 2 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch2: title 'জীবকুল ও তাদের শ্রেণিবিন্যাস' != map 'জীবজগৎ'
+  WARN  ch3: thin topic 'জীবকোষের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch3: thin topic 'নিউক্লিয়াসের গঠন' — confirm it carries a head concept
+  WARN  ch3: outcome not covered by any topic — 'কোষ ব্যাখ্যা করতে পারব...'
+  WARN  ch3: only 50% of the 6 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch3: topic 'কোষপ্রাচীরের গঠন ও কাজ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: topic 'প্রোটোপ্লাজমের অংশসমূহ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: topic 'কোষবিভ্রির গঠন ও কাজ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: topic 'সাইটোপ্লাজম ও তার অঙ্গবিভাগ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: topic 'প্লাস্টিডের প্রকারভেদ ও কাজ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: topic 'কোষগহ্বরের গঠন ও কাজ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: topic 'মাইটোকন্ড্রিয়ার গঠন ও কাজ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: topic 'নিউক্লিয়াসের গঠন' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: topic 'নিউক্লিয়ার মেমব্রেন, নিউক্লিওপ্লাজম ও নিউক্লিওলাস' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch4: thin topic 'মূলের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch4: only 57% of the 7 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch4: topic 'প্রাথমিক মূল ও অনুষঙ্গিক মূল' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch5: thin topic 'ক্লোরোফিলের ভূমিকা' — confirm it carries a head concept
+  WARN  ch5: thin topic 'সালোকসংশ্লেষণের তাৎপর্য' — confirm it carries a head concept
+  WARN  ch5: outcome not covered by any topic — 'সালোকসংশ্লেষণ পদ্ধতি ব্যাখ্যা করতে পারব...'
+  WARN  ch5: only 33% of the 3 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch5: topic 'ক্লোরোফিলের ভূমিকা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch6: title 'স্নায়ুতন্ত্র ও ইন্দ্রিয়সমূহ' != map 'সংবেদী অঙ্গ'
+  WARN  ch6: thin topic 'কানের গঠন' — confirm it carries a head concept
+  WARN  ch6: only 20% of the 5 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch7: topic 'ধাতুর তাপ ও বিদ্যুৎ পরিবাহিতা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch8: thin topic 'দ্রবণের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch8: thin topic 'ঘনত্বের ধারণা' — confirm it carries a head concept
+  WARN  ch8: thin topic 'তাপমাত্রার প্রভাব' — confirm it carries a head concept
+  WARN  ch8: only 0% of the 1 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch8: topic 'সমমিশ্রণ ও অসমমিশ্রণ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch8: topic 'বিশৃঙ্খলা দ্রবণ ও সংশ্লেষণ দ্রবণ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch8: topic 'দ্রাব্যতার সীমা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch8: topic 'তাপমাত্রার প্রভাব' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch8: topic 'সংকেত পরিবর্তন' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch8: topic 'পৃথিবীর সাধারণ মিশ্রণ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch8: topic 'সাগরের লবণাক্ত পানির উদাহরণ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch9: thin topic 'আলোকরশ্মির প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch9: outcome not covered by any topic — 'আলো কীভাবে চলে তা ব্যাখ্যা করতে পারব...'
+  WARN  ch9: only 50% of the 2 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch9: topic 'আলোর সরলরেখায় গতি' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch9: topic 'আলোর প্রতিফলন' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch9: topic 'প্রতিফলনের নিয়ম' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch9: topic 'মূলধারা ও বিচ্ছুরিত আলোকরশ্মি' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch9: topic 'আলোকরশ্মির প্রকারভেদ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch9: topic 'আলোর সরলপ্রতিসরণ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch9: topic 'চোখের গঠন ও দর্শন প্রক্রিয়া' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch9: topic 'উজ্জ্বল বস্তু ও অনুজ্জ্বল বস্তু' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch10: thin topic 'স্থিতির ধারণা' — confirm it carries a head concept
+  WARN  ch10: thin topic 'গতির ধারণা' — confirm it carries a head concept
+  WARN  ch10: topic '�তিপথ ও বেগ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch10: topic 'গাড়ির গতিমাপক' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch11: thin topic 'জড়তার ধারণা' — confirm it carries a head concept
+  WARN  ch11: only 0% of the 2 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch11: topic 'ভর ও ওজনের পার্থক্য' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch11: topic 'মহাকর্ষ বল' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch11: topic '�র্ষণ বল' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch11: topic 'ইনক্লাইনড প্লেন' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch11: topic 'চাকা ও অক্ষ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch11: topic 'পুলি ও জিনিস' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch12: thin topic 'মহাবিশ্বের উৎপত্তি' — confirm it carries a head concept
+  WARN  ch12: thin topic 'পৃথিবীর উৎপত্তি' — confirm it carries a head concept
+  WARN  ch12: thin topic 'পৃথিবীর গঠন' — confirm it carries a head concept
+  WARN  ch12: thin topic 'সূর্যের বৈশিষ্ট্য' — confirm it carries a head concept
+  WARN  ch12: thin topic 'জোয়ার-ভাটার কারণ' — confirm it carries a head concept
+  WARN  ch12: topic 'মহাকর্ষ বলের ভূমিকা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch12: topic 'সূর্যের বৈশিষ্ট্য' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch12: topic 'জোয়ার-ভাটার কারণ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch12: topic 'দিন-রাত ও ঋতু পরিবর্তন' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch13: thin topic 'খাদ্যের ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'পুষ্টির ধারণা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'প্রোটিনের ভূমিকা' — confirm it carries a head concept
+  WARN  ch13: thin topic 'পানির গুরুত্ব' — confirm it carries a head concept
+  WARN  ch13: 3/3 learning_outcomes end in 'জানব' — looks paraphrased; copy the শিখনফল box verbatim (verbs kept) and re-check every topic against the body
+  WARN  ch13: only 33% of the 3 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch13: topic 'শ্বেতসার পুষ্টির ভূমিকা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch13: topic 'প্রোটিনের ভূমিকা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch13: topic 'স্নেহ পদার্থের ভূমিকা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch13: topic 'খনিজ লবণের ভূমিকা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch13: topic 'পানির গুরুত্ব' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch13: topic 'সুষম খাদ্যাভ্যাস' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch14: thin topic 'পরিবেশের ধারণা' — confirm it carries a head concept
+  WARN  ch14: topic 'পারিস্থিতিক তন্ত্রের ধারণা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch14: topic 'খাদ্য শৃঙ্খল ও খাদ্য জাল' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch14: topic 'বাংলাদেশের পরিবেশগত সমস্যা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Class_6_Science_compressed ===
+  WARN  'অধ্যায় ১২: পৃথিবীর উৎপত্তি ও গঠন': label 'পৃথিবীর উৎপত্তি' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'পৃথিবীর উৎপত্তি'
+  WARN  'অধ্যায় ১২: পৃথিবীর উৎপত্তি ও গঠন': label 'পৃথিবীর গঠন' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'পৃথিবীর গঠন'
+  WARN  'অধ্যায় ১৪: পরিবেশের ভারসাম্য ও আমাদের জীবন': label 'পরিবেশের ধারণা' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'পরিবেশের ধারণা'
+  WARN  'অধ্যায় ১৪: পরিবেশের ভারসাম্য ও আমাদের জীবন': label 'পরিবেশের উপাদান' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'পরিবেশের উপাদান (ভৌত ও জৈব)'
+
+=== [final] Class_6_Science_compressed ===
+  WARN  'অধ্যায় ১২: পৃথিবীর উৎপত্তি ও গঠন': label 'পৃথিবীর উৎপত্তি' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'পৃথিবীর উৎপত্তি'
+  WARN  'অধ্যায় ১২: পৃথিবীর উৎপত্তি ও গঠন': label 'পৃথিবীর গঠন' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'পৃথিবীর গঠন'
+  WARN  'অধ্যায় ১৪: পরিবেশের ভারসাম্য ও আমাদের জীবন': label 'পরিবেশের ধারণা' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'পরিবেশের ধারণা'
+  WARN  'অধ্যায় ১৪: পরিবেশের ভারসাম্য ও আমাদের জীবন': label 'পরিবেশের উপাদান' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'পরিবেশের উপাদান (ভৌত ও জৈব)'
+
+=== [final] Class_6_Science_compressed ===
+  WARN  'অধ্যায় ১২: পৃথিবীর উৎপত্তি ও গঠন': label 'পৃথিবীর উৎপত্তি' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'পৃথিবীর উৎপত্তি'
+  WARN  'অধ্যায় ১৪: পরিবেশের ভারসাম্য ও আমাদের জীবন': label 'পরিবেশের ধারণা' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'পরিবেশের ধারণা'
+  WARN  'অধ্যায় ১৪: পরিবেশের ভারসাম্য ও আমাদের জীবন': label 'পরিবেশের উপাদান' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'পরিবেশের উপাদান (ভৌত ও জৈব)'
+
+=== [topicmap] Class_6_BGS_compressed ===
+  WARN  ch1: thin topic 'সমাজের ধারণা' — confirm it carries a head concept
+  WARN  ch1: thin topic 'সামাজিক সম্পর্ক' — confirm it carries a head concept
+  WARN  ch1: thin topic 'সভ্যতার ক্রমবিকাশ' — confirm it carries a head concept
+  WARN  ch1: topic 'সামাজিক সম্পর্ক' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch1: topic 'সভ্যতার ক্রমবিকাশ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch2: topic 'পাল রাজবংশ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch2: topic 'সেন রাজবংশ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch2: topic 'মুসলিম শাসনামলে বাংলা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch2: topic 'বাংলাদেশ সৃষ্টির পটভূমি' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch2: topic 'স্বাধীন বাংলাদেশে গণতন্ত্র' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: thin topic 'সংস্কৃতির ধারণা' — confirm it carries a head concept
+  WARN  ch3: topic 'গ্রামীণ সংস্কৃতি' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: topic 'ভাষিক সংস্কৃতি' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: topic 'মানবতাবাদী সংস্কৃতি' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: topic 'কৃষি সংস্কৃতি' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: topic 'উৎসব-পার্বণ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: topic 'ভাষার বৈচিত্র্য' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch4: topic 'কৃষি খাত' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch4: topic 'শিল্প খাত' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch4: topic 'ব্যবসা-বাণিজ্য খাত' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch4: topic 'সেবা খাত' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch4: topic 'কৃষি নির্ভর অর্থনীতি' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch5: thin topic 'রাষ্ট্রের ধারণা' — confirm it carries a head concept
+  WARN  ch5: thin topic 'রাষ্ট্রের উপাদান' — confirm it carries a head concept
+  WARN  ch5: thin topic 'নাগরিকতার ধারণা' — confirm it carries a head concept
+  WARN  ch5: outcome not covered by any topic — 'বাংলাদেশ কেন একটি রাষ্ট্র তা ব্যাখ্যা করতে পারব...'
+  WARN  ch6: thin topic 'পরিবেশগত সমস্যা' — confirm it carries a head concept
+  WARN  ch6: topic 'বন উজাড়' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch6: topic 'বালু চোরানি' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch6: topic 'নদী দূষণ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch6: topic 'বায়ু দূষণ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch6: topic 'মাটির ক্ষয়' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch6: topic 'সবুজ বাংলাদেশ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch7: thin topic 'সামাজিকীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch7: thin topic 'সামাজিকীকরণের গুরুত্ব' — confirm it carries a head concept
+  WARN  ch7: thin topic 'শিশুশ্রমের ধারণা' — confirm it carries a head concept
+  WARN  ch7: thin topic 'শিশুশ্রমের কারণ' — confirm it carries a head concept
+  WARN  ch7: thin topic 'শিশুশ্রমের প্রভাব' — confirm it carries a head concept
+  WARN  ch7: thin topic 'শিশুশ্রম প্রতিরোধ' — confirm it carries a head concept
+  WARN  ch7: only 0% of the 1 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch7: topic 'শিশুশ্রম প্রতিরোধ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch8: only 0% of the 1 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch8: topic 'জাতিসংঘ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch8: topic 'সার্ক' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch8: topic 'আসিয়ান' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch8: topic 'ইউরোপীয় ইউনিয়ন' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch8: topic 'ওআইসি' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+  FAIL  ch3: one-word topic 'উৎসব-পার্বণ' — attach its head concept
+  FAIL  ch3: one-word topic 'লোকসংস্কৃতি' — attach its head concept
+  FAIL  ch8: one-word topic 'জাতিসংঘ' — attach its head concept
+  FAIL  ch8: one-word topic 'সার্ক' — attach its head concept
+  FAIL  ch8: one-word topic 'আসিয়ান' — attach its head concept
+  FAIL  ch8: one-word topic 'ওআইসি' — attach its head concept
+
+=== [topicmap] Class_6_Math_compressed ===
+  WARN  ch1: thin topic 'অংকপাতনের ধারণা' — confirm it carries a head concept
+  WARN  ch1: thin topic 'ভগ্নাংশের ধারণা' — confirm it carries a head concept
+  WARN  ch1: 12 topics for a 37-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch2: thin topic 'অনুপাতের ধারণা' — confirm it carries a head concept
+  WARN  ch2: thin topic 'শতকরার ধারণা' — confirm it carries a head concept
+  WARN  ch2: only 0% of the 1 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch2: topic 'শতকরার ধারণা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: thin topic 'পূর্ণসংখ্যার ধারণা' — confirm it carries a head concept
+  WARN  ch4: thin topic 'চলকের ধারণা' — confirm it carries a head concept
+  WARN  ch4: thin topic 'সরলীকরণের পদ্ধতি' — confirm it carries a head concept
+  WARN  ch4: only 33% of the 3 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch4: topic 'সরলীকরণের পদ্ধতি' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch4: topic 'ধারণামূলক সমস্যা সমাধান' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch5: thin topic 'সমীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch5: thin topic 'সমতার ধারণা' — confirm it carries a head concept
+  WARN  ch5: only 33% of the 3 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch5: topic 'সমীকরণের প্রয়োগ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch5: topic 'চলকের মান নির্ণয়' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch5: topic 'সমতার ধারণা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch5: topic 'সরলীকরণের নিয়মাবলী' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch6: thin topic 'বিন্দুর ধারণা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'রেখার ধারণা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'রেখাংশের ধারণা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'রশ্মির ধারণা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'সমতলের ধারণা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'কোণের ধারণা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'ত্রিভুজের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch6: thin topic 'চতুর্ভুজের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch6: thin topic 'সামান্তরিকের ধারণা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'বর্গক্ষেত্রের ধারণা' — confirm it carries a head concept
+  WARN  ch6: outcome not covered by any topic — 'বিভিন্ন ধরনের কোণ শনাক্ত করতে পারব...'
+  WARN  ch6: only 0% of the 2 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch6: topic 'সমকোণের পরিচিতি' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch6: topic 'সমদ্বিবাহু ত্রিভুজ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch6: topic 'সমবাহু ত্রিভুজ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch7: thin topic 'সমদ্বিখণ্ডনের ধারণা' — confirm it carries a head concept
+  WARN  ch7: topic 'সমদ্বিখণ্ডনের ধারণা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch7: topic 'কোণ মাপার পদ্ধতি' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch7: topic 'প্রয়োগমূলক জ্যামিতি' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch8: thin topic 'শ্রেণিবিন্যাসের পদ্ধতি' — confirm it carries a head concept
+  WARN  ch8: only 0% of the 1 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch8: topic 'শ্রেণিবিন্যাসের পদ্ধতি' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch8: topic 'সারণি প্রস্তুতি' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch8: topic 'প্রয়োগমূলক সমস্যা সমাধান' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [topicmap] Class_6_BGS_compressed ===
+  WARN  ch1: thin topic 'সমাজের ধারণা' — confirm it carries a head concept
+  WARN  ch1: thin topic 'সামাজিক সম্পর্ক' — confirm it carries a head concept
+  WARN  ch1: thin topic 'সভ্যতার ক্রমবিকাশ' — confirm it carries a head concept
+  WARN  ch1: topic 'সামাজিক সম্পর্ক' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch1: topic 'সভ্যতার ক্রমবিকাশ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch2: topic 'পাল রাজবংশ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch2: topic 'সেন রাজবংশ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch2: topic 'মুসলিম শাসনামলে বাংলা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch2: topic 'বাংলাদেশ সৃষ্টির পটভূমি' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch2: topic 'স্বাধীন বাংলাদেশে গণতন্ত্র' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: thin topic 'সংস্কৃতির ধারণা' — confirm it carries a head concept
+  WARN  ch3: topic 'গ্রামীণ সংস্কৃতি' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: topic 'ভাষিক সংস্কৃতি' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: topic 'মানবতাবাদী সংস্কৃতি' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: topic 'কৃষি সংস্কৃতি' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch3: topic 'ভাষার বৈচিত্র্য' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch4: topic 'কৃষি খাত' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch4: topic 'শিল্প খাত' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch4: topic 'ব্যবসা-বাণিজ্য খাত' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch4: topic 'সেবা খাত' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch4: topic 'কৃষি নির্ভর অর্থনীতি' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch5: thin topic 'রাষ্ট্রের ধারণা' — confirm it carries a head concept
+  WARN  ch5: thin topic 'রাষ্ট্রের উপাদান' — confirm it carries a head concept
+  WARN  ch5: thin topic 'নাগরিকতার ধারণা' — confirm it carries a head concept
+  WARN  ch5: outcome not covered by any topic — 'বাংলাদেশ কেন একটি রাষ্ট্র তা ব্যাখ্যা করতে পারব...'
+  WARN  ch6: thin topic 'পরিবেশগত সমস্যা' — confirm it carries a head concept
+  WARN  ch6: topic 'বন উজাড়' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch6: topic 'বালু চোরানি' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch6: topic 'নদী দূষণ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch6: topic 'বায়ু দূষণ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch6: topic 'মাটির ক্ষয়' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch6: topic 'সবুজ বাংলাদেশ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch7: thin topic 'সামাজিকীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch7: thin topic 'সামাজিকীকরণের গুরুত্ব' — confirm it carries a head concept
+  WARN  ch7: thin topic 'শিশুশ্রমের ধারণা' — confirm it carries a head concept
+  WARN  ch7: thin topic 'শিশুশ্রমের কারণ' — confirm it carries a head concept
+  WARN  ch7: thin topic 'শিশুশ্রমের প্রভাব' — confirm it carries a head concept
+  WARN  ch7: thin topic 'শিশুশ্রম প্রতিরোধ' — confirm it carries a head concept
+  WARN  ch7: only 0% of the 1 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch7: topic 'শিশুশ্রম প্রতিরোধ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch8: thin topic 'জাতিসংঘের ভূমিকা' — confirm it carries a head concept
+  WARN  ch8: only 0% of the 1 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch8: topic 'জাতিসংঘের ভূমিকা' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch8: topic 'আসিয়ানের সদস্যপদ' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch8: topic 'ইউরোপীয় ইউনিয়ন' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Class_6_BGS_compressed ===
+
+=== [final] Class_6_Math_compressed ===
+
+=== [final] Class_6_Math_compressed ===
+
+=== [final] Class_6_Math_compressed ===
+
+=== [final] Class_6_BGS_compressed ===
+
+=== [final] Class_6_BGS_compressed ===
+
+=== [final] Class_6_BGS_compressed ===

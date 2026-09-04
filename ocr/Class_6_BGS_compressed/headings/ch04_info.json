@@ -1,0 +1,29 @@
+{
+  "chapter": 4,
+  "chapter_title": "বাংলাদেশের অর্থনীতি",
+  "chapter_dir": "ocr\\Class_6_BGS_compressed\\chapters\\ch04",
+  "images": [
+    "ocr\\Class_6_BGS_compressed\\chapters\\ch04\\page_029.png",
+    "ocr\\Class_6_BGS_compressed\\chapters\\ch04\\page_030.png",
+    "ocr\\Class_6_BGS_compressed\\chapters\\ch04\\page_031.png",
+    "ocr\\Class_6_BGS_compressed\\chapters\\ch04\\page_032.png",
+    "ocr\\Class_6_BGS_compressed\\chapters\\ch04\\page_033.png",
+    "ocr\\Class_6_BGS_compressed\\chapters\\ch04\\page_034.png",
+    "ocr\\Class_6_BGS_compressed\\chapters\\ch04\\page_035.png",
+    "ocr\\Class_6_BGS_compressed\\chapters\\ch04\\page_036.png",
+    "ocr\\Class_6_BGS_compressed\\chapters\\ch04\\page_037.png",
+    "ocr\\Class_6_BGS_compressed\\chapters\\ch04\\page_038.png"
+  ],
+  "total_pages": 10,
+  "prompt": "You are extracting SECTION HEADINGS from ONE scanned page of a\nBengali NCTB textbook chapter.\n\nReturn a JSON array of the section / sub-section headings printed on THIS page, in\ntop-to-bottom order. A heading is bold or larger-font text that starts a section\nor sub-section — including পরিচ্ছেদ X.Y lines and named sub-sections\n(e.g. \"সূর্য (Sun)\", \"আহ্নিক গতি\").\n\nEXCLUDE: the chapter title (e.g. \"তৃতীয় অধ্যায়\"), the শিখনফল / \"এ অধ্যায় শেষে\nআমরা –\" box, figure captions (\"চিত্র X.X :\"), \"কাজ\" boxes, table headers, page\nnumbers, running headers/footers, and the end-of-chapter\n\"নমুনা প্রশ্ন / বহুনির্বাচনি / সৃজনশীল / সংক্ষিপ্ত-উত্তর\" material.\n\nIf the page has no heading, return []. Output ONLY the JSON array.\nExample: [\"পরিচ্ছেদ ৩.৩ : পৃথিবীর গতি\", \"আহ্নিক গতি\"]",
+  "output_schema": {
+    "chapter": 4,
+    "chapter_title": "বাংলাদেশের অর্থনীতি",
+    "headings": [
+      {
+        "page": "page_0NN",
+        "heading": "<verbatim heading>"
+      }
+    ]
+  }
+}

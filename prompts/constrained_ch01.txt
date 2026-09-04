@@ -1,0 +1,143 @@
+# Topic-map extraction prompt (CONSTRAINED — Step 7)
+
+You are mapping the syllabus of chapter 1 ("স্বাভাবিক সংখ্যা ও ভগ্নাংশ") of a Bangladeshi NCTB
+school textbook, from scanned page images (Bengali, some English). OCR-style errors
+are expected — infer through minor garbling, never invent content.
+
+# Subject profile — math6 (Math, Class 6)
+
+---
+
+## Identity
+- `subject`: `math6`
+- `grade`: `6`
+- language mix: Bengali + English mathematical terms (Natural Number, Fraction, Ratio, Percentage, Integer, Algebra, Equation, Geometry, etc.) — keep English/mathematical notation as-is.
+
+## What a topic looks like in this subject
+A named mathematical concept, theorem, property, formula, method, or construction technique a student revises as one unit:
+
+- GOOD: `স্বাভাবিক সংখ্যা`, `ভগ্নাংশের ধারণা`, `অনুপাতের ধারণা`, `শতকরা`, `পূর্ণসংখ্যা`, `বীজগণিতীয় রাশি`, `সরল সমীকরণ`, `কোণের ধারণা`, `ত্রিভুজের ধারণা`, `ক্ষেত্রফল`
+- NOT a topic: a single worked example, one plugged-in formula calculation, a drill exercise, a proof step, or a table-fill activity.
+
+## Head-noun rule for this subject
+When a body heading is a bare attribute (`ধারণা`, `বৈশিষ্ট্য`, `প্রমাণ`, `সূত্র`, `নিয়ম`, `প্রকারভেদ`, `গুরুত্ব`, `উদাহরণ`, `আলোচনা`, `প্রয়োগ`), prefix the mathematical concept it belongs to: `ভগ্নাংশের ধারণা` not `ধারণা`; `কোণের প্রকারভেদ` not `প্রকারভেদ`.
+
+## Label length & staying self-identifying
+A topic label is a **name — ≤ 5 words is the goal**, 3–8 acceptable, no minimum.
+Shorten by cutting words that do no work, **never the head concept**.
+
+## Canonical spellings of technical terms (OCR tends to garble)
+| garbled | correct | meaning |
+|---|---|---|
+| স্বাভাবিক সংখ্যা | স্বাভাবিক সংখ্যা | Natural Number |
+| ভগ্নাংশ | ভগ্নাংশ | Fraction |
+| অনুপাত | অনুপাত | Ratio |
+| শতকরা | শতকরা | Percentage |
+| পূর্ণসংখ্যা | পূর্ণসংখ্যা | Integer |
+| বীজগণিত | বীজগণিত | Algebra |
+| সমীকরণ | সমীকরণ | Equation |
+| জ্যামিতি | জ্যামিতি | Geometry |
+| কোণ | কোণ | Angle |
+| ত্রিভুজ | ত্রিভুজ | Triangle |
+
+## Chapter-map note
+`chapter-maps/class6-math.csv` uses PDF page numbers. Printed page 1 =
+PDF page 6 (front-matter offset k=5).
+
+
+---
+
+## CRITICAL CONSTRAINT: HEADING CHECKLIST
+
+The following section headings have been EXTRACTED FROM THE SCANNED PAGES using
+OCR verification. These are the ONLY valid section headings in this chapter.
+
+**YOU MUST ONLY USE TOPICS FROM THIS CHECKLIST. DO NOT INVENT NEW TOPICS.**
+
+### Verified Section Headings:
+  1. ১.১ অংকপাতন
+  2. ১.২ দেশীয় সংখ্যা পদ্ধতি
+  3. ১.৩ আন্তর্জাতিক গণনা পদ্ধতি
+  4. ১.৪ ভগ্নাংশ
+  5. ১.৫ দশমিক ভগ্নাংশ
+
+### Rules:
+1. **Every topic in your output MUST be derived from one of the headings above**
+2. **DO NOT create topics from learning outcomes (শিখনফল)**
+3. **DO NOT create topics from your general knowledge**
+4. **DO NOT combine multiple headings into one topic unless they are compound headings**
+5. **If a heading is a bare attribute (e.g., "নীতিমালা", "সমস্যা"), prefix it with
+   the parent concept from the enclosing section**
+6. **You may shorten headings by dropping filler words (বিভিন্ন, উল্লেখযোগ্য) but
+   MUST keep the core concept**
+7. **You may merge natural pairs (ধারণা + প্রকারভেদ) but MUST keep distinct concepts separate**
+
+---
+
+## What a "topic" is
+
+A topic is a **self-contained concept name that still makes sense on its own**, with
+the chapter name and subject hidden. It is a Bengali noun phrase that names *what is
+taught*, carrying the concept it is about.
+
+- GOOD: `সমবায় সমিতির নীতিমালা`, `অংশীদারি ব্যবসায়ের চুক্তিপত্র`
+- BAD (bare attribute): `নীতিমালা`, `চুক্তিপত্র`, `সমস্যা`
+- BAD (meaning-changing qualifier dropped): dropping qualifiers that change meaning
+
+**Keep it short — ≤ 5 words is the goal** (3–8 acceptable, no minimum).
+
+---
+
+## Procedure
+
+### 1. Read the body, not just the box
+Use the শিখনফল box only to (a) confirm you missed nothing and (b) correct garbled
+spending. Topics come from the **verified headings list above**.
+
+### 2. Match headings to body content
+For each verified heading, find where it appears in the chapter body images and
+understand what concepts it covers.
+
+### 3. Attach the head noun
+For each heading/concept, write the topic so it carries its parent concept. If a
+heading is a bare attribute, prefix the concept from the enclosing section.
+
+### 4. Split compounds without orphaning
+Split on standalone `এবং`, space-surrounded ` ও `, or commas between parallel
+noun phrases — **only if each part keeps its own head noun after the split**.
+
+### 5. Granularity — one row = one 15–30 min study/quiz topic
+Do **not** emit `X-এর ধারণা`, `X-এর বৈশিষ্ট্য`, `X-এর গুরুত্ব` as separate rows for
+the same X. Merge into `X-এর ধারণা, বৈশিষ্ট্য ও গুরুত্ব`.
+
+### 6. Filter
+Drop experimental/lab/verification items.
+
+### 7. Cross-check against the checklist
+Every topic MUST correspond to a heading in the verified checklist above. If a
+topic doesn't match any heading, REMOVE it — it is hallucinated.
+
+---
+
+## Output
+
+Return ONLY this JSON object (no commentary, no code fences):
+
+```json
+{
+  "class": "9-10",
+  "subject": "math6",
+  "chapter_no": 1,
+  "chapter_title": "স্বাভাবিক সংখ্যা ও ভগ্নাংশ",
+  "learning_outcomes": ["<box bullet verbatim, verbs KEPT>", "..."],
+  "topics": ["<self-contained topic derived from verified headings>", "..."],
+  "keywords": ["<5–15 revision terms>"],
+  "one_line_summary": "<one Bengali sentence>",
+  "source_pages": "<pdf start-end>"
+}
+```
+
+**VALIDATION**: Before outputting, verify EVERY topic in your list matches a
+heading in the checklist above. Remove any that don't match.
+
+IMAGES: the chapter's pages follow, in order.

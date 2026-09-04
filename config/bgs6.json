@@ -1,0 +1,33 @@
+{
+  "_comment": "Per-subject config for BGS (Class 6). Created for Class_6_BGS_compressed.pdf.",
+
+  "subject": "bgs6",
+  "grade": "6",
+
+  "spelling_corrections": {},
+
+  "merge_overrides": {},
+
+  "scope_split": {
+    "enabled": true,
+    "max_core_words": 12
+  },
+
+  "distinct_pairs": {
+    "pairs": [
+      ["সমাজ বিবর্তন", "সভ্যতা"],
+      ["মুদ্রা", "বাণিজ্য"],
+      ["নদী", "পাহাড়"],
+      ["কৃষি", "শিল্প"],
+      ["সংস্কৃতি", "ধর্ম"]
+    ]
+  },
+
+  "attribute_nouns_extra": {
+    "words": []
+  },
+
+  "lexicon_extra": {
+    "words": []
+  }
+}

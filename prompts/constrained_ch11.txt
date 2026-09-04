@@ -1,61 +1,47 @@
 # Topic-map extraction prompt (CONSTRAINED — Step 7)
 
-You are mapping the syllabus of chapter 11 ("অর্থনৈতিক নির্দেশকসমূহ ও বাংলাদেশের অর্থনীতির প্রকৃতি") of a Bangladeshi NCTB
+You are mapping the syllabus of chapter 11 ("বল এবং সরল যন্ত্র") of a Bangladeshi NCTB
 school textbook, from scanned page images (Bengali, some English). OCR-style errors
 are expected — infer through minor garbling, never invent content.
 
-# Subject profile — bgs (Bangladesh and Global Studies)
+# Subject profile — science6
 
 Prepended to `prompts/topic_map_prompt.md` at Step 7.
 
 ---
 
 ## Identity
-- `subject`: `bgs`
-- `grade`: `9-10`
-- language mix: Bengali + English historical/political terms — keep English terms as-is.
+- `subject`: `science6`
+- `grade`: `6`
+- language mix: Bengali + some English technical terms — keep English/technical terms as-is.
 
 ## What a topic looks like in this subject
-A named historical event, political concept, geographic feature, economic system,
-social institution, or civic process — something a student revises as one unit:
+A named scientific concept, process, property, structure, or system — something a student revises as one unit:
 
-- GOOD: `ভাষা আন্দোলনের পটভূমি`, `বাংলাদেশের স্বাধীনতা ঘোষণা`, `সৌরজগতের গঠন`,
-  `বাংলাদেশের ভূপ্রকৃতি`, `নদ-নদীর প্রাকৃতিক সম্পদ`, `গণতন্ত্রের ধারণা`
-- NOT a topic: a single date/fact drill, a map-reading exercise, a discussion question.
+- GOOD: `বৈজ্ঞানিক প্রক্রিয়া`, `কোষের গঠন`, `সালোকসংশ্লেষণ`, `পদার্থের অবস্থা`, `আলোর প্রতিসরণ`
+- NOT a topic: a single lab activity, observation step, drawing exercise, or worksheet fill-in.
 
 ## Head-noun rule for this subject
-When a heading is a bare attribute (`ধারণা`, `বৈশিষ্ট্য`, `গুরুত্ব`, `প্রকারভেদ`,
-`উদ্দেশ্য`, `সুবিধা`, `পদ্ধতি`, `প্রভাব`, `কারণ`, `�লাফল`), prefix the concept it
-belongs to: `গণতন্ত্রের ধারণা` not `ধারণা`; `বাংলাদেশের ভূপ্রকৃতির বৈশিষ্ট্য` not `বৈশিষ্ট্য`.
+When a heading is a bare attribute (`ধারণা`, `বৈশিষ্ট্য`, `গুরুত্ব`, `প্রকারভেদ`, `উৎস`, `কাজ`, `প্রভাব`, `প্রক্রিয়া`, `পার্থক্য`, `উপাদান`), prefix the concept it belongs to: `কোষের ধারণা` not `ধারণা`; `পদার্থের বৈশিষ্ট্য` not `বৈশিষ্ট্য`.
 
 ## Distinct concepts to KEEP SEPARATE
-- `ভাষা আন্দোলন` ≠ `সাংস্কৃতিক আন্দোলন`
-- `স্বাধীনতা ঘোষণা` ≠ `মুক্তিযুদ্ধ` ≠ `চুক্তিপত্র`
-- `সৌরজগৎ` ≠ `মহাকাশ`
-- `ভূপ্রকৃতি` ≠ `জলবায়ু` ≠ `প্রাকৃতিক সম্পদ`
-- `নদী` ≠ `খাল` ≠ `বন্যা`
-- `গণতন্ত্র` ≠ `স্বৈরাচার`
-- `আমদানি` ≠ `রপ্তানি`
-- `কৃষি` ≠ `শিল্প` ≠ `সেবা`
-- `জনসংখ্যা` ≠ `জনঘনত্ব`
+- `উদ্ভিদ` ≠ `প্রাণী` (plant vs animal)
+- `কোষ` ≠ `কলা` ≠ `অঙ্গ` ≠ `অঙ্গতন্ত্র` (cell → tissue → organ → system)
+- `মূল` ≠ `কাণ্ড` ≠ `পাতা` ≠ `ফুল` ≠ `ফল` (plant parts)
+- `সালোকসংশ্লেষণ` ≠ `শ্বসন` (photosynthesis vs respiration)
+- `আলোর প্রতিফলন` ≠ `আলোর প্রতিসরণ` (reflection vs refraction)
+- `স্থির বল` ≠ `ঘর্ষণ বল` ≠ `প্রয়োগকৃত বল` (types of force)
+- `পারদর্শী` ≠ `অপারদর্শী` (conductor vs insulator)
+- `মিশ্রণ` ≠ `দ্রবণ` ≠ `মণ্ডলীয় দ্রবণ` (mixture vs solution vs colloidal)
 
-## Canonical spellings of technical terms (OCR tends to garble)
-| garbled | correct | meaning |
-|---|---|---|
-| মুক্তিযুদ্ধ | মুক্তিযুদ্ধ | Liberation War |
-| স্বাধীনতা | স্বাধীনতা | Independence |
-| গণতন্ত্র | গণতন্ত্র | Democracy |
-| সংবিধান | সংবিধান | Constitution |
-| নির্বাচন | নির্বাচন | Election |
-| প্রশাসন | প্রশাসন | Administration |
-| অর্থনীতি | অর্থনীতি | Economy |
+## Canonical spellings
+(Add as OCR errors are found — verify against page images before adding.)
 
 ## Chapters where numbering restarts per unit
-None — chapters 1–15 run straight through.
+None — chapters 1–14 run straight through.
 
 ## Chapter-map note
-`chapter-maps/class9-10-bgs.csv` uses PDF page numbers. Printed page 1 =
-PDF page 6 (front-matter offset k=5). The TOC lists printed pages 1-200.
+`chapter-maps/class6-science.csv` uses PDF page numbers. Printed page 1 = PDF page 6 (front-matter offset k=5).
 
 
 ---
@@ -68,85 +54,8 @@ OCR verification. These are the ONLY valid section headings in this chapter.
 **YOU MUST ONLY USE TOPICS FROM THIS CHECKLIST. DO NOT INVENT NEW TOPICS.**
 
 ### Verified Section Headings:
-  1. অর্থনৈতিক নির্দেশকসমূহ
-  2. ২. কৃষিখাতের প্রকৃতি
-  3. ৩. শিল্পখাতের ক্রমবর্ধমান গুরুত্ব ও অবদান
-  4. ৪. শিল্পখাতের প্রকৃতি
-  5. ৫. জনসংখ্যাধিক ও শিক্ষার নিম্নহার
-  6. ৬. বেকারত্ব ও অর্ধ-বেকারত্ব
-  7. ৭. স্বল্প মাথাপিছু আয় ও জীবনযাত্রার নিম্নমান
-  8. ৮. সঞ্চয়, মূলধন গঠন ও বিনিয়োগের নিম্নহার
-  9. ৯. অবকাঠামোর দুর্বলতা
-  10. ১০. বৈদেশিক সাহায্য নির্ভরতা
-  11. ১১. বৈদেশিক বাণিজ্য
-  12. ৬. অর্থসামাজিক প্রতিবন্ধকতাসমূহ
-  13. ৭. শিক্ষা ও প্রশিক্ষণ
-  14. উন্নত দেশ
-  15. ১. জীবনযাত্রার উচ্চমান
-  16. ২. শিল্পায়িত অর্থনীতি
-  17. ৩. সঞ্চয়, মূলধন গঠন ও বিনিয়োগের উচ্চহার
-  18. ৪. উন্নত উৎপাদন পদ্ধতি ও বর্ধন প্রক্রিয়া
-  19. ৫. উন্নত অর্থসামাজিক অবস্থা
-  20. ৬. উন্নত ও আধুনিক কৃষিব্যবস্থা
-  21. ৭. স্বল্প ও অনুন্নত শিল্প খাত
-  22. ৮. মূলধন গঠন ও বিনিয়োগের নিম্নহার এবং ব্যাপক বেকারত্ব
-  23. ৯. প্রাকৃতিক সম্পদ ও জনশক্তির অসম্পূর্ণ ব্যবহার
-  24. ৭. জনসংখ্যা বৃদ্ধির উচ্চহার এবং অদক্ষ জনশক্তি
-  25. ৮. দুর্বল অর্থসামাজিক অবকাঠামো
-  26. ৯. প্রতিকূল বৈদেশিক বাণিজ্য
-  27. ১১. উদ্যোগ ও ঝুঁকি গ্রহণের মানসিকতার অভাব
-  28. উন্নয়নশীল দেশ
-  29. ১. অর্থনৈতিক অবস্থা বিষয়ে সচেতনতা ও পরিকল্পিত উন্নয়নের উদ্যোগ গ্রহণ
-  30. ২. প্রাকৃতিক সম্পদের প্রাপ্যতা ও উন্নয়নের সম্ভাবনা
-  31. ৩. কৃষির ওপর নির্ভরতা হ্রাস ও দ্রুত শিল্পায়ন
-  32. ৪. কৃষির ক্রমাগত উন্নতি
-  33. মোট জাতীয় উৎপাদন (Gross National Product)
-  34. মোট জাতীয় উৎপাদন পরিমাপ
-  35. ১. উৎপাদিত দ্রব্যসামগ্রী ও সেবা
-  36. ২. উৎপাদনের উপকরণের অর্জিত আয়
-  37. ৩. সমাজের মোট ব্যয়
-  38. মোট দেশজ উৎপাদন (Gross Domestic Product)
-  39. কৃষিখাত ও বাণিজ্যখাত
-  40. সেবাখাত
-  41. কয়েকটি দেশের জনসংখ্যা ও মাথাপিছু আয়ের তুলনা
-  42. বাংলাদেশের অর্থনীতির বৈশিষ্ট্যসমূহ
-  43. ১. কৃষিপ্রধান অর্থনীতি
-  44. ৮. প্রাতিষ্ঠানিক ও নীতিগত সমস্যা
-  45. ৯. প্রাকৃতিক প্রতিবন্ধকতা
-  46. উন্নত, অনুন্নত এবং উন্নয়নশীল দেশ ও এসব দেশের অর্থনীতি
-  47. উন্নয়ন ধারণা
-  48. অর্থনৈতিক প্রবৃদ্ধি ও অর্থনৈতিক উন্নয়ন
-  49. ২. পরিকল্পিত জনসংখ্যা ও উন্নত মানবসম্পদ
-  50. ৩. অনুকূল বৈদেশিক বাণিজ্য
-  51. ৪. ব্যাপক নগরায়ণ
-  52. ৫. রাজনৈতিক স্থিতিশীলতা
-  53. অনুন্নত দেশ
-  54. ১. নিম্ন মাথাপিছু আয় এবং জীবনযাত্রার নিম্নমান
-  55. ২. অশিল্পায়িত খাতের ওপর অত্যধিক নির্ভরশীলতা
-  56. ৩. অনুন্নত কৃষি উৎপাদন ও বিপণন ব্যবস্থা
-  57. ৪. প্রাকৃতিক ও মানবসম্পদের অপূর্ণ ব্যবহার
-  58. বাংলাদেশের অর্থনৈতিক অগ্রসরতার প্রতিবন্ধকতাসমূহ
-  59. ১. ঐতিহাসিক কারণ
-  60. ২. শুশাসনের অভাব ও দুর্নীতি
-  61. ৩. কৃষিক্ষেত্রের প্রতিবন্ধকতাসমূহ
-  62. ৪. বাজারজাতকরণ ও সংরক্ষণ
-  63. ৫. শিল্পক্ষেত্রের প্রতিবন্ধকতাসমূহ
-  64. ৫. অবকাঠামো উন্নয়ন
-  65. ৬. জনসংখ্যা বৃদ্ধির হার হ্রাস ও মানবসম্পদ উন্নয়ন
-  66. ৭. বেকারত্ব হ্রাস ও দারিদ্র্য বিমোচন
-  67. ৮. বৈদেশিক সাহায্য নির্ভরতা হ্রাস
-  68. ৯. জনগণের অর্থিক কল্যাণ নিশ্চিত করা
-  69. ১০. নগরায়ণের হার বৃদ্ধি
-  70. ১১. সামাজিক পরিবেশের উন্নয়ন
-  71. ১২. মাথাপিছু আয় ও জীবনযাত্রার মান বৃদ্ধি
-  72. উন্নত ও উন্নয়নশীল দেশের সাথে বাংলাদেশের অর্থনৈতিক সম্পর্ক
-  73. ১. বৈদেশিক বাণিজ্যিক সম্পর্ক
-  74. ২. বৈদেশিক ঋণ সহায়তা ও অনুদান
-  75. মাথাপিছু আয় (per Capita Income)
-  76. জাতীয় অর্থনীতির খাতসমূহ ও মোট দেশজ উৎপাদনে এগুলোর অবদান
-  77. কৃষিখাত
-  78. ১২. প্রাকৃতিক ও মানবসম্পদের অপূর্ণ ব্যবহার
-  79. বাংলাদেশের অর্থনৈতিক অগ্রগতির প্রতিবন্ধকতাসমূহ
+  1. পাঠ ১-২ : বল কী?
+  2. পাঠ-৩ : সরল যন্ত্র
 
 ### Rules:
 1. **Every topic in your output MUST be derived from one of the headings above**
@@ -213,9 +122,9 @@ Return ONLY this JSON object (no commentary, no code fences):
 ```json
 {
   "class": "9-10",
-  "subject": "bgs",
+  "subject": "science6",
   "chapter_no": 11,
-  "chapter_title": "অর্থনৈতিক নির্দেশকসমূহ ও বাংলাদেশের অর্থনীতির প্রকৃতি",
+  "chapter_title": "বল এবং সরল যন্ত্র",
   "learning_outcomes": ["<box bullet verbatim, verbs KEPT>", "..."],
   "topics": ["<self-contained topic derived from verified headings>", "..."],
   "keywords": ["<5–15 revision terms>"],

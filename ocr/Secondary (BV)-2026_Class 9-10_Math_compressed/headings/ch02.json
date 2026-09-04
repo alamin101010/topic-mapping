@@ -1,0 +1,52 @@
+{
+  "chapter": 2,
+  "chapter_title": "সেট ও ফাংশন",
+  "headings": [
+    {
+      "page": 26,
+      "heading": "সেট ও ফাংশন",
+      "level": 1
+    },
+    {
+      "page": 34,
+      "heading": "ফাংশন (Function)",
+      "level": 2
+    },
+    {
+      "page": 35,
+      "heading": "ডোমেন (Domain) ও রেঞ্জ (Range)",
+      "level": 2
+    },
+    {
+      "page": 36,
+      "heading": "ফাংশনের লেখচিত্র (Graph of a Function)",
+      "level": 2
+    },
+    {
+      "page": 39,
+      "heading": "অনুশীলনী ২.২",
+      "level": 2
+    },
+    {
+      "page": 41,
+      "heading": "নমুনা প্রশ্ন",
+      "level": 2
+    },
+    {
+      "page": 42,
+      "heading": "বহুনির্বাচনি প্রশ্ন",
+      "level": 3
+    },
+    {
+      "page": 43,
+      "heading": "সৃজনশীল প্রশ্ন",
+      "level": 3
+    },
+    {
+      "page": 44,
+      "heading": "সংক্ষিপ্ত-উত্তর প্রশ্ন",
+      "level": 3
+    }
+  ],
+  "pending": false
+}

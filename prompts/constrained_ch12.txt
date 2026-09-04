@@ -1,0 +1,139 @@
+# Topic-map extraction prompt (CONSTRAINED — Step 7)
+
+You are mapping the syllabus of chapter 12 ("পৃথিবীর উৎপত্তি ও গঠন") of a Bangladeshi NCTB
+school textbook, from scanned page images (Bengali, some English). OCR-style errors
+are expected — infer through minor garbling, never invent content.
+
+# Subject profile — science6
+
+Prepended to `prompts/topic_map_prompt.md` at Step 7.
+
+---
+
+## Identity
+- `subject`: `science6`
+- `grade`: `6`
+- language mix: Bengali + some English technical terms — keep English/technical terms as-is.
+
+## What a topic looks like in this subject
+A named scientific concept, process, property, structure, or system — something a student revises as one unit:
+
+- GOOD: `বৈজ্ঞানিক প্রক্রিয়া`, `কোষের গঠন`, `সালোকসংশ্লেষণ`, `পদার্থের অবস্থা`, `আলোর প্রতিসরণ`
+- NOT a topic: a single lab activity, observation step, drawing exercise, or worksheet fill-in.
+
+## Head-noun rule for this subject
+When a heading is a bare attribute (`ধারণা`, `বৈশিষ্ট্য`, `গুরুত্ব`, `প্রকারভেদ`, `উৎস`, `কাজ`, `প্রভাব`, `প্রক্রিয়া`, `পার্থক্য`, `উপাদান`), prefix the concept it belongs to: `কোষের ধারণা` not `ধারণা`; `পদার্থের বৈশিষ্ট্য` not `বৈশিষ্ট্য`.
+
+## Distinct concepts to KEEP SEPARATE
+- `উদ্ভিদ` ≠ `প্রাণী` (plant vs animal)
+- `কোষ` ≠ `কলা` ≠ `অঙ্গ` ≠ `অঙ্গতন্ত্র` (cell → tissue → organ → system)
+- `মূল` ≠ `কাণ্ড` ≠ `পাতা` ≠ `ফুল` ≠ `ফল` (plant parts)
+- `সালোকসংশ্লেষণ` ≠ `শ্বসন` (photosynthesis vs respiration)
+- `আলোর প্রতিফলন` ≠ `আলোর প্রতিসরণ` (reflection vs refraction)
+- `স্থির বল` ≠ `ঘর্ষণ বল` ≠ `প্রয়োগকৃত বল` (types of force)
+- `পারদর্শী` ≠ `অপারদর্শী` (conductor vs insulator)
+- `মিশ্রণ` ≠ `দ্রবণ` ≠ `মণ্ডলীয় দ্রবণ` (mixture vs solution vs colloidal)
+
+## Canonical spellings
+(Add as OCR errors are found — verify against page images before adding.)
+
+## Chapters where numbering restarts per unit
+None — chapters 1–14 run straight through.
+
+## Chapter-map note
+`chapter-maps/class6-science.csv` uses PDF page numbers. Printed page 1 = PDF page 6 (front-matter offset k=5).
+
+
+---
+
+## CRITICAL CONSTRAINT: HEADING CHECKLIST
+
+The following section headings have been EXTRACTED FROM THE SCANNED PAGES using
+OCR verification. These are the ONLY valid section headings in this chapter.
+
+**YOU MUST ONLY USE TOPICS FROM THIS CHECKLIST. DO NOT INVENT NEW TOPICS.**
+
+### Verified Section Headings:
+  1. পাঠ ১-২ : মহাবিশ্ব ও পৃথিবীর উৎপত্তি
+  2. পাঠ ৩-৪ : সূর্য, পৃথিবী ও চন্দ্রের পরিচয়
+
+### Rules:
+1. **Every topic in your output MUST be derived from one of the headings above**
+2. **DO NOT create topics from learning outcomes (শিখনফল)**
+3. **DO NOT create topics from your general knowledge**
+4. **DO NOT combine multiple headings into one topic unless they are compound headings**
+5. **If a heading is a bare attribute (e.g., "নীতিমালা", "সমস্যা"), prefix it with
+   the parent concept from the enclosing section**
+6. **You may shorten headings by dropping filler words (বিভিন্ন, উল্লেখযোগ্য) but
+   MUST keep the core concept**
+7. **You may merge natural pairs (ধারণা + প্রকারভেদ) but MUST keep distinct concepts separate**
+
+---
+
+## What a "topic" is
+
+A topic is a **self-contained concept name that still makes sense on its own**, with
+the chapter name and subject hidden. It is a Bengali noun phrase that names *what is
+taught*, carrying the concept it is about.
+
+- GOOD: `সমবায় সমিতির নীতিমালা`, `অংশীদারি ব্যবসায়ের চুক্তিপত্র`
+- BAD (bare attribute): `নীতিমালা`, `চুক্তিপত্র`, `সমস্যা`
+- BAD (meaning-changing qualifier dropped): dropping qualifiers that change meaning
+
+**Keep it short — ≤ 5 words is the goal** (3–8 acceptable, no minimum).
+
+---
+
+## Procedure
+
+### 1. Read the body, not just the box
+Use the শিখনফল box only to (a) confirm you missed nothing and (b) correct garbled
+spending. Topics come from the **verified headings list above**.
+
+### 2. Match headings to body content
+For each verified heading, find where it appears in the chapter body images and
+understand what concepts it covers.
+
+### 3. Attach the head noun
+For each heading/concept, write the topic so it carries its parent concept. If a
+heading is a bare attribute, prefix the concept from the enclosing section.
+
+### 4. Split compounds without orphaning
+Split on standalone `এবং`, space-surrounded ` ও `, or commas between parallel
+noun phrases — **only if each part keeps its own head noun after the split**.
+
+### 5. Granularity — one row = one 15–30 min study/quiz topic
+Do **not** emit `X-এর ধারণা`, `X-এর বৈশিষ্ট্য`, `X-এর গুরুত্ব` as separate rows for
+the same X. Merge into `X-এর ধারণা, বৈশিষ্ট্য ও গুরুত্ব`.
+
+### 6. Filter
+Drop experimental/lab/verification items.
+
+### 7. Cross-check against the checklist
+Every topic MUST correspond to a heading in the verified checklist above. If a
+topic doesn't match any heading, REMOVE it — it is hallucinated.
+
+---
+
+## Output
+
+Return ONLY this JSON object (no commentary, no code fences):
+
+```json
+{
+  "class": "9-10",
+  "subject": "science6",
+  "chapter_no": 12,
+  "chapter_title": "পৃথিবীর উৎপত্তি ও গঠন",
+  "learning_outcomes": ["<box bullet verbatim, verbs KEPT>", "..."],
+  "topics": ["<self-contained topic derived from verified headings>", "..."],
+  "keywords": ["<5–15 revision terms>"],
+  "one_line_summary": "<one Bengali sentence>",
+  "source_pages": "<pdf start-end>"
+}
+```
+
+**VALIDATION**: Before outputting, verify EVERY topic in your list matches a
+heading in the checklist above. Remove any that don't match.
+
+IMAGES: the chapter's pages follow, in order.

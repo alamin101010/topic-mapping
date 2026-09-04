@@ -1,0 +1,51 @@
+{
+  "chapter": 16,
+  "chapter_title": "পরিমিতি",
+  "chapter_dir": "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16",
+  "images": [
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_299.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_300.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_301.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_302.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_303.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_304.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_305.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_306.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_307.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_308.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_309.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_310.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_311.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_312.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_313.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_314.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_315.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_316.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_317.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_318.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_319.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_320.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_321.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_322.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_323.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_324.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_325.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_326.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_327.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_328.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_329.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch16\\page_330.png"
+  ],
+  "total_pages": 32,
+  "prompt": "You are extracting SECTION HEADINGS from ONE scanned page of a\nBengali NCTB textbook chapter.\n\nReturn a JSON array of the section / sub-section headings printed on THIS page, in\ntop-to-bottom order. A heading is bold or larger-font text that starts a section\nor sub-section — including পরিচ্ছেদ X.Y lines and named sub-sections\n(e.g. \"সূর্য (Sun)\", \"আহ্নিক গতি\").\n\nEXCLUDE: the chapter title (e.g. \"তৃতীয় অধ্যায়\"), the শিখনফল / \"এ অধ্যায় শেষে\nআমরা –\" box, figure captions (\"চিত্র X.X :\"), \"কাজ\" boxes, table headers, page\nnumbers, running headers/footers, and the end-of-chapter\n\"নমুনা প্রশ্ন / বহুনির্বাচনি / সৃজনশীল / সংক্ষিপ্ত-উত্তর\" material.\n\nIf the page has no heading, return []. Output ONLY the JSON array.\nExample: [\"পরিচ্ছেদ ৩.৩ : পৃথিবীর গতি\", \"আহ্নিক গতি\"]",
+  "output_schema": {
+    "chapter": 16,
+    "chapter_title": "পরিমিতি",
+    "headings": [
+      {
+        "page": "page_0NN",
+        "heading": "<verbatim heading>"
+      }
+    ]
+  }
+}

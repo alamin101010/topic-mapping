@@ -13,3 +13,6 @@ bright-fastness-397410-e569326fd692.json
 # Local tooling
 .opencode/
 
+
+# Exceeds GitHub 100 MiB file limit — keep local only
+books/Secondary (BV)-2026_Class 9-10_Math_compressed.pdf

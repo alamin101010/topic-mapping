@@ -1,0 +1,37 @@
+{
+  "chapter": 5,
+  "chapter_title": "এক চলকবিশিষ্টসমীকরণ",
+  "chapter_dir": "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch05",
+  "images": [
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch05\\page_098.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch05\\page_099.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch05\\page_100.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch05\\page_101.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch05\\page_102.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch05\\page_103.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch05\\page_104.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch05\\page_105.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch05\\page_106.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch05\\page_107.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch05\\page_108.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch05\\page_109.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch05\\page_110.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch05\\page_111.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch05\\page_112.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch05\\page_113.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch05\\page_114.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch05\\page_115.png"
+  ],
+  "total_pages": 18,
+  "prompt": "You are extracting SECTION HEADINGS from ONE scanned page of a\nBengali NCTB textbook chapter.\n\nReturn a JSON array of the section / sub-section headings printed on THIS page, in\ntop-to-bottom order. A heading is bold or larger-font text that starts a section\nor sub-section — including পরিচ্ছেদ X.Y lines and named sub-sections\n(e.g. \"সূর্য (Sun)\", \"আহ্নিক গতি\").\n\nEXCLUDE: the chapter title (e.g. \"তৃতীয় অধ্যায়\"), the শিখনফল / \"এ অধ্যায় শেষে\nআমরা –\" box, figure captions (\"চিত্র X.X :\"), \"কাজ\" boxes, table headers, page\nnumbers, running headers/footers, and the end-of-chapter\n\"নমুনা প্রশ্ন / বহুনির্বাচনি / সৃজনশীল / সংক্ষিপ্ত-উত্তর\" material.\n\nIf the page has no heading, return []. Output ONLY the JSON array.\nExample: [\"পরিচ্ছেদ ৩.৩ : পৃথিবীর গতি\", \"আহ্নিক গতি\"]",
+  "output_schema": {
+    "chapter": 5,
+    "chapter_title": "এক চলকবিশিষ্টসমীকরণ",
+    "headings": [
+      {
+        "page": "page_0NN",
+        "heading": "<verbatim heading>"
+      }
+    ]
+  }
+}

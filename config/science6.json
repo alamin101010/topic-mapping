@@ -1,0 +1,40 @@
+{
+  "_comment": "Per-subject config for Science (Class 6). Created for Class_6_Science_compressed.pdf.",
+
+  "subject": "science6",
+  "grade": "6",
+
+  "spelling_corrections": {},
+
+  "merge_overrides": {},
+
+  "scope_split": {
+    "enabled": true,
+    "max_core_words": 12
+  },
+
+  "distinct_pairs": {
+    "pairs": [
+      ["উদ্ভিজ্জ উৎস", "প্রাণিজ উৎস"],
+      ["শর্করা", "প্রোটিন"],
+      ["শর্করা", "স্নেহ পদার্থ"],
+      ["প্রোটিন", "স্নেহ পদার্থ"],
+      ["স্থিতি", "গতি"],
+      ["বল", "জড়তা"],
+      ["বল", "ভর"],
+      ["অম্ল", "ক্ষারক"],
+      ["অম্ল", "লবণ"],
+      ["ক্ষারক", "লবণ"],
+      ["দর্পণ", "লেন্স"],
+      ["তাপ", "তাপমাত্রা"]
+    ]
+  },
+
+  "attribute_nouns_extra": {
+    "words": []
+  },
+
+  "lexicon_extra": {
+    "words": []
+  }
+}

@@ -36,13 +36,14 @@ def load_headings(book_name, chapter_no):
         return json.load(f)
 
 
-def generate_constrained_prompt(headings_data, subject_profile=""):
+def generate_constrained_prompt(headings_data, subject_profile="", subject_slug="math"):
     """Generate a constrained prompt with heading checklist."""
     
     # Build the heading checklist
     headings = headings_data["headings"]
     chapter_title = headings_data["chapter_title"]
     chapter_no = headings_data["chapter"]
+    subject = subject_slug
     
     # Deduplicate headings (some may appear on multiple pages)
     unique_headings = []
@@ -143,7 +144,7 @@ Return ONLY this JSON object (no commentary, no code fences):
 ```json
 {{
   "class": "9-10",
-  "subject": "bgs",
+  "subject": "{subject}",
   "chapter_no": {chapter_no},
   "chapter_title": "{chapter_title}",
   "learning_outcomes": ["<box bullet verbatim, verbs KEPT>", "..."],
@@ -168,19 +169,20 @@ def main():
     parser = argparse.ArgumentParser(description="Generate constrained Step 7 prompt")
     parser.add_argument("book_name", help="Book directory name under ocr/")
     parser.add_argument("chapter_no", type=int, help="Chapter number")
+    parser.add_argument("--subject", "-s", default="math", help="Subject slug (default: math)")
     args = parser.parse_args()
     
     headings_data = load_headings(args.book_name, args.chapter_no)
     
     # Try to load subject profile
-    subject = "bgs"
+    subject = args.subject
     subject_file = os.path.join(ROOT_DIR, "subjects", f"{subject}.md")
     subject_profile = ""
     if os.path.exists(subject_file):
         with open(subject_file, encoding="utf-8") as f:
             subject_profile = f.read()
     
-    prompt = generate_constrained_prompt(headings_data, subject_profile)
+    prompt = generate_constrained_prompt(headings_data, subject_profile, subject_slug=subject)
     
     # Save the constrained prompt
     output_path = os.path.join(

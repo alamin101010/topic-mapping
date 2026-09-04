@@ -1,0 +1,41 @@
+{
+  "chapter": 2,
+  "chapter_title": "অনুপাত ও শতকরা",
+  "chapter_dir": "ocr\\Class_6_Math_compressed\\chapters\\ch02",
+  "images": [
+    "ocr\\Class_6_Math_compressed\\chapters\\ch02\\page_043.png",
+    "ocr\\Class_6_Math_compressed\\chapters\\ch02\\page_044.png",
+    "ocr\\Class_6_Math_compressed\\chapters\\ch02\\page_045.png",
+    "ocr\\Class_6_Math_compressed\\chapters\\ch02\\page_046.png",
+    "ocr\\Class_6_Math_compressed\\chapters\\ch02\\page_047.png",
+    "ocr\\Class_6_Math_compressed\\chapters\\ch02\\page_048.png",
+    "ocr\\Class_6_Math_compressed\\chapters\\ch02\\page_049.png",
+    "ocr\\Class_6_Math_compressed\\chapters\\ch02\\page_050.png",
+    "ocr\\Class_6_Math_compressed\\chapters\\ch02\\page_051.png",
+    "ocr\\Class_6_Math_compressed\\chapters\\ch02\\page_052.png",
+    "ocr\\Class_6_Math_compressed\\chapters\\ch02\\page_053.png",
+    "ocr\\Class_6_Math_compressed\\chapters\\ch02\\page_054.png",
+    "ocr\\Class_6_Math_compressed\\chapters\\ch02\\page_055.png",
+    "ocr\\Class_6_Math_compressed\\chapters\\ch02\\page_056.png",
+    "ocr\\Class_6_Math_compressed\\chapters\\ch02\\page_057.png",
+    "ocr\\Class_6_Math_compressed\\chapters\\ch02\\page_058.png",
+    "ocr\\Class_6_Math_compressed\\chapters\\ch02\\page_059.png",
+    "ocr\\Class_6_Math_compressed\\chapters\\ch02\\page_060.png",
+    "ocr\\Class_6_Math_compressed\\chapters\\ch02\\page_061.png",
+    "ocr\\Class_6_Math_compressed\\chapters\\ch02\\page_062.png",
+    "ocr\\Class_6_Math_compressed\\chapters\\ch02\\page_063.png",
+    "ocr\\Class_6_Math_compressed\\chapters\\ch02\\page_064.png"
+  ],
+  "total_pages": 22,
+  "prompt": "You are extracting SECTION HEADINGS from ONE scanned page of a\nBengali NCTB textbook chapter.\n\nReturn a JSON array of the section / sub-section headings printed on THIS page, in\ntop-to-bottom order. A heading is bold or larger-font text that starts a section\nor sub-section — including পরিচ্ছেদ X.Y lines and named sub-sections\n(e.g. \"সূর্য (Sun)\", \"আহ্নিক গতি\").\n\nEXCLUDE: the chapter title (e.g. \"তৃতীয় অধ্যায়\"), the শিখনফল / \"এ অধ্যায় শেষে\nআমরা –\" box, figure captions (\"চিত্র X.X :\"), \"কাজ\" boxes, table headers, page\nnumbers, running headers/footers, and the end-of-chapter\n\"নমুনা প্রশ্ন / বহুনির্বাচনি / সৃজনশীল / সংক্ষিপ্ত-উত্তর\" material.\n\nIf the page has no heading, return []. Output ONLY the JSON array.\nExample: [\"পরিচ্ছেদ ৩.৩ : পৃথিবীর গতি\", \"আহ্নিক গতি\"]",
+  "output_schema": {
+    "chapter": 2,
+    "chapter_title": "অনুপাত ও শতকরা",
+    "headings": [
+      {
+        "page": "page_0NN",
+        "heading": "<verbatim heading>"
+      }
+    ]
+  }
+}

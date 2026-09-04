@@ -1,0 +1,44 @@
+{
+  "chapter": 12,
+  "chapter_title": "দ্বই চলকবিশিষ্ট সরল সমসমীকরণ",
+  "chapter_dir": "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12",
+  "images": [
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12\\page_229.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12\\page_230.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12\\page_231.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12\\page_232.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12\\page_233.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12\\page_234.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12\\page_235.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12\\page_236.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12\\page_237.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12\\page_238.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12\\page_239.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12\\page_240.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12\\page_241.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12\\page_242.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12\\page_243.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12\\page_244.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12\\page_245.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12\\page_246.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12\\page_247.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12\\page_248.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12\\page_249.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12\\page_250.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12\\page_251.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12\\page_252.png",
+    "ocr\\Secondary (BV)-2026_Class 9-10_Math_compressed\\chapters\\ch12\\page_253.png"
+  ],
+  "total_pages": 25,
+  "prompt": "You are extracting SECTION HEADINGS from ONE scanned page of a\nBengali NCTB textbook chapter.\n\nReturn a JSON array of the section / sub-section headings printed on THIS page, in\ntop-to-bottom order. A heading is bold or larger-font text that starts a section\nor sub-section — including পরিচ্ছেদ X.Y lines and named sub-sections\n(e.g. \"সূর্য (Sun)\", \"আহ্নিক গতি\").\n\nEXCLUDE: the chapter title (e.g. \"তৃতীয় অধ্যায়\"), the শিখনফল / \"এ অধ্যায় শেষে\nআমরা –\" box, figure captions (\"চিত্র X.X :\"), \"কাজ\" boxes, table headers, page\nnumbers, running headers/footers, and the end-of-chapter\n\"নমুনা প্রশ্ন / বহুনির্বাচনি / সৃজনশীল / সংক্ষিপ্ত-উত্তর\" material.\n\nIf the page has no heading, return []. Output ONLY the JSON array.\nExample: [\"পরিচ্ছেদ ৩.৩ : পৃথিবীর গতি\", \"আহ্নিক গতি\"]",
+  "output_schema": {
+    "chapter": 12,
+    "chapter_title": "দ্বই চলকবিশিষ্ট সরল সমসমীকরণ",
+    "headings": [
+      {
+        "page": "page_0NN",
+        "heading": "<verbatim heading>"
+      }
+    ]
+  }
+}

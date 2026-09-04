@@ -1,0 +1,35 @@
+{
+  "_comment": "Per-subject config for Math (Class 6). Created for Class_6_Math_compressed.pdf.",
+
+  "subject": "math6",
+  "grade": "6",
+
+  "spelling_corrections": {},
+
+  "merge_overrides": {},
+
+  "scope_split": {
+    "enabled": true,
+    "max_core_words": 12
+  },
+
+  "distinct_pairs": {
+    "pairs": [
+      ["ভগ্নাংশ", "দশমিক"],
+      ["অনুপাত", "শতকরা"],
+      ["পূর্ণসংখ্যা", "ঋণাত্মক সংখ্যা"],
+      ["বীজগণিত", "সমীকরণ"],
+      ["কোণ", "সরলরেখা"],
+      ["ত্রিভুজ", "চতুর্ভুজ"],
+      ["ক্ষেত্রফল", "পরিধি"]
+    ]
+  },
+
+  "attribute_nouns_extra": {
+    "words": []
+  },
+
+  "lexicon_extra": {
+    "words": []
+  }
+}
