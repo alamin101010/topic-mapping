@@ -1,0 +1,22 @@
+== Class 6 Math: nothing to change (already clean?)
+== Class 6 Science: nothing to change (already clean?)
+== Class 7 Science: nothing to change (already clean?)
+== Class 8 Math: nothing to change (already clean?)
+== Class 8 BGS: nothing to change (already clean?)
+== SSC | Business Entrepreneurship: nothing to change (already clean?)
+== SSC | Finance and Banking: nothing to change (already clean?)
+== SSC | Accounting: nothing to change (already clean?)
+== SSC | Geography: nothing to change (already clean?)
+== SSC | BGS: nothing to change (already clean?)
+== SSC | Science: nothing to change (already clean?)
+== SSC | Higher Math: nothing to change (already clean?)
+== SSC | General Math: nothing to change (already clean?)
+== SSC | History: nothing to change (already clean?)
+== HSC Higher Math: nothing to change (already clean?)
+== HSC Chemistry: nothing to change (already clean?)
+== HSC Physics: nothing to change (already clean?)
+== HSC Biology: nothing to change (already clean?)
+== HSC_Accounting 1st Paper: nothing to change (already clean?)
+
+TOTAL cells: 0
+applied: False

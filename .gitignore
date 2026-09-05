@@ -8,6 +8,7 @@ Thumbs.db
 
 # Google service-account key (Sheets sync) — never commit
 bright-fastness-397410-e569326fd692.json
+bright-fastness-*.json
 *service-account*.json
 
 # Local tooling
