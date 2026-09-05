@@ -17,3 +17,10 @@ bright-fastness-*.json
 
 # Exceeds GitHub 100 MiB file limit — keep local only
 books/Secondary (BV)-2026_Class 9-10_Math_compressed.pdf
+books/Class_8_BGS_compressed.pdf
+
+# OCR page images — binary, keep local only
+ocr/*/chapters/*/*.png
+
+# Constrained prompts (generated, not source)
+prompts/constrained_ch*.txt
