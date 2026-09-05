@@ -1,0 +1,44 @@
+{
+  "chapter": 4,
+  "chapter_title": "বীজগনিতীয় সুত্রাবলি ও উৎপাদকে বিশ্লেষণ",
+  "chapter_dir": "ocr\\Class_8_Math_compressed\\chapters\\ch04",
+  "images": [
+    "ocr\\Class_8_Math_compressed\\chapters\\ch04\\page_051.png",
+    "ocr\\Class_8_Math_compressed\\chapters\\ch04\\page_052.png",
+    "ocr\\Class_8_Math_compressed\\chapters\\ch04\\page_053.png",
+    "ocr\\Class_8_Math_compressed\\chapters\\ch04\\page_054.png",
+    "ocr\\Class_8_Math_compressed\\chapters\\ch04\\page_055.png",
+    "ocr\\Class_8_Math_compressed\\chapters\\ch04\\page_056.png",
+    "ocr\\Class_8_Math_compressed\\chapters\\ch04\\page_057.png",
+    "ocr\\Class_8_Math_compressed\\chapters\\ch04\\page_058.png",
+    "ocr\\Class_8_Math_compressed\\chapters\\ch04\\page_059.png",
+    "ocr\\Class_8_Math_compressed\\chapters\\ch04\\page_060.png",
+    "ocr\\Class_8_Math_compressed\\chapters\\ch04\\page_061.png",
+    "ocr\\Class_8_Math_compressed\\chapters\\ch04\\page_062.png",
+    "ocr\\Class_8_Math_compressed\\chapters\\ch04\\page_063.png",
+    "ocr\\Class_8_Math_compressed\\chapters\\ch04\\page_064.png",
+    "ocr\\Class_8_Math_compressed\\chapters\\ch04\\page_065.png",
+    "ocr\\Class_8_Math_compressed\\chapters\\ch04\\page_066.png",
+    "ocr\\Class_8_Math_compressed\\chapters\\ch04\\page_067.png",
+    "ocr\\Class_8_Math_compressed\\chapters\\ch04\\page_068.png",
+    "ocr\\Class_8_Math_compressed\\chapters\\ch04\\page_069.png",
+    "ocr\\Class_8_Math_compressed\\chapters\\ch04\\page_070.png",
+    "ocr\\Class_8_Math_compressed\\chapters\\ch04\\page_071.png",
+    "ocr\\Class_8_Math_compressed\\chapters\\ch04\\page_072.png",
+    "ocr\\Class_8_Math_compressed\\chapters\\ch04\\page_073.png",
+    "ocr\\Class_8_Math_compressed\\chapters\\ch04\\page_074.png",
+    "ocr\\Class_8_Math_compressed\\chapters\\ch04\\page_075.png"
+  ],
+  "total_pages": 25,
+  "prompt": "You are extracting SECTION HEADINGS from ONE scanned page of a\nBengali NCTB textbook chapter.\n\nReturn a JSON array of the section / sub-section headings printed on THIS page, in\ntop-to-bottom order. A heading is bold or larger-font text that starts a section\nor sub-section — including পরিচ্ছেদ X.Y lines and named sub-sections\n(e.g. \"সূর্য (Sun)\", \"আহ্নিক গতি\").\n\nEXCLUDE: the chapter title (e.g. \"তৃতীয় অধ্যায়\"), the শিখনফল / \"এ অধ্যায় শেষে\nআমরা –\" box, figure captions (\"চিত্র X.X :\"), \"কাজ\" boxes, table headers, page\nnumbers, running headers/footers, and the end-of-chapter\n\"নমুনা প্রশ্ন / বহুনির্বাচনি / সৃজনশীল / সংক্ষিপ্ত-উত্তর\" material.\n\nIf the page has no heading, return []. Output ONLY the JSON array.\nExample: [\"পরিচ্ছেদ ৩.৩ : পৃথিবীর গতি\", \"আহ্নিক গতি\"]",
+  "output_schema": {
+    "chapter": 4,
+    "chapter_title": "বীজগনিতীয় সুত্রাবলি ও উৎপাদকে বিশ্লেষণ",
+    "headings": [
+      {
+        "page": "page_0NN",
+        "heading": "<verbatim heading>"
+      }
+    ]
+  }
+}

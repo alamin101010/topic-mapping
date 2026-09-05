@@ -1,0 +1,32 @@
+{
+  "_comment": "Per-subject config for Class 8 Math. Based on config/math.json (9-10) adapted for grade 8.",
+
+  "subject": "math8",
+  "grade": "8",
+
+  "spelling_corrections": {},
+
+  "merge_overrides": {},
+
+  "scope_split": {
+    "enabled": true,
+    "max_core_words": 5
+  },
+
+  "distinct_pairs": {
+    "pairs": [
+      ["সরল সমীকরণ", "দ্বিঘাত সমীকরণ"],
+      ["সমানুপাত", "বিপরীত সমানুপাত"],
+      ["ক্ষেত্রফল", "পরিধি"],
+      ["স্পর্শক", "ঊর্ধ্বস্থ সরলরেখা"]
+    ]
+  },
+
+  "attribute_nouns_extra": {
+    "words": ["উপপাদ্য", "সূত্র", "নিয়ম", "প্রমাণ"]
+  },
+
+  "lexicon_extra": {
+    "words": ["লগারিদম", "সেট", "ফাংশন", "সমীকরণ", "বহুপদী", "সূচক", "চতুর্ভুজ", "বৃত্ত", "পিথাগোরাস"]
+  }
+}

@@ -4273,3 +4273,149 @@
   WARN  'অধ্যায় ৯: বাংলাদেশের সামাজিক সমস্যা': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'সামাজিক সমস্যার প্রতিকার ও ভবিষ্যৎ দৃষ্টিকোণ'
   WARN  'অধ্যায় ১০: বাংলাদেশের জনসংখ্যা ও উন্নয়ন': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'জনসংখ্যার ধারণা ও বাংলাদেশে জনসংখ্যার ইতিহাস'
   WARN  'অধ্যায় ১২: বাংলাদেশের প্রাকৃতিক সম্পদ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'প্রাকৃতিক সম্পদ নির্বাচন ও টেকসই ব্যবহার'
+
+=== [setup] Class_8_Math_compressed ===
+
+=== [setup] Class_8_Math_compressed ===
+
+=== [extract] Class_8_Math_compressed ===
+
+=== [topicmap] Class_8_Math_compressed ===
+  WARN  ch1: 4 keywords (want 5-15)
+  WARN  ch1: thin topic 'প্যাটার্নের ধারণা' — confirm it carries a head concept
+  WARN  ch1: only 54% of the 13 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch1: 7 topics for a 15-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: 65% of topics track the outcome box closely
+  WARN  ch5: 60% of topics track the outcome box closely
+  WARN  ch6: 4 keywords (want 5-15)
+  WARN  ch6: thin topic 'সহ-সমীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'প্রতিস্থাপন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch6: thin topic 'ক্রান্তি পদ্ধতি' — confirm it carries a head concept
+  WARN  ch7: 57% of topics track the outcome box closely
+  WARN  ch9: 4 keywords (want 5-15)
+  WARN  ch9: 71% of topics track the outcome box closely
+  WARN  ch10: topic 'ব্যাস ও জ্যার সম্পর্ক' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch11: thin topic 'উপাত্তের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch11: 12 topics for a 25-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  FAIL  ch8: one-word topic 'ট্রাপিজিয়াম' — attach its head concept
+  FAIL  ch11: topics stop around page 182 but the chapter runs to 190 and pages 184-190 carry 2 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+
+=== [topicmap] Class_8_Math_compressed ===
+  WARN  ch1: 4 keywords (want 5-15)
+  WARN  ch1: thin topic 'প্যাটার্নের ধারণা' — confirm it carries a head concept
+  WARN  ch1: only 54% of the 13 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch1: 7 topics for a 15-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: 65% of topics track the outcome box closely
+  WARN  ch5: 60% of topics track the outcome box closely
+  WARN  ch6: 4 keywords (want 5-15)
+  WARN  ch6: thin topic 'সহ-সমীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'প্রতিস্থাপন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch6: thin topic 'ক্রান্তি পদ্ধতি' — confirm it carries a head concept
+  WARN  ch7: 57% of topics track the outcome box closely
+  WARN  ch9: 4 keywords (want 5-15)
+  WARN  ch9: 71% of topics track the outcome box closely
+  WARN  ch10: topic 'ব্যাস ও জ্যার সম্পর্ক' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch11: thin topic 'উপাত্তের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch11: 12 topics for a 25-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  FAIL  ch11: topics stop around page 182 but the chapter runs to 190 and pages 184-190 carry 2 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+
+=== [topicmap] Class_8_Math_compressed ===
+  WARN  ch1: 4 keywords (want 5-15)
+  WARN  ch1: thin topic 'প্যাটার্নের ধারণা' — confirm it carries a head concept
+  WARN  ch1: only 54% of the 13 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch1: 7 topics for a 15-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: 65% of topics track the outcome box closely
+  WARN  ch5: 60% of topics track the outcome box closely
+  WARN  ch6: 4 keywords (want 5-15)
+  WARN  ch6: thin topic 'সহ-সমীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'প্রতিস্থাপন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch6: thin topic 'ক্রান্তি পদ্ধতি' — confirm it carries a head concept
+  WARN  ch7: 57% of topics track the outcome box closely
+  WARN  ch9: 4 keywords (want 5-15)
+  WARN  ch9: 71% of topics track the outcome box closely
+  WARN  ch10: topic 'ব্যাস ও জ্যার সম্পর্ক' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch11: thin topic 'উপাত্তের প্রকারভেদ' — confirm it carries a head concept
+  WARN  ch11: 12 topics for a 25-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  FAIL  ch11: topics stop around page 182 but the chapter runs to 190 and pages 184-190 carry 2 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+
+=== [topicmap] Class_8_Math_compressed ===
+  WARN  ch1: 4 keywords (want 5-15)
+  WARN  ch1: thin topic 'প্যাটার্নের ধারণা' — confirm it carries a head concept
+  WARN  ch1: only 54% of the 13 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch1: 7 topics for a 15-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: 65% of topics track the outcome box closely
+  WARN  ch5: 60% of topics track the outcome box closely
+  WARN  ch6: 4 keywords (want 5-15)
+  WARN  ch6: thin topic 'সহ-সমীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'প্রতিস্থাপন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch6: thin topic 'ক্রান্তি পদ্ধতি' — confirm it carries a head concept
+  WARN  ch7: 57% of topics track the outcome box closely
+  WARN  ch9: 4 keywords (want 5-15)
+  WARN  ch9: 71% of topics track the outcome box closely
+  WARN  ch10: topic 'ব্যাস ও জ্যার সম্পর্ক' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch11: thin topic 'উপাত্তের প্রকারভেদ' — confirm it carries a head concept
+  FAIL  ch11: topics stop around page 182 but the chapter runs to 190 and pages 184-190 carry 2 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+
+=== [topicmap] Class_8_Math_compressed ===
+  WARN  ch1: 4 keywords (want 5-15)
+  WARN  ch1: thin topic 'প্যাটার্নের ধারণা' — confirm it carries a head concept
+  WARN  ch1: only 54% of the 13 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch1: 7 topics for a 15-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: 65% of topics track the outcome box closely
+  WARN  ch5: 60% of topics track the outcome box closely
+  WARN  ch6: 4 keywords (want 5-15)
+  WARN  ch6: thin topic 'সহ-সমীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'প্রতিস্থাপন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch6: thin topic 'ক্রান্তি পদ্ধতি' — confirm it carries a head concept
+  WARN  ch7: 57% of topics track the outcome box closely
+  WARN  ch9: 4 keywords (want 5-15)
+  WARN  ch9: 71% of topics track the outcome box closely
+  WARN  ch10: topic 'ব্যাস ও জ্যার সম্পর্ক' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch11: thin topic 'উপাত্তের প্রকারভেদ' — confirm it carries a head concept
+  FAIL  ch11: topics stop around page 182 but the chapter runs to 190 and pages 184-190 carry 2 unmapped headings — mid-chapter truncation. Re-map Step 7 from every page.
+
+=== [topicmap] Class_8_Math_compressed ===
+  WARN  ch1: 4 keywords (want 5-15)
+  WARN  ch1: thin topic 'প্যাটার্নের ধারণা' — confirm it carries a head concept
+  WARN  ch1: only 54% of the 13 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch1: 7 topics for a 15-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: 65% of topics track the outcome box closely
+  WARN  ch5: 60% of topics track the outcome box closely
+  WARN  ch6: 4 keywords (want 5-15)
+  WARN  ch6: thin topic 'সহ-সমীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'প্রতিস্থাপন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch6: thin topic 'ক্রান্তি পদ্ধতি' — confirm it carries a head concept
+  WARN  ch7: 57% of topics track the outcome box closely
+  WARN  ch9: 4 keywords (want 5-15)
+  WARN  ch9: 71% of topics track the outcome box closely
+  WARN  ch10: topic 'ব্যাস ও জ্যার সম্পর্ক' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch11: thin topic 'উপাত্তের প্রকারভেদ' — confirm it carries a head concept
+
+=== [setup] Class_8_Math_compressed ===
+
+=== [extract] Class_8_Math_compressed ===
+
+=== [topicmap] Class_8_Math_compressed ===
+  WARN  ch1: 4 keywords (want 5-15)
+  WARN  ch1: thin topic 'প্যাটার্নের ধারণা' — confirm it carries a head concept
+  WARN  ch1: only 54% of the 13 extracted section headings map to a topic — confirm no whole section was skipped
+  WARN  ch1: 7 topics for a 15-page chapter (< 0.5/page) — likely truncated; check the tail পরিচ্ছেদ
+  WARN  ch4: 65% of topics track the outcome box closely
+  WARN  ch5: 60% of topics track the outcome box closely
+  WARN  ch6: 4 keywords (want 5-15)
+  WARN  ch6: thin topic 'সহ-সমীকরণের ধারণা' — confirm it carries a head concept
+  WARN  ch6: thin topic 'প্রতিস্থাপন পদ্ধতি' — confirm it carries a head concept
+  WARN  ch6: thin topic 'ক্রান্তি পদ্ধতি' — confirm it carries a head concept
+  WARN  ch7: 57% of topics track the outcome box closely
+  WARN  ch9: 4 keywords (want 5-15)
+  WARN  ch9: 71% of topics track the outcome box closely
+  WARN  ch10: topic 'ব্যাস ও জ্যার সম্পর্ক' matches no extracted heading and no outcome — verify it is on a page, not invented
+  WARN  ch11: thin topic 'উপাত্তের প্রকারভেদ' — confirm it carries a head concept
+  WARN  lexical check SKIPPED — no Bengali dictionary found. Add scripts/dict/bn_BD.{dic,aff}, or `pip install pyenchant` with a system bn_BD dict, or set NCTB_NO_SPELLCHECK=1 to silence. Until then OCR reading errors are NOT caught — eyeball every topic vs the page.
+
+=== [final] Class_8_Math_compressed ===
+  WARN  'অধ্যায় ৫: বীজগণিতীয় ভগ্নাংশ': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'ল.সা.গু ব্যবহার করে যোগ ও বিয়োগ'
+  WARN  'অধ্যায় ৭: সেট': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'শূন্য সেট, একক সেট ও সসীম সেট'
+  WARN  'অধ্যায় ৮: চতুর্ভুজ ও অঙ্কন': topic label is 6 words (> 5) — move detail to scope_note or rephrase — 'চার বাহু ও কর্ণ দিয়ে অঙ্কন'
+  WARN  'অধ্যায় ৮: চতুর্ভুজ ও অঙ্কন': topic label is 7 words (> 5) — move detail to scope_note or rephrase — 'দুই কর্ণ ও দুই বাহু দিয়ে অঙ্কন'
+  WARN  'অধ্যায় ৯: পিথাগোরাসের উপপাদ্য': label 'পিথাগোরাসের উপপাদ্য ও প্রমাণ' is not self-identifying — it is aspect words / chapter-title words only; the head concept was lost in shortening (§3.6). raw: 'পিথাগোরাসের উপপাদ্য ও প্রমাণ'
