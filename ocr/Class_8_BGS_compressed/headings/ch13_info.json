@@ -1,0 +1,33 @@
+{
+  "chapter": 13,
+  "chapter_title": "বাংলাদেশ এবং বিভিন্ন আঞ্চলিক ও আন্তর্জাতিক সহযোগী সংস্থা",
+  "chapter_dir": "ocr\\Class_8_BGS_compressed\\chapters\\ch13",
+  "images": [
+    "ocr\\Class_8_BGS_compressed\\chapters\\ch13\\page_126.png",
+    "ocr\\Class_8_BGS_compressed\\chapters\\ch13\\page_127.png",
+    "ocr\\Class_8_BGS_compressed\\chapters\\ch13\\page_128.png",
+    "ocr\\Class_8_BGS_compressed\\chapters\\ch13\\page_129.png",
+    "ocr\\Class_8_BGS_compressed\\chapters\\ch13\\page_130.png",
+    "ocr\\Class_8_BGS_compressed\\chapters\\ch13\\page_131.png",
+    "ocr\\Class_8_BGS_compressed\\chapters\\ch13\\page_132.png",
+    "ocr\\Class_8_BGS_compressed\\chapters\\ch13\\page_133.png",
+    "ocr\\Class_8_BGS_compressed\\chapters\\ch13\\page_134.png",
+    "ocr\\Class_8_BGS_compressed\\chapters\\ch13\\page_135.png",
+    "ocr\\Class_8_BGS_compressed\\chapters\\ch13\\page_136.png",
+    "ocr\\Class_8_BGS_compressed\\chapters\\ch13\\page_137.png",
+    "ocr\\Class_8_BGS_compressed\\chapters\\ch13\\page_138.png",
+    "ocr\\Class_8_BGS_compressed\\chapters\\ch13\\page_139.png"
+  ],
+  "total_pages": 14,
+  "prompt": "You are extracting SECTION HEADINGS from ONE scanned page of a\nBengali NCTB textbook chapter.\n\nReturn a JSON array of the section / sub-section headings printed on THIS page, in\ntop-to-bottom order. A heading is bold or larger-font text that starts a section\nor sub-section — including পরিচ্ছেদ X.Y lines and named sub-sections\n(e.g. \"সূর্য (Sun)\", \"আহ্নিক গতি\").\n\nEXCLUDE: the chapter title (e.g. \"তৃতীয় অধ্যায়\"), the শিখনফল / \"এ অধ্যায় শেষে\nআমরা –\" box, figure captions (\"চিত্র X.X :\"), \"কাজ\" boxes, table headers, page\nnumbers, running headers/footers, and the end-of-chapter\n\"নমুনা প্রশ্ন / বহুনির্বাচনি / সৃজনশীল / সংক্ষিপ্ত-উত্তর\" material.\n\nIf the page has no heading, return []. Output ONLY the JSON array.\nExample: [\"পরিচ্ছেদ ৩.৩ : পৃথিবীর গতি\", \"আহ্নিক গতি\"]",
+  "output_schema": {
+    "chapter": 13,
+    "chapter_title": "বাংলাদেশ এবং বিভিন্ন আঞ্চলিক ও আন্তর্জাতিক সহযোগী সংস্থা",
+    "headings": [
+      {
+        "page": "page_0NN",
+        "heading": "<verbatim heading>"
+      }
+    ]
+  }
+}
